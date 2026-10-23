@@ -28,7 +28,7 @@ interface AppointmentPayload {
 
 export async function POST(req: NextRequest) {
   const apiKey = process.env.RESEND_API_KEY ?? "";
-  const officeEmail = process.env.OFFICE_EMAIL ?? "farhantariq4636@gmail.com";
+  const officeEmail = process.env.OFFICE_EMAIL ?? "info@visadirectimmigration.com";
   const fromEmail = process.env.FROM_EMAIL ?? "Visa Direct Immigration <onboarding@resend.dev>";
 
   if (!apiKey) {
