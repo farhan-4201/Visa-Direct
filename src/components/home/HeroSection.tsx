@@ -11,22 +11,14 @@ export function HeroSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 py-24 sm:py-32 w-full">
         <div className="max-w-3xl space-y-8">
 
-          {/* IAA Regulation Badge with Number */}
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-slate-950/70 backdrop-blur-md border border-[#c68a4c]/40 text-xs sm:text-sm font-semibold text-slate-200 shadow-lg">
-            <ShieldCheck className="w-4 h-4 text-[#c68a4c] shrink-0" />
-            <span className="font-bold text-amber-300">IAA Regulated</span>
-            <span className="text-white/40">·</span>
-            <span>Registration No: F202536890</span>
-          </div>
+          {/* Eyebrow */}
+          <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-slate-950/70 backdrop-blur-md border border-[#c68a4c]/40 text-xs sm:text-sm font-semibold text-[#c68a4c] shadow-lg">
+            UK Visa and Immigration Advice
+          </span>
 
           {/* Main Hero Headline */}
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-[4rem] font-black leading-[1.08] tracking-tight text-white">
-            Trusted UK{" "}
-            <span className="text-[#c68a4c]">Immigration</span>{" "}
-            Consultants
-            <span className="text-slate-200 font-medium text-2xl sm:text-3xl md:text-4xl block mt-3">
-              Bristol, Birmingham & Nationwide
-            </span>
+            UK Immigration Advice for Individuals, Families and Businesses
           </h1>
 
           {/* Gold Accent Rule */}
@@ -34,19 +26,35 @@ export function HeroSection() {
 
           {/* Hero Subtitle */}
           <p className="text-base sm:text-lg md:text-xl text-slate-200 leading-relaxed font-light max-w-2xl">
-            Your dedicated partner for UK visa applications, sponsor licenses, family settlement,
-            and business immigration. Expert legal representation delivered with transparency,
-            precision, and personal care.
+            Navigating UK immigration requirements can be complicated. Visa Direct Immigration
+            provides guidance and application support for individuals, families, students, workers
+            and businesses exploring their UK immigration options.
+          </p>
+
+          <p className="text-base sm:text-lg md:text-xl text-slate-200 leading-relaxed font-light max-w-2xl">
+            Whether you need help with a spouse visa, student visa, sponsor licence, visitor visa,
+            settlement or British citizenship, our team can help you understand the relevant
+            requirements and the steps involved in your application.
+          </p>
+
+          <p className="text-base sm:text-lg md:text-xl text-slate-200 leading-relaxed font-light max-w-2xl">
+            With consultation options in Birmingham, Bristol and Reading, we aim to make it easier
+            to discuss your immigration needs and understand your next steps.
+          </p>
+
+          {/* Optional trust line */}
+          <p className="text-sm text-slate-400 leading-relaxed font-normal">
+            Immigration guidance tailored to your circumstances.
           </p>
 
           {/* Modern CTA Buttons with Elevated Hover Effects */}
-          <div className="flex flex-col sm:flex-row gap-4 pt-2">
+          <div className="flex flex-col sm:flex-row gap-4 pt-6">
             <Link
               href="/appointment"
               className="group relative inline-flex items-center justify-center gap-2.5 px-8 py-4 rounded-xl bg-gradient-to-r from-[#c68a4c] via-[#cf9456] to-[#b37438] hover:from-[#b37438] hover:to-[#c68a4c] text-white font-extrabold text-base shadow-xl shadow-[#c68a4c]/30 hover:shadow-2xl hover:shadow-[#c68a4c]/50 hover:-translate-y-1 active:translate-y-0 transition-all duration-300 border border-amber-300/30"
             >
               <Calendar className="w-5 h-5 text-white transition-transform duration-300 group-hover:scale-110 shrink-0" />
-              <span>Book Consultation</span>
+              <span>Book a Consultation</span>
               <ArrowRight className="w-4 h-4 text-white/90 transition-transform duration-300 group-hover:translate-x-1 shrink-0" />
             </Link>
 
@@ -54,7 +62,7 @@ export function HeroSection() {
               href="/services"
               className="group inline-flex items-center justify-center gap-2.5 px-8 py-4 rounded-xl bg-white/10 hover:bg-white/20 text-white font-bold text-base backdrop-blur-md border border-white/25 hover:border-white/40 hover:-translate-y-1 active:translate-y-0 shadow-lg transition-all duration-300"
             >
-              <span>Explore All Visas</span>
+              <span>Explore Our Services</span>
               <ArrowRight className="w-4 h-4 text-[#c68a4c] transition-transform duration-300 group-hover:translate-x-1 shrink-0" />
             </Link>
           </div>
