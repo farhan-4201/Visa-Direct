@@ -4,11 +4,11 @@ import { Calendar, ArrowRight, ShieldCheck, Phone } from "lucide-react";
 
 export function HeroSection() {
   return (
-    <section className="hero-bg relative overflow-hidden min-h-[60vh] flex items-center">
+    <section className="hero-bg relative overflow-hidden flex flex-col justify-start pt-16 sm:py-20">
       {/* Soft natural scrim on left side only to protect text contrast while leaving background image 100% visible and un-tinted */}
       <div className="absolute inset-0 bg-gradient-to-r from-slate-950/80 via-slate-950/35 to-transparent pointer-events-none" />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 py-24 sm:py-32 w-full">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 py-12 sm:py-16 w-full">
         <div className="max-w-3xl space-y-8">
 
           {/* Eyebrow */}
@@ -17,7 +17,7 @@ export function HeroSection() {
           </span>
 
           {/* Main Hero Headline */}
-          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-[4rem] font-black leading-[1.08] tracking-tight text-white">
+          <h1 className="text-4xl sm:text-5xl font-black leading-[1.1] tracking-tight text-white">
             UK Immigration Advice for Individuals, Families and Businesses
           </h1>
 
@@ -25,19 +25,19 @@ export function HeroSection() {
           <div className="accent-rule" />
 
           {/* Hero Subtitle */}
-          <p className="text-base sm:text-lg md:text-xl text-slate-200 leading-relaxed font-light max-w-2xl">
+          <p className="text-sm sm:text-base md:text-lg text-slate-200 leading-relaxed font-light max-w-2xl">
             Navigating UK immigration requirements can be complicated. Visa Direct Immigration
             provides guidance and application support for individuals, families, students, workers
             and businesses exploring their UK immigration options.
           </p>
 
-          <p className="text-base sm:text-lg md:text-xl text-slate-200 leading-relaxed font-light max-w-2xl">
+          <p className="text-sm sm:text-base md:text-lg text-slate-200 leading-relaxed font-light max-w-2xl">
             Whether you need help with a spouse visa, student visa, sponsor licence, visitor visa,
             settlement or British citizenship, our team can help you understand the relevant
             requirements and the steps involved in your application.
           </p>
 
-          <p className="text-base sm:text-lg md:text-xl text-slate-200 leading-relaxed font-light max-w-2xl">
+          <p className="text-sm sm:text-base md:text-lg text-slate-200 leading-relaxed font-light max-w-2xl">
             With consultation options in Birmingham, Bristol and Reading, we aim to make it easier
             to discuss your immigration needs and understand your next steps.
           </p>
@@ -48,10 +48,10 @@ export function HeroSection() {
           </p>
 
           {/* Modern CTA Buttons with Elevated Hover Effects */}
-          <div className="flex flex-col sm:flex-row gap-4 pt-6">
+          <div className="flex flex-col sm:flex-row gap-3 pt-4">
             <Link
               href="/appointment"
-              className="group relative inline-flex items-center justify-center gap-2.5 px-8 py-4 rounded-xl bg-gradient-to-r from-[#c68a4c] via-[#cf9456] to-[#b37438] hover:from-[#b37438] hover:to-[#c68a4c] text-white font-extrabold text-base shadow-xl shadow-[#c68a4c]/30 hover:shadow-2xl hover:shadow-[#c68a4c]/50 hover:-translate-y-1 active:translate-y-0 transition-all duration-300 border border-amber-300/30"
+              className="group relative inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-gradient-to-r from-[#c68a4c] via-[#cf9456] to-[#b37438] hover:from-[#b37438] hover:to-[#c68a4c] text-white font-bold text-sm shadow-md shadow-[#c68a4c]/30 hover:shadow-xl hover:shadow-[#c68a4c]/50 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-300 border border-amber-300/30"
             >
               <Calendar className="w-5 h-5 text-white transition-transform duration-300 group-hover:scale-110 shrink-0" />
               <span>Book a Consultation</span>
@@ -60,7 +60,7 @@ export function HeroSection() {
 
             <Link
               href="/services"
-              className="group inline-flex items-center justify-center gap-2.5 px-8 py-4 rounded-xl bg-white/10 hover:bg-white/20 text-white font-bold text-base backdrop-blur-md border border-white/25 hover:border-white/40 hover:-translate-y-1 active:translate-y-0 shadow-lg transition-all duration-300"
+              className="group inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-white/10 hover:bg-white/20 text-white font-bold text-sm backdrop-blur-md border border-white/25 hover:border-white/40 hover:-translate-y-0.5 active:translate-y-0 shadow-md transition-all duration-300"
             >
               <span>Explore Our Services</span>
               <ArrowRight className="w-4 h-4 text-[#c68a4c] transition-transform duration-300 group-hover:translate-x-1 shrink-0" />
