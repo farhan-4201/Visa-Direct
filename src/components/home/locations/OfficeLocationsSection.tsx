@@ -50,7 +50,7 @@ export function OfficeLocationsSection() {
               </Link>
               <div className="flex items-center gap-2 text-xs text-slate-500">
                 <ShieldCheck className="w-4 h-4 text-[#0c4c6d]" />
-                <span>IAA Regulated · Reg No: F202536890</span>
+                <span>IAA Regulated</span>
               </div>
             </div>
           </div>
