@@ -3,6 +3,7 @@ import { HeroSection } from "@/components/home/HeroSection";
 import { QuickConsultationSection } from "@/components/home/QuickConsultationSection";
 import { AboutSection } from "@/components/home/AboutSection";
 import { ServicesGridSection } from "@/components/home/ServicesGridSection";
+import { GoogleReviewsSection } from "@/components/home/GoogleReviewsSection";
 import { WhyWorkWithUsSection } from "@/components/home/WhyWorkWithUsSection";
 import { OurProcessSection } from "@/components/home/OurProcessSection";
 import { OfficeLocationsSection } from "@/components/home/locations/OfficeLocationsSection";
@@ -26,25 +27,28 @@ export default function HomePage() {
       {/* 4. Our Immigration Services */}
       <ServicesGridSection />
 
-      {/* 5. Why Work With Our Team */}
+      {/* 5. Google Business Profile Reviews Slider */}
+      <GoogleReviewsSection />
+
+      {/* 6. Why Work With Our Team */}
       <WhyWorkWithUsSection />
 
-      {/* 6. Our Process */}
+      {/* 7. Our Process */}
       <OurProcessSection />
 
-      {/* 7. Office Locations */}
+      {/* 8. Office Locations */}
       <OfficeLocationsSection />
 
-      {/* 8. Frequently Asked Questions */}
+      {/* 9. Frequently Asked Questions */}
       <FAQSection />
 
-      {/* 9. Latest Immigration News and Guides */}
+      {/* 10. Latest Immigration News and Guides */}
       <BlogPreviewSection />
 
-      {/* 10. Final CTA */}
+      {/* 11. Final CTA */}
       <FinalCtaSection />
 
-      {/* 11. Final Contact Strip */}
+      {/* 12. Final Contact Strip */}
       <FinalContactStrip />
     </>
   );
