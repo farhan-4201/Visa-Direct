@@ -1,47 +1,51 @@
 import React from "react";
 import { HeroSection } from "@/components/home/HeroSection";
-import { FeaturesSection } from "@/components/home/FeaturesSection";
-import { AboutPreviewSection } from "@/components/home/AboutPreviewSection";
+import { QuickConsultationSection } from "@/components/home/QuickConsultationSection";
+import { AboutSection } from "@/components/home/AboutSection";
 import { ServicesGridSection } from "@/components/home/ServicesGridSection";
-import { GoogleReviewsSection } from "@/components/home/GoogleReviewsSection";
-import { WhyChooseUsSection } from "@/components/home/WhyChooseUsSection";
-import { HowWeWorkSection } from "@/components/home/HowWeWorkSection";
-import { CtaBanner } from "@/components/home/CtaBanner";
+import { WhyWorkWithUsSection } from "@/components/home/WhyWorkWithUsSection";
+import { OurProcessSection } from "@/components/home/OurProcessSection";
+import { OfficeLocationsSection } from "@/components/home/locations/OfficeLocationsSection";
+import { FAQSection } from "@/components/home/FAQSection";
 import { BlogPreviewSection } from "@/components/home/BlogPreviewSection";
-import { CallbackFormSection } from "@/components/home/CallbackFormSection";
+import { FinalCtaSection } from "@/components/home/FinalCtaSection";
+import { FinalContactStrip } from "@/components/home/FinalContactStrip";
 
 export default function HomePage() {
   return (
     <>
-      {/* 1. Hero Welcome Section */}
+      {/* 1. Hero Section */}
       <HeroSection />
 
-      {/* 2. Three Core Feature Value Propositions */}
-      <FeaturesSection />
+      {/* 2. Quick Consultation Section */}
+      <QuickConsultationSection />
 
-      {/* 3. About Firm Preview & Experience Credentials */}
-      <AboutPreviewSection />
+      {/* 3. About Visa Direct Immigration */}
+      <AboutSection />
 
-      {/* 4. Core Visa Services Grid */}
+      {/* 4. Our Immigration Services */}
       <ServicesGridSection />
 
-      {/* 5. Google Business Profile Reviews Slider */}
-      <GoogleReviewsSection />
+      {/* 5. Why Work With Our Team */}
+      <WhyWorkWithUsSection />
 
-      {/* 6. Why Choose Us with Capability Progress Bars */}
-      <WhyChooseUsSection />
+      {/* 6. Our Process */}
+      <OurProcessSection />
 
-      {/* 7. How We Work 4-Step Process Workflow */}
-      <HowWeWorkSection />
+      {/* 7. Office Locations */}
+      <OfficeLocationsSection />
 
-      {/* 8. Visa Application Call Strip Banner */}
-      <CtaBanner />
+      {/* 8. Frequently Asked Questions */}
+      <FAQSection />
 
-      {/* 9. Latest Blog & Legal Updates Articles */}
+      {/* 9. Latest Immigration News and Guides */}
       <BlogPreviewSection />
 
-      {/* 10. Direct Contact Details & Callback Request Form */}
-      <CallbackFormSection />
+      {/* 10. Final CTA */}
+      <FinalCtaSection />
+
+      {/* 11. Final Contact Strip */}
+      <FinalContactStrip />
     </>
   );
 }
