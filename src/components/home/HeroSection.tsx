@@ -4,12 +4,12 @@ import { Calendar, ArrowRight, ShieldCheck, Phone } from "lucide-react";
 
 export function HeroSection() {
   return (
-    <section className="hero-bg relative overflow-hidden flex flex-col justify-start pt-16 sm:py-20">
+    <section className="hero-bg relative overflow-hidden flex flex-col justify-start pt-10 sm:py-14">
       {/* Soft natural scrim on left side only to protect text contrast while leaving background image 100% visible and un-tinted */}
       <div className="absolute inset-0 bg-gradient-to-r from-slate-950/80 via-slate-950/35 to-transparent pointer-events-none" />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 py-12 sm:py-16 w-full">
-        <div className="max-w-3xl space-y-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 py-8 sm:py-10 w-full">
+        <div className="max-w-3xl space-y-6">
 
           {/* Eyebrow */}
           <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-slate-950/70 backdrop-blur-md border border-[#c68a4c]/40 text-xs sm:text-sm font-semibold text-[#c68a4c] shadow-lg">
