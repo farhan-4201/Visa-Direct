@@ -4,7 +4,7 @@ import { Calendar, ArrowRight, ShieldCheck, Phone } from "lucide-react";
 
 export function HeroSection() {
   return (
-    <section className="hero-bg relative overflow-hidden min-h-[90vh] flex items-center">
+    <section className="hero-bg relative overflow-hidden min-h-[60vh] flex items-center">
       {/* Soft natural scrim on left side only to protect text contrast while leaving background image 100% visible and un-tinted */}
       <div className="absolute inset-0 bg-gradient-to-r from-slate-950/80 via-slate-950/35 to-transparent pointer-events-none" />
 
