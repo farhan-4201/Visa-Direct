@@ -47,38 +47,38 @@ export function AppointmentScheduler() {
     {
       id: "video",
       title: "Online Video Consultation",
-      duration: "30 Minutes",
-      fee: "Initial Case Evaluation",
+      duration: "45 Minutes",
+      fee: "£100",
       description: "Secure one-to-one consultation via Microsoft Teams or Zoom with a senior solicitor.",
       icon: <Video className="w-5 h-5 text-[#0c4c6d]" />,
       location: "Online Video Meeting",
     },
     {
       id: "in-person-birmingham",
-      title: "Birmingham Office (In-Person)",
+      title: "Birmingham Office",
       duration: "45 Minutes",
-      fee: "Face-to-Face Strategy Session",
+      fee: "£100",
       description: "Meet in person at 66-68 Hagley Rd, Birmingham B16 8PF.",
       icon: <MapPin className="w-5 h-5 text-[#0c4c6d]" />,
       location: "Birmingham Office",
     },
     {
       id: "in-person-bristol",
-      title: "Bristol Office (In-Person)",
+      title: "Bristol Office",
       duration: "45 Minutes",
-      fee: "Face-to-Face Strategy Session",
+      fee: "£100",
       description: "Meet in person at Park House, 10 Park St, Bristol BS1 5HX.",
       icon: <MapPin className="w-5 h-5 text-[#0c4c6d]" />,
       location: "Bristol Office",
     },
     {
-      id: "phone",
-      title: "Direct Telephone Assessment",
-      duration: "20 Minutes",
-      fee: "Rapid Assessment",
-      description: "Direct call with an immigration case specialist to assess eligibility.",
-      icon: <Phone className="w-5 h-5 text-[#0c4c6d]" />,
-      location: "Telephone Call",
+      id: "in-person-london",
+      title: "London Office",
+      duration: "45 Minutes",
+      fee: "£100",
+      description: "Meet in person at 1st Floor, 100 Parliament Street, London SW1A 2BQ.",
+      icon: <MapPin className="w-5 h-5 text-[#0c4c6d]" />,
+      location: "London Office",
     },
   ];
 
@@ -91,13 +91,17 @@ export function AppointmentScheduler() {
   ];
 
   const availableTimes = [
-    "09:30 AM",
-    "10:00 AM",
+    "09:00 AM",
+    "09:45 AM",
+    "10:30 AM",
     "11:15 AM",
+    "12:00 PM",
+    "12:45 PM",
     "01:30 PM",
-    "02:45 PM",
-    "04:00 PM",
-    "05:15 PM",
+    "02:15 PM",
+    "03:00 PM",
+    "03:45 PM",
+    "04:30 PM",
   ];
 
   const handleNextStep = async () => {
@@ -203,17 +207,18 @@ export function AppointmentScheduler() {
               {consultationTypes.map((type) => (
                 <div
                   key={type.id}
-                  onClick={() =>
+                  onClick={() => {
                     setBooking({
                       ...booking,
                       consultationType: type.id,
                       consultationLocation: type.location,
                     })
-                  }
+                    setStep(2)
+                  }}
                   className={`p-5 rounded-2xl border-2 transition-all cursor-pointer flex flex-col justify-between ${
                     booking.consultationType === type.id
                       ? "border-[#0c4c6d] bg-sky-50/40 shadow-md ring-1 ring-[#0c4c6d]"
-                      : "border-slate-200 hover:border-slate-300 hover:bg-slate-50"
+                      : "border-[#0c4c6d] bg-white hover:border-[#0c4c6d] hover:bg-[#0c4c6d]/10"
                   }`}
                 >
                   <div>

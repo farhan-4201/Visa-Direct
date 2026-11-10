@@ -1,22 +1,89 @@
 "use client";
 
-import React, { useState, useEffect, useCallback } from "react";
+import React, { useState, useEffect, useCallback, useMemo } from "react";
 import { Star, ChevronLeft, ChevronRight, ExternalLink, ShieldCheck, MapPin } from "lucide-react";
 import { googleReviews, googleBusinessProfile } from "@/data/googleReviewsData";
+
+// Filter function to check if a name is an English name
+// Pakistani/Muslim names often contain certain patterns/keywords
+const isEnglishName = (name: string): boolean => {
+  const lowerName = name.toLowerCase();
+
+  // Common Pakistani/Muslim name patterns/keywords to filter out
+  const pakistaniNamePatterns = [
+    // Arabic/Muslim name markers
+    "sajjad",
+    "rahman",
+    "hussain",
+    "naeem",
+    "khan",
+    "shah",
+    "murtaza",
+    "tayyab",
+    // Common Muslim first names
+    "muhammad",
+    "ahmed",
+    "ali",
+    "mohsin",
+    "usman",
+    "yusuf",
+    "ibrahim",
+    // Common Muslim surnames/prefixes
+    "bin",
+    "bint",
+    // Common Pakistani/South Asian names
+    "subhan",
+    "asad",
+    "shaheer",
+    "zara",
+    "aiman",
+    "haider",
+    "imran",
+    "farhan",
+    "sameer",
+    "waseem",
+    "tahir",
+    "uzair",
+    "sameeullah",
+    "raheel",
+    "zain",
+    "aiman",
+    "arsalan",
+    "basit",
+    "hamza",
+    "-khalid",
+    "-ullah",
+    "-ud-din",
+  ];
+
+  // Check if name contains any Pakistani/Muslim pattern
+  for (const pattern of pakistaniNamePatterns) {
+    if (lowerName.includes(pattern)) {
+      return false;
+    }
+  }
+
+  return true;
+};
 
 export function GoogleReviewsSection() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
 
-  const totalReviews = googleReviews.length;
+  // Filter reviews to only include English names
+  const filteredReviews = useMemo(() => {
+    return googleReviews.filter((review) => isEnglishName(review.author));
+  }, [googleReviews]);
+
+  const totalFilteredReviews = filteredReviews.length;
 
   const handlePrev = useCallback(() => {
-    setCurrentIndex((prev) => (prev === 0 ? totalReviews - 1 : prev - 1));
-  }, [totalReviews]);
+    setCurrentIndex((prev) => (prev === 0 ? totalFilteredReviews - 1 : prev - 1));
+  }, [totalFilteredReviews]);
 
   const handleNext = useCallback(() => {
-    setCurrentIndex((prev) => (prev + 1) % totalReviews);
-  }, [totalReviews]);
+    setCurrentIndex((prev) => (prev + 1) % totalFilteredReviews);
+  }, [totalFilteredReviews]);
 
   // Automatic rotation: advances every 4.5 seconds when not hovered
   useEffect(() => {
@@ -31,9 +98,9 @@ export function GoogleReviewsSection() {
 
   // Visible window: 3 on desktop, 2 on tablet, 1 on mobile
   const visibleReviews = [
-    googleReviews[currentIndex % totalReviews],
-    googleReviews[(currentIndex + 1) % totalReviews],
-    googleReviews[(currentIndex + 2) % totalReviews],
+    filteredReviews[currentIndex % totalFilteredReviews],
+    filteredReviews[(currentIndex + 1) % totalFilteredReviews],
+    filteredReviews[(currentIndex + 2) % totalFilteredReviews],
   ].filter(Boolean);
 
   return (
@@ -236,7 +303,7 @@ export function GoogleReviewsSection() {
         {/* Carousel Progress indicator */}
         <div className="flex items-center justify-center gap-2 mt-8">
           <span className="text-xs text-slate-400 font-medium">
-            Showing reviews {currentIndex + 1}&ndash;{Math.min(currentIndex + 3, totalReviews)} of {totalReviews}
+            Showing reviews {currentIndex + 1}&ndash;{Math.min(currentIndex + 3, totalFilteredReviews)} of {totalFilteredReviews}
           </span>
         </div>
 

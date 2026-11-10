@@ -79,7 +79,7 @@ export function HeroSection() {
             >
               0333 0040117
             </a>
-            <span className="text-slate-400 text-xs hidden sm:inline">(Mon–Fri, 9am–6pm)</span>
+            <span className="text-slate-400 text-xs hidden sm:inline">(Mon–Sat, 9am–6pm)</span>
           </div>
 
         </div>

@@ -68,7 +68,7 @@ export function CtaBanner() {
               <Phone className="w-4 h-4 text-[#c68a4c]" />
               0333 0040117
             </a>
-            <span className="text-slate-400 ml-2 text-xs">(Mon–Fri 9am–6pm)</span>
+            <span className="text-slate-400 ml-2 text-xs">(Mon–Sat 9am–6pm)</span>
           </p>
         </div>
       </div>

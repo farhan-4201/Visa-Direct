@@ -12,18 +12,68 @@ import {
   HelpCircle,
   ArrowRight,
   ChevronRight,
-  Clock,
   Layers,
 } from "lucide-react";
 import { PageHeader } from "@/components/ui/PageHeader";
 import { servicesData } from "@/data/servicesData";
 import { Button } from "@/components/ui/Button";
+import { SafeImage } from "@/components/ui/SafeImage";
 
 interface ServicePageProps {
   params: Promise<{
     slug: string;
   }>;
 }
+
+export const instant = false;
+
+const defaultServiceImages = {
+  "Business Visas": {
+    hero: "/images/service-business.webp",
+    supporting: [
+      {
+        src: "/images/service-business.webp",
+        alt: "UK business and immigration consultation",
+        caption: "Business immigration guidance tailored to your organisation",
+      },
+      {
+        src: "/images/skilled-worker-visa-process.webp",
+        alt: "Professional immigration consultation",
+        caption: "Practical support through each stage of the process",
+      },
+    ],
+  },
+  "Personal Visas": {
+    hero: "/images/service-personal.webp",
+    supporting: [
+      {
+        src: "/images/service-personal.webp",
+        alt: "UK passport and personal immigration documents",
+        caption: "Careful preparation of your personal immigration evidence",
+      },
+      {
+        src: "/images/skilled-worker-visa-documents.webp",
+        alt: "Passport and visa application documents",
+        caption: "Clear document guidance before you submit",
+      },
+    ],
+  },
+  "Specialty Visas": {
+    hero: "/images/service-specialty.webp",
+    supporting: [
+      {
+        src: "/images/service-specialty.webp",
+        alt: "UK immigration consultation",
+        caption: "Specialist advice for complex immigration routes",
+      },
+      {
+        src: "/images/skilled-worker-visa-process.webp",
+        alt: "Immigration application process",
+        caption: "Structured support from assessment to decision",
+      },
+    ],
+  },
+} as const;
 
 export async function generateStaticParams() {
   return servicesData.map((service) => ({
@@ -44,8 +94,8 @@ export async function generateMetadata({
   }
 
   return {
-    title: `${service.title} Consultants | Visa Direct Immigration`,
-    description: service.shortDescription,
+    title: service.seoTitle ?? `${service.title} Consultants | Visa Direct Immigration`,
+    description: service.seoDescription ?? service.shortDescription,
   };
 }
 
@@ -60,6 +110,9 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
   const relatedServices = servicesData
     .filter((s) => s.id !== service.id)
     .slice(0, 6);
+  const imageSet = defaultServiceImages[service.category];
+  const featuredImage = (service.supportingImages ?? imageSet.supporting)[0];
+  const heroImage = service.heroImage ?? imageSet.hero;
 
   return (
     <>
@@ -67,6 +120,7 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
         title={service.title}
         subtitle={service.heroTagline}
         categoryBadge={service.category}
+        bgImage={heroImage}
         breadcrumbs={[
           { label: "Services", href: "/services" },
           { label: service.title },
@@ -78,6 +132,8 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10">
             {/* Left 8 Cols: Main Service Content */}
             <div className="lg:col-span-8 space-y-12">
+              {!service.contentSections && (
+                <>
               {/* 1. Overview */}
               <div className="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm space-y-4">
                 <span className="text-xs font-bold uppercase tracking-wider text-[#c68a4c] block">
@@ -108,7 +164,146 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
                   </div>
                 </div>
               </div>
+                </>
+              )}
 
+              <div className="space-y-8">
+                {service.contentSections?.map((section, index) => (
+                  <React.Fragment key={section.heading}>
+                    <article className="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm space-y-5">
+                      <div>
+                        <h2 className="text-2xl sm:text-3xl font-extrabold text-[#072333] tracking-tight mt-2">
+                          {section.heading}
+                        </h2>
+                      </div>
+
+                      {section.paragraphs?.map((paragraph) => (
+                        <p key={paragraph} className="text-sm sm:text-base text-slate-600 leading-relaxed">
+                          {paragraph}
+                        </p>
+                      ))}
+
+                      {section.table && (
+                        <div className="overflow-x-auto my-4 rounded-xl border border-slate-200 shadow-sm">
+                          <table className="min-w-full divide-y divide-slate-200 text-left text-sm">
+                            <thead className="bg-[#072333] text-white">
+                              <tr>
+                                {section.table.headers.map((h, i) => (
+                                  <th key={i} className="px-4 py-3 text-xs uppercase tracking-wider font-bold">
+                                    {h}
+                                  </th>
+                                ))}
+                              </tr>
+                            </thead>
+                            <tbody className="divide-y divide-slate-100 bg-white">
+                              {section.table.rows.map((row, rIdx) => (
+                                <tr key={rIdx} className={rIdx % 2 === 0 ? "bg-white" : "bg-slate-50/70"}>
+                                  {row.map((cell, cIdx) => (
+                                    <td key={cIdx} className="px-4 py-3 text-slate-700 font-medium">
+                                      {cell}
+                                    </td>
+                                  ))}
+                                </tr>
+                              ))}
+                            </tbody>
+                          </table>
+                        </div>
+                      )}
+
+                      {section.paragraphsAfterTable?.map((paragraph) => (
+                        <p key={paragraph} className="text-sm sm:text-base text-slate-600 leading-relaxed">
+                          {paragraph}
+                        </p>
+                      ))}
+
+                      {section.bullets && (
+                        <ul className="space-y-3">
+                          {section.bullets.map((bullet) => (
+                            <li key={bullet} className="flex items-start gap-2.5 text-sm text-slate-700">
+                              <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
+                              <span>{bullet}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      )}
+
+                      {section.subsections?.map((subsection) => (
+                        <div key={subsection.heading} className="pt-4 border-t border-slate-100 space-y-3">
+                          <h3 className="text-lg font-bold text-slate-900">{subsection.heading}</h3>
+                          {subsection.paragraphs?.map((paragraph) => (
+                            <p key={paragraph} className="text-sm text-slate-600 leading-relaxed">
+                              {paragraph}
+                            </p>
+                          ))}
+                          {subsection.table && (
+                            <div className="overflow-x-auto my-3 rounded-xl border border-slate-200 shadow-sm">
+                              <table className="min-w-full divide-y divide-slate-200 text-left text-sm">
+                                <thead className="bg-[#072333] text-white">
+                                  <tr>
+                                    {subsection.table.headers.map((h, i) => (
+                                      <th key={i} className="px-4 py-3 text-xs uppercase tracking-wider font-bold">
+                                        {h}
+                                      </th>
+                                    ))}
+                                  </tr>
+                                </thead>
+                                <tbody className="divide-y divide-slate-100 bg-white">
+                                  {subsection.table.rows.map((row, rIdx) => (
+                                    <tr key={rIdx} className={rIdx % 2 === 0 ? "bg-white" : "bg-slate-50/70"}>
+                                      {row.map((cell, cIdx) => (
+                                        <td key={cIdx} className="px-4 py-3 text-slate-700 font-medium">
+                                          {cell}
+                                        </td>
+                                      ))}
+                                    </tr>
+                                  ))}
+                                </tbody>
+                              </table>
+                            </div>
+                          )}
+                          {subsection.bullets && (
+                            <ul className="space-y-2.5">
+                              {subsection.bullets.map((bullet) => (
+                                <li key={bullet} className="flex items-start gap-2.5 text-sm text-slate-700">
+                                  <CheckCircle2 className="w-4 h-4 text-[#c68a4c] shrink-0 mt-0.5" />
+                                  <span>{bullet}</span>
+                                </li>
+                              ))}
+                            </ul>
+                          )}
+                        </div>
+                      ))}
+                    </article>
+                    {index === 0 && (
+                      <figure className="overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm">
+                        <SafeImage
+                          src={featuredImage.src}
+                          alt={featuredImage.alt}
+                          width={1200}
+                          height={700}
+                          className="h-64 w-full object-cover sm:h-80"
+                          sizes="(max-width: 1024px) 100vw, 66vw"
+                        />
+                        <figcaption className="px-5 py-3 text-xs font-semibold text-slate-600">
+                          {featuredImage.caption}
+                        </figcaption>
+                      </figure>
+                    )}
+                  </React.Fragment>
+                ))}
+
+                <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 px-2">
+                  <Button href="/appointment" variant="accent" size="md" icon={<ArrowRight className="w-4 h-4" />}>
+                    {service.primaryCta ?? `Discuss Your ${service.title}`}
+                  </Button>
+                  <Link href="/contact" className="text-sm font-bold text-[#0c4c6d] hover:text-[#c68a4c]">
+                    {service.secondaryCta ?? "Contact Our Team"}
+                  </Link>
+                </div>
+              </div>
+
+              {!service.contentSections && (
+                <>
               {/* 2. Eligibility Criteria Checklist */}
               <div className="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm space-y-4">
                 <div className="flex items-center gap-3">
@@ -256,6 +451,8 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
                   Book Assessment
                 </Button>
               </div>
+                </>
+              )}
             </div>
 
             {/* Right 4 Cols: Sticky Sidebar */}

@@ -20,6 +20,43 @@ import {
 import { rotatingAddresses } from "@/data/officesData";
 import { servicesData } from "@/data/servicesData";
 
+const businessNavigationServices = [
+  "Business Visitor Visa",
+  "Sole Representative Visa",
+  "Long-Term Work Visa",
+  "Skilled Worker Visa",
+  "Scale-Up Visa",
+  "UK Expansion Worker Visa",
+  "Startup Visa",
+  "Secondment Worker Visa",
+  "Hiring Foreign Workers",
+  "Youth Mobility Visa",
+  "Charity Worker Visa",
+  "Creative Worker Visa",
+  "International Agreement Visa",
+  "Seasonal Worker Visa",
+  "Entrepreneur Visa (Tier 1)",
+  "Graduate Trainee Visa",
+  "Minister of Religion Visa",
+  "Service Supplier Visa",
+  "Investor Visa (Tier 1)",
+  "Graduate Visa",
+  "Global Business Mobility",
+  "Global Talent Visa",
+  "Sports Person Visa",
+  "Innovator Visa",
+  "Investor Visa",
+  "Business Development Visa",
+  "Talent Visa",
+] as const;
+
+const businessServiceAliases: Record<string, string> = {
+  "Graduate Visa": "UK Graduate Visa",
+  "Global Business Mobility": "Global Business Mobility Visa",
+  "Hiring Foreign Workers": "Hiring Foreign Workers Guidance",
+  "Innovator Visa": "Innovator Founder Visa",
+};
+
 export function Header() {
   const pathname = usePathname();
   const [currentAddressIdx, setCurrentAddressIdx] = useState(0);
@@ -41,19 +78,31 @@ export function Header() {
   }, [pathname]);
 
   const businessServices = servicesData.filter((s) => s.category === "Business Visas");
-  const personalServices = servicesData.filter((s) => s.category === "Personal Visas");
+  const filteredBusinessServices = businessNavigationServices.map((title) => {
+    const service = businessServices.find(
+      (item) => item.title === title || item.title === businessServiceAliases[title],
+    );
+
+    return {
+      id: service?.id ?? title,
+      slug: service?.slug ?? title.toLowerCase().replace(/\s+/g, "-").replace(/[()]/g, ""),
+      title,
+      shortDescription: service?.shortDescription ?? "Expert guidance for your UK immigration application.",
+    };
+  });
   const specialtyServices = servicesData.filter((s) => s.category === "Specialty Visas");
 
   const otherServicesList = [
-    { name: "Global Business Mobility", slug: "global-business-mobility" },
-    { name: "Hiring Foreign Workers", slug: "hiring-foreign-workers" },
-    { name: "UK Graduate Visa", slug: "graduate-visa" },
-    { name: "Indefinite Leave to Remain", slug: "indefinite-leave-to-remain" },
-    { name: "Innovator Founder Visa", slug: "innovator-visa-uk" },
-    { name: "Family & Dependent Visa", slug: "family-visa" },
-    { name: "UK Ancestry Visa", slug: "uk-ancestry-visa" },
-    { name: "Charity Worker Visa", slug: "charity-worker-visa" },
-    { name: "EU Settlement Scheme", slug: "uk-settlement-visa" },
+    { name: "Spouse Visa", slug: "spouse-visa" },
+    { name: "Family Visa", slug: "family-visa" },
+    { name: "Parents Visa", slug: "parents-visa" },
+    { name: "Child Dependent Visa", slug: "child-dependent-visa" },
+    { name: "Adult Dependent Relative Visa", slug: "adult-dependent-relative" },
+    { name: "Youth Mobility Visa", slug: "youth-mobility-visa" },
+    { name: "Indefinite Leave To Remain", slug: "indefinite-leave-to-remain" },
+    { name: "Naturalization", slug: "naturalization" },
+    { name: "UK Settlement Visa", slug: "uk-settlement-visa" },
+    { name: "British Citizenship", slug: "british-citizenship" },
   ];
 
   const isActive = (path: string) => {
@@ -139,7 +188,7 @@ export function Header() {
               About
             </Link>
 
-            {/* Popular Services Mega Menu Dropdown */}
+            {/* Business Mega Menu Dropdown */}
             <div
               className="relative"
               onMouseEnter={() => setActiveDropdown("popular")}
@@ -153,7 +202,7 @@ export function Header() {
                 }`}
                 aria-expanded={activeDropdown === "popular"}
               >
-                <span>Popular Services</span>
+                <span>Business</span>
                 <ChevronDown
                   className={`w-4 h-4 transition-transform duration-200 ${
                     activeDropdown === "popular" ? "rotate-180" : ""
@@ -162,9 +211,9 @@ export function Header() {
               </button>
 
               {activeDropdown === "popular" && (
-                <div className="absolute top-full left-1/2 -translate-x-1/2 w-[720px] bg-white rounded-xl shadow-2xl border border-slate-100 p-6 grid grid-cols-2 gap-6 z-50 animate-in fade-in slide-in-from-top-2 duration-150">
+                <div className="absolute top-full left-1/2 -translate-x-1/2 w-[960px] max-h-[calc(100vh-7rem)] overflow-y-auto bg-white rounded-xl shadow-2xl border border-slate-100 p-6 grid grid-cols-3 gap-x-5 gap-y-6 z-50 animate-in fade-in slide-in-from-top-2 duration-150">
                   {/* Business Visas Column */}
-                  <div>
+                  <div className="col-span-3">
                     <div className="flex items-center justify-between pb-2 mb-3 border-b border-slate-100">
                       <h4 className="text-xs font-bold uppercase tracking-wider text-[#0c4c6d]">
                         Business & Corporate Visas
@@ -176,9 +225,9 @@ export function Header() {
                         View All
                       </Link>
                     </div>
-                    <ul className="space-y-1.5">
-                      {businessServices.map((service) => (
-                        <li key={service.id}>
+                    <ul className="grid grid-cols-3 gap-x-4 gap-y-1.5">
+                      {filteredBusinessServices.map((service) => (
+                                            <li key={service.id}>
                           <Link
                             href={`/services/${service.slug}`}
                             className="block p-2 rounded-lg hover:bg-slate-50 text-slate-700 hover:text-[#0c4c6d] transition-colors"
@@ -193,35 +242,11 @@ export function Header() {
                     </ul>
                   </div>
 
-                  {/* Personal & Family Visas Column */}
-                  <div>
-                    <div className="flex items-center justify-between pb-2 mb-3 border-b border-slate-100">
-                      <h4 className="text-xs font-bold uppercase tracking-wider text-[#0c4c6d]">
-                        Personal & Family Visas
-                      </h4>
-                      <span className="text-xs text-slate-400 font-medium">Fast-Track</span>
-                    </div>
-                    <ul className="space-y-1.5">
-                      {personalServices.slice(0, 4).map((service) => (
-                        <li key={service.id}>
-                          <Link
-                            href={`/services/${service.slug}`}
-                            className="block p-2 rounded-lg hover:bg-slate-50 text-slate-700 hover:text-[#0c4c6d] transition-colors"
-                          >
-                            <div className="text-sm font-semibold">{service.title}</div>
-                            <div className="text-xs text-slate-500 line-clamp-1">
-                              {service.shortDescription}
-                            </div>
-                          </Link>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
                 </div>
               )}
             </div>
 
-            {/* Other Services Dropdown */}
+            {/* Personal Dropdown */}
             <div
               className="relative"
               onMouseEnter={() => setActiveDropdown("other")}
@@ -235,7 +260,7 @@ export function Header() {
                 }`}
                 aria-expanded={activeDropdown === "other"}
               >
-                <span>Other Services</span>
+                <span>Personal</span>
                 <ChevronDown
                   className={`w-4 h-4 transition-transform duration-200 ${
                     activeDropdown === "other" ? "rotate-180" : ""
@@ -341,7 +366,7 @@ export function Header() {
                 0333 0040117
               </a>
             </div>
-            <span className="text-slate-500 font-medium">Mon-Fri 9am-6pm</span>
+            <span className="text-slate-500 font-medium">Mon-Sat 9am-6pm</span>
           </div>
 
           <div className="flex flex-col space-y-1 font-semibold text-sm text-slate-800">
@@ -389,6 +414,36 @@ export function Header() {
                 className="block py-1 hover:text-[#0c4c6d]"
               >
                 • British Citizenship
+              </Link>
+              <Link
+                href="/services/parents-visa"
+                className="block py-1 hover:text-[#0c4c6d]"
+              >
+                • Parents Visa
+              </Link>
+              <Link
+                href="/services/adult-dependent-relative"
+                className="block py-1 hover:text-[#0c4c6d]"
+              >
+                • Adult Dependent Relative Visa
+              </Link>
+              <Link
+                href="/services/indefinite-leave-to-remain"
+                className="block py-1 hover:text-[#0c4c6d]"
+              >
+                • Indefinite Leave To Remain
+              </Link>
+              <Link
+                href="/services/naturalization"
+                className="block py-1 hover:text-[#0c4c6d]"
+              >
+                • Naturalization
+              </Link>
+              <Link
+                href="/services/uk-settlement-visa"
+                className="block py-1 hover:text-[#0c4c6d]"
+              >
+                • UK Settlement Visa
               </Link>
               <Link
                 href="/services/uk-student-visa"

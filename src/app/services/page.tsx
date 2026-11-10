@@ -76,13 +76,14 @@ export default function ServicesPage() {
               {businessVisas.map((service) => (
                 <div
                   key={service.id}
-                  className="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm hover:shadow-lg hover:border-[#0c4c6d]/30 transition-all flex flex-col justify-between"
+                  className="group relative bg-white hover:bg-[#f4f8fa] rounded-2xl p-6 border border-slate-200 hover:border-[#0c4c6d] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between overflow-hidden"
                 >
+                  <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-[#0c4c6d] to-[#c68a4c] opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                   <div>
-                    <h4 className="text-lg font-bold text-slate-900 mb-2">
+                    <h4 className="text-lg font-bold text-slate-900 group-hover:text-[#0c4c6d] transition-colors mb-2">
                       <Link
                         href={`/services/${service.slug}`}
-                        className="hover:text-[#0c4c6d] transition-colors"
+                        className="focus:outline-none"
                       >
                         {service.title}
                       </Link>
@@ -104,14 +105,14 @@ export default function ServicesPage() {
                   <div className="pt-4 border-t border-slate-100 flex items-center justify-between">
                     <Link
                       href={`/services/${service.slug}`}
-                      className="text-xs font-bold text-[#0c4c6d] hover:text-[#c68a4c] inline-flex items-center gap-1"
+                      className="text-xs font-bold text-[#0c4c6d] group-hover:text-[#c68a4c] inline-flex items-center gap-1 transition-colors"
                     >
                       <span>Explore Requirements</span>
-                      <ChevronRight className="w-3.5 h-3.5" />
+                      <ChevronRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
                     </Link>
                     <Link
                       href="/appointment"
-                      className="text-[11px] font-semibold text-slate-400 hover:text-slate-800"
+                      className="text-[11px] font-semibold text-slate-400 group-hover:text-[#0c4c6d] hover:underline transition-colors"
                     >
                       Consult
                     </Link>
@@ -141,13 +142,14 @@ export default function ServicesPage() {
               {personalVisas.map((service) => (
                 <div
                   key={service.id}
-                  className="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm hover:shadow-lg hover:border-[#0c4c6d]/30 transition-all flex flex-col justify-between"
+                  className="group relative bg-white hover:bg-[#f4f8fa] rounded-2xl p-6 border border-slate-200 hover:border-[#0c4c6d] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between overflow-hidden"
                 >
+                  <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-[#0c4c6d] to-[#c68a4c] opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                   <div>
-                    <h4 className="text-lg font-bold text-slate-900 mb-2">
+                    <h4 className="text-lg font-bold text-slate-900 group-hover:text-[#0c4c6d] transition-colors mb-2">
                       <Link
                         href={`/services/${service.slug}`}
-                        className="hover:text-[#0c4c6d] transition-colors"
+                        className="focus:outline-none"
                       >
                         {service.title}
                       </Link>
@@ -169,14 +171,14 @@ export default function ServicesPage() {
                   <div className="pt-4 border-t border-slate-100 flex items-center justify-between">
                     <Link
                       href={`/services/${service.slug}`}
-                      className="text-xs font-bold text-[#0c4c6d] hover:text-[#c68a4c] inline-flex items-center gap-1"
+                      className="text-xs font-bold text-[#0c4c6d] group-hover:text-[#c68a4c] inline-flex items-center gap-1 transition-colors"
                     >
                       <span>Explore Requirements</span>
-                      <ChevronRight className="w-3.5 h-3.5" />
+                      <ChevronRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
                     </Link>
                     <Link
                       href="/appointment"
-                      className="text-[11px] font-semibold text-slate-400 hover:text-slate-800"
+                      className="text-[11px] font-semibold text-slate-400 group-hover:text-[#0c4c6d] hover:underline transition-colors"
                     >
                       Consult
                     </Link>
@@ -206,13 +208,14 @@ export default function ServicesPage() {
               {specialtyVisas.map((service) => (
                 <div
                   key={service.id}
-                  className="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm hover:shadow-lg hover:border-[#0c4c6d]/30 transition-all flex flex-col justify-between"
+                  className="group relative bg-white hover:bg-[#f4f8fa] rounded-2xl p-6 border border-slate-200 hover:border-[#0c4c6d] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between overflow-hidden"
                 >
+                  <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-[#0c4c6d] to-[#c68a4c] opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                   <div>
-                    <h4 className="text-lg font-bold text-slate-900 mb-2">
+                    <h4 className="text-lg font-bold text-slate-900 group-hover:text-[#0c4c6d] transition-colors mb-2">
                       <Link
                         href={`/services/${service.slug}`}
-                        className="hover:text-[#0c4c6d] transition-colors"
+                        className="focus:outline-none"
                       >
                         {service.title}
                       </Link>
@@ -234,14 +237,14 @@ export default function ServicesPage() {
                   <div className="pt-4 border-t border-slate-100 flex items-center justify-between">
                     <Link
                       href={`/services/${service.slug}`}
-                      className="text-xs font-bold text-[#0c4c6d] hover:text-[#c68a4c] inline-flex items-center gap-1"
+                      className="text-xs font-bold text-[#0c4c6d] group-hover:text-[#c68a4c] inline-flex items-center gap-1 transition-colors"
                     >
                       <span>Explore Requirements</span>
-                      <ChevronRight className="w-3.5 h-3.5" />
+                      <ChevronRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
                     </Link>
                     <Link
                       href="/appointment"
-                      className="text-[11px] font-semibold text-slate-400 hover:text-slate-800"
+                      className="text-[11px] font-semibold text-slate-400 group-hover:text-[#0c4c6d] hover:underline transition-colors"
                     >
                       Consult
                     </Link>

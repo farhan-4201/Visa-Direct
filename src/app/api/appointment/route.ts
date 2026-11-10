@@ -123,7 +123,7 @@ export async function POST(req: NextRequest) {
 
       <p style="font-size:13px;color:#64748b;line-height:1.7;">
         If you need to reschedule or have urgent questions, please call us directly on
-        <strong style="color:#0c4c6d;">0333 0040117</strong> (Mon–Fri, 9am–6pm).
+        <strong style="color:#0c4c6d;">0333 0040117</strong> (Mon–Sat, 9am–6pm).
       </p>
     </div>
     <div class="footer">

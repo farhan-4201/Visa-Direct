@@ -25,9 +25,9 @@ describe("AppointmentScheduler Multi-Step Flow", () => {
 
     // The four consultation type cards
     expect(screen.getByText("Online Video Consultation")).toBeInTheDocument();
-    expect(screen.getByText("Birmingham Office (In-Person)")).toBeInTheDocument();
-    expect(screen.getByText("Bristol Office (In-Person)")).toBeInTheDocument();
-    expect(screen.getByText("Direct Telephone Assessment")).toBeInTheDocument();
+    expect(screen.getByText("Birmingham Office")).toBeInTheDocument();
+    expect(screen.getByText("Bristol Office")).toBeInTheDocument();
+    expect(screen.getByText("London Office")).toBeInTheDocument();
   });
 
   it("step 1 has a CTA to advance to step 2", () => {
