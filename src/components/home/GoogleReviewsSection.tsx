@@ -4,76 +4,11 @@ import React, { useState, useEffect, useCallback, useMemo } from "react";
 import { Star, ChevronLeft, ChevronRight, ExternalLink, ShieldCheck, MapPin } from "lucide-react";
 import { googleReviews, googleBusinessProfile } from "@/data/googleReviewsData";
 
-// Filter function to check if a name is an English name
-// Pakistani/Muslim names often contain certain patterns/keywords
-const isEnglishName = (name: string): boolean => {
-  const lowerName = name.toLowerCase();
-
-  // Common Pakistani/Muslim name patterns/keywords to filter out
-  const pakistaniNamePatterns = [
-    // Arabic/Muslim name markers
-    "sajjad",
-    "rahman",
-    "hussain",
-    "naeem",
-    "khan",
-    "shah",
-    "murtaza",
-    "tayyab",
-    // Common Muslim first names
-    "muhammad",
-    "ahmed",
-    "ali",
-    "mohsin",
-    "usman",
-    "yusuf",
-    "ibrahim",
-    // Common Muslim surnames/prefixes
-    "bin",
-    "bint",
-    // Common Pakistani/South Asian names
-    "subhan",
-    "asad",
-    "shaheer",
-    "zara",
-    "aiman",
-    "haider",
-    "imran",
-    "farhan",
-    "sameer",
-    "waseem",
-    "tahir",
-    "uzair",
-    "sameeullah",
-    "raheel",
-    "zain",
-    "aiman",
-    "arsalan",
-    "basit",
-    "hamza",
-    "-khalid",
-    "-ullah",
-    "-ud-din",
-  ];
-
-  // Check if name contains any Pakistani/Muslim pattern
-  for (const pattern of pakistaniNamePatterns) {
-    if (lowerName.includes(pattern)) {
-      return false;
-    }
-  }
-
-  return true;
-};
-
 export function GoogleReviewsSection() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
 
-  // Filter reviews to only include English names
-  const filteredReviews = useMemo(() => {
-    return googleReviews.filter((review) => isEnglishName(review.author));
-  }, [googleReviews]);
+  const filteredReviews = useMemo(() => googleReviews, []);
 
   const totalFilteredReviews = filteredReviews.length;
 
