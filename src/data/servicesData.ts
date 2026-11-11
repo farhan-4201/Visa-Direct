@@ -52,7 +52,7 @@ export const servicesData: ServiceItem[] = [
     seoDescription:
       "Get help with your UK Parent Visa application. Understand eligibility, parental responsibility, & Home Office requirements with Visa Direct Immigration.",
     primaryCta: "Book Your Immigration Consultation",
-    heroImage: "/images/service-personal.webp",
+    heroImage: "/images/services/parent-visa.webp",
     supportingImages: [
       {
         src: "/images/service-personal.webp",
@@ -299,7 +299,7 @@ export const servicesData: ServiceItem[] = [
     seoDescription:
       "Looking to apply for a UK sponsor licence? Get expert guidance with eligibility, documents and Home Office applications for your business.",
     primaryCta: "Get Help with Your Sponsor Licence Application",
-    heroImage: "/images/service-business.webp",
+    heroImage: "/images/services/sponsor-license.webp",
     supportingImages: [
       {
         src: "/images/service-business.webp",
@@ -622,7 +622,7 @@ export const servicesData: ServiceItem[] = [
       "Need help with a UK Skilled Worker visa? Get guidance on eligibility, applications, fees and extensions from Visa Direct Immigration.",
     primaryCta: "Discuss Your Skilled Worker Visa",
     secondaryCta: "Contact Our Team",
-    heroImage: "/images/skilled-worker-visa-hero.webp",
+    heroImage: "/images/services/skilled-worker-visa.webp",
     supportingImages: [
       {
         src: "/images/skilled-worker-visa-feature.webp",
@@ -953,7 +953,7 @@ export const servicesData: ServiceItem[] = [
     seoDescription:
       "Need a UK Partner Visa? Explore eligibility, financial requirements, application fees and processing times. Get guidance from Visa Direct Immigration.",
     primaryCta: "Check Your Partner Visa Eligibility",
-    heroImage: "/images/service-personal.webp",
+    heroImage: "/images/services/partner-visa.webp",
     supportingImages: [
       {
         src: "/images/service-personal.webp",
@@ -1265,7 +1265,7 @@ export const servicesData: ServiceItem[] = [
     seoDescription:
       "Applying for Civil Partnership Visa UK? Check eligibility, financial requirements, application costs & documents. Get guidance from Visa Direct Immigration.",
     primaryCta: "Check Your Civil Partnership Visa Eligibility",
-    heroImage: "/images/service-personal.webp",
+    heroImage: "/images/services/civil-partnership-visa.webp",
     supportingImages: [
       {
         src: "/images/service-personal.webp",
@@ -1661,7 +1661,7 @@ export const servicesData: ServiceItem[] = [
   seoDescription:
     "Applying for a UK Visitor Visa? Get guidance with eligibility, documents, financial evidence, application fees and visa refusal concerns.",
   primaryCta: "Book Your Immigration Consultation",
-  heroImage: "/images/service-personal.webp",
+  heroImage: "/images/services/visitor-visa.webp",
   supportingImages: [
     {
       src: "/images/service-personal.webp",
@@ -1887,7 +1887,7 @@ export const servicesData: ServiceItem[] = [
     seoDescription:
       "Applying for a UK Business Visitor Visa? Get guidance on eligibility, requirements, documents, fees and processing times from Visa Direct Immigration.",
     primaryCta: "Get Business Visitor Visa Guidance",
-    heroImage: "/images/service-business.webp",
+    heroImage: "/images/services/business-visitor-visa.webp",
     supportingImages: [
       {
         src: "/images/service-business.webp",
@@ -2231,7 +2231,7 @@ export const servicesData: ServiceItem[] = [
     seoDescription:
       "Get help with your UK Student Visa application. Our team provides guidance on eligibility, documents, fees, extensions and Home Office requirements.",
     primaryCta: "Book Your Immigration Consultation",
-    heroImage: "/images/service-personal.webp",
+    heroImage: "/images/services/uk-student-visa.webp",
     supportingImages: [
       {
         src: "/images/service-personal.webp",
@@ -2606,7 +2606,7 @@ export const servicesData: ServiceItem[] = [
     seoDescription:
       "Need a UK Settlement Visa? Get guidance on spouse and family visa requirements, documents, application fees and processing times.",
     primaryCta: "Book Your Immigration Consultation",
-    heroImage: "/images/service-personal.webp",
+    heroImage: "/images/services/uk-settlement-visa.webp",
     supportingImages: [
       {
         src: "/images/service-personal.webp",
@@ -2964,7 +2964,7 @@ export const servicesData: ServiceItem[] = [
     seoDescription:
       "Need help applying for a Graduate Visa UK? Get expert application support with eligibility, documents, fees and Home Office requirements.",
     primaryCta: "Book Your Immigration Consultation",
-    heroImage: "/images/service-personal.webp",
+    heroImage: "/images/services/graduate-visa.webp",
     supportingImages: [
       {
         src: "/images/service-personal.webp",
@@ -3223,7 +3223,7 @@ export const servicesData: ServiceItem[] = [
     seoDescription:
       "Applying for indefinite leave to remain in UK? Understand ILR requirements, documents, fees & processing times. Get application support.",
     primaryCta: "Book Your Immigration Consultation",
-    heroImage: "/images/service-personal.webp",
+    heroImage: "/images/services/indefinite-leave-to-remain.webp",
     supportingImages: [
       {
         src: "/images/service-personal.webp",
@@ -3574,7 +3574,7 @@ export const servicesData: ServiceItem[] = [
     seoDescription:
       "Need a UK Family Visa? Get guidance on spouse, partner, child and parent visa applications, eligibility, documents and Home Office requirements.",
     primaryCta: "Get Help with Your UK Family Visa Application",
-    heroImage: "/images/service-personal.webp",
+    heroImage: "/images/services/family-visa.webp",
     supportingImages: [
       {
         src: "/images/service-personal.webp",
@@ -3932,7 +3932,7 @@ export const servicesData: ServiceItem[] = [
     seoDescription:
       "Apply for a Youth Mobility Visa UK with guidance on eligibility, documents, fees, processing times &  extensions. Get support from Visa Direct Immigration.",
     primaryCta: "Book Your Immigration Consultation",
-    heroImage: "/images/youth-mobility-visa.webp",
+    heroImage: "/images/services/youth-mobility-visa.webp",
     supportingImages: [
       {
         src: "/images/youth-mobility-visa.webp",
@@ -5353,6 +5353,7 @@ export const servicesData: ServiceItem[] = [
       question: "How long after getting ILR can I apply for British citizenship?",
       answer: "You must normally wait 12 months after receiving ILR. However, if you are married to a British citizen, you can apply immediately once you have ILR."
     }
-  ]
+  ],
+  heroImage: "/images/services/naturalization.webp"
 },
 ];

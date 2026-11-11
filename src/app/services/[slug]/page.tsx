@@ -27,54 +27,6 @@ interface ServicePageProps {
 
 export const instant = false;
 
-const defaultServiceImages = {
-  "Business Visas": {
-    hero: "/images/service-business.webp",
-    supporting: [
-      {
-        src: "/images/service-business.webp",
-        alt: "UK business and immigration consultation",
-        caption: "Business immigration guidance tailored to your organisation",
-      },
-      {
-        src: "/images/skilled-worker-visa-process.webp",
-        alt: "Professional immigration consultation",
-        caption: "Practical support through each stage of the process",
-      },
-    ],
-  },
-  "Personal Visas": {
-    hero: "/images/service-personal.webp",
-    supporting: [
-      {
-        src: "/images/service-personal.webp",
-        alt: "UK passport and personal immigration documents",
-        caption: "Careful preparation of your personal immigration evidence",
-      },
-      {
-        src: "/images/skilled-worker-visa-documents.webp",
-        alt: "Passport and visa application documents",
-        caption: "Clear document guidance before you submit",
-      },
-    ],
-  },
-  "Specialty Visas": {
-    hero: "/images/service-specialty.webp",
-    supporting: [
-      {
-        src: "/images/service-specialty.webp",
-        alt: "UK immigration consultation",
-        caption: "Specialist advice for complex immigration routes",
-      },
-      {
-        src: "/images/skilled-worker-visa-process.webp",
-        alt: "Immigration application process",
-        caption: "Structured support from assessment to decision",
-      },
-    ],
-  },
-} as const;
-
 export async function generateStaticParams() {
   return servicesData.map((service) => ({
     slug: service.slug,
@@ -110,9 +62,13 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
   const relatedServices = servicesData
     .filter((s) => s.id !== service.id)
     .slice(0, 6);
-  const imageSet = defaultServiceImages[service.category];
-  const featuredImage = (service.supportingImages ?? imageSet.supporting)[0];
-  const heroImage = service.heroImage ?? imageSet.hero;
+  const serviceImage = `/images/services/${service.slug}.webp`;
+  const featuredImage = {
+    src: service.heroImage ?? serviceImage,
+    alt: `UK ${service.title} visa and passport application documents`,
+    caption: `${service.title} application guidance and document support`,
+  };
+  const heroImage = service.heroImage ?? serviceImage;
 
   return (
     <>

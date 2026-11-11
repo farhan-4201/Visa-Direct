@@ -27,6 +27,8 @@ export function PageHeader({
         backgroundImage: `linear-gradient(135deg, rgba(7, 35, 51, 0.90) 0%, rgba(12, 76, 109, 0.82) 100%), url(${bgImage})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        backgroundColor: "#072333",
       }
     : undefined;
 
