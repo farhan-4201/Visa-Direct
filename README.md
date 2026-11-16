@@ -166,14 +166,9 @@ The application includes an integrated serverless email dispatch route (`POST /a
 | Variable | Required | Default | Description |
 |----------|----------|---------|-------------|
 | `RESEND_API_KEY` | Optional | `""` | Resend API key (`re_...`). If omitted, the form gracefully completes with UI confirmation and records the booking without failing. |
-| `OFFICE_EMAIL` | Optional | `info@visadirectimmigration.com` | Internal recipient for appointment notifications |
-| `FROM_EMAIL` | Optional | `Visa Direct Immigration <onboarding@resend.dev>` | Verified sender address in Resend |
-
 To configure locally, create a `.env.local` file:
 ```bash
 RESEND_API_KEY=re_your_api_key_here
-OFFICE_EMAIL=info@visadirectimmigration.com
-FROM_EMAIL="Visa Direct Immigration <onboarding@resend.dev>"
 ```
 
 ---

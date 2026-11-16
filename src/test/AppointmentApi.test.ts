@@ -76,7 +76,7 @@ describe("POST /api/appointment", () => {
     expect(data.success).toBe(false);
   });
 
-  it("sends confirmation emails and returns 200 on valid payload", async () => {
+  it("sends applicant confirmation and office inquiry on valid payload", async () => {
     process.env.RESEND_API_KEY = "re_test_key";
 
     const req = new NextRequest("http://localhost:3000/api/appointment", {
@@ -95,7 +95,14 @@ describe("POST /api/appointment", () => {
     expect(res.status).toBe(200);
     const data = await res.json();
     expect(data.success).toBe(true);
-    // Verified 2 emails sent: one to applicant, one to office
     expect(mockSend).toHaveBeenCalledTimes(2);
+    expect(mockSend.mock.calls[0][0]).toMatchObject({
+      from: "Visa Direct Immigration <info@visadirectimmigration.com>",
+      to: "jane@example.com",
+    });
+    expect(mockSend.mock.calls[1][0]).toMatchObject({
+      from: "Visa Direct Immigration <info@visadirectimmigration.com>",
+      to: "info@visadirectimmigration.com",
+    });
   });
 });
