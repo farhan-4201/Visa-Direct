@@ -8,7 +8,6 @@ import { WhyWorkWithUsSection } from "@/components/home/WhyWorkWithUsSection";
 import { OurProcessSection } from "@/components/home/OurProcessSection";
 import { OfficeLocationsSection } from "@/components/home/locations/OfficeLocationsSection";
 import { FAQSection } from "@/components/home/FAQSection";
-import { BlogPreviewSection } from "@/components/home/BlogPreviewSection";
 import { FinalCtaSection } from "@/components/home/FinalCtaSection";
 import { FinalContactStrip } from "@/components/home/FinalContactStrip";
 
@@ -42,13 +41,10 @@ export default function HomePage() {
       {/* 9. Frequently Asked Questions */}
       <FAQSection />
 
-      {/* 10. Latest Immigration News and Guides */}
-      <BlogPreviewSection />
-
-      {/* 11. Final CTA */}
+      {/* 10. Final CTA */}
       <FinalCtaSection />
 
-      {/* 12. Final Contact Strip */}
+      {/* 11. Final Contact Strip */}
       <FinalContactStrip />
     </>
   );

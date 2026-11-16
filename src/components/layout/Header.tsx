@@ -291,28 +291,6 @@ export function Header() {
             </div>
 
             <Link
-              href="/blog"
-              className={`px-3 py-2 rounded-md text-sm font-semibold transition-colors ${
-                isActive("/blog")
-                  ? "text-[#0c4c6d] bg-slate-50"
-                  : "text-slate-700 hover:text-[#0c4c6d] hover:bg-slate-50"
-              }`}
-            >
-              Blog
-            </Link>
-
-            <Link
-              href="/success-stories"
-              className={`px-3 py-2 rounded-md text-sm font-semibold transition-colors ${
-                isActive("/success-stories")
-                  ? "text-[#0c4c6d] bg-slate-50"
-                  : "text-slate-700 hover:text-[#0c4c6d] hover:bg-slate-50"
-              }`}
-            >
-              Success Stories
-            </Link>
-
-            <Link
               href="/contact"
               className={`px-3 py-2 rounded-md text-sm font-semibold transition-colors ${
                 isActive("/contact")
@@ -453,18 +431,6 @@ export function Header() {
               </Link>
             </div>
 
-            <Link
-              href="/blog"
-              className="px-3 py-2 rounded-md hover:bg-slate-50 hover:text-[#0c4c6d]"
-            >
-              Blog & News
-            </Link>
-            <Link
-              href="/success-stories"
-              className="px-3 py-2 rounded-md hover:bg-slate-50 hover:text-[#0c4c6d]"
-            >
-              Success Stories
-            </Link>
             <Link
               href="/contact"
               className="px-3 py-2 rounded-md hover:bg-slate-50 hover:text-[#0c4c6d]"

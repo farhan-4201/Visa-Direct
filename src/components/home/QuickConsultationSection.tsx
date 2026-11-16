@@ -35,7 +35,7 @@ export function QuickConsultationSection() {
               </Link>
               <Link
                 href="/services"
-                className="group inline-flex items-center justify-center gap-2.5 px-8 py-4 rounded-xl bg-white/10 hover:bg-white/20 text-white font-bold text-base backdrop-blur-md border border-white/25 hover:border-white/40 hover:-translate-y-1 active:translate-y-0 shadow-lg transition-all duration-300"
+                className="group inline-flex items-center justify-center gap-2.5 px-8 py-4 rounded-xl bg-[#072333] hover:bg-[#0c4c6d] text-white font-bold text-base border border-[#072333] hover:border-[#0c4c6d] hover:-translate-y-1 active:translate-y-0 shadow-lg transition-all duration-300"
               >
                 <span>Explore Our Services</span>
                 <ArrowRight className="w-4 h-4 text-[#c68a4c] transition-transform duration-300 group-hover:translate-x-1 shrink-0" />

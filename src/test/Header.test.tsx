@@ -27,8 +27,8 @@ describe("Header Layout Component", () => {
     const contactLinks = screen.getAllByText("Contact Us");
     expect(contactLinks.length).toBeGreaterThan(0);
 
-    const blogLinks = screen.getAllByText(/^Blog/i);
-    expect(blogLinks.length).toBeGreaterThan(0);
+    expect(screen.queryByText(/^Blog/i)).not.toBeInTheDocument();
+    expect(screen.queryByText("Success Stories")).not.toBeInTheDocument();
   });
 
   it("renders the telephone contact number in the header", () => {

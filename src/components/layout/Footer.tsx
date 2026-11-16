@@ -94,8 +94,6 @@ export function Footer() {
                 { href: "/", label: "Home" },
                 { href: "/about", label: "About Us" },
                 { href: "/services", label: "Immigration Services" },
-                { href: "/blog", label: "Latest News & Blog" },
-                { href: "/success-stories", label: "Client Success Stories" },
                 { href: "/contact", label: "Contact Our Offices" },
               ].map(({ href, label }) => (
                 <li key={href}>
