@@ -2498,8 +2498,13 @@ export const servicesData: ServiceItem[] = [
     slug: "uk-ancestry-visa",
     title: "UK Ancestry Visa",
     category: "Specialty Visas",
-    shortDescription: "Leverage Commonwealth heritage and British grandparentage to live and work in the UK.",
-    heroTagline: "Honor your family lineage with a 5-year work visa leading directly to settlement.",
+    shortDescription:
+      "Applying for a UK Ancestry Visa? Get application support with eligibility, family documents, financial evidence, fees and Home Office requirements.",
+    heroTagline:
+      "Understand your UK Ancestry Visa eligibility, documents and application requirements.",
+    seoTitle: "Apply for a UK Ancestry Visa | Application Support",
+    seoDescription:
+      "Applying for a UK Ancestry Visa? Get application support with eligibility, family documents, financial evidence, fees and Home Office requirements.",
     iconName: "Compass",
     keyFeatures: [
       "Family tree ancestral verification and registry searches",
@@ -2537,6 +2542,146 @@ export const servicesData: ServiceItem[] = [
         description: "Commence employment with a clear path to settlement after 5 years.",
       },
     ],
+    contentSections: [
+      {
+        heading: "UK Ancestry Visa",
+        paragraphs: [
+          "A UK Ancestry Visa provides eligible Commonwealth citizens with the opportunity to live and work in the United Kingdom based on their family history. If you have a grandparent who was born in the UK, you may be able to apply, provided you also meet the other eligibility requirements.",
+          "Although the family connection is central to the application, you must also provide evidence of your ancestry, demonstrate that you can support yourself and show that you intend to work in the UK. Visa Direct Immigration provides guidance throughout the application process, helping applicants understand the requirements and prepare the relevant documents.",
+        ],
+      },
+      {
+        heading: "UK Ancestry Visa Application Support",
+        paragraphs: [
+          "Applying for a UK Ancestry Visa involves more than proving that you have a British-born grandparent. Your application must demonstrate that you meet the nationality, family relationship, financial and employment requirements set by the Home Office.",
+          "Visa Direct Immigration can help you understand the application requirements, identify the documents relevant to your circumstances and prepare your application for submission. We can also explain the process for family members who wish to apply as your dependants.",
+          "Whether you are applying from outside the UK for the first time or looking into extending an existing Ancestry Visa, getting the requirements right is important.",
+          "Need guidance with your application? Contact our team to discuss your UK Ancestry Visa circumstances.",
+        ],
+      },
+      {
+        heading: "UK Ancestry Visa Requirements",
+        paragraphs: [
+          "To qualify for a UK Ancestry Visa, you must meet specific requirements relating to your age, nationality, family history, finances and intention to work.",
+          "The main UK Ancestry Visa requirements include:",
+        ],
+        bullets: [
+          "Age: You must be at least 17 years old when you intend to arrive in the UK.",
+          "Nationality: You must be a Commonwealth citizen or fall within another nationality category specified by the Immigration Rules.",
+          "Ancestry: You must have a grandparent who was born in the UK, the Channel Islands or the Isle of Man.",
+          "Employment intention: You must be able and intend to work in the UK, whether as an employee or through self-employment.",
+          "Financial support: You must be able to maintain and accommodate yourself, and any dependants, without relying on public funds.",
+          "Application location: Your first UK Ancestry Visa application must be made from outside the UK.",
+        ],
+        paragraphsAfterTable: [
+          "Meeting the family history requirement alone does not guarantee approval. The Home Office will consider the evidence provided and whether you satisfy all relevant Immigration Rules.",
+        ],
+      },
+      {
+        heading: "Who Can Apply for a UK Ancestry Visa?",
+        paragraphs: [
+          "You may be eligible if you are a qualifying Commonwealth citizen and can establish a direct family connection to a grandparent born in the UK or the Islands recognised under the route.",
+          "The grandparents can be related to you through either your maternal or paternal side. You will generally need to establish the family connection through the relevant birth certificates.",
+          "For example, if your maternal grandmother was born in England, you may be able to rely on that connection. You would need to provide evidence linking your birth to your mother and your mother to your grandmother.",
+          "Adoption can also be relevant in certain circumstances, but specific rules apply to adopted applicants and family relationships. The documents must establish that the relationship qualifies under the Immigration Rules.",
+          "You must also be able to show that you intend to take up employment or self-employment in the UK. You do not necessarily need to have a confirmed job offer before applying, but your plans should be genuine and supported by appropriate evidence.",
+        ],
+      },
+      {
+        heading: "UK Ancestry Visa Documents Required",
+        paragraphs: [
+          "Providing the correct ancestry and supporting documents is an important part of the application. The Home Office needs to be satisfied that your family connection is genuine and that you meet the other eligibility conditions.",
+          "Depending on your circumstances, the documents may include:",
+        ],
+        bullets: [
+          "Current passport: A valid passport or travel document showing your identity and nationality.",
+          "Your full birth certificate: This should normally include your parents' details.",
+          "Parent's full birth certificate: The certificate of the parent through whom you are claiming ancestry.",
+          "Grandparent's full birth certificate: Evidence confirming that your grandparent was born in the UK, the Channel Islands or the Isle of Man.",
+          "Financial evidence: Recent bank statements or other acceptable evidence showing that you can support yourself and your dependants.",
+          "Employment plans: Evidence of your intention to work, such as job enquiries, employment opportunities or a business plan if you intend to become self-employed.",
+          "Name change evidence: Relevant marriage, deed poll or other documents if names differ across your records.",
+          "Adoption documents: Where the ancestry claim involves an adoption, the relevant adoption records may be required.",
+          "Family documents: Evidence of your relationship with a partner or children if they are applying with you.",
+        ],
+        paragraphsAfterTable: [
+          "Financial evidence must meet the Home Office's document requirements, including the applicable date rules. Additional documents may be needed depending on your family history and personal circumstances.",
+          "Visa Direct Immigration can help you review the documents relevant to your case and identify potential gaps before submission.",
+          "Have questions about your ancestry documents? Book a consultation to discuss the evidence you may need.",
+        ],
+      },
+      {
+        heading: "How to Apply for a UK Ancestry Visa",
+        paragraphs: [
+          "The UK Ancestry Visa application process involves completing an online application, providing supporting evidence and attending a biometric appointment.",
+        ],
+        subsections: [
+          { heading: "1. Check your eligibility", paragraphs: ["Confirm that you meet the nationality, age, ancestry, financial and employment requirements before starting the application."] },
+          { heading: "2. Collect your supporting documents", paragraphs: ["Obtain the relevant full birth certificates and other evidence linking you to your UK-born grandparent. Prepare financial documents and evidence of your plans to work."] },
+          { heading: "3. Complete the online application", paragraphs: ["Apply through the official UK government application service from outside the UK. You can normally apply up to three months before your intended travel date."] },
+          { heading: "4. Pay the application fee", paragraphs: ["Pay the relevant visa application fee and any applicable Immigration Health Surcharge."] },
+          { heading: "5. Attend your biometric appointment", paragraphs: ["You will usually need to attend an appointment at a visa application centre to provide your fingerprints and photograph. You may also need to submit your supporting documents through the relevant service."] },
+          { heading: "6. Wait for the decision", paragraphs: ["The Home Office will assess your application and supporting evidence. If approved, you will receive permission to travel to the UK under the Ancestry route."] },
+        ],
+      },
+      {
+        heading: "UK Ancestry Visa Fees in 2026",
+        paragraphs: [
+          "The cost of a UK Ancestry Visa includes the application fee and the Immigration Health Surcharge. The amount you pay will depend on whether you are applying for the initial visa or an extension, as well as the length of permission granted.",
+        ],
+        table: {
+          headers: ["Application type", "Application fee"],
+          rows: [
+            ["Initial UK Ancestry Visa", "£726"],
+            ["UK Ancestry Visa extension", "£1,407"],
+            ["Indefinite Leave to Remain", "£3,226"],
+          ],
+        },
+        paragraphsAfterTable: [
+          "The Immigration Health Surcharge is payable separately where applicable. The total amount will depend on the visa period and the number of applicants, including any dependants.",
+          "You should check the official GOV.UK fee information before submitting your application, as immigration fees can change.",
+        ],
+      },
+      {
+        heading: "UK Ancestry Visa Processing Time",
+        paragraphs: [
+          "A UK Ancestry Visa application made from outside the UK usually receives a decision within three weeks after you have completed the identity and document submission requirements.",
+          "If you are applying to extend an existing UK Ancestry Visa from within the UK, the usual processing time is around eight weeks.",
+          "These are standard processing estimates, not guaranteed decision dates. Applications may take longer if the Home Office needs further information, additional checks or clarification about your documents.",
+          "You should allow enough time before making travel arrangements and avoid booking non-refundable travel before receiving a decision.",
+        ],
+      },
+      {
+        heading: "How Visa Direct Immigration Can Help",
+        paragraphs: [
+          "Understanding the UK Ancestry Visa rules and preparing the right evidence can take time, particularly when documents come from different generations or countries.",
+          "Visa Direct Immigration provides application guidance to help you understand the process and prepare for the relevant requirements. Depending on your circumstances, support may include:",
+        ],
+        bullets: [
+          "Reviewing your eligibility and family history.",
+          "Explaining the birth certificates and ancestry evidence required.",
+          "Helping you identify relevant financial and employment documents.",
+          "Guiding you through the online application process.",
+          "Explaining dependant applications and extension options.",
+          "Providing guidance on the route from an Ancestry Visa to settlement.",
+        ],
+        paragraphsAfterTable: [
+          "If you are searching for a UK Ancestry Visa lawyer or solicitor, make sure you check the individual's professional qualifications and authorisation before instructing them. You should understand who will handle your application and what services they are authorised to provide.",
+          "Visa Direct Immigration offers immigration application guidance from its offices in Birmingham, Bristol and Reading, with support for applicants across the UK.",
+          "Book Your Immigration Consultation to discuss your eligibility, documents and next steps.",
+        ],
+      },
+      {
+        heading: "Frequently Asked Questions",
+        subsections: [
+          { heading: "Can I apply for a UK Ancestry Visa if my grandparent was born in the UK?", paragraphs: ["Yes, you may qualify if you are a qualifying Commonwealth citizen, are at least 17 and can provide evidence of your grandparent's birth in the UK, Channel Islands or Isle of Man. You must also meet the financial and employment requirements."] },
+          { heading: "Can I work in the UK on an Ancestry Visa?", paragraphs: ["Yes. A UK Ancestry Visa generally allows you to work in paid employment, undertake voluntary work or become self-employed. You can also study, although additional requirements may apply to certain courses."] },
+          { heading: "Can I bring my spouse and children to the UK?", paragraphs: ["Yes. Your eligible partner and dependent children may be able to apply to join you as dependants. Each family member must meet the relevant requirements and provide supporting documents."] },
+          { heading: "Can I extend my UK Ancestry Visa after five years?", paragraphs: ["Yes. You may be able to extend your permission for another five years if you continue to meet the route requirements. If you have completed five years of qualifying residence, you may also be eligible to apply for Indefinite Leave to Remain."] },
+          { heading: "Can I apply for British citizenship after a UK Ancestry Visa?", paragraphs: ["A UK Ancestry Visa does not automatically lead to British citizenship. You will generally need to qualify for Indefinite Leave to Remain first. You may then be able to apply for citizenship if you meet the relevant residence, status and other naturalisation requirements."] },
+        ],
+      },
+    ],
     faqs: [
       {
         question: "Can an adopted grandparent qualify for the Ancestry route?",
@@ -2547,45 +2692,183 @@ export const servicesData: ServiceItem[] = [
   {
     id: "charity-worker-visa",
     slug: "charity-worker-visa",
-    title: "Charity Worker Visa",
+    title: "Charity Worker Visa UK",
     category: "Business Visas",
-    shortDescription: "Undertake voluntary unpaid work for an authorized UK charitable organisation.",
-    heroTagline: "Contribute to humanitarian causes with a dedicated temporary voluntary worker visa.",
+    shortDescription:
+      "Need a Charity Worker Visa UK? Get application support with eligibility, sponsorship, documents and Home Office requirements from Visa Direct Immigration.",
+    heroTagline:
+      "Understand your UK Charity Worker Visa eligibility, sponsorship and application requirements.",
+    seoTitle: "Charity Worker Visa UK Services | Application Support",
+    seoDescription:
+      "Need a Charity Worker Visa UK? Get application support with eligibility, sponsorship, documents and Home Office requirements from Visa Direct Immigration.",
     iconName: "ShieldCheck",
     keyFeatures: [
-      "Up to 12 months voluntary stay in the UK",
-      "Sponsorship from a licensed registered charity",
-      "Coverage for essential living allowance and accommodation",
-      "Simplified application timeline and requirements",
+      "Eligibility assessment for the Charity Worker route",
+      "Sponsorship and Certificate of Sponsorship guidance",
+      "Financial and supporting document review",
+      "Application, conditions, extension and dependant guidance",
     ],
     eligibilityRequirements: [
-      "Certificate of Sponsorship from an approved charity sponsor",
-      "Work must be voluntary and directly related to the charity's mission",
-      "Applicant must not receive pay for work other than reasonable expenses",
-      "Financial maintenance requirement met or certified by sponsor",
+      "You must be at least 18 years old when you apply",
+      "A valid Certificate of Sponsorship from an approved charity sponsor",
+      "Genuine unpaid voluntary work that directly contributes to the charity's purpose",
+      "At least £1,270 in savings held for 28 consecutive days, unless exempt",
+      "Compliance with previous visa history and immigration suitability requirements",
     ],
     documentsRequired: [
       "Certificate of Sponsorship reference number",
-      "Proof of funds or sponsor maintenance endorsement on CoS",
-      "Valid passport with entry eligibility",
-      "Letter from charity outlining voluntary role and duties",
+      "Valid passport or travel document",
+      "Bank statements showing the required maintenance funds, unless exempt",
+      "Evidence of the voluntary role and sponsoring charity",
+      "Supporting information for any dependant applications",
     ],
     processSteps: [
       {
-        title: "Charity Matching & CoS",
-        description: "Confirmation of voluntary appointment with licensed charitable sponsor.",
+        title: "Find an Eligible Charity Sponsor",
+        description: "Secure a suitable voluntary position with an organisation holding the appropriate sponsor licence.",
       },
       {
-        title: "Financial Review",
-        description: "Ensuring maintenance allowance or personal savings are verified.",
+        title: "Obtain Your Certificate of Sponsorship",
+        description: "Your sponsor assigns a CoS containing details of your role and sponsorship.",
       },
       {
-        title: "Visa Lodgement",
-        description: "Online filing and biometric enrolment.",
+        title: "Prepare and Submit Your Application",
+        description: "Check eligibility, prepare documents, complete the online application and pay the required fees.",
       },
       {
-        title: "Community Impact",
-        description: "Arrival in the UK to commence voluntary mission.",
+        title: "Prove Identity and Await a Decision",
+        description: "Use the ID Check app or attend a biometric appointment before UK Visas and Immigration assesses your application.",
+      },
+    ],
+    contentSections: [
+      {
+        heading: "Charity Worker Visa UK",
+        paragraphs: [
+          "Would you like to come to the UK to undertake voluntary work for a charitable organisation? The Charity Worker Visa UK route allows eligible individuals to carry out temporary unpaid voluntary work with an approved UK sponsor.",
+          "However, obtaining this visa involves meeting specific immigration requirements. You must have an eligible voluntary role, receive a Certificate of Sponsorship and demonstrate that you can support yourself during your stay.",
+          "Visa Direct Immigration provides UK Charity Worker Visa application support to help applicants understand their eligibility, prepare supporting documents and navigate the Home Office application process.",
+          "Contact Visa Direct Immigration to discuss your eligibility and application requirements.",
+        ],
+      },
+      {
+        heading: "UK Charity Worker Visa Application Services",
+        paragraphs: [
+          "Applying for a Temporary Charity Worker Visa involves more than securing a voluntary position. Your sponsoring organisation, the nature of your work and your personal circumstances must meet the relevant immigration requirements.",
+          "Our Charity Worker Visa services can help with:",
+        ],
+        bullets: [
+          "Assessing your eligibility under the Charity Worker route.",
+          "Understanding sponsorship and Certificate of Sponsorship requirements.",
+          "Reviewing your voluntary role and supporting evidence.",
+          "Preparing financial and personal documents.",
+          "Completing the online visa application.",
+          "Understanding visa conditions, extensions and dependant applications.",
+          "Whether you are applying from overseas or already hold permission under the Charity Worker route, our team can provide guidance based on your circumstances.",
+        ],
+      },
+      {
+        heading: "Charity Worker Visa UK Requirements",
+        paragraphs: [
+          "To qualify for a UK Charity Worker Visa, you must meet the eligibility conditions under the Temporary Work immigration route.",
+          "The main requirements include:",
+        ],
+        bullets: [
+          "Age: You must be at least 18 years old when you apply.",
+          "Eligible charity sponsor: You must have an offer of voluntary work from a UK organisation authorised to sponsor Charity Workers. Your sponsor must hold the appropriate Home Office sponsor licence.",
+          "Certificate of Sponsorship: Your sponsor must issue you a valid Certificate of Sponsorship containing details of your voluntary role and proposed stay. You must normally use the reference within three months of it being assigned.",
+          "Genuine voluntary work: Your role must involve unpaid voluntary fieldwork that directly contributes to the charitable purpose of your sponsoring organisation. Ordinary administrative, retail, sales, fundraising and office maintenance roles generally do not qualify under this route.",
+          "Financial requirement: You generally need at least £1,270 available to support yourself in the UK. You must normally have held this money for 28 consecutive days, with the final day falling within 31 days of your application. You may be exempt if you have already lived in the UK with valid permission for at least 12 months or your A-rated sponsor certifies your maintenance.",
+          "Previous visa history: You may not qualify if you have held a Charity Worker or Religious Worker Visa during the previous 12 months, unless you can demonstrate that you were outside the UK throughout that period.",
+          "You must also satisfy the relevant immigration suitability requirements and genuinely intend to undertake the voluntary role described in your sponsorship certificate.",
+        ],
+      },
+      {
+        heading: "How to Apply for a Charity Worker Visa UK",
+        paragraphs: [
+          "The UK Charity Worker Visa application process involves securing sponsorship and submitting an online application with the required supporting information.",
+        ],
+        subsections: [
+          { heading: "1. Find an eligible charity sponsor", paragraphs: ["Secure a suitable voluntary position with an organisation holding the appropriate sponsor licence."] },
+          { heading: "2. Obtain your Certificate of Sponsorship", paragraphs: ["Your organisation assigns a CoS containing details of your role and sponsorship."] },
+          { heading: "3. Check your eligibility", paragraphs: ["Confirm that you meet the age, financial and immigration history requirements."] },
+          { heading: "4. Prepare your documents", paragraphs: ["Gather your passport, financial evidence and other supporting information."] },
+          { heading: "5. Complete the online application", paragraphs: ["Apply through the official GOV.UK Temporary Work application process."] },
+          { heading: "6. Pay the required fees", paragraphs: ["Pay the visa application fee and Immigration Health Surcharge, where applicable."] },
+          { heading: "7. Prove your identity", paragraphs: ["Use the UK Immigration: ID Check app or attend a biometric appointment, depending on your circumstances."] },
+          { heading: "8. Wait for a decision", paragraphs: ["UK Visas and Immigration will assess your application. You can normally apply up to three months before the start date stated on your Certificate of Sponsorship, which must also be valid when you submit your application."] },
+        ],
+      },
+      {
+        heading: "Charity Worker Visa UK Cost in 2026",
+        paragraphs: [
+          "The cost of a UK Charity Worker Visa includes the application fee and Immigration Health Surcharge.",
+        ],
+        table: {
+          headers: ["Application expense", "Amount"],
+          rows: [
+            ["Charity Worker Visa application fee", "£340"],
+            ["Immigration Health Surcharge per year", "£1,035"],
+          ],
+        },
+        paragraphsAfterTable: [
+          "The Immigration Health Surcharge depends on the length of permission granted and the applicable charging rules. Applicants and eligible dependants must each pay their own relevant fees.",
+          "Additional expenses may include document translations, tuberculosis tests where required and travel costs. Always check the latest Home Office fees before applying.",
+        ],
+      },
+      {
+        heading: "UK Charity Worker Visa Processing Time",
+        paragraphs: [
+          "The UK Charity Worker Visa processing time depends on where you submit your application.",
+          "The usual processing estimates are:",
+        ],
+        bullets: [
+          "Outside the UK: Around 3 weeks.",
+          "Inside the UK: Around 8 weeks.",
+          "These are standard processing estimates rather than guaranteed decision dates. Additional checks, interviews or requests for further evidence may cause delays. Faster processing options may be available for eligible applicants at an additional cost.",
+        ],
+      },
+      {
+        heading: "How Long Can You Stay on a Temporary Charity Worker Visa?",
+        paragraphs: [
+          "A Temporary Charity Worker Visa allows you to stay in the UK for up to 12 months or the period stated on your Certificate of Sponsorship plus 14 days, whichever is shorter.",
+          "You may be able to extend your visa from inside the UK if you continue to meet the eligibility requirements. However, your total stay under the route cannot exceed the permitted 12-month maximum.",
+          "Your permission is linked to your sponsored voluntary role. You cannot receive payment for the work, take a permanent job or access public funds. Reasonable expenses and appropriate accommodation may be permitted under the relevant rules.",
+          "The Charity Worker route is not a direct route to Indefinite Leave to Remain. If you intend to remain in the UK after your permission ends, you may need to explore another eligible immigration category.",
+        ],
+      },
+      {
+        heading: "Can You Bring Dependants on a UK Charity Worker Visa?",
+        paragraphs: [
+          "Yes. Eligible Charity Worker Visa applicants can bring their partner and dependent children to the UK, provided they meet the relevant dependant requirements.",
+          "Your partner will generally need to demonstrate that your relationship meets the immigration rules. Children must also satisfy the applicable age, relationship and care requirements.",
+          "Additional maintenance funds are normally required for dependants unless the relevant sponsor maintenance arrangements apply. Their visa permission will generally be linked to your own immigration permission.",
+        ],
+      },
+      {
+        heading: "How Visa Direct Immigration Can Help with Your Charity Worker Visa",
+        paragraphs: [
+          "Understanding the Temporary Charity Worker Visa requirements and preparing the correct application can be challenging, particularly when sponsorship and financial evidence are involved.",
+          "Visa Direct Immigration provides application guidance to help you:",
+        ],
+        bullets: [
+          "Assess your eligibility for the Charity Worker route.",
+          "Understand your sponsor and Certificate of Sponsorship requirements.",
+          "Organise the documents needed for your application.",
+          "Understand the application process and relevant fees.",
+          "Explore extension and other immigration options where applicable.",
+          "We support applicants in Birmingham, Bristol, Reading and across the UK.",
+          "Ready to start your UK Charity Worker Visa application? Contact Visa Direct Immigration today and book your immigration consultation.",
+        ],
+      },
+      {
+        heading: "Frequently Asked Questions",
+        subsections: [
+          { heading: "Who is eligible for a UK Charity Worker Visa?", paragraphs: ["Applicants aged 18 or over may qualify if they have a valid Certificate of Sponsorship from an approved charitable organisation, intend to undertake eligible unpaid voluntary work and meet the financial and immigration requirements."] },
+          { heading: "Can I apply for a Charity Worker Visa without a sponsor?", paragraphs: ["No. You must have a valid Certificate of Sponsorship from an organisation authorised to sponsor Charity Workers before applying."] },
+          { heading: "Can I receive a salary on a Temporary Charity Worker Visa?", paragraphs: ["No. The role must involve unpaid voluntary work. However, reasonable expenses and appropriate accommodation may be permitted under the relevant rules."] },
+          { heading: "Can I extend my UK Charity Worker Visa?", paragraphs: ["Yes. You may apply for an extension from inside the UK before your current permission expires, provided you continue to meet the requirements. Your total stay cannot exceed 12 months under this route."] },
+          { heading: "Can a Charity Worker Visa lead to permanent residence?", paragraphs: ["No. The Charity Worker route does not lead directly to settlement. You may need to qualify for another immigration route if you wish to remain in the UK longer term."] },
+        ],
       },
     ],
     faqs: [
@@ -4477,44 +4760,202 @@ export const servicesData: ServiceItem[] = [
   {
   id: "creative-worker-visa",
   slug: "creative-worker-visa",
-  title: "Creative Worker Visa",
+  title: "Creative Worker Visa UK",
   category: "Business Visas",
-  shortDescription: "Temporary Worker visa for artists, actors, dancers, musicians, and crew working in the UK creative sector.",
-  heroTagline: "Perform, produce, and work across the UK creative industries.",
-  seoTitle: "Creative Worker Visa UK | Temporary Work Immigration Support",
-  seoDescription: "Guidance for creative professionals, artists, musicians, and production crew applying for the UK Temporary Work Creative Worker visa.",
+  shortDescription:
+    "Applying for a Creative Worker Visa UK? Get guidance on sponsorship, eligibility, documents, fees, processing times and visa extensions.",
+  heroTagline:
+    "Understand your Creative Worker Visa UK sponsorship, eligibility and application requirements.",
+  seoTitle: "Creative Worker Visa UK | Application Support",
+  seoDescription:
+    "Applying for a Creative Worker Visa UK? Get guidance on sponsorship, eligibility, documents, fees, processing times and visa extensions.",
   iconName: "Sparkles",
   keyFeatures: [
-    "Creative sector code of practice compliance check",
-    "Certificate of Sponsorship verification",
-    "Stay up to 12 months with extension options up to 24 months",
-    "Multiple engagements and touring group representation"
+    "Creative work and sponsorship eligibility assessment",
+    "Certificate of Sponsorship and supporting document review",
+    "Creative Worker visa concession guidance",
+    "Fees, processing times, extensions and dependant guidance"
   ],
   eligibilityRequirements: [
-    "Assigned CoS by a licensed UK creative sponsor",
-    "Role meets Creative Worker Code of Practice criteria or market testing",
-    "Agreed remuneration meeting National Minimum Wage or equity/industry standard",
-    "Personal savings of at least £1,276 unless certified by sponsor"
+    "Eligible creative work in the arts, entertainment or cultural sector",
+    "A valid Certificate of Sponsorship from a licensed UK sponsor",
+    "Genuine temporary employment that does not fill a permanent position",
+    "At least £1,270 in savings unless sponsor maintenance or an exemption applies",
+    "Compliance with the relevant immigration and suitability requirements"
   ],
   documentsRequired: [
-    "Valid passport",
-    "CoS reference number",
-    "Schedule of UK engagements, rehearsals, or performances",
-    "Bank statements showing maintenance funds"
+    "Valid passport or accepted travel document",
+    "Certificate of Sponsorship reference number and sponsorship details",
+    "Bank statements showing at least £1,270 in eligible savings, where required",
+    "Sponsor maintenance confirmation, where applicable",
+    "Tuberculosis test certificate, if required",
+    "Additional supporting evidence relevant to your circumstances"
   ],
   processSteps: [
     {
-      title: "Sponsorship & Engagement Schedule",
-      description: "Reviewing production contracts and ensuring sector code compliance."
+      title: "Check Eligibility and Sponsorship",
+      description: "Confirm that your creative role, sponsor and personal circumstances meet the route requirements."
     },
     {
-      title: "CoS Issuance & Visa Lodgement",
-      description: "Assigning Certificate of Sponsorship and submitting visa application."
+      title: "Obtain a Certificate of Sponsorship",
+      description: "Your approved UK sponsor provides a valid certificate detailing your role, pay and engagement dates."
     },
     {
-      title: "Performances & Engagements",
-      description: "Undertaking designated engagements with flexibility for eligible secondary roles."
+      title: "Submit the Application and Await a Decision",
+      description: "Prepare documents, complete the online application, prove your identity and wait for Home Office approval."
     }
+  ],
+  contentSections: [
+    {
+      heading: "Creative Worker Visa UK",
+      paragraphs: [
+        "The Creative Worker Visa UK allows eligible creative professionals to come to the United Kingdom for temporary work in the arts, entertainment and cultural industries. It is suitable for people such as actors, dancers, musicians, performers, artists and certain film or television production professionals who have been offered eligible work by a UK organisation.",
+      ],
+    },
+    {
+      heading: "Creative Worker Visa UK Application Support",
+      paragraphs: [
+        "Applying for a Creative Worker Visa involves more than receiving an offer from a UK production company, theatre or entertainment organisation. Your work must meet the requirements of the immigration route, and your UK sponsor must hold the appropriate sponsor licence.",
+        "Visa Direct Immigration can help you understand the application requirements, identify the supporting documents you may need and prepare for the different stages of the process. Our team can also explain the role of your Certificate of Sponsorship and the conditions attached to your visa.",
+        "Whether you are an actor joining a production, a musician performing at an event or another eligible creative professional, understanding the correct route is important before making travel arrangements.",
+        "Planning to work in the UK as a creative professional? Book an immigration consultation to discuss your circumstances and application requirements.",
+      ],
+    },
+    {
+      heading: "Creative Worker Visa UK Requirements",
+      paragraphs: [
+        "To qualify for a Creative Worker Visa UK, you must meet the Home Office requirements relating to your proposed work, sponsorship, finances and personal circumstances.",
+        "The main requirements include:",
+      ],
+      bullets: [
+        "Eligible creative work: You must be coming to the UK to undertake work within the creative sector that meets the route's requirements.",
+        "Licensed sponsor: Your employer or sponsoring organisation must hold the appropriate Home Office sponsor licence.",
+        "Certificate of Sponsorship: You must receive a valid Certificate of Sponsorship containing details of your role, pay and proposed work.",
+        "Genuine employment: You must genuinely intend and be able to undertake the sponsored role.",
+        "Financial requirement: You must normally demonstrate that you have at least £1,270 in personal savings, unless your sponsor certifies maintenance or an exemption applies.",
+        "Temporary position: The sponsored role must not be used to fill a permanent position.",
+        "Suitability requirements: You must satisfy the relevant immigration and suitability conditions.",
+        "Your sponsor must also demonstrate that the role meets the relevant creative sector requirements and that the proposed pay and working arrangements comply with applicable employment rules.",
+        "A job offer alone does not guarantee eligibility. The nature of the work, sponsorship arrangements and supporting evidence must all meet the immigration requirements.",
+        "Unsure whether your proposed creative work qualifies? Contact Visa Direct Immigration for guidance before starting your application.",
+      ],
+    },
+    {
+      heading: "Who Can Apply for a UK Creative Worker Visa?",
+      paragraphs: [
+        "The Creative Worker route is intended for people who can make a unique contribution to the UK's cultural life through eligible creative work.",
+        "Examples of professionals who may qualify include:",
+      ],
+      bullets: [
+        "Actors and theatre performers.",
+        "Dancers and choreographers.",
+        "Musicians, singers and members of performing groups.",
+        "Entertainers and artists.",
+        "Eligible film and television production crew.",
+        "Models contributing to the UK fashion industry.",
+        "The list is not exhaustive. Eligibility depends on the actual role, the nature of the work and whether the sponsor can meet the relevant requirements.",
+      ],
+    },
+    {
+      heading: "Creative Worker Visa Documents Required",
+      paragraphs: [
+        "Preparing the correct documents is an important part of the application. The Home Office needs to verify your identity, sponsorship arrangements and ability to meet the financial requirements.",
+        "Depending on your circumstances, you may need:",
+      ],
+      bullets: [
+        "Valid passport: A current passport or accepted travel document confirming your identity and nationality.",
+        "Certificate of Sponsorship: Your reference number and relevant sponsorship details from the UK organisation.",
+        "Financial evidence: Bank statements showing at least £1,270 in eligible personal savings, where required.",
+        "Sponsor maintenance confirmation: Evidence through your Certificate of Sponsorship if your sponsor agrees to maintain and accommodate you for the required initial period.",
+        "Tuberculosis test certificate: If you are applying from a country where a TB certificate is required for your circumstances.",
+        "Additional supporting documents: Any further evidence requested based on your nationality, personal history or application circumstances.",
+        "Visa Direct Immigration can help you understand which documents are relevant to your circumstances and identify potential gaps before submission.",
+        "Need help checking your sponsorship documents? Book a consultation to discuss your Creative Worker Visa application.",
+      ],
+    },
+    {
+      heading: "How to Apply for a Creative Worker Visa UK",
+      paragraphs: [
+        "Most applicants must apply online from outside the UK, up to three months before their sponsored work is due to begin.",
+      ],
+      subsections: [
+        { heading: "1. Check your eligibility", paragraphs: ["Make sure your role and personal circumstances meet the Creative Worker Visa requirements."] },
+        { heading: "2. Obtain a Certificate of Sponsorship", paragraphs: ["Your approved UK sponsor must provide a valid certificate detailing your role, pay and engagement dates."] },
+        { heading: "3. Prepare your documents", paragraphs: ["Gather your passport, financial evidence and any additional supporting documents."] },
+        { heading: "4. Complete the online application", paragraphs: ["Submit your details through the official UK government application service."] },
+        { heading: "5. Pay the fees", paragraphs: ["Pay the visa application fee and Immigration Health Surcharge where applicable."] },
+        { heading: "6. Prove your identity", paragraphs: ["Use the ID Check app or attend a visa application centre for biometric enrolment, depending on your circumstances."] },
+        { heading: "7. Wait for a decision", paragraphs: ["The Home Office will assess your application. Wait for approval before travelling to begin your sponsored work."] },
+      ],
+    },
+    {
+      heading: "Creative Worker Visa Concession",
+      paragraphs: [
+        "The Creative Worker visa concession allows certain eligible creative professionals to enter the UK for short-term engagements of up to three months without applying for a full Creative Worker Visa in advance.",
+        "To qualify, you must be a non-visa national, have a valid Certificate of Sponsorship from an approved sponsor, undertake eligible creative work for no more than three months, meet the relevant financial and immigration requirements and have an Electronic Travel Authorisation if required.",
+        "On arrival, you must speak to a Border Force officer and present your Certificate of Sponsorship rather than using the automatic ePassport gates. Visa nationals generally need to apply for the full visa before travelling.",
+        "The concession cannot be extended into a longer Creative Worker stay. Unsure whether you qualify for the concession? Contact our team for guidance before travelling.",
+      ],
+    },
+    {
+      heading: "Creative Worker Visa Fee and Other Costs",
+      paragraphs: [
+        "The Creative Worker Visa fee is separate from the Immigration Health Surcharge and any personal expenses associated with your application.",
+      ],
+      table: {
+        headers: ["Cost", "Amount"],
+        rows: [
+          ["Creative Worker Visa application fee", "£340"],
+          ["Immigration Health Surcharge", "Usually £1,035 per year"],
+          ["Maintenance requirement", "£1,270 in savings, where applicable"],
+        ],
+      },
+      paragraphsAfterTable: [
+        "The £1,270 maintenance requirement is not a payment to the Home Office. It is evidence that you can support yourself during your initial period in the UK. An eligible A-rated sponsor may certify maintenance on your Certificate of Sponsorship instead.",
+        "The Immigration Health Surcharge is generally payable for the period of permission granted, where applicable. Additional costs may arise if you use optional priority services or need supporting documents and translations.",
+        "The Creative Worker visa concession does not involve the standard visa application fee, although an Electronic Travel Authorisation may be required.",
+        "Check the latest GOV.UK fee information before applying because immigration charges can change.",
+      ],
+    },
+    {
+      heading: "UK Creative Worker Visa Processing Time",
+      paragraphs: [
+        "The UK Creative Worker Visa processing time depends on where you apply and when you complete your identity and document requirements.",
+        "The usual decision times are:",
+      ],
+      bullets: [
+        "Applications outside the UK: Around three weeks.",
+        "Applications inside the UK: Around eight weeks.",
+      ],
+    },
+    {
+      heading: "How Visa Direct Immigration Can Help",
+      paragraphs: [
+        "Visa Direct Immigration provides application guidance to help creative professionals understand the relevant immigration requirements and prepare for the process.",
+        "Depending on your circumstances, our support may include:",
+      ],
+      bullets: [
+        "Reviewing your eligibility for the Creative Worker route.",
+        "Explaining the Certificate of Sponsorship requirements.",
+        "Identifying the supporting documents needed for your application.",
+        "Explaining the Creative Worker visa concession and its limitations.",
+        "Providing guidance on application fees and processing times.",
+        "Explaining extension requirements and dependant applications.",
+        "If you are searching for a Creative Worker Visa lawyer or solicitor, check the individual's professional qualifications and authorisation before instructing them. It is important to understand who will handle your case and what immigration services they are authorised to provide.",
+        "Visa Direct Immigration provides immigration application guidance from its offices in Birmingham, Bristol and Reading, supporting individuals who need help understanding UK immigration procedures.",
+        "Book Your Immigration Consultation to discuss your creative work, sponsorship arrangements and next steps.",
+      ],
+    },
+    {
+      heading: "Frequently Asked Questions",
+      subsections: [
+        { heading: "How long can I stay in the UK on a Creative Worker Visa?", paragraphs: ["You can normally stay for up to 12 months initially, or for the period covered by your Certificate of Sponsorship plus the permitted additional time, whichever is shorter. Eligible extensions may allow a total stay of up to 24 months with the same sponsor."] },
+        { heading: "Can I apply for a Creative Worker Visa without a Certificate of Sponsorship?", paragraphs: ["No. A valid Certificate of Sponsorship from an approved sponsor is normally required for a standard Creative Worker Visa application. Certain eligible non-visa nationals may instead use the Creative Worker visa concession for short engagements."] },
+        { heading: "Can I bring my family on a Creative Worker Visa?", paragraphs: ["Yes. Your eligible partner and dependent children may apply to join you as dependants. They must meet the relevant requirements and submit their own applications."] },
+        { heading: "Can I change employers on a Creative Worker Visa?", paragraphs: ["You may be able to change sponsors, but the new organisation must meet the sponsor requirements and assign a valid Certificate of Sponsorship. Changing sponsors can also affect the maximum period you are allowed to remain in the UK."] },
+        { heading: "Does the Creative Worker Visa lead to Indefinite Leave to Remain?", paragraphs: ["No. The Creative Worker route is temporary and does not provide a direct route to settlement. If you want to remain in the UK after your permission expires, you must qualify for another immigration route."] },
+      ],
+    },
   ],
   faqs: [
     {
@@ -4575,43 +5016,202 @@ export const servicesData: ServiceItem[] = [
   {
   id: "seasonal-worker-visa",
   slug: "seasonal-worker-visa",
-  title: "Seasonal Worker Visa",
+  title: "UK Seasonal Worker Visa",
   category: "Business Visas",
-  shortDescription: "Temporary visa to work in the UK for up to 6 months in the horticulture or poultry sectors with an approved scheme operator.",
-  heroTagline: "Short-term agricultural and seasonal work in the United Kingdom.",
-  seoTitle: "Seasonal Worker Visa UK | Agricultural Work Support | Visa Direct",
-  seoDescription: "Guidance on the UK Temporary Work Seasonal Worker visa for edible horticulture and poultry processing with approved scheme operators.",
+  shortDescription:
+    "Applying for a UK Seasonal Worker Visa? Understand eligibility, sponsorship, documents, fees and processing times. Get immigration application guidance.",
+  heroTagline:
+    "Understand your UK Seasonal Worker Visa eligibility, sponsorship and application requirements.",
+  seoTitle: "UK Seasonal Worker Visa | Application Support",
+  seoDescription:
+    "Applying for a UK Seasonal Worker Visa? Understand eligibility, sponsorship, documents, fees and processing times. Get immigration application guidance.",
   iconName: "Clock",
   keyFeatures: [
-    "Approved scheme operator allocation check",
-    "Up to 6 months temporary stay in horticulture",
-    "National Minimum Wage & working time compliance",
-    "Straightforward entry clearance support"
+    "Approved scheme operator and sponsorship guidance",
+    "Horticulture and poultry eligibility assessment",
+    "Financial evidence and document review",
+    "Application, processing and permitted-stay guidance"
   ],
   eligibilityRequirements: [
-    "At least 18 years of age on date of application",
-    "Valid Certificate of Sponsorship from an authorized UK scheme operator",
-    "Adequate maintenance funds (£1,276) or sponsor maintenance certification",
-    "Intention to leave the UK at the end of the permitted stay"
+    "At least 18 years old when applying",
+    "Eligible horticulture or poultry production employment",
+    "Valid Certificate of Sponsorship from an authorised scheme operator",
+    "At least £1,270 in savings, unless sponsor maintenance applies",
+    "No Seasonal Worker permission during the four months before the new CoS start date"
   ],
   documentsRequired: [
-    "Valid passport",
-    "CoS reference number",
-    "Evidence of personal funds if required"
+    "Valid passport or accepted travel document",
+    "Certificate of Sponsorship reference and job details",
+    "Bank statements showing £1,270 held for 28 consecutive days, unless exempt",
+    "TB certificate where required",
+    "Certified translations for documents not in English or Welsh"
   ],
   processSteps: [
     {
-      title: "Scheme Operator Placement",
-      description: "Securing endorsement and CoS from an authorized scheme operator."
+      title: "Find an Approved Scheme Operator",
+      description: "Identify a genuine authorised sponsor offering eligible seasonal employment."
     },
     {
-      title: "Application Submission",
-      description: "Filing application from outside the UK with fast-track processing options."
+      title: "Receive Your Certificate of Sponsorship",
+      description: "Your approved sponsor provides the reference and details of your seasonal job."
     },
     {
-      title: "UK Seasonal Employment",
-      description: "Undertaking designated agricultural or food processing employment."
+      title: "Submit the Application and Complete Biometrics",
+      description: "Prepare documents, apply online, prove your identity and await the Home Office decision."
     }
+  ],
+  contentSections: [
+    {
+      heading: "UK Seasonal Worker Visa",
+      paragraphs: [
+        "The UK Seasonal Worker Visa allows eligible overseas workers to come to the United Kingdom for temporary employment in horticulture or poultry production. It provides an opportunity to undertake seasonal jobs such as fruit picking, vegetable harvesting, flower production and certain poultry processing activities.",
+        "Officially known as the Temporary Work Seasonal Worker visa, this route requires sponsorship through an approved scheme operator. Applicants must receive a valid Certificate of Sponsorship and meet the relevant age and financial requirements before applying.",
+      ],
+    },
+    {
+      heading: "UK Seasonal Worker Visa Application Support",
+      paragraphs: [
+        "Applying for a Seasonal Worker Visa involves more than finding a temporary job in the UK. You must obtain an eligible position through an approved scheme operator that can sponsor your application.",
+        "Visa Direct Immigration can help you understand the visa requirements, explain the role of sponsorship and identify the documents you may need. We can also provide guidance on application procedures, financial evidence and the conditions attached to your permission.",
+        "Whether you are planning to work in agriculture, crop harvesting or poultry production, understanding the correct immigration route is an important first step.",
+        "Planning to apply for a Seasonal Worker Visa UK? Book an immigration consultation to discuss your circumstances and application requirements.",
+      ],
+    },
+    {
+      heading: "Seasonal Worker Visa UK Requirements",
+      paragraphs: [
+        "To qualify for a UK Seasonal Worker Visa, you must meet the Home Office requirements relating to your age, employment, sponsorship and finances.",
+        "The main requirements include:",
+      ],
+      bullets: [
+        "Age: You must be at least 18 years old when applying.",
+        "Eligible employment: Your job must be in an approved horticulture or poultry production role.",
+        "Approved sponsor: You must have sponsorship from an authorised scheme operator.",
+        "Certificate of Sponsorship: You need a valid Certificate of Sponsorship containing details of your job and employment period.",
+        "Financial requirement: You must normally have at least £1,270 in personal savings, unless your sponsor certifies maintenance.",
+        "Previous seasonal work: You must not have been in the UK as a Seasonal Worker during the four months immediately before the start date on your new Certificate of Sponsorship.",
+        "There is no general English language test requirement for this visa route. However, you must satisfy the relevant immigration suitability requirements.",
+      ],
+    },
+    {
+      heading: "Seasonal Worker Visa UK Eligibility: Which Jobs Qualify?",
+      paragraphs: [
+        "The Seasonal Worker route is limited to specific types of temporary employment. It does not cover every agricultural or food production job.",
+        "There are two main employment categories:",
+      ],
+      subsections: [
+        {
+          heading: "1. Horticulture",
+          paragraphs: [
+            "This category includes seasonal work involving the growing and harvesting of fruit such as strawberries, apples and raspberries; vegetables, potatoes and salad crops; flowers, bulbs and ornamental plants; and mushrooms and certain nursery plants. Jobs may involve planting, picking, sorting, packing and preparing crops.",
+          ],
+        },
+        {
+          heading: "2. Poultry Production",
+          paragraphs: [
+            "This category covers specific approved roles connected with poultry production, including certain processing, dressing, plucking, packing and handling jobs. Poultry work has a restricted seasonal period, running from 2 October to 31 December each year.",
+          ],
+        },
+      ],
+      paragraphsAfterTable: [
+        "Your job must fall within the permitted occupation and sponsorship requirements. Having an offer for an unrelated farm or food production position does not automatically make you eligible.",
+        "Not sure whether your job qualifies? Contact our team for guidance on the Seasonal Worker eligibility requirements.",
+      ],
+    },
+    {
+      heading: "Approved Sponsors for the UK Seasonal Worker Visa",
+      paragraphs: [
+        "An approved scheme operator is essential to the Seasonal Worker application process. You cannot obtain a Certificate of Sponsorship from just any farm, recruitment agency or employer.",
+        "The UK government recognises approved scheme operators that manage recruitment and sponsorship under this route. These include:",
+      ],
+      bullets: [
+        "AGRI-HR",
+        "Concordia (UK) Ltd",
+        "Fruitful Jobs",
+        "HOPS Labour Solutions Ltd",
+        "Pro-Force Limited",
+        "RE Recruitment, for poultry workers only",
+        "You should check the latest official list before accepting an offer because approved sponsors and their permitted activities may change.",
+        "Be careful of recruitment scams. A Certificate of Sponsorship is not something you should purchase from an individual or an unverified agent. Approved scheme operators should not charge workers money in exchange for sponsorship.",
+      ],
+    },
+    {
+      heading: "UK Seasonal Worker Visa Documents Required",
+      paragraphs: [
+        "Preparing the correct documents helps the Home Office verify your identity, employment and financial circumstances.",
+        "Depending on your application, you may need:",
+      ],
+      bullets: [
+        "Valid passport: A current passport or accepted travel document confirming your identity and nationality.",
+        "Certificate of Sponsorship: Your reference number and details of the sponsored seasonal job.",
+        "Bank statements: Evidence showing that you have maintained at least £1,270 for the required 28 consecutive days, unless your sponsor certifies maintenance.",
+        "Additional evidence: Any further documents requested based on your nationality or personal circumstances.",
+        "TB certificate: If required for your circumstances and country of application.",
+        "Your Certificate of Sponsorship must contain accurate information about your role, salary and employment dates. Documents that are not in English or Welsh generally need certified translations.",
+      ],
+    },
+    {
+      heading: "How to Apply for a Seasonal Worker Visa in the UK",
+      paragraphs: [
+        "Most applicants must apply online from outside the UK. You can normally submit your application up to three months before the employment start date stated on your Certificate of Sponsorship.",
+      ],
+      subsections: [
+        { heading: "1. Find an approved scheme operator", paragraphs: ["Identify an authorised sponsor offering eligible seasonal employment. Make sure the opportunity and recruitment arrangements are genuine."] },
+        { heading: "2. Receive your Certificate of Sponsorship", paragraphs: ["Your approved sponsor will provide a reference number containing your job and employment details."] },
+        { heading: "3. Prepare your supporting documents", paragraphs: ["Gather your passport, financial evidence and any additional documents required for your circumstances."] },
+        { heading: "4. Complete the online application", paragraphs: ["Use the official UK government application service and provide accurate information about your identity and sponsored employment."] },
+        { heading: "5. Pay the application fee", paragraphs: ["Pay the required visa fee and follow the instructions for proving your identity."] },
+        { heading: "6. Complete biometric checks", paragraphs: ["Depending on your circumstances, you may need to attend a visa application centre to provide your fingerprints and photograph or use the relevant identity verification service."] },
+        { heading: "7. Wait for a decision", paragraphs: ["The Home Office will assess your application and supporting evidence. You should wait for approval before travelling to the UK to begin work."] },
+      ],
+    },
+    {
+      heading: "UK Seasonal Worker Visa Fee",
+      paragraphs: [
+        "The standard UK Seasonal Worker Visa application fee is £340.",
+        "You must also have enough money to support yourself when arriving in the UK. The normal financial requirement is £1,270 in savings, held for at least 28 consecutive days. This is not a payment to the Home Office.",
+        "An approved A-rated sponsor can certify maintenance on your Certificate of Sponsorship, confirming that it will support you up to the required amount during your first month in the UK.",
+        "The route normally permits stays of six months or less, so the Immigration Health Surcharge is not normally payable.",
+      ],
+    },
+    {
+      heading: "UK Seasonal Worker Visa Processing Time",
+      paragraphs: [
+        "The usual UK Seasonal Worker Visa processing time is around three weeks after you have completed the identity checks and submitted the required documents.",
+        "However, processing can take longer if the Home Office needs additional information, further checks or clarification about your sponsorship.",
+        "You can normally apply up to three months before your job is due to start. It is sensible to allow enough time for your application and avoid making non-refundable travel arrangements before receiving a decision.",
+      ],
+    },
+    {
+      heading: "How Long Can You Stay on a UK Seasonal Worker Visa?",
+      paragraphs: [
+        "The permitted stay depends on the type of seasonal employment.",
+      ],
+      bullets: [
+        "Horticulture: You can stay for up to six months in any ten-month period.",
+        "Poultry production: You can stay between 2 October and 31 December in the relevant year, subject to your sponsored employment dates.",
+        "You can enter the UK up to 14 days before the job start date stated on your Certificate of Sponsorship, provided your visa is valid.",
+        "The visa is temporary and does not allow you to remain in the UK indefinitely.",
+      ],
+    },
+    {
+      heading: "How Visa Direct Immigration Can Help",
+      paragraphs: [
+        "Visa Direct Immigration provides application guidance to help individuals understand the Seasonal Worker route and its requirements.",
+        "Depending on your circumstances, our support may include:",
+      ],
+      bullets: [
+        "Reviewing your eligibility for the Seasonal Worker route.",
+        "Explaining approved sponsorship and Certificate of Sponsorship requirements.",
+        "Identifying the documents needed for your application.",
+        "Explaining financial evidence and application fees.",
+        "Guiding you through the online application process.",
+        "Explaining visa conditions and permitted employment periods.",
+        "If you are searching for a UK Seasonal Worker Visa lawyer or solicitor, check the professional's qualifications and authorisation before instructing them. It is important to understand who will handle your application and what services they are authorised to provide.",
+        "Visa Direct Immigration provides immigration application guidance from its offices in Birmingham, Bristol and Reading, supporting individuals who need help understanding UK immigration procedures.",
+        "Book Your Immigration Consultation to discuss your eligibility, sponsorship documents and application process.",
+      ],
+    },
   ],
   faqs: [
     {

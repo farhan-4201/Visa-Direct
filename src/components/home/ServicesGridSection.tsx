@@ -12,8 +12,39 @@ import {
   Users,
   ChevronRight,
   ArrowRight,
+  CheckCircle2,
 } from "lucide-react";
 import { servicesData } from "@/data/servicesData";
+
+const excludedHomepageServiceSlugs = new Set([
+  "innovator-visa-uk",
+  "family-visa",
+  "sole-representative-visa",
+  "youth-mobility-visa",
+  "long-term-work-visa",
+  "scale-up-visa",
+  "uk-expansion-worker-visa",
+  "startup-visa",
+  "secondment-worker-visa",
+  "creative-worker-visa",
+  "international-agreement-visa",
+  "seasonal-worker-visa",
+  "entrepreneur-visa-tier-1",
+  "graduate-trainee-visa",
+  "minister-of-religion-visa",
+  "service-supplier-visa",
+  "investor-visa-tier-1",
+  "global-talent-visa",
+  "sports-person-visa",
+  "innovator-visa",
+  "investor-visa",
+  "business-development-visa",
+  "talent-visa",
+  "parents-visa",
+  "child-dependent-visa",
+  "adult-dependent-relative",
+  "naturalization",
+]);
 
 export function ServicesGridSection() {
   // Helper to resolve icon by name
@@ -55,13 +86,16 @@ export function ServicesGridSection() {
           </p>
         </div>
 
-        {/* 9 Services Grid */}
+        {/* Featured Services Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {servicesData.map((service) => (
+          {servicesData
+            .filter((service) => !excludedHomepageServiceSlugs.has(service.slug))
+            .map((service) => (
             <div
               key={service.id}
-              className="bg-white rounded-2xl p-7 border border-slate-200 shadow-sm hover:shadow-xl hover:border-[#0c4c6d]/40 transition-all duration-300 flex flex-col justify-between group"
+              className="group relative bg-white hover:bg-[#f4f8fa] rounded-2xl p-6 border border-slate-200 hover:border-[#0c4c6d] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between overflow-hidden"
             >
+              <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-[#0c4c6d] to-[#c68a4c] opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               <div>
                 {/* Icon Box */}
                 <div className="w-16 h-16 rounded-2xl bg-[#f4f8fa] border border-slate-100 flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-[#0c4c6d] transition-all duration-300">
@@ -76,16 +110,25 @@ export function ServicesGridSection() {
                 </span>
 
                 {/* Title */}
-                <h3 className="text-xl font-bold text-slate-900 mb-2.5 group-hover:text-[#0c4c6d] transition-colors">
+                <h3 className="text-lg font-bold text-slate-900 mb-2 group-hover:text-[#0c4c6d] transition-colors">
                   <Link href={`/services/${service.slug}`} className="focus:outline-none">
                     {service.title}
                   </Link>
                 </h3>
 
                 {/* Short description */}
-                <p className="text-sm text-slate-600 leading-relaxed mb-6">
+                <p className="text-xs text-slate-600 leading-relaxed mb-4">
                   {service.shortDescription}
                 </p>
+
+                <div className="space-y-1.5 mb-6 text-xs text-slate-700">
+                  {service.keyFeatures.slice(0, 3).map((feature) => (
+                    <div key={feature} className="flex items-start gap-2">
+                      <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600 shrink-0 mt-0.5" />
+                      <span className="line-clamp-1">{feature}</span>
+                    </div>
+                  ))}
+                </div>
               </div>
 
               {/* Action Button */}
@@ -106,7 +149,7 @@ export function ServicesGridSection() {
                 </Link>
               </div>
             </div>
-          ))}
+            ))}
         </div>
 
         {/* View All Services Footer Prompt */}
