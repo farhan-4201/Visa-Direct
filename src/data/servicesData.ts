@@ -3636,8 +3636,261 @@ export const servicesData: ServiceItem[] = [
     slug: "global-business-mobility",
     title: "Global Business Mobility Visa",
     category: "Business Visas",
-    shortDescription: "Transfer key overseas employees, expansion specialists, and senior executives to the UK branch.",
-    heroTagline: "Seamless intra-company personnel relocation for multinational groups and overseas parent entities.",
+    shortDescription:
+      "Explore Global Business Mobility Visa requirements, routes, fees and extensions with guidance on UK sponsorship and work visa applications.",
+    heroTagline:
+      "Understand the Global Business Mobility routes and prepare your UK work visa application with confidence.",
+    seoTitle: "Global Business Mobility Visa UK | Application Support",
+    seoDescription:
+      "Explore Global Business Mobility Visa requirements, routes, fees and extensions. Get guidance on UK sponsorship and work visa applications.",
+    primaryCta: "Book Your Immigration Consultation",
+    heroImage: "/images/services/global-business-mobility.webp",
+    supportingImages: [
+      {
+        src: "/images/service-business.webp",
+        alt: "Global Business Mobility Visa UK business documents",
+        caption: "Guidance for sponsorship, overseas employment and UK assignments",
+      },
+    ],
+    contentSections: [
+      {
+        heading: "Global Business Mobility Visa UK",
+        paragraphs: [
+          "The Global Business Mobility Visa allows eligible overseas workers to undertake temporary work assignments in the United Kingdom. It is designed for international businesses that need to transfer employees, establish a UK presence, provide contracted services or complete specific commercial assignments.",
+          "There are five routes under this category, each with different eligibility, sponsorship and employment requirements. Applicants must choose the route that matches their circumstances and have the necessary sponsorship before applying.",
+          "Visa Direct Immigration provides guidance on UK work visa applications, helping individuals understand the relevant requirements, prepare supporting documents and navigate the application process.",
+        ],
+      },
+      {
+        heading: "What is the Global Business Mobility Visa UK?",
+        paragraphs: [
+          "The Global Business Mobility route is a group of temporary work visas introduced for overseas businesses and their employees. It allows qualifying organisations to send workers to the UK for specific business purposes without using the standard Skilled Worker route.",
+          "The visa category covers five pathways:",
+        ],
+        bullets: [
+          "1. Senior or Specialist Worker",
+          "2. Graduate Trainee",
+          "3. UK Expansion Worker",
+          "4. Service Supplier",
+          "5. Secondment Worker",
+        ],
+        subsections: [
+          {
+            heading: "Temporary Route",
+            paragraphs: [
+              "The Global Business Mobility Visa does not provide a direct route to indefinite leave to remain. Applicants should therefore understand the temporary nature of this permission before applying.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Five Global Business Mobility Visa Routes",
+        paragraphs: [
+          "Choosing the correct route is essential because the eligibility conditions and permitted length of stay vary.",
+        ],
+        subsections: [
+          {
+            heading: "1. Senior or Specialist Worker Visa",
+            paragraphs: [
+              "This route is for senior managers and specialist employees transferring to a UK business linked to their overseas employer. It replaced the former Intra-company Transfer route.",
+            ],
+          },
+          {
+            heading: "2. Graduate Trainee Visa",
+            paragraphs: [
+              "This pathway is for employees taking part in a structured graduate training programme leading to a senior management or specialist position. The UK assignment must form part of that training.",
+            ],
+          },
+          {
+            heading: "3. UK Expansion Worker Visa",
+            paragraphs: [
+              "This route allows senior managers or specialist employees to come to the UK to establish a branch of an overseas business that has not started trading in the UK.",
+            ],
+          },
+          {
+            heading: "4. Service Supplier Visa",
+            paragraphs: [
+              "This route is for overseas employees or self-employed professionals providing services to a UK business under a qualifying international trade agreement.",
+            ],
+          },
+          {
+            heading: "5. Secondment Worker Visa",
+            paragraphs: [
+              "This pathway is for employees of overseas organisations assigned to the UK under qualifying high-value contracts with UK sponsors.",
+              "The correct category depends on your employer, job responsibilities and the purpose of your UK assignment.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Global Business Mobility Requirements",
+        paragraphs: [
+          "Although each route has its own eligibility conditions, applicants must meet several general requirements.",
+          "These commonly include:",
+        ],
+        bullets: [
+          "Age: You must be at least 18 when applying.",
+          "Sponsorship: You need a valid Certificate of Sponsorship from an approved UK sponsor.",
+          "Employment: You must meet the relevant overseas employment or professional experience requirement.",
+          "Eligible occupation: Your proposed role must meet the skill and occupation requirements for your chosen route.",
+          "Salary: You must meet the applicable salary threshold and occupation-specific going rate where required.",
+          "Financial support: You must normally demonstrate access to at least £1,270 in personal savings unless an exemption applies or your sponsor certifies maintenance.",
+        ],
+        subsections: [
+          {
+            heading: "Route-Specific Employment Periods",
+            paragraphs: [
+              "The overseas employment period differs between routes. For example, Senior or Specialist Workers generally need 12 months of overseas employment unless an exception applies, while Graduate Trainees usually need three months. Other routes have their own conditions.",
+              "There is no single salary threshold for every Global Business Mobility application. The required amount depends on the route, occupation and applicable immigration rules.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Global Business Mobility Visa Documents",
+        paragraphs: [
+          "The documents required depend on the route and your personal circumstances. Preparing accurate evidence helps the Home Office assess your identity, employment and sponsorship.",
+          "Common documents include:",
+        ],
+        bullets: [
+          "A valid passport or travel document.",
+          "Your Certificate of Sponsorship reference number.",
+          "Evidence of your overseas employment or professional experience, where required.",
+          "Bank statements showing the required maintenance funds, if applicable.",
+          "Details of your UK job, salary and occupation code.",
+          "A tuberculosis test certificate, if required based on your country of residence.",
+          "An ATAS certificate, if your role involves research covered by the relevant requirements.",
+          "Relationship documents if your partner or children are applying as dependants.",
+        ],
+        subsections: [
+          {
+            heading: "Additional Route Evidence",
+            paragraphs: [
+              "Some routes require additional evidence about an international trade agreement, a high-value contract or plans to establish a UK business. Documents not written in English or Welsh must normally have a certified translation.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "How to Apply for a Global Business Mobility Visa",
+        paragraphs: [
+          "Applications are submitted online through the official UK government website. The process depends on whether you are applying from overseas, extending your current permission or switching from another eligible visa.",
+          "The general application process involves:",
+        ],
+        bullets: [
+          "1. Choose the correct route: Confirm whether your assignment falls under Senior or Specialist Worker, Graduate Trainee, UK Expansion Worker, Service Supplier or Secondment Worker.",
+          "2. Confirm eligibility: Check the employment, occupation, salary and experience requirements.",
+          "3. Obtain sponsorship: Ask your UK sponsor to issue a valid Certificate of Sponsorship.",
+          "4. Prepare documents: Gather your passport, financial evidence and any route-specific supporting documents.",
+          "5. Complete the application: Submit the correct online form with accurate personal and employment information.",
+          "6. Pay the fees: Pay the application fee and Immigration Health Surcharge where applicable.",
+          "7. Verify your identity: Use the UK Immigration: ID Check app if eligible or attend a biometric appointment.",
+        ],
+        subsections: [
+          {
+            heading: "When to Apply",
+            paragraphs: [
+              "You can generally apply up to three months before your intended start date, as recorded on your Certificate of Sponsorship. You should wait for the relevant immigration permission before starting your sponsored work.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Global Business Mobility Visa Fees",
+        paragraphs: [
+          "The application fee depends on the route and, for Senior or Specialist Workers, the length of permission requested.",
+        ],
+        table: {
+          headers: ["Visa route", "Application fee"],
+          rows: [
+            ["Senior or Specialist Worker, outside UK up to 3 years", "£819"],
+            ["Senior or Specialist Worker, outside UK over 3 years", "£1,618"],
+            ["Senior or Specialist Worker, applying inside UK up to 3 years", "£943"],
+            ["Senior or Specialist Worker, applying inside UK over 3 years", "£1,865"],
+            ["Graduate Trainee", "£340"],
+            ["UK Expansion Worker", "£340"],
+            ["Service Supplier", "£340"],
+            ["Secondment Worker", "£340"],
+          ],
+        },
+        paragraphsAfterTable: [
+          "You must also budget for the Immigration Health Surcharge, usually £1,035 per year for adults. Most applicants will need to show £1,270 in maintenance funds unless an exemption or sponsor certification applies.",
+          "The Certificate of Sponsorship fee is paid by the sponsoring employer, not the worker. Other employer sponsorship costs may also apply. Check the latest Home Office fee information before submitting an application.",
+        ],
+      },
+      {
+        heading: "Global Business Mobility Visa Extension",
+        paragraphs: [
+          "Some Global Business Mobility routes allow applicants to extend their permission from inside the UK, provided they continue to meet the relevant requirements.",
+          "The extension rules differ by category:",
+        ],
+        bullets: [
+          "Senior or Specialist Worker: Extensions may be possible up to the maximum permitted stay of five years in any six-year period, or nine years in any ten-year period for qualifying high earners.",
+          "Graduate Trainee: This visa cannot be extended. Applicants may be able to apply for another Graduate Trainee Visa from outside the UK.",
+          "UK Expansion Worker: You may extend by 12 months, up to a maximum stay of two years.",
+          "Service Supplier: Extensions may be possible if you remain under the qualifying contract and have not reached the maximum stay allowed by the relevant trade agreement.",
+          "Secondment Worker: You may be able to extend by a further 12 months, subject to the maximum two-year stay.",
+        ],
+        subsections: [
+          {
+            heading: "Dependants and Expiry Dates",
+            paragraphs: [
+              "You should apply before your current permission expires. Your dependants must also submit separate extension applications if they wish to remain beyond their existing visa expiry dates.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "How Visa Direct Immigration Can Help",
+        paragraphs: [
+          "Global Business Mobility applications involve several different routes, each with its own sponsorship, employment and financial conditions. Selecting the wrong pathway or submitting incomplete evidence can cause delays or refusal.",
+          "Visa Direct Immigration provides guidance to individuals navigating UK work visa applications. Our team can help you understand the relevant route, review document requirements and prepare for the application process.",
+          "If you are searching for Global Business Mobility lawyers or Global Business Mobility Visa lawyers, it is important to check the professional's qualifications and authorisation before instructing them. You can contact Visa Direct Immigration to discuss the application guidance available for your circumstances.",
+          "Book Your Immigration Consultation.",
+        ],
+      },
+      {
+        heading: "Frequently Asked Questions",
+        subsections: [
+          {
+            heading: "What are the five Global Business Mobility routes?",
+            paragraphs: [
+              "The five routes are Senior or Specialist Worker, Graduate Trainee, UK Expansion Worker, Service Supplier and Secondment Worker. Each is designed for a different type of overseas business assignment.",
+            ],
+          },
+          {
+            heading: "Who is eligible for a Global Business Mobility Visa?",
+            paragraphs: [
+              "Eligibility depends on the route. Applicants generally need to be at least 18, have qualifying overseas employment or professional experience, receive sponsorship from an approved UK organisation and meet the relevant job and salary requirements.",
+            ],
+          },
+          {
+            heading: "How much does a Global Business Mobility Visa cost?",
+            paragraphs: [
+              "Most routes have a £340 application fee. Senior or Specialist Worker fees vary according to the application location and length of permission. The Immigration Health Surcharge is payable separately.",
+            ],
+          },
+          {
+            heading: "Can I extend my Global Business Mobility Visa?",
+            paragraphs: [
+              "Some routes allow extensions, subject to their individual rules and maximum stay limits. Graduate Trainee permission cannot be extended, although another application from outside the UK may be possible.",
+            ],
+          },
+          {
+            heading: "Can I change employers on a Global Business Mobility Visa?",
+            paragraphs: [
+              "You cannot freely change employers. Your permission is linked to your sponsorship and job. If your employment changes, you may need a new Certificate of Sponsorship and an application to update your visa.",
+            ],
+          },
+          {
+            heading: "Does the Global Business Mobility Visa lead to ILR?",
+            paragraphs: [
+              "No. None of the five Global Business Mobility routes provides a direct settlement pathway. You may need to qualify for a different immigration route if you intend to settle permanently in the UK.",
+            ],
+          },
+        ],
+      },
+    ],
     iconName: "Briefcase",
     keyFeatures: [
       "Senior or Specialist Worker assignment guidance",
@@ -4298,49 +4551,306 @@ export const servicesData: ServiceItem[] = [
     slug: "innovator-visa-uk",
     title: "Innovator Founder Visa",
     category: "Business Visas",
-    shortDescription: "For innovative entrepreneurs looking to set up and run an innovative business in the UK.",
-    heroTagline: "Bring your disruptive business idea to the UK with endorsed government support.",
+    shortDescription:
+      "Get guidance on Innovator Founder Visa eligibility, business endorsement, application fees, documents and settlement requirements.",
+    heroTagline:
+      "Understand the Innovator Founder route and prepare your endorsed business visa application with confidence.",
+    seoTitle: "Innovator Founder Visa UK | Application Support",
+    seoDescription:
+      "Applying for an Innovator Founder Visa UK? Get guidance on business endorsement, eligibility, application fees, documents and settlement requirements.",
+    primaryCta: "Book Your Immigration Consultation",
+    heroImage: "/images/services/innovator-visa-uk.webp",
+    supportingImages: [
+      {
+        src: "/images/service-business.webp",
+        alt: "Innovator Founder Visa UK business plan and immigration documents",
+        caption: "Guidance for endorsement, business plans and visa applications",
+      },
+    ],
+    contentSections: [
+      {
+        heading: "Innovator Founder Visa",
+        paragraphs: [
+          "The Innovator Founder Visa UK allows entrepreneurs to establish and develop an innovative business in the United Kingdom. It is designed for individuals with a business idea that offers something different from existing products or services and has the potential to grow in the UK and international markets.",
+          "Unlike some other business immigration routes, this visa does not require a fixed minimum investment amount. However, applicants must demonstrate that their business idea is innovative, viable and scalable, and obtain endorsement from an approved endorsing body.",
+          "Successful applicants can stay in the UK for up to three years initially, with opportunities to extend their permission or apply for settlement if they meet the relevant requirements.",
+          "Visa Direct Immigration provides guidance to individuals who need help understanding the Innovator Founder route, preparing their supporting documents and navigating the application process.",
+        ],
+      },
+      {
+        heading: "Innovator Founder Visa Support",
+        paragraphs: [
+          "Applying for an Innovator Founder Visa involves several important stages, particularly developing a suitable business plan and obtaining endorsement. Applicants must demonstrate that their proposed business has genuine commercial potential and that they will play an active role in its development.",
+          "Visa Direct Immigration can help you understand the immigration requirements, identify the evidence needed for your application and prepare for the different stages of the process.",
+          "Our application guidance may include explaining the endorsement process, financial requirements, supporting documents and visa conditions. We can also help you understand the requirements for extending your permission or applying for settlement later.",
+          "Planning to establish a business in the UK? Book an immigration consultation to discuss your business plans and visa requirements.",
+        ],
+      },
+      {
+        heading: "Innovator Founder Visa UK Requirements",
+        paragraphs: [
+          "To qualify for an Innovator Founder Visa, you must meet the Home Office requirements relating to your business idea, endorsement, English language ability and personal finances.",
+          "The main Innovator Founder Visa UK requirements include:",
+        ],
+        bullets: [
+          "Innovative business idea: Your business must offer something original that meets a new or existing market need or provides a competitive advantage.",
+          "Viability: Your business plan must be realistic and achievable, supported by your skills, knowledge and available resources.",
+          "Scalability: You must demonstrate potential for growth, including the ability to create jobs and expand into national or international markets.",
+          "Endorsement: An approved endorsing body must assess your business and issue an endorsement letter.",
+          "Business involvement: You must have a key role in the day-to-day management and development of the business.",
+          "English language: You must meet the English language requirement at B2 level unless an exemption applies.",
+          "Financial requirement: You must normally demonstrate at least £1,270 in personal savings held for 28 consecutive days, unless an exemption applies.",
+        ],
+        subsections: [
+          {
+            heading: "Investment and Endorsement",
+            paragraphs: [
+              "There is no general requirement to invest a fixed minimum amount to qualify for the initial visa. However, you must show that your business plan is financially realistic and has the resources needed to develop.",
+              "Meeting these conditions does not automatically guarantee endorsement or visa approval. Your business proposal and personal eligibility must satisfy the relevant requirements.",
+              "Unsure whether your business idea meets the requirements? Contact Visa Direct Immigration for guidance before proceeding with your application.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "What Makes a Business Eligible for an Innovator Founder Visa?",
+        paragraphs: [
+          "The business idea is one of the most important parts of the application. The endorsing body will assess whether the proposal offers a genuine opportunity rather than simply introducing another business into an existing market.",
+          "Your business must demonstrate three key qualities:",
+        ],
+        subsections: [
+          {
+            heading: "1. Innovation",
+            paragraphs: [
+              "Your idea should introduce something new or provide a meaningful improvement to an existing market. It could involve a new product, service, technology or business model.",
+            ],
+          },
+          {
+            heading: "2. Viability",
+            paragraphs: [
+              "You must show that the business can realistically operate and succeed. This includes having a credible business plan, appropriate resources and the skills needed to develop the venture.",
+            ],
+          },
+          {
+            heading: "3. Scalability",
+            paragraphs: [
+              "Your proposal should demonstrate potential for growth beyond a small local operation. This may involve plans for creating employment, reaching new customers or expanding into international markets.",
+              "You must also show that you generated the business idea or made a significant contribution to it. Simply investing in or joining an existing trading business will not normally meet the new business requirements.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Innovator Founder Visa Endorsement Process",
+        paragraphs: [
+          "Before applying for the visa, you must obtain an endorsement letter from an approved endorsing body. This organisation assesses your business proposal against the Home Office's innovation, viability and scalability criteria.",
+          "The endorsement process generally involves:",
+        ],
+        bullets: [
+          "Preparing a detailed business plan.",
+          "Explaining the market need and what makes your idea different.",
+          "Demonstrating the commercial viability of the proposal.",
+          "Providing financial forecasts and growth plans.",
+          "Explaining your experience and intended role in the business.",
+          "Attending an assessment or interview if requested.",
+        ],
+        subsections: [
+          {
+            heading: "Endorsement Letter",
+            paragraphs: [
+              "If the endorsing body is satisfied, it can issue an endorsement letter supporting your application. This letter must normally be no more than three months old when you submit your visa application.",
+              "You should also understand that endorsement is not a guarantee of visa approval. The Home Office makes the final immigration decision and checks whether you meet the remaining requirements.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Documents Required for an Innovator Founder Visa UK",
+        paragraphs: [
+          "Your supporting documents must establish your identity, endorsement, English language ability and financial circumstances.",
+          "Depending on your situation, you may need:",
+        ],
+        bullets: [
+          "Valid passport: A current passport or other accepted travel document confirming your identity and nationality.",
+          "Endorsement letter: Confirmation from an approved endorsing body supporting your business proposal.",
+          "Business plan: Details of your idea, market research, business model, financial projections and growth strategy, where relevant to the endorsement process.",
+          "Financial evidence: Bank statements showing at least £1,270 in eligible savings held for 28 consecutive days, unless exempt.",
+          "English language evidence: An accepted qualification, test result or other evidence demonstrating B2 English ability, unless exempt.",
+          "TB certificate: If you are applying from a country where tuberculosis testing is required.",
+          "Certified translations: Translations of documents that are not in English or Welsh.",
+        ],
+        subsections: [
+          {
+            heading: "Consistent Evidence",
+            paragraphs: [
+              "The Home Office may request additional evidence depending on your circumstances. It is important to ensure that the information in your application is consistent with your endorsement and supporting documents.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "How to Apply for Innovator Founder Visa UK",
+        paragraphs: [
+          "The Innovator Founder Visa application is completed online. Applicants outside the UK must obtain entry clearance before travelling, while eligible individuals already in the UK may be able to switch from another visa category.",
+          "The main application stages are:",
+        ],
+        bullets: [
+          "1. Develop your business idea: Prepare a proposal demonstrating innovation, viability and scalability.",
+          "2. Obtain endorsement: Submit your business proposal to an approved endorsing body and obtain an endorsement letter.",
+          "3. Prepare supporting documents: Gather your passport, financial evidence, English language proof and other required documents.",
+          "4. Complete the online application: Provide accurate information about your identity, business proposal and immigration circumstances.",
+          "5. Pay the relevant fees: Pay the visa application fee and Immigration Health Surcharge where applicable.",
+          "6. Prove your identity: Use the UK Immigration: ID Check app or attend a biometric appointment, depending on your circumstances.",
+          "7. Wait for the decision: The Home Office will assess your application and supporting evidence before issuing a decision.",
+        ],
+        subsections: [
+          {
+            heading: "Check Your Endorsement",
+            paragraphs: [
+              "You should ensure that your endorsement letter is valid when you apply and that all information matches your supporting documents.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Innovator Founder Visa Fees",
+        paragraphs: [
+          "The Innovator Founder Visa fees include the immigration application charge, endorsement fee and ongoing contact point meeting fees. The total cost depends on where you apply and how long you remain in the UK.",
+        ],
+        table: {
+          headers: ["Fee", "Amount"],
+          rows: [
+            ["Initial application outside the UK", "£1,357"],
+            ["Application to switch or extend inside the UK", "£1,693"],
+            ["Endorsement fee", "£1,000"],
+            ["Each contact point meeting", "£500"],
+            ["Maintenance requirement", "£1,270 in savings"],
+          ],
+        },
+        paragraphsAfterTable: [
+          "The endorsement and contact point meeting fees are paid directly to the endorsing body. You must normally attend at least two contact point meetings during your initial three-year permission.",
+          "The Immigration Health Surcharge is payable separately and depends on the length of your visa. Dependants also have their own application fees and applicable healthcare surcharge.",
+          "These are the published charges at the time of writing. Check the latest GOV.UK fee information before submitting your application.",
+        ],
+      },
+      {
+        heading: "Innovator Founder Visa UK Processing Time",
+        paragraphs: [
+          "The usual Innovator Founder Visa UK processing time depends on whether you apply from outside or inside the UK.",
+        ],
+        bullets: [
+          "Outside the UK: Usually three weeks after completing the identity and document requirements.",
+          "Inside the UK: Usually eight weeks for switching or extension applications.",
+          "These are standard processing estimates rather than guaranteed decision dates. Applications may take longer if the Home Office needs additional information, verifies documents or carries out further checks.",
+          "You may be able to pay for a priority service where available.",
+        ],
+      },
+      {
+        heading: "How Visa Direct Immigration Can Help",
+        paragraphs: [
+          "Preparing an Innovator Founder Visa application requires careful attention to both business and immigration requirements. Understanding the endorsement process, preparing supporting evidence and completing the Home Office application can be challenging without clear guidance.",
+          "Visa Direct Immigration provides Innovator Founder Visa support to help applicants understand the process and prepare for the relevant requirements.",
+          "Depending on your circumstances, our guidance may include:",
+        ],
+        bullets: [
+          "Reviewing your immigration eligibility.",
+          "Explaining the business endorsement requirements.",
+          "Identifying the documents needed for your application.",
+          "Explaining financial and English language requirements.",
+          "Guiding you through the online application process.",
+          "Providing information about extensions and settlement requirements.",
+        ],
+        subsections: [
+          {
+            heading: "Application Support",
+            paragraphs: [
+              "Visa Direct Immigration provides immigration application guidance from its offices in Birmingham, Bristol and Reading, supporting individuals who need help understanding UK immigration procedures.",
+              "Book Your Immigration Consultation to discuss your business plans, eligibility and next steps.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Frequently Asked Questions",
+        subsections: [
+          {
+            heading: "What is the Innovator Founder Visa UK?",
+            paragraphs: [
+              "It is a UK immigration route for entrepreneurs who want to establish and develop an innovative, viable and scalable business. Applicants must obtain endorsement from an approved endorsing body and meet the relevant immigration requirements.",
+            ],
+          },
+          {
+            heading: "Is there a minimum investment requirement?",
+            paragraphs: [
+              "There is no fixed minimum investment amount for the initial Innovator Founder Visa application. However, you must demonstrate that your business plan is realistic and has the resources and potential to succeed.",
+            ],
+          },
+          {
+            heading: "Can I bring my family to the UK?",
+            paragraphs: [
+              "Yes. Your eligible partner and dependent children may apply to join you or remain in the UK. They must meet the relevant dependant requirements and submit their own applications.",
+            ],
+          },
+          {
+            heading: "Can I work outside my business?",
+            paragraphs: [
+              "Yes, you may undertake additional employment if the role requires at least RQF Level 3 skills. You must also continue to play an active role in managing and developing your endorsed business.",
+            ],
+          },
+          {
+            heading: "Does the Innovator Founder Visa lead to settlement?",
+            paragraphs: [
+              "Yes. You may qualify for Indefinite Leave to Remain after three years if you meet the residence, business success, endorsement and other settlement requirements.",
+            ],
+          },
+        ],
+      },
+    ],
     iconName: "Sparkles",
     keyFeatures: [
-      "Endorsement body liaison and pitch deck preparation",
-      "Innovative, viable, and scalable business plan assessment",
-      "No statutory minimum investment capital requirement",
-      "Accelerated 3-year settlement pathway to Indefinite Leave to Remain",
+      "Endorsement body and business plan guidance",
+      "Innovation, viability and scalability assessment",
+      "Application, document and financial evidence support",
+      "Extension and three-year settlement guidance",
     ],
     eligibilityRequirements: [
-      "Business idea endorsed by an approved Home Office endorsing body",
-      "Idea is innovative, viable, and capable of national and international growth",
-      "Active key role in day-to-day management of the business",
-      "English language proficiency at level B2 CEFR and maintenance funds",
+      "Business idea endorsed by an approved endorsing body",
+      "Idea is innovative, viable and capable of growth",
+      "Active key role in day-to-day management and development",
+      "B2 English and required personal maintenance funds",
     ],
     documentsRequired: [
-      "Endorsement letter issued by an approved endorsing body",
-      "Comprehensive business plan and financial model projections",
-      "Bank statements demonstrating required personal maintenance funds",
-      "Proof of qualifications, intellectual property, and market research",
+      "Valid passport and endorsement letter",
+      "Business plan, market research and financial projections",
+      "Bank statements demonstrating required maintenance funds",
+      "English language, TB and certified translation evidence where required",
     ],
     processSteps: [
       {
-        title: "Business Plan Refinement",
-        description: "Aligning your venture documentation with the criteria of designated endorsing bodies.",
+        title: "Develop Business Idea",
+        description: "Preparing a proposal demonstrating innovation, viability and scalability.",
       },
       {
-        title: "Endorsement Body Pitch & Interview",
-        description: "Presenting your innovation to the assessing panel to secure your endorsement letter.",
+        title: "Obtain Endorsement",
+        description: "Submitting the business proposal to an approved endorsing body.",
       },
       {
-        title: "Home Office Visa Lodgement",
-        description: "Submitting formal visa application once endorsement is secured.",
+        title: "Submit Visa Application",
+        description: "Completing the online application and providing supporting evidence.",
       },
       {
-        title: "3-Year Settlement Progression",
-        description: "Bi-annual checkpoint reviews leading to accelerated ILR in 3 years.",
+        title: "Build and Progress",
+        description: "Developing the endorsed business and meeting extension or settlement requirements.",
       },
     ],
     faqs: [
       {
-        question: "Can Innovator Founder visa holders take secondary employment?",
-        answer: "Yes, under current rules Innovator Founders can take secondary employment in skilled roles alongside managing their business.",
+        question: "Is there a minimum investment requirement?",
+        answer: "There is no fixed minimum investment amount for the initial Innovator Founder Visa application, but the business plan must be realistic and adequately resourced.",
+      },
+      {
+        question: "Does the Innovator Founder Visa lead to settlement?",
+        answer: "You may qualify for Indefinite Leave to Remain after three years if you meet the residence, business success, endorsement and other settlement requirements.",
       },
     ],
   },
@@ -4649,57 +5159,268 @@ export const servicesData: ServiceItem[] = [
       },
     ],
   },
-{
+    {
       id: "sole-representative-visa",
       slug: "sole-representative-visa",
-      title: "Sole Representative Visa",
+      title: "Sole Representative Visa Extension",
       category: "Business Visas",
-      shortDescription: "Establish a UK branch of an overseas company as a senior employee.",
-      heroTagline: "Expand your international business presence to the UK with the Sole Representative Visa.",
+      shortDescription:
+        "Understand Sole Representative Visa extension eligibility, required documents, fees, processing times and settlement options.",
+      heroTagline:
+        "Prepare your Sole Representative Visa extension application with guidance on ongoing business and employment requirements.",
+      seoTitle: "Sole Representative Visa Extension UK | Application Help",
+      seoDescription:
+        "Need to extend your Sole Representative Visa UK? Understand eligibility, required documents, fees, processing times and settlement options.",
+      primaryCta: "Book Your Immigration Consultation",
+      heroImage: "/images/services/sole-representative-visa.webp",
+      supportingImages: [
+        {
+          src: "/images/service-business.webp",
+          alt: "Sole Representative Visa extension business documents",
+          caption: "Support with overseas employer and UK business evidence",
+        },
+      ],
+      contentSections: [
+        {
+          heading: "Sole Representative Visa Extension",
+          paragraphs: [
+            "The Sole Representative Visa Extension allows eligible individuals already living in the UK under the Representative of an Overseas Business route to extend their permission to stay. It is intended for representatives who have established and are continuing to supervise a UK branch or wholly owned subsidiary of an overseas business.",
+            "The Sole Representative route closed to new applicants on 11 April 2022. However, people who already hold permission under this category can still apply for an extension if they meet the current Immigration Rules.",
+            "A successful extension can provide up to two additional years in the UK, allowing eligible applicants to complete the five-year qualifying period for indefinite leave to remain (ILR). Visa Direct Immigration provides guidance on extension applications, supporting documents and relevant immigration requirements.",
+          ],
+        },
+        {
+          heading: "Can You Still Extend a Sole Representative Visa?",
+          paragraphs: [
+            "Yes. Although the UK government no longer accepts initial applications under the Sole Representative route, existing visa holders can still apply to extend their stay.",
+            "The route is now covered by the Representative of an Overseas Business provisions in the Immigration Rules. An extension is not automatic. You must demonstrate that you continue to represent the same overseas employer and meet the requirements for supervising the UK business.",
+            "If you are an existing Sole Representative, you should prepare your application before your current permission expires. New applicants who want to establish a UK branch should explore the UK Expansion Worker route instead, as it is a different immigration category.",
+          ],
+        },
+        {
+          heading: "Sole Representative Visa Extension Requirements",
+          paragraphs: [
+            "To qualify for an extension, you must continue to meet the relevant employment and business conditions.",
+            "The main requirements include:",
+          ],
+          bullets: [
+            "Existing visa permission: You must already hold, or have last held, permission as a Sole Representative of an Overseas Business.",
+            "Same overseas employer: You must continue working for the employer that sponsored your original application.",
+            "Overseas headquarters: Your employer must maintain its headquarters and principal place of business outside the UK.",
+            "Registered UK business: You must have established and registered the UK branch or wholly owned subsidiary.",
+            "Supervisory responsibilities: You must continue working full-time and supervising the UK establishment you created.",
+            "Ongoing employment: Your overseas employer must confirm that it still requires you to perform the same representative role.",
+            "Business activity: The UK establishment must be operating in the same type of business activity as the overseas company.",
+          ],
+          subsections: [
+            {
+              heading: "Genuine Ongoing Role",
+              paragraphs: [
+                "Your role must remain genuine and consistent with the purpose of the original permission. You cannot simply use this extension to take up unrelated employment or operate a separate business.",
+              ],
+            },
+          ],
+        },
+        {
+          heading: "Overseas Business and UK Branch Requirements",
+          paragraphs: [
+            "The relationship between the overseas company and its UK establishment is central to the extension application.",
+            "The overseas business must remain active and trading, with its principal place of business outside the UK. It must also continue to own the UK subsidiary wholly if the UK presence was established as a subsidiary rather than a registered branch.",
+            "You must demonstrate that the UK establishment is actively conducting business on behalf of the overseas company. Evidence can include:",
+          ],
+          bullets: [
+            "Accounts and financial records.",
+            "Invoices issued to UK customers or organisations.",
+            "Letters from UK businesses you have worked with.",
+            "Details showing the value of commercial transactions.",
+            "Evidence of ongoing business relationships.",
+          ],
+          subsections: [
+            {
+              heading: "Business Activity",
+              paragraphs: [
+                "The UK branch or subsidiary must operate in the same type of business activity as the overseas organisation. A registered company with little or no genuine business activity may not provide sufficient evidence for an extension.",
+              ],
+            },
+          ],
+        },
+        {
+          heading: "Documents Required for a Sole Representative Visa Extension",
+          paragraphs: [
+            "Your supporting documents must demonstrate that you continue to meet the requirements of the route. The evidence should cover both your employment and the commercial activity of the UK establishment.",
+            "Common documents include:",
+          ],
+          bullets: [
+            "Your current passport and immigration details.",
+            "A letter from your overseas employer confirming that you will continue in the same role.",
+            "Evidence of salary paid during the 12 months immediately before your application.",
+            "Details of your salary and remuneration package.",
+            "A full description of the UK business's activities.",
+            "Business accounts, invoices and letters from UK organisations.",
+            "Companies House registration certificate for a UK branch.",
+            "Certificate of incorporation for a wholly owned UK subsidiary.",
+            "Share register or an accountant's letter confirming that the overseas company owns all shares in the subsidiary.",
+            "An employer's letter confirming that you supervise the UK branch or subsidiary.",
+          ],
+        },
+        {
+          heading: "How to Apply for a Sole Representative Visa Extension",
+          paragraphs: [
+            "You must apply online from within the UK before your current visa expires. The application process involves several important stages.",
+          ],
+          bullets: [
+            "1. Review your eligibility: Confirm that you continue to work for the same overseas employer and supervise the UK branch or subsidiary you established.",
+            "2. Obtain employer confirmation: Ask your overseas employer to provide a letter confirming your ongoing employment, role and remuneration.",
+            "3. Gather business evidence: Prepare accounts, invoices, customer correspondence and other records demonstrating the UK establishment's trading activity.",
+            "4. Collect company documents: Obtain the relevant Companies House certificates and ownership evidence for the UK branch or subsidiary.",
+            "5. Complete the online application: Provide accurate information about your employment, overseas employer and UK business activities.",
+            "6. Pay the application fee: Pay the relevant extension fee and Immigration Health Surcharge.",
+            "7. Submit supporting documents and biometrics: Upload the required evidence and attend a UKVCAS appointment to provide your fingerprints and photograph if requested.",
+          ],
+          subsections: [
+            {
+              heading: "Keep Consistent Records",
+              paragraphs: [
+                "You should keep copies of your application and supporting documents. It is also important to check that all information matches your employer's records and the details previously provided to the Home Office.",
+              ],
+            },
+          ],
+        },
+        {
+          heading: "Sole Representative Visa Extension Fee",
+          paragraphs: [
+            "The current Home Office application fee for extending a Representative of an Overseas Business visa from inside the UK is £943 per applicant.",
+            "You must also pay the Immigration Health Surcharge, which is normally £1,035 per year for adults.",
+          ],
+          table: {
+            headers: ["Expense", "Current cost"],
+            rows: [
+              ["Visa extension application", "£943"],
+              ["Immigration Health Surcharge for 2 years", "£2,070"],
+              ["Biometric appointment", "No Home Office fee"],
+              ["Document preparation or translation", "Depends on requirements"],
+            ],
+          },
+          paragraphsAfterTable: [
+            "For a standard two-year extension, the estimated Home Office application fee and adult healthcare surcharge total is £3,013 per applicant. Additional costs may apply if you need translations or professional application assistance.",
+            "Your partner and children must submit separate extension applications and pay their own applicable fees and healthcare surcharges. Always check the latest government charges before applying.",
+          ],
+        },
+        {
+          heading: "Sole Representative Visa Extension Processing Time",
+          paragraphs: [
+            "The usual processing time for an in-country Sole Representative Visa Extension is eight weeks after you have submitted your application, proved your identity and provided the required documents.",
+            "Some applications take longer if the Home Office needs to verify business records, request additional evidence or investigate the overseas company's activities.",
+            "You may be contacted if further information is required. Preparing complete and accurate business evidence before applying can help avoid unnecessary delays.",
+          ],
+          subsections: [
+            {
+              heading: "Travel While Your Application Is Pending",
+              paragraphs: [
+                "You must not travel outside the UK, Ireland, the Channel Islands or the Isle of Man while your extension application is pending. Doing so will normally result in your application being treated as withdrawn.",
+              ],
+            },
+          ],
+        },
+        {
+          heading: "How Visa Direct Immigration Can Help",
+          paragraphs: [
+            "A Sole Representative Visa Extension requires evidence of ongoing employment, genuine UK business activity and continued supervision of the overseas company's UK establishment. Incomplete records or inconsistencies in company ownership and trading evidence can create difficulties.",
+            "Visa Direct Immigration provides guidance to individuals preparing UK immigration applications. Our team can help you understand the extension requirements, organise supporting documents and prepare for the application process.",
+            "If your Sole Representative permission is approaching expiry, contact us to discuss your circumstances and the guidance available.",
+            "Book Your Immigration Consultation.",
+          ],
+        },
+        {
+          heading: "Frequently Asked Questions",
+          subsections: [
+            {
+              heading: "Is the Sole Representative Visa still available?",
+              paragraphs: [
+                "The route closed to new Sole Representative applicants on 11 April 2022. However, existing visa holders can still apply for an extension or settlement if they meet the relevant requirements.",
+              ],
+            },
+            {
+              heading: "How long can I extend my Sole Representative Visa for?",
+              paragraphs: [
+                "A standard extension can provide up to two additional years after the initial three-year permission, giving you up to five years in total.",
+              ],
+            },
+            {
+              heading: "Can I extend my Sole Representative Visa if my UK company is not trading?",
+              paragraphs: [
+                "You must provide evidence that the UK branch or subsidiary is carrying out genuine business activities. You may have difficulty meeting the extension requirements if the UK establishment has not generated business or cannot demonstrate its commercial activity.",
+              ],
+            },
+            {
+              heading: "Can I change my overseas employer during the extension period?",
+              paragraphs: [
+                "No. The extension requires you to continue working for the same overseas employer under the representative role. Changing employers can affect your eligibility.",
+              ],
+            },
+            {
+              heading: "Can my family extend their visas with mine?",
+              paragraphs: [
+                "Your partner and children must submit separate extension applications. Their permission does not automatically extend when you receive an extension.",
+              ],
+            },
+            {
+              heading: "Can I apply for ILR after five years on a Sole Representative Visa?",
+              paragraphs: [
+                "Yes, if you meet the five-year continuous residence, employment, business activity, English language and other settlement requirements.",
+              ],
+            },
+          ],
+        },
+      ],
       iconName: "Building",
       keyFeatures: [
-        "Setting up a UK branch office for your overseas company",
-        "Proving you are a senior employee or specialist service provider",
-        "Meeting the financial requirement of £50,000+ personal savings",
-        "No requirement for UK-based employer sponsorship"
+        "Extension eligibility and ongoing role assessment",
+        "Overseas employer and UK business evidence review",
+        "Companies House and ownership document preparation",
+        "Extension, travel and settlement guidance",
       ],
       eligibilityRequirements: [
-        "Working for an overseas company with a UK branch",
-        "Holding a senior position or specialist skills",
-        "Having £50,000+ in personal savings",
-        "Intending to live in the UK and establish the branch"
+        "Existing permission as a Sole Representative of an Overseas Business",
+        "Continued employment with the same overseas employer",
+        "Active UK branch or wholly owned subsidiary conducting genuine business",
+        "Full-time supervision of the UK establishment and qualifying residence",
       ],
       documentsRequired: [
-        "Company registration documents and Articles of Association",
-        "Bank statements showing £50,000+ personal savings",
-        "Letter from employer confirming senior role and UK branch plans",
-        "Proof of English language proficiency",
-        "Valid passport and immigration history"
+        "Current passport and immigration details",
+        "Overseas employer confirmation of role, salary and ongoing employment",
+        "Salary evidence for the preceding 12 months",
+        "UK business accounts, invoices and commercial correspondence",
+        "Companies House, incorporation and ownership documents",
       ],
       processSteps: [
         {
-          title: "Eligibility Assessment & Document Review",
-          description: "Assessing your senior role, company status, and financial readiness for the Sole Representative Visa."
+          title: "Review Eligibility",
+          description: "Confirming your continuing role, overseas employer and UK business activity.",
         },
         {
-          title: "Application Preparation & Submission",
-          description: "Compiling sponsorship documents, personal evidence, and submitting the online application to UKVI."
+          title: "Prepare Business Evidence",
+          description: "Organising accounts, invoices, ownership records and employer documents.",
         },
         {
-          title: "Biometrics & Decision",
-          description: "Attending biometric appointment and receiving visa decision for UK entry."
-        }
+          title: "Submit Extension Application",
+          description: "Completing the online application, paying the fee and providing biometrics.",
+        },
+        {
+          title: "Await Home Office Decision",
+          description: "Responding to any requests while maintaining consistent business evidence.",
+        },
       ],
       faqs: [
         {
-          question: "Can I bring my family with me on a Sole Representative Visa?",
-          answer: "Yes, you can bring your dependant partner and children under 18 as part of your application."
+          question: "How long can I extend my Sole Representative Visa for?",
+          answer: "A standard extension can provide up to two additional years after the initial three-year permission.",
         },
         {
-          question: "Do I need a job offer from a UK company?",
-          answer: "No, the Sole Representative Visa does not require UK employer sponsorship - you establish the branch yourself."
-        }
-      ]
+          question: "Can I apply for ILR after five years on a Sole Representative Visa?",
+          answer: "Yes, if you meet the five-year continuous residence, employment, business activity, English language and other settlement requirements.",
+        },
+      ],
     },
   {
     id: "youth-mobility-visa",
