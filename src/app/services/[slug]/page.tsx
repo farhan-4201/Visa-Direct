@@ -41,7 +41,9 @@ export async function generateMetadata({
 
   if (!service) {
     return {
-      title: "Service Not Found | Visa Direct Immigration",
+      title: "UK Visa & Immigration Services | Visa Direct Immigration",
+      description:
+        "Explore UK visa and immigration services, application guidance and support from Visa Direct Immigration.",
     };
   }
 
