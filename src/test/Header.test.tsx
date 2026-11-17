@@ -56,7 +56,6 @@ describe("Header Layout Component", () => {
       "Skilled Worker Visa",
       "Scale-Up Visa",
       "UK Expansion Worker Visa",
-      "Startup Visa",
       "Secondment Worker Visa",
       "Hiring Foreign Workers",
       "Youth Mobility Visa",
@@ -76,7 +75,6 @@ describe("Header Layout Component", () => {
       "Innovator Visa",
       "Investor Visa",
       "Business Development Visa",
-      "Talent Visa",
     ].forEach((service) => {
       expect(screen.getByText(service)).toBeInTheDocument();
     });

@@ -5879,55 +5879,6 @@ export const servicesData: ServiceItem[] = [
   ]
 },
   {
-  id: "startup-visa",
-  slug: "startup-visa",
-  title: "Startup Visa",
-  category: "Business Visas",
-  shortDescription: "Immigration route for early-stage entrepreneurs with an innovative, endorsed UK business idea.",
-  heroTagline: "Turn your innovative business concept into a thriving UK company.",
-  seoTitle: "UK Startup Visa Support | Entrepreneur Immigration | Visa Direct",
-  seoDescription: "Guidance for early-stage startup founders and entrepreneurs seeking endorsement, visa application, and progression into Innovator Founder.",
-  iconName: "Rocket",
-  keyFeatures: [
-    "Endorsing body selection and criteria matching",
-    "Business plan review against innovation, viability, and scalability",
-    "No minimum investment capital requirement",
-    "Seamless switching pathways into the Innovator Founder route"
-  ],
-  eligibilityRequirements: [
-    "At least 18 years old",
-    "Secured endorsement letter from an authorized UK endorsing body",
-    "Business idea is new, innovative, viable, and has potential for growth",
-    "English language proficiency at level B2"
-  ],
-  documentsRequired: [
-    "Official endorsement letter from approved body",
-    "Comprehensive business plan and financial projections",
-    "Valid passport",
-    "Maintenance savings evidence"
-  ],
-  processSteps: [
-    {
-      title: "Business Plan Refinement & Pitch",
-      description: "Structuring your business model and securing official endorsing body support."
-    },
-    {
-      title: "Visa Application Filing",
-      description: "Submitting application online with endorsement proof and biometrics."
-    },
-    {
-      title: "Business Development & Transition",
-      description: "Executing business milestones in the UK and preparing for Innovator Founder switching."
-    }
-  ],
-  faqs: [
-    {
-      question: "Can I take supplementary employment on a Startup Visa?",
-      answer: "Yes, you can work for other employers in addition to developing your startup business."
-    }
-  ]
-},
-  {
   id: "secondment-worker-visa",
   slug: "secondment-worker-visa",
   title: "Secondment Worker Visa",
@@ -7487,54 +7438,6 @@ export const servicesData: ServiceItem[] = [
     {
       question: "Which visa route is best for business developers?",
       answer: "The UK Expansion Worker, Skilled Worker, or Senior Specialist routes are most commonly used depending on company structure."
-    }
-  ]
-},
-  {
-  id: "talent-visa",
-  slug: "talent-visa",
-  title: "Talent Visa",
-  category: "Business Visas",
-  shortDescription: "Comprehensive legal assistance for exceptional international talent across technology, science, arts, and business.",
-  heroTagline: "Fast-track unsponsored routes for world-class talent and innovators.",
-  seoTitle: "UK Talent Visa Routes | Global Talent & Endorsement Support",
-  seoDescription: "Guidance across all UK talent routes for leaders in tech, research, academia, and the arts seeking work independence in Britain.",
-  iconName: "Award",
-  keyFeatures: [
-    "Endorsement qualification review across all approved bodies",
-    "Evidence portfolio building and reference letter optimization",
-    "No employer sponsorship or minimum salary constraints",
-    "Accelerated 3-year pathway to British settlement"
-  ],
-  eligibilityRequirements: [
-    "Recognized leadership or emerging leadership in an eligible sector",
-    "Endorsement from designated body (e.g. Tech Nation, Royal Society, Arts Council)",
-    "Strong portfolio of achievements, publications, patents, or notable works"
-  ],
-  documentsRequired: [
-    "Comprehensive evidence dossier of career impact",
-    "Letters of recommendation from recognized experts",
-    "CV and portfolio of works",
-    "Valid passport"
-  ],
-  processSteps: [
-    {
-      title: "Talent Eligibility Appraisal",
-      description: "Assessing accomplishments against the specific criteria of the endorsing body."
-    },
-    {
-      title: "Petition Compilation",
-      description: "Drafting the endorsement package and submitting the application."
-    },
-    {
-      title: "Visa Grant & UK Autonomy",
-      description: "Receiving your visa with complete career independence in the UK."
-    }
-  ],
-  faqs: [
-    {
-      question: "What makes the Talent route unique?",
-      answer: "You are not tied to any employer, do not need a sponsor, and can freely take employment, freelance, or run a business."
     }
   ]
 },

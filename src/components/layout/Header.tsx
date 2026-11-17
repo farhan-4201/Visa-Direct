@@ -27,7 +27,6 @@ const businessNavigationServices = [
   "Skilled Worker Visa",
   "Scale-Up Visa",
   "UK Expansion Worker Visa",
-  "Startup Visa",
   "Secondment Worker Visa",
   "Hiring Foreign Workers",
   "Youth Mobility Visa",
@@ -47,7 +46,6 @@ const businessNavigationServices = [
   "Innovator Visa",
   "Investor Visa",
   "Business Development Visa",
-  "Talent Visa",
 ] as const;
 
 const businessServiceAliases: Record<string, string> = {
