@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import {
   Calendar,
   Clock,
@@ -27,13 +27,14 @@ interface BookingState {
 }
 
 export function AppointmentScheduler() {
-  const availableDates = getAvailableAppointmentDates();
-  const defaultDate = availableDates[0].date;
+  const [availableDates, setAvailableDates] = useState<
+    ReturnType<typeof getAvailableAppointmentDates>
+  >([]);
   const [step, setStep] = useState<1 | 2 | 3 | 4>(1);
   const [booking, setBooking] = useState<BookingState>({
     consultationType: "video",
     consultationLocation: "Online Video Meeting",
-    selectedDate: defaultDate,
+    selectedDate: "",
     selectedTime: "10:00 AM",
     fullName: "",
     email: "",
@@ -45,6 +46,15 @@ export function AppointmentScheduler() {
   const [isSending, setIsSending] = useState(false);
   const [emailSent, setEmailSent] = useState(false);
   const [emailError, setEmailError] = useState<string | null>(null);
+
+  useEffect(() => {
+    const dates = getAvailableAppointmentDates(new Date());
+    setAvailableDates(dates);
+    setBooking((current) => ({
+      ...current,
+      selectedDate: current.selectedDate || dates[0].date,
+    }));
+  }, []);
 
   const consultationTypes = [
     {
@@ -517,7 +527,7 @@ export function AppointmentScheduler() {
                   setBooking({
                     consultationType: "video",
                     consultationLocation: "Online Video Meeting",
-                    selectedDate: defaultDate,
+                    selectedDate: availableDates[0]?.date ?? "",
                     selectedTime: "10:00 AM",
                     fullName: "",
                     email: "",

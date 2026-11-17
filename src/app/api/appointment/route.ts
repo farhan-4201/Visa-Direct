@@ -59,7 +59,7 @@ export async function POST(req: NextRequest) {
     );
   }
 
-  if (selectedDate && !isAvailableAppointmentDate(selectedDate)) {
+  if (selectedDate && !isAvailableAppointmentDate(selectedDate, new Date())) {
     return NextResponse.json(
       {
         success: false,

@@ -13,7 +13,7 @@ function toDateKey(date: Date) {
 }
 
 export function getAvailableAppointmentDates(
-  from = new Date(),
+  from: Date,
   count = 5
 ): AvailableAppointmentDate[] {
   const date = new Date(
@@ -41,7 +41,7 @@ export function getAvailableAppointmentDates(
 
 export function isAvailableAppointmentDate(
   value: string | undefined,
-  from = new Date()
+  from: Date
 ) {
   if (!value || !/^\d{4}-\d{2}-\d{2}$/.test(value)) {
     return false;
