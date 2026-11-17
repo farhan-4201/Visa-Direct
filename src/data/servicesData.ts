@@ -5932,10 +5932,202 @@ export const servicesData: ServiceItem[] = [
   slug: "secondment-worker-visa",
   title: "Secondment Worker Visa",
   category: "Business Visas",
-  shortDescription: "Global Business Mobility route for overseas workers seconded to the UK as part of a high-value contract.",
-  heroTagline: "Deliver high-value commercial contracts through temporary UK staff secondment.",
-  seoTitle: "Secondment Worker Visa UK | Global Business Mobility Support",
-  seoDescription: "Transfer staff to the UK for high-value contract execution under the Global Business Mobility Secondment Worker route.",
+  shortDescription:
+    "Understand UK Secondment Worker Visa eligibility, sponsorship, documents, application costs and processing times.",
+  heroTagline: "Prepare your UK Secondment Worker Visa application with clear sponsorship and contract guidance.",
+  seoTitle: "UK Secondment Worker Visa Lawyers in the UK",
+  seoDescription:
+    "Applying for a UK Secondment Worker Visa? Understand eligibility, sponsorship, documents, application costs and processing times. Get immigration guidance.",
+  primaryCta: "Book Your Immigration Consultation",
+  heroImage: "/images/services/secondment-worker-visa.webp",
+  supportingImages: [
+    {
+      src: "/images/service-business.webp",
+      alt: "UK Secondment Worker Visa contract and sponsorship documents",
+      caption: "Guidance for high-value contracts, sponsorship and secondment applications",
+    },
+  ],
+  contentSections: [
+    {
+      heading: "UK Secondment Worker Visa",
+      paragraphs: [
+        "The UK Secondment Worker Visa allows eligible employees of overseas organisations to undertake temporary work assignments in the United Kingdom. It is part of the Global Business Mobility route and applies where an overseas employer has a qualifying high-value contract with a UK organisation.",
+        "Applicants must meet specific employment and sponsorship requirements, including having worked for their overseas employer for at least six months. The UK organisation must also hold the appropriate sponsor licence and assign a valid Certificate of Sponsorship.",
+        "Visa Direct Immigration provides guidance on UK work visa applications, helping individuals understand eligibility, prepare documents and follow the relevant application process.",
+      ],
+    },
+    {
+      heading: "What is a UK Secondment Worker Visa?",
+      paragraphs: [
+        "The Secondment Worker Visa is designed for overseas employees who are temporarily transferred to the UK to work for a different organisation as part of a qualifying business arrangement.",
+        "Unlike the Skilled Worker Visa, this route is not intended for people independently seeking employment with a UK company. It applies to specific secondment arrangements connected to a high-value contract between the overseas employer and the UK sponsor.",
+        "The route is temporary and does not provide a direct path to permanent settlement.",
+      ],
+    },
+    {
+      heading: "Eligibility Criteria for a UK Secondment Worker Visa",
+      paragraphs: [
+        "To qualify, applicants must meet the employment, sponsorship and job requirements set by the Home Office.",
+        "The main eligibility criteria include:",
+      ],
+      bullets: [
+        "Existing overseas employment: You must already work for an overseas organisation that has a qualifying contract with your UK sponsor.",
+        "Six months of employment: You must normally have worked for your overseas employer outside the UK for at least six months.",
+        "High-value contract: Your overseas employer must have a contract worth at least £50 million with the UK organisation sponsoring you.",
+        "Approved UK sponsor: The UK organisation must hold the appropriate sponsor licence and have the relevant contract approved by the Home Office.",
+        "Certificate of Sponsorship: You must receive a valid CoS containing details of your proposed UK role.",
+        "Eligible occupation: Your job must appear on the list of occupations permitted under the Secondment Worker route.",
+        "Minimum age: You must be at least 18 years old when you apply.",
+      ],
+      subsections: [
+        {
+          heading: "Contract and Role Check",
+          paragraphs: [
+            "Your employer should confirm that the contract and your proposed role meet the requirements before you begin the application. Having an overseas employer or a UK business contact alone is not enough to qualify.",
+          ],
+        },
+      ],
+    },
+    {
+      heading: "High-Value Contract and Sponsorship Requirements",
+      paragraphs: [
+        "The high-value contract is central to this visa route. The overseas organisation must have a qualifying contract with the UK sponsor worth at least £50 million.",
+        "The UK organisation must be authorised to sponsor Secondment Workers and have the relevant contract registered and approved by the Home Office. The UK sponsor is responsible for assigning your Certificate of Sponsorship.",
+      ],
+      bullets: [
+        "Your personal details.",
+        "Job title and occupation code.",
+        "Details of the UK sponsor.",
+        "Proposed employment dates.",
+        "Information about the sponsored role.",
+      ],
+      subsections: [
+        {
+          heading: "Certificate of Sponsorship Validity",
+          paragraphs: [
+            "You must use the CoS reference number when completing your visa application. It is normally valid for three months from the date it is assigned, so you should apply within that period.",
+          ],
+        },
+      ],
+    },
+    {
+      heading: "UK Secondment Worker Visa Documents",
+      paragraphs: [
+        "Preparing the correct documents helps the Home Office verify your identity, employment, sponsorship and ability to support yourself in the UK.",
+        "You will generally need:",
+      ],
+      bullets: [
+        "A valid passport or other accepted travel document.",
+        "Your Certificate of Sponsorship reference number.",
+        "Your job title and occupation code.",
+        "Your UK sponsor's name and sponsor licence number.",
+        "Bank statements showing the required maintenance funds, if applicable.",
+        "Evidence of your employment with the overseas organisation, if requested.",
+        "Tuberculosis test results, if required based on your country of residence.",
+        "Proof of your relationship with your partner or children if they are applying as dependants.",
+        "An ATAS certificate, if your sponsored research role requires one.",
+      ],
+      subsections: [
+        {
+          heading: "Employment Evidence and Translations",
+          paragraphs: [
+            "The Home Office may request evidence that you have worked for your overseas employer outside the UK for at least six months. Documents that are not in English or Welsh must normally be accompanied by a certified translation.",
+          ],
+        },
+      ],
+    },
+    {
+      heading: "Application Process of UK Secondment Worker Visa",
+      paragraphs: [
+        "You must apply online for a Secondment Worker Visa. The process depends on whether you are applying from outside the UK, extending your current permission or switching from another eligible visa category.",
+      ],
+      bullets: [
+        "1. Confirm your eligibility: Check your overseas employment, high-value contract and proposed UK job.",
+        "2. Obtain your Certificate of Sponsorship: Your UK sponsor must assign a valid CoS.",
+        "3. Prepare your documents: Gather your passport, financial evidence and employment records.",
+        "4. Complete the online application: Provide accurate identity, immigration, sponsor and employment information.",
+        "5. Pay the application fee: Pay the visa application fee and Immigration Health Surcharge.",
+        "6. Prove your identity: Use the ID Check app or attend a biometric appointment.",
+        "7. Wait for the decision: The Home Office will assess your application and evidence.",
+      ],
+      subsections: [
+        {
+          heading: "When to Apply",
+          paragraphs: [
+            "You can generally apply up to three months before the start date stated on your Certificate of Sponsorship. Do not travel to begin sponsored work until you have received the required permission.",
+          ],
+        },
+      ],
+    },
+    {
+      heading: "UK Secondment Worker Visa Cost",
+      paragraphs: [
+        "The current Secondment Worker Visa application fee is £340 per applicant. You must also budget for the Immigration Health Surcharge and any required maintenance funds.",
+      ],
+      table: {
+        headers: ["Expense", "Amount"],
+        rows: [
+          ["Visa application fee", "£340"],
+          ["Immigration Health Surcharge", "Usually £1,035 per year for adults"],
+          ["Maintenance funds", "Usually £1,270"],
+          ["Document translation", "Depends on requirements"],
+        ],
+      },
+      paragraphsAfterTable: [
+        "The £1,270 maintenance requirement is money you must have available to support yourself, not a fee paid to the Home Office. It must normally be held for 28 consecutive days, with the final day within 31 days of applying.",
+        "Your partner and children will have separate application fees, healthcare surcharges and financial requirements if they apply as dependants.",
+      ],
+    },
+    {
+      heading: "How Visa Direct Immigration Can Help",
+      paragraphs: [
+        "A Secondment Worker application involves more than submitting an online form. The overseas employment relationship, high-value contract, UK sponsor and eligible occupation must all meet the relevant requirements.",
+        "Visa Direct Immigration provides guidance to individuals navigating UK work visa applications. Our team can help you understand the eligibility criteria, identify the documents needed and prepare for the application process.",
+        "If you are planning to apply for a UK Secondment Worker Visa, contact us to discuss your circumstances and the support available. Book Your Immigration Consultation.",
+      ],
+    },
+    {
+      heading: "Frequently Asked Questions",
+      subsections: [
+        {
+          heading: "Who can apply for a UK Secondment Worker Visa?",
+          paragraphs: [
+            "An existing employee of an overseas organisation may qualify if their employer has a qualifying high-value contract with an approved UK sponsor, they have worked for the overseas employer for at least six months and their UK job is eligible.",
+          ],
+        },
+        {
+          heading: "Does the Secondment Worker Visa require a job offer?",
+          paragraphs: [
+            "You need an eligible sponsored role and a valid Certificate of Sponsorship from the UK organisation. The secondment must be connected to the qualifying contract.",
+          ],
+        },
+        {
+          heading: "What is the minimum contract value for this visa?",
+          paragraphs: [
+            "The overseas employer's contract with the UK sponsor must be worth at least £50 million and meet the Home Office requirements.",
+          ],
+        },
+        {
+          heading: "Can I change employers on a Secondment Worker Visa?",
+          paragraphs: [
+            "You cannot freely change employers. If your job changes to a different occupation code, you must normally update your visa and obtain a new CoS from the same sponsor.",
+          ],
+        },
+        {
+          heading: "Can I extend my Secondment Worker Visa?",
+          paragraphs: [
+            "You may be able to extend your permission by a further 12 months if you continue to meet the requirements. The maximum stay is two years.",
+          ],
+        },
+        {
+          heading: "Does the Secondment Worker Visa lead to permanent residence?",
+          paragraphs: [
+            "No. You would need to qualify under a different immigration category if you intend to settle permanently in the UK.",
+          ],
+        },
+      ],
+    },
+  ],
   iconName: "Briefcase",
   keyFeatures: [
     "Eligible high-value contract assessment (min £50m value)",
@@ -6188,10 +6380,196 @@ export const servicesData: ServiceItem[] = [
   slug: "international-agreement-visa",
   title: "International Agreement Visa",
   category: "Business Visas",
-  shortDescription: "For individuals coming to the UK to do work covered by international law, diplomatic missions, or overseas governments.",
-  heroTagline: "Diplomatic, consular, and international treaty immigration representation.",
-  seoTitle: "International Agreement Visa UK | Diplomatic & Treaty Support",
-  seoDescription: "Legal representation for diplomatic personnel, international organisation staff, and private servants under international treaties.",
+  shortDescription:
+    "Understand International Agreement Visa eligibility, sponsorship, documents, fees and processing times.",
+  heroTagline: "Prepare your International Agreement Visa application with clear treaty and sponsorship guidance.",
+  seoTitle: "International Agreement Visa UK | Application Support",
+  seoDescription:
+    "Need an International Agreement Visa UK? Understand eligibility, sponsorship, documents, fees and processing times. Get guidance from Visa Direct Immigration.",
+  primaryCta: "Book Your Immigration Consultation",
+  heroImage: "/images/services/international-agreement-visa.webp",
+  supportingImages: [
+    {
+      src: "/images/service-business.webp",
+      alt: "International Agreement Visa UK diplomatic and treaty documents",
+      caption: "Guidance for international organisations, diplomatic households and treaty work",
+    },
+  ],
+  contentSections: [
+    {
+      heading: "International Agreement Visa UK",
+      paragraphs: [
+        "The International Agreement Visa UK, officially known as the Temporary Work – International Agreement visa, allows eligible overseas workers to come to the UK for certain jobs covered by international law or treaties. These include employment with overseas governments or recognised international organisations and private service in diplomatic households.",
+        "Applicants must meet specific eligibility conditions and have sponsorship from an approved employer before applying. Visa Direct Immigration provides guidance on UK immigration applications, helping applicants understand the requirements, prepare supporting documents and follow the correct application process.",
+      ],
+    },
+    {
+      heading: "What is the International Agreement Visa UK?",
+      paragraphs: [
+        "The International Agreement Visa is a temporary work route for people undertaking eligible services covered by international agreements or UK treaty obligations. It replaced the former Temporary Worker – International Agreement Worker visa under the T5 system.",
+        "The route generally covers overseas government or international organisation employees and private servants in diplomatic households. You cannot use this visa simply because your employer has an international business; the employment must fall within the specific permitted categories.",
+        "If you are contracted to provide services to a UK company, a different route, such as the Service Supplier visa under Global Business Mobility, may be more appropriate.",
+      ],
+    },
+    {
+      heading: "International Agreement Visa Requirements",
+      paragraphs: [
+        "To qualify, applicants must meet the relevant immigration requirements and have a genuine eligible job with an approved sponsor.",
+        "The main requirements include:",
+      ],
+      bullets: [
+        "Age: You must be at least 18 when you apply.",
+        "Sponsorship: You must have a valid Certificate of Sponsorship reference number from an approved employer.",
+        "Eligible employment: Your work must be covered by the International Agreement route.",
+        "Financial requirement: You will usually need at least £1,270 in personal savings, unless an exemption applies or your sponsor certifies maintenance.",
+        "Genuine role: You must intend and be able to carry out the job described in your sponsorship details.",
+        "Employment conditions: Your employer must comply with UK minimum wage and working time requirements.",
+      ],
+      subsections: [
+        {
+          heading: "Private Servants",
+          paragraphs: [
+            "Additional conditions apply to private servants in diplomatic households. Applicants applying from outside the UK must normally demonstrate English language ability at B1 level in reading, writing, speaking and listening.",
+          ],
+        },
+      ],
+    },
+    {
+      heading: "Who is Eligible for an International Agreement Visa?",
+      paragraphs: [
+        "Eligibility depends mainly on the type of work you will perform and the organisation employing you. You may qualify as an employee of an overseas government, an employee of a recognised international organisation or a private servant in a diplomatic household.",
+        "Your job duties, employment arrangements and sponsor details must meet the route's requirements. If your role does not fall into one of these categories, another UK work visa may be more suitable.",
+      ],
+    },
+    {
+      heading: "Certificate of Sponsorship for an International Agreement Visa",
+      paragraphs: [
+        "A Certificate of Sponsorship is an electronic reference containing information about your employer, job, salary and proposed employment. Your sponsor must hold the appropriate licence and assign a valid CoS before you submit your visa application.",
+        "Check your personal information, job title, employment dates, working hours, salary and the International Agreement route under which you are sponsored. A CoS is normally valid for three months from the date it is assigned.",
+      ],
+    },
+    {
+      heading: "International Agreement Visa UK Documents",
+      paragraphs: [
+        "Common documents include:",
+      ],
+      bullets: [
+        "A valid passport or travel document.",
+        "Your Certificate of Sponsorship reference number.",
+        "Bank statements showing the required maintenance funds, if applicable.",
+        "English language evidence if you are a private servant applying from outside the UK.",
+        "Relationship evidence for a partner or children applying as dependants.",
+        "A tuberculosis test certificate, if required.",
+        "An ATAS certificate, if your sponsored role involves qualifying research.",
+      ],
+      subsections: [
+        {
+          heading: "Translations and Extension Evidence",
+          paragraphs: [
+            "If you are extending as a private servant, you may also need recent payslips and bank statements proving salary. Documents not written in English or Welsh must normally have a certified translation.",
+          ],
+        },
+      ],
+    },
+    {
+      heading: "How to Apply for an International Agreement Visa UK",
+      paragraphs: [
+        "Applications are submitted online through the official UK government application service. Apply only after receiving your valid Certificate of Sponsorship.",
+      ],
+      bullets: [
+        "1. Confirm your eligibility.",
+        "2. Receive sponsorship and obtain your CoS reference.",
+        "3. Prepare your passport, financial evidence and route-specific documents.",
+        "4. Complete the online application accurately.",
+        "5. Pay the relevant visa fee and Immigration Health Surcharge.",
+        "6. Verify your identity using the ID Check app or a biometric appointment.",
+        "7. Wait for the Home Office decision.",
+      ],
+      subsections: [
+        {
+          heading: "Application Timing",
+          paragraphs: [
+            "You can generally apply up to three months before the start date stated on your CoS. You must not begin sponsored employment before receiving permission to work in the UK.",
+          ],
+        },
+      ],
+    },
+    {
+      heading: "International Agreement Visa UK Cost",
+      paragraphs: [
+        "The visa application fee is currently £340 per applicant, whether you apply from inside or outside the UK.",
+      ],
+      table: {
+        headers: ["Expense", "Current cost"],
+        rows: [
+          ["Visa application fee", "£340"],
+          ["Immigration Health Surcharge", "Usually £1,035 per year for adults"],
+          ["Maintenance funds", "Usually £1,270, if required"],
+          ["Translation or document services", "Depends on your requirements"],
+        ],
+      },
+      paragraphsAfterTable: [
+        "The £1,270 maintenance requirement is evidence of available funds, not a fee. It must normally have been held for 28 consecutive days, with the final day within 31 days of the application.",
+        "Your partner and children must also pay their own application fees and healthcare surcharge if they apply as dependants. Check the latest government fee information before applying.",
+      ],
+    },
+    {
+      heading: "International Agreement Visa Processing Time",
+      paragraphs: [
+        "Applications outside the UK usually take around three weeks, while applications inside the UK usually take around eight weeks after identity checks and document submission.",
+        "Some applications may take longer if additional information is needed or sponsorship details require verification. Priority services may be available for eligible applicants.",
+      ],
+    },
+    {
+      heading: "Can You Bring Dependants or Apply for ILR?",
+      paragraphs: [
+        "Eligible applicants can bring their partner and dependent children to the UK. Each family member must submit a separate application and meet the relevant requirements.",
+        "The International Agreement route is not a route to indefinite leave to remain. If you want to remain in the UK after your permission ends, you will need to consider another immigration route.",
+      ],
+    },
+    {
+      heading: "How Visa Direct Immigration Can Help",
+      paragraphs: [
+        "Applying under the International Agreement route requires the correct sponsorship, eligible employment and supporting evidence. Visa Direct Immigration provides UK immigration application guidance, helping individuals understand visa requirements, organise documents and prepare for the application process.",
+        "If you are searching for international agreement visa solicitors or professional application support, contact our team to discuss your circumstances. Book Your Immigration Consultation.",
+      ],
+    },
+    {
+      heading: "Frequently Asked Questions",
+      subsections: [
+        {
+          heading: "Is the International Agreement Visa the same as the T5 visa?",
+          paragraphs: [
+            "The current Temporary Work – International Agreement visa replaced the former T5 Temporary Worker – International Agreement Worker route.",
+          ],
+        },
+        {
+          heading: "Do I need a job offer?",
+          paragraphs: [
+            "Yes. You need eligible employment with an approved sponsor and a valid Certificate of Sponsorship.",
+          ],
+        },
+        {
+          heading: "Can I work for another employer?",
+          paragraphs: [
+            "Work is generally restricted to the job described in your CoS. Supplementary employment may be permitted in some circumstances, but private servants have different restrictions.",
+          ],
+        },
+        {
+          heading: "Can I extend my International Agreement Visa?",
+          paragraphs: [
+            "Extensions may be possible if you continue to meet the requirements and remain within the maximum stay for your employment category.",
+          ],
+        },
+        {
+          heading: "Does the International Agreement Visa lead to permanent residence?",
+          paragraphs: [
+            "No. This route does not lead directly to ILR. You would need to qualify under a separate settlement route.",
+          ],
+        },
+      ],
+    },
+  ],
   iconName: "Globe",
   keyFeatures: [
     "Diplomatic mission & international organisation representation",
@@ -6689,10 +7067,194 @@ export const servicesData: ServiceItem[] = [
   slug: "global-talent-visa",
   title: "Global Talent Visa",
   category: "Business Visas",
-  shortDescription: "Prestigious unsponsored visa for leaders and emerging leaders in academia, research, arts, and digital technology.",
-  heroTagline: "Work, build, and innovate in the UK with complete employer independence.",
-  seoTitle: "Global Talent Visa UK | Endorsement & Application Support",
-  seoDescription: "Achieve employer independence in the UK. Get expert legal representation for Global Talent endorsement and visa applications.",
+  shortDescription:
+    "Explore Global Talent Visa UK eligibility, endorsement requirements, documents, fees and processing times.",
+  heroTagline: "Prepare your Global Talent Visa application with guidance on endorsement and settlement.",
+  seoTitle: "Global Talent Visa UK | Eligibility & Application Support",
+  seoDescription:
+    "Explore Global Talent Visa UK eligibility, endorsement requirements, documents, fees and processing times. Get guidance with your application.",
+  primaryCta: "Book Your Immigration Consultation",
+  heroImage: "/images/services/global-talent-visa.webp",
+  supportingImages: [
+    {
+      src: "/images/service-business.webp",
+      alt: "Global Talent Visa UK professional evidence and immigration documents",
+      caption: "Guidance for endorsements, evidence and Global Talent applications",
+    },
+  ],
+  contentSections: [
+    {
+      heading: "Global Talent Visa",
+      paragraphs: [
+        "The Global Talent Visa UK allows talented professionals and emerging leaders to live and work in the UK without being tied to one employer. It is designed for people with recognised achievements or strong potential in academia and research, arts and culture, or digital technology.",
+        "Applicants generally need an endorsement from an approved organisation, although people who have won an eligible prestigious prize can apply without one. Visa Direct Immigration provides application guidance to help you understand the requirements, prepare supporting documents and complete the relevant application stages.",
+      ],
+    },
+    {
+      heading: "Global Talent Visa UK Application Support",
+      paragraphs: [
+        "A Global Talent application requires more than a standard visa form. You may need to demonstrate professional achievements, influence, experience and potential through recommendation letters and other supporting evidence.",
+        "Our immigration team can help you understand the application route, organise your documents and identify information that may need further attention before submission.",
+      ],
+    },
+    {
+      heading: "Eligibility for Global Talent Visa UK",
+      paragraphs: [
+        "To qualify, you must be at least 18 and meet the requirements for an eligible professional field. You must normally demonstrate that you are either an established leader, known as exceptional talent, or a potential leader, known as exceptional promise.",
+        "The main eligible fields are:",
+      ],
+      bullets: [
+        "Academia and research: Science, engineering, medicine, humanities and social sciences.",
+        "Arts and culture: Music, dance, theatre, literature, visual arts, architecture, fashion, film and television, and other eligible creative fields.",
+        "Digital technology: Areas such as artificial intelligence, financial technology, cybersecurity and gaming.",
+      ],
+      subsections: [
+        {
+          heading: "Endorsement or Prestigious Prize",
+          paragraphs: [
+            "You must meet the relevant endorsement criteria or have won a qualifying prestigious prize. There is no general minimum salary or English-language requirement for the Global Talent visa itself.",
+          ],
+        },
+      ],
+    },
+    {
+      heading: "How to Apply for Global Talent Visa UK",
+      paragraphs: [
+        "There are two main application routes: applying with an endorsement or applying based on an eligible prestigious prize.",
+      ],
+      bullets: [
+        "1. Check your eligibility: Identify the relevant field and whether you meet the exceptional talent or exceptional promise criteria.",
+        "2. Prepare your evidence: Collect professional achievements, recommendation letters, career history and category-specific documents.",
+        "3. Apply for endorsement: Submit an endorsement application if you do not qualify through a prestigious prize.",
+        "4. Receive your endorsement decision: If successful, submit the visa application within three months.",
+        "5. Submit your visa application: Complete the online form, pay the fee and provide supporting documents.",
+        "6. Prove your identity: Use the ID Check app or attend a visa application centre.",
+        "7. Wait for a decision: The Home Office will assess your application.",
+      ],
+    },
+    {
+      heading: "Global Talent Visa UK Documents",
+      paragraphs: [
+        "The documents required depend on your professional field and application route. Preparing relevant, consistent evidence is important because the endorsement assessment focuses on the quality of your achievements and contributions.",
+        "You may need:",
+      ],
+      bullets: [
+        "A valid passport or other accepted identity document.",
+        "An endorsement letter, if applying through the endorsement route.",
+        "A CV outlining your professional experience and career history.",
+        "Recommendation letters from recognised experts or organisations in your field.",
+        "Evidence of professional achievements, awards, publications, performances or significant projects.",
+        "Proof of your contribution to research, innovation or the creative industry, where relevant.",
+        "Certified translations for documents that are not in English or Welsh.",
+      ],
+      subsections: [
+        {
+          heading: "Category-Specific Evidence",
+          paragraphs: [
+            "Do not assume that the same evidence requirements apply to every applicant. Check the relevant endorsing body's guidance before submitting your documents.",
+          ],
+        },
+      ],
+    },
+    {
+      heading: "Global Talent Visa UK Cost",
+      paragraphs: [
+        "The current application fee is £766 per applicant. If you need an endorsement, the fee is divided into two payments:",
+      ],
+      table: {
+        headers: ["Application stage", "Fee"],
+        rows: [
+          ["Endorsement application", "£561"],
+          ["Visa application", "£205"],
+          ["Total", "£766"],
+        ],
+      },
+      paragraphsAfterTable: [
+        "If you qualify through an eligible prestigious prize, you pay the full £766 when applying for the visa. The Immigration Health Surcharge is charged separately and is usually £1,035 per year for each applicant.",
+        "Dependants must pay their own visa application fees and applicable surcharge. Check the published amounts before applying.",
+      ],
+    },
+    {
+      heading: "Global Talent Visa Processing Time",
+      paragraphs: [
+        "For the visa application itself, the usual decision time is around three weeks outside the UK and around eight weeks inside the UK after identity checks and document submission.",
+        "Endorsement decisions have separate timescales. Some arts and culture applications are generally decided within eight weeks, while some digital technology applications usually take five to eight weeks. Delays can occur if documents need verification or further information is requested.",
+      ],
+    },
+    {
+      heading: "Benefits of UK Global Talent Visa",
+      paragraphs: [
+        "The Global Talent route offers flexibility that is not available under every UK work visa.",
+      ],
+      bullets: [
+        "Work for an employer, become self-employed or establish a business.",
+        "Change jobs or stop working without a new employer-sponsored visa.",
+        "Work in your specialist field without a minimum salary requirement under this route.",
+        "Bring an eligible partner and children as dependants.",
+        "Choose a visa period of up to five years at a time.",
+        "Extend your permission if you continue to meet the relevant requirements.",
+        "Become eligible to apply for indefinite leave to remain after the qualifying period.",
+      ],
+      subsections: [
+        {
+          heading: "Visa Conditions",
+          paragraphs: [
+            "You are not permitted to access most public funds or work as a professional sportsperson under this route. Check the conditions attached to your permission before making changes.",
+          ],
+        },
+      ],
+    },
+    {
+      heading: "Global Talent Visa ILR Requirements",
+      paragraphs: [
+        "Global Talent visa holders may qualify for Indefinite Leave to Remain after three or five years, depending on their endorsement category or qualifying prestigious prize.",
+        "A three-year period generally applies to eligible research endorsements, exceptional talent endorsements in arts and digital technology, and qualifying prestigious prize holders. Exceptional promise endorsements in arts or digital technology generally require five years.",
+        "You must meet the continuous residence, earnings in your endorsed field, endorsement, English language, Life in the UK Test and suitability requirements. Dependant permission does not count towards the main applicant's qualifying period.",
+      ],
+    },
+    {
+      heading: "How Visa Direct Immigration Can Help",
+      paragraphs: [
+        "A Global Talent application can involve detailed evidence requirements and different endorsement criteria across professional fields. Visa Direct Immigration can provide guidance on understanding the relevant route, reviewing documents and navigating the application process.",
+        "If you are searching for Global Talent Visa consultants, a Global Talent Visa lawyer or solicitor, check the provider's qualifications and regulatory authorisation before instructing them. Book Your Immigration Consultation to discuss your application.",
+      ],
+    },
+    {
+      heading: "Frequently Asked Questions",
+      subsections: [
+        {
+          heading: "Is there an age limit for the Global Talent Visa UK?",
+          paragraphs: [
+            "You must be at least 18 years old to apply. There is no upper age limit if you meet the relevant requirements.",
+          ],
+        },
+        {
+          heading: "Can I apply without an endorsement?",
+          paragraphs: [
+            "Yes. You can apply without an endorsement if you have won an eligible prestigious prize. Other applicants generally need an endorsement.",
+          ],
+        },
+        {
+          heading: "Can I bring my family to the UK?",
+          paragraphs: [
+            "Yes. An eligible partner and dependent children can apply to join you. Each dependant must submit an application and pay the relevant fees.",
+          ],
+        },
+        {
+          heading: "Can I switch jobs on a Global Talent Visa?",
+          paragraphs: [
+            "Yes. You can change employers, become self-employed or work as a company director without obtaining a new sponsor.",
+          ],
+        },
+        {
+          heading: "How long does it take to get ILR?",
+          paragraphs: [
+            "Depending on your endorsement category or qualifying prize, you may be eligible after three or five years, subject to the settlement requirements.",
+          ],
+        },
+      ],
+    },
+  ],
   iconName: "Sparkles",
   keyFeatures: [
     "Endorsement strategy for Tech Nation, Royal Society, British Academy & Arts Council",
