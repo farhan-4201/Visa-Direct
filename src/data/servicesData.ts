@@ -1544,53 +1544,292 @@ export const servicesData: ServiceItem[] = [
     slug: "spouse-visa",
     title: "Spouse Visa",
     category: "Personal Visas",
-    shortDescription: "Join and live with your British or settled partner in the UK with full work rights.",
-    heroTagline: "Navigate relationship proof and financial thresholds to build your life together in the UK.",
+    shortDescription:
+      "Get guidance with UK Spouse Visa eligibility, financial requirements, documents, fees, extensions and application processing.",
+    heroTagline: "Understand the UK Spouse Visa requirements and prepare your application with confidence.",
+    seoTitle: "UK Spouse Visa Application Support | Visa Direct Immigration",
+    seoDescription:
+      "Applying for a UK Spouse Visa? Get guidance with eligibility, financial requirements, documents, fees, extensions and application processing.",
+    primaryCta: "Get Help with Your UK Spouse Visa Application",
+    heroImage: "/images/services/spouse-visa.webp",
+    supportingImages: [
+      {
+        src: "/images/service-personal.webp",
+        alt: "UK spouse visa and immigration documents",
+        caption: "Guidance for relationship evidence, documents and applications",
+      },
+    ],
+    contentSections: [
+      {
+        heading: "UK Spouse Visa",
+        paragraphs: [
+          "Applying for a UK Spouse Visa allows eligible applicants to join their husband or wife and build their life together in the UK. However, the application involves several requirements, including proving your relationship is genuine, meeting the financial and English language criteria, and providing the correct supporting documents.",
+          "Visa Direct Immigration provides guidance and application support for individuals and couples applying for a UK Spouse Visa. Whether you are applying from overseas or extending your permission to stay in the UK, our team can help you understand the requirements and prepare your application.",
+        ],
+      },
+      {
+        heading: "UK Spouse Visa Application Support",
+        paragraphs: [
+          "A Spouse Visa application must satisfy the relevant Home Office requirements. Missing evidence, inconsistent information or an incomplete application can lead to delays or refusal.",
+          "We can help you with:",
+        ],
+        bullets: [
+          "Understanding your eligibility and the applicable visa route.",
+          "Reviewing relationship and financial evidence.",
+          "Preparing the required supporting documents.",
+          "Completing the online application.",
+          "Understanding the application process and biometric requirements.",
+          "Preparing for a spouse visa extension.",
+        ],
+        subsections: [
+          {
+            heading: "Spouse Visa Support",
+            paragraphs: [
+              "Need help with your application? Contact Visa Direct Immigration to discuss your circumstances.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "UK Spouse Visa Requirements in 2026",
+        paragraphs: [
+          "To qualify for a UK Spouse Visa, you and your partner must meet the relationship, financial, accommodation and English language requirements.",
+          "The main eligibility conditions include:",
+          "Relationship requirements: You must be legally married to a partner whose marriage is recognised in the UK. Your relationship must be genuine and continuing, and you must intend to live together permanently in the UK.",
+          "Eligible sponsor: Your spouse must generally be a British or Irish citizen, have settled status or indefinite leave to remain, or hold another qualifying immigration status under the relevant rules.",
+          "Financial requirement: Most new applications require you and your partner to demonstrate a combined annual income of at least £29,000. Different provisions may apply if your partner receives certain disability or carer benefits. Transitional rules may also apply to applicants who first applied before 11 April 2024 and are extending with the same partner.",
+          "English language requirement: Applicants generally need to demonstrate the required level of English through an approved test or an accepted exemption. The level and evidence required depend on whether you are applying for the first time or extending your visa.",
+          "Accommodation: You must show that suitable accommodation will be available for you and your family without relying on public funds or overcrowding the property.",
+          "Meeting these requirements is essential, but the evidence needed will depend on your individual circumstances.",
+        ],
+      },
+      {
+        heading: "UK Spouse Visa Documents Required",
+        paragraphs: [
+          "Providing accurate and relevant documents helps the Home Office assess your eligibility. The exact checklist depends on your circumstances, including where you are applying from and how you meet the financial requirement.",
+          "Commonly required documents include:",
+        ],
+        bullets: [
+          "Valid passport and previous passport details, where relevant.",
+          "Marriage certificate or recognised civil partnership certificate.",
+          "Evidence of your spouse's British citizenship or qualifying immigration status.",
+          "Relationship evidence, such as photographs, travel records, communication history and shared financial commitments.",
+          "Financial documents, such as payslips, bank statements or employment letters.",
+          "Evidence of suitable accommodation in the UK.",
+          "English language test results or proof of an exemption.",
+          "Details of previous immigration applications and travel history, where relevant.",
+        ],
+        subsections: [
+          {
+            heading: "Document Translation",
+            paragraphs: [
+              "Documents not in English or Welsh generally need to be accompanied by an appropriate certified translation. Your evidence should be consistent, up to date and relevant to the requirements being assessed.",
+              "Let our team help you organise your spouse visa documents before submitting your application.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "How to Apply for a UK Spouse Visa",
+        paragraphs: [
+          "The application process depends on whether you are applying from outside the UK or extending your existing permission from within the country.",
+          "The usual process involves:",
+        ],
+        bullets: [
+          "1. Check your eligibility: Confirm that your relationship, sponsor's status, finances and English language evidence meet the requirements.",
+          "2. Prepare your documents: Collect the marriage, relationship, financial and accommodation evidence needed for your application.",
+          "3. Complete the online form: Apply through the appropriate Home Office application route.",
+          "4. Pay the application fees: Pay the relevant visa application fee and Immigration Health Surcharge, where applicable.",
+          "5. Attend your biometrics appointment: Follow the instructions to provide your fingerprints and photograph, unless an alternative process applies.",
+          "6. Wait for a decision: The Home Office will assess your application and may request further information.",
+          "Applying with the correct documents and information can help avoid preventable issues.",
+        ],
+      },
+      {
+        heading: "Spouse Visa Cost UK in 2026",
+        paragraphs: [
+          "The cost of a UK Spouse Visa depends on whether you apply from outside or inside the UK. Applicants must also consider the Immigration Health Surcharge, which is charged separately.",
+        ],
+        table: {
+          headers: ["Application type", "Visa application fee"],
+          rows: [
+            ["Applying from outside the UK", "£2,064"],
+            ["Applying from inside the UK", "£1,407"],
+          ],
+        },
+        paragraphsAfterTable: [
+          "For most adult applicants, the Immigration Health Surcharge is:",
+        ],
+        subsections: [
+          {
+            heading: "Immigration Health Surcharge",
+            table: {
+              headers: ["Permission granted", "Healthcare surcharge"],
+              rows: [
+                ["2 years and 6 months", "£2,587.50"],
+                ["2 years and 9 months", "£3,105"],
+              ],
+            },
+            paragraphs: [
+              "You may also need to budget for an English language test, document translations and biometric-related expenses, where applicable. Fees can change, so check the official rates before submitting your application.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "UK Spouse Visa Processing Time",
+        paragraphs: [
+          "The UK Spouse Visa processing time depends on where you apply and whether your application meets the relevant requirements.",
+          "As a general guide:",
+        ],
+        bullets: [
+          "Outside the UK: A decision usually takes around 12 weeks.",
+          "Inside the UK: A decision usually takes around 8 weeks if you meet the financial and English language requirements.",
+          "Certain applications inside the UK: Where the relevant financial or English language requirements are not met, processing can take around 12 months.",
+          "These are usual service times rather than guaranteed deadlines. Complex circumstances, additional checks or requests for further evidence may affect the waiting time. Faster services may be available for some applications at an additional cost.",
+        ],
+      },
+      {
+        heading: "How to Renew a Spouse Visa in the UK",
+        paragraphs: [
+          "A UK Spouse Visa extension allows you to continue living with your partner after your initial permission expires. If you are extending with the same partner, you can generally apply for a further period of up to 2 years and 6 months.",
+          "To apply for an extension, you will usually need to:",
+        ],
+        bullets: [
+          "Continue to meet the relationship requirements.",
+          "Demonstrate that you and your partner intend to live together permanently.",
+          "Meet the applicable financial and English language requirements.",
+          "Provide updated relationship, financial and accommodation evidence.",
+          "Submit the online extension application and pay the required fees.",
+        ],
+        subsections: [
+          {
+            heading: "Settlement After a Spouse Visa",
+            paragraphs: [
+              "If you complete five continuous years on the qualifying partner route, you may be eligible to apply for Indefinite Leave to Remain, provided you meet the settlement requirements. Time spent in the UK as a fiancé or proposed civil partner does not count towards this five-year period.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "The 28 Days Rule for Spouse Visa UK",
+        paragraphs: [
+          "The 28-day rule is often misunderstood. You do not have to wait until the final 28 days of your current Spouse Visa before applying for an extension.",
+          "You can generally submit your extension application at any time before your existing permission expires. However, if you extend with the same partner, up to a separate 28-day provision generally allows eligible applicants on the five-year partner route to apply for Indefinite Leave to Remain up to 28 days before completing their qualifying residence period. The correct timing depends on your visa history and route.",
+        ],
+      },
+      {
+        heading: "What Happens if Your UK Spouse Visa is Refused?",
+        paragraphs: [
+          "A UK Spouse Visa refusal can happen if the Home Office is not satisfied that the eligibility requirements have been met or the supporting evidence is insufficient.",
+          "Common reasons include:",
+        ],
+        bullets: [
+          "Insufficient financial evidence.",
+          "Incomplete or inconsistent relationship documents.",
+          "Failure to meet the English language requirement.",
+          "Incorrect information in the application.",
+          "Concerns about the genuineness of the relationship.",
+        ],
+        subsections: [
+          {
+            heading: "Refusal Next Steps",
+            paragraphs: [
+              "If your application is refused, read the decision letter carefully. Depending on the reasons and circumstances, you may have the option to request an administrative review, appeal where a right of appeal exists, or submit a fresh application. The appropriate next step depends on the refusal grounds and your immigration position.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "How Visa Direct Immigration Can Help with Your UK Spouse Visa",
+        paragraphs: [
+          "Preparing a spouse visa application can be challenging, particularly when you need to meet several requirements and provide evidence from different sources.",
+          "Visa Direct Immigration offers application guidance and support to help you understand the process, organise your documents and address potential issues before submission. Whether you are applying from outside the UK or renewing your existing visa, we can discuss the available options based on your circumstances.",
+          "We support applicants in Birmingham, Bristol, Reading and across the UK.",
+          "Contact Visa Direct Immigration today to discuss your UK Spouse Visa application and book your immigration consultation.",
+        ],
+      },
+      {
+        heading: "Frequently Asked Questions",
+        subsections: [
+          {
+            heading: "How much does a UK Spouse Visa cost in 2026?",
+            paragraphs: [
+              "The application fee is £2,064 when applying from outside the UK and £1,407 when applying from inside the UK. The Immigration Health Surcharge is additional and depends on the length of permission granted.",
+            ],
+          },
+          {
+            heading: "Can I work in the UK on a Spouse Visa?",
+            paragraphs: [
+              "Yes. People granted permission under the standard spouse or partner family route can generally work and study in the UK, subject to their visa conditions. This does not apply to the initial fiancé or proposed civil partner visa.",
+            ],
+          },
+          {
+            heading: "How long does it take to renew a UK Spouse Visa?",
+            paragraphs: [
+              "An in-country extension application usually takes around 8 weeks if you meet the financial and English language requirements. Some applications can take longer, depending on their circumstances and the service used.",
+            ],
+          },
+          {
+            heading: "Can I apply for ILR after five years on a UK Spouse Visa?",
+            paragraphs: [
+              "You may be eligible to apply for Indefinite Leave to Remain after five continuous years on the qualifying partner route. You must also meet the applicable relationship, residence, English language and other settlement requirements.",
+            ],
+          },
+          {
+            heading: "What happens if my UK Spouse Visa application is refused?",
+            paragraphs: [
+              "Your refusal letter will explain the reasons for the decision and whether you have a right to appeal or request an administrative review. Depending on your circumstances, submitting a new application may also be an option. Consider obtaining appropriate guidance before taking further action.",
+            ],
+          },
+        ],
+      },
+    ],
     iconName: "HeartHandshake",
     keyFeatures: [
-      "Comprehensive genuine relationship dossier assembly",
-      "Financial requirement calculations (salary, cash savings, or combined)",
-      "Adequate accommodation assessment reporting",
-      "Spouse visa extensions and transition to settlement",
+      "Relationship and financial evidence review",
+      "Supporting document preparation",
+      "Online application and biometric guidance",
+      "Spouse visa extensions and settlement guidance",
     ],
     eligibilityRequirements: [
-      "Both partners must be 18 years of age or older",
-      "Marriage or civil partnership legally recognized in the UK",
-      "Satisfying the minimum financial income threshold or permitted exemptions",
-      "Suitable accommodation available without recourse to public funds",
+      "Genuine and continuing relationship recognised under UK immigration rules",
+      "Eligible sponsor with British, Irish, settled or other qualifying status",
+      "Meeting the applicable financial and English language requirements",
+      "Suitable accommodation available without overcrowding or reliance on public funds",
     ],
     documentsRequired: [
-      "Original marriage certificate or civil partnership registration",
-      "Sponsor's proof of British citizenship, settled status, or ILR",
-      "Payslips, bank statements, and employer letter proving income requirements",
-      "Proof of genuine cohabitation and ongoing communication history",
+      "Passport and marriage or civil partnership certificate",
+      "Sponsor's proof of British citizenship or qualifying immigration status",
+      "Relationship, financial and accommodation evidence",
+      "English language test result or proof of an exemption",
     ],
     processSteps: [
       {
-        title: "Case Assessment & Financial Planning",
-        description: "Evaluating financial documents to ensure strict compliance with immigration rules Appendix FM-SE.",
+        title: "Check Eligibility",
+        description: "Reviewing your relationship, sponsor status, finances and English language evidence.",
       },
       {
-        title: "Relationship Evidence Portfolio",
-        description: "Building an unassailable bundle demonstrating your genuine and subsisting partnership.",
+        title: "Prepare Documents",
+        description: "Organising the marriage, relationship, financial and accommodation evidence required.",
       },
       {
-        title: "Submission & Biometrics",
-        description: "Filing application online and attending visa application appointment.",
+        title: "Submit Application",
+        description: "Completing the online application, paying the fees and attending biometrics.",
       },
       {
-        title: "Arrival & BRP / eVisa Setup",
-        description: "Receiving your entry vignette and registering your UK digital status.",
+        title: "Home Office Decision",
+        description: "Monitoring the application while the Home Office assesses the evidence and reaches a decision.",
       },
     ],
     faqs: [
       {
-        question: "Can savings be used instead of employment salary?",
-        answer: "Yes, qualifying cash savings held for a minimum of 6 months can be used to meet or offset the income threshold.",
+        question: "Can I work in the UK on a Spouse Visa?",
+        answer: "People granted permission under the standard spouse or partner family route can generally work and study in the UK, subject to their visa conditions.",
       },
       {
-        question: "How long is the initial Spouse Visa granted for?",
-        answer: "Initial entry clearance is granted for 33 months (or 30 months if switching from within the UK).",
+        question: "Can I apply for ILR after five years on a UK Spouse Visa?",
+        answer: "You may be eligible after five continuous years on the qualifying partner route, provided you meet the applicable settlement requirements.",
       },
     ],
   },
@@ -1599,53 +1838,312 @@ export const servicesData: ServiceItem[] = [
     slug: "british-citizenship",
     title: "British Citizenship",
     category: "Personal Visas",
-    shortDescription: "Achieve the final milestone of British nationality and secure a UK passport.",
-    heroTagline: "Expert legal representation for naturalisation, registration, and passport applications.",
+    shortDescription:
+      "Learn how to apply for British citizenship, including eligibility, required documents, application fees and processing times.",
+    heroTagline: "Understand the British citizenship requirements and prepare your application with confidence.",
+    seoTitle: "British Citizenship Application | UK Lawyers",
+    seoDescription:
+      "Learn how to apply for British citizenship, including eligibility, required documents, application fees and processing times. Get expert application support.",
+    primaryCta: "Book Your Immigration Consultation",
+    heroImage: "/images/services/british-citizenship.webp",
+    supportingImages: [
+      {
+        src: "/images/service-personal.webp",
+        alt: "British citizenship application and nationality documents",
+        caption: "Guidance for British citizenship applications and supporting evidence",
+      },
+    ],
+    contentSections: [
+      {
+        heading: "British Citizenship",
+        paragraphs: [
+          "Becoming a British citizen is an important step for people who have made the UK their home. It provides the right to live in the country permanently as a citizen, apply for a British passport and enjoy the rights and responsibilities associated with British nationality.",
+          "If you are considering a British citizenship application, you need to understand the eligibility criteria, residence requirements, English language rules and documents required by the Home Office. Most adults apply through naturalisation after obtaining Indefinite Leave to Remain (ILR) or settled status.",
+          "Visa Direct Immigration provides application guidance and support to individuals in Birmingham, Bristol, Reading and across the UK. Our immigration team can help you understand the requirements, prepare your documents and approach the application process with greater confidence.",
+          "Book Your Immigration Consultation to discuss your eligibility for British citizenship.",
+        ],
+      },
+      {
+        heading: "Who Can Apply for British Citizenship?",
+        paragraphs: [
+          "Most adults aged 18 or over who have lived lawfully in the UK and obtained permanent immigration status may qualify for British citizenship through naturalisation. The exact requirements depend on your circumstances and whether you are applying as the spouse or civil partner of a British citizen.",
+          "Common eligibility routes include:",
+        ],
+        bullets: [
+          "Standard naturalisation: Usually available to people who have lived in the UK for at least five years and held ILR or settled status for at least 12 months.",
+          "Spouse or civil partner route: Available to eligible applicants who have lived in the UK for at least three years and are married to, or in a civil partnership with, a British citizen.",
+          "EU Settlement Scheme: People with settled status may apply once they meet the relevant residence and other requirements. Some people with pre-settled status may also qualify under specific conditions.",
+          "Other nationality routes: People with a British parent, certain British nationality connections or special circumstances may qualify through registration or another route rather than naturalisation.",
+        ],
+        subsections: [
+          {
+            heading: "Choosing the Correct Route",
+            paragraphs: [
+              "Being born in the UK does not automatically make everyone a British citizen. Your eligibility depends on when you were born and your parents' nationality or immigration status at the time.",
+              "It is important to identify the correct route before submitting an application, as the evidence and legal requirements can differ.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "British Citizenship Requirements",
+        paragraphs: [
+          "To apply for British citizenship through naturalisation, you must meet the Home Office requirements for age, immigration status, residence, English language and good character.",
+        ],
+        subsections: [
+          {
+            heading: "1. Age and Immigration Status",
+            paragraphs: [
+              "You must be at least 18 and normally hold ILR or settled status. Standard applicants must usually have held this status for 12 months, while spouses or civil partners of British citizens can apply without this additional waiting period.",
+            ],
+          },
+          {
+            heading: "2. UK Residence Requirements",
+            paragraphs: [
+              "You generally need five years of UK residence, or three years if married to or in a civil partnership with a British citizen. You must also have been physically present in the UK on the relevant date at the start of your qualifying period.",
+            ],
+            table: {
+              headers: ["Residence route", "Maximum absences", "Final 12 months"],
+              rows: [
+                ["Standard five-year route", "450 days", "90 days"],
+                ["British citizen spouse route", "270 days", "90 days"],
+              ],
+            },
+          },
+          {
+            heading: "3. English Language Requirement",
+            paragraphs: [
+              "Most applicants must demonstrate English language ability at B1 level or above through an approved qualification. Certain degrees and nationalities may also meet this requirement. Exemptions are available in specific circumstances.",
+            ],
+          },
+          {
+            heading: "4. Life in the UK Test",
+            paragraphs: [
+              "You must normally pass the Life in the UK Test, which contains 24 questions. You need at least 75% to pass, and the current fee is £50. Previous passes can generally be reused for citizenship applications.",
+            ],
+          },
+          {
+            heading: "5. Good Character Requirement",
+            paragraphs: [
+              "The Home Office considers your criminal record, immigration history, tax affairs and financial conduct. You must provide honest and complete information. Previous convictions, immigration breaches or outstanding tax issues may affect your application.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "How to Apply for British Citizenship",
+        paragraphs: [
+          "The British citizenship application process involves checking your eligibility, preparing evidence, submitting the correct form and completing biometric enrolment. Most applicants living in the UK can apply online.",
+          "The usual steps are:",
+        ],
+        subsections: [
+          {
+            heading: "Step 1: Check Your Eligibility",
+            paragraphs: [
+              "Confirm that you meet the relevant residence period, immigration status, language, Life in the UK and good character requirements. You should also calculate your absences carefully and check that you were physically present in the UK on the required qualifying date.",
+            ],
+          },
+          {
+            heading: "Step 2: Prepare Your British Citizenship Documents",
+            paragraphs: [
+              "Gather your identity documents, residence evidence, immigration status details and referee information. Make sure the information is accurate and consistent across your application.",
+            ],
+          },
+          {
+            heading: "Step 3: Complete the Online Application",
+            paragraphs: [
+              "Most adults applying from within the UK use the naturalisation application, commonly known as Form AN. Complete the questions carefully and provide details of your residence, immigration history, employment and other relevant circumstances.",
+            ],
+          },
+          {
+            heading: "Step 4: Pay the Application Fee",
+            paragraphs: [
+              "Pay the applicable Home Office fee when submitting your application. You may also be able to select the optional priority service if you meet its conditions.",
+            ],
+          },
+          {
+            heading: "Step 5: Attend Your Biometric Appointment",
+            paragraphs: [
+              "You will receive instructions about providing your fingerprints and photograph. Depending on the arrangements available, you may need to attend a UK Visa and Citizenship Application Services (UKVCAS) appointment. You can usually upload supporting documents online or arrange for them to be scanned at your appointment.",
+            ],
+          },
+          {
+            heading: "Step 6: Wait for the Home Office Decision",
+            paragraphs: [
+              "The Home Office will review your application and may contact you if further information or evidence is required. Keep your contact details and immigration permission valid while your application is being considered.",
+            ],
+          },
+          {
+            heading: "Step 7: Attend Your Citizenship Ceremony",
+            paragraphs: [
+              "If your application is approved and you are aged 18 or over, you will normally need to attend a citizenship ceremony. You will make an oath or affirmation of allegiance and receive your naturalisation certificate. You become a British citizen at the ceremony, not simply when you receive the approval decision.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "What Documents Do I Need to Apply for British Citizenship?",
+        paragraphs: [
+          "The documents required depend on your personal circumstances, immigration history and the route under which you are applying. Providing clear and relevant evidence helps the Home Office assess your application.",
+          "Common British citizenship documents include:",
+        ],
+        table: {
+          headers: ["Document", "Why it may be required"],
+          rows: [
+            ["Current passport or travel document", "To confirm your identity and nationality"],
+            ["Biometric Residence Permit (BRP), if issued", "To support your immigration status evidence, even if the card has expired"],
+            ["ILR or settled status details", "To demonstrate that you have the required immigration status"],
+            ["Previous passports", "To help establish residence and travel history"],
+            ["Residence evidence", "To support your qualifying period in the UK"],
+            ["Life in the UK Test reference", "To confirm that you have passed the required test"],
+            ["English language evidence", "To demonstrate that you meet the language requirement, where applicable"],
+            ["Marriage or civil partnership certificate", "If applying as the spouse or civil partner of a British citizen"],
+            ["Two referee details", "To support your identity and application"],
+            ["Name change documents", "If your name has changed since your identity documents were issued"],
+          ],
+        },
+        paragraphsAfterTable: [
+          "You will normally need two referees who meet the Home Office criteria. One must be a professional person, while the other must hold a British citizen status and meet the relevant age requirements.",
+          "Need help organising your British citizenship documents? Our team can help you review the evidence required for your circumstances before you submit your application.",
+        ],
+      },
+      {
+        heading: "Cost of Applying for British Citizenship",
+        paragraphs: [
+          "The cost of applying for British citizenship depends on the application route and any additional services you choose. As of November 2026, the standard adult naturalisation costs are:",
+        ],
+        table: {
+          headers: ["Expense", "Current cost"],
+          rows: [
+            ["Adult naturalisation application", "£1,709"],
+            ["Citizenship ceremony fee", "£130"],
+            ["Total application and ceremony cost", "£1,839"],
+            ["Life in the UK Test", "£50"],
+            ["Citizenship priority service (optional)", "£500 additional"],
+          ],
+        },
+        paragraphsAfterTable: [
+          "The standard application and ceremony total is £1,839. If you also need to take the Life in the UK Test, the combined cost becomes £1,889, excluding any English language test, document translation or professional assistance fees.",
+        ],
+      },
+      {
+        heading: "British Citizenship Processing Time",
+        paragraphs: [
+          "The standard British citizenship processing time is usually up to six months from the date the Home Office receives your application. Some applications may take longer if additional checks or supporting evidence are required.",
+          "If you are eligible, you may be able to use the priority service for an additional £500. This usually aims to provide a decision within 30 working days.",
+        ],
+      },
+      {
+        heading: "How Visa Direct Immigration Can Help",
+        paragraphs: [
+          "A British citizenship application requires careful preparation, particularly where there are complex travel records, previous immigration issues, name changes or questions about good character.",
+          "Visa Direct Immigration offers application guidance and support to people preparing for British citizenship. Our team can help you:",
+        ],
+        bullets: [
+          "Understand the naturalisation requirements that apply to your circumstances.",
+          "Review your residence history and travel absences.",
+          "Identify the supporting documents needed for your application.",
+          "Organise your application information and referee details.",
+          "Check your application for missing information before submission.",
+          "Understand the steps following a Home Office decision.",
+        ],
+        subsections: [
+          {
+            heading: "Application Support",
+            paragraphs: [
+              "We support clients through our offices in Birmingham, Bristol and Reading, as well as remotely across the UK.",
+              "Book Your Immigration Consultation to discuss your British citizenship application and the support you may need.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Frequently Asked Questions About British Citizenship",
+        subsections: [
+          {
+            heading: "1. How do I get British citizenship?",
+            paragraphs: [
+              "Most adults apply through naturalisation after meeting the required UK residence period and obtaining ILR or settled status. You must also meet the applicable English language, Life in the UK and good character requirements.",
+            ],
+          },
+          {
+            heading: "2. Can I apply for British citizenship after five years in the UK?",
+            paragraphs: [
+              "You may qualify after five years of UK residence if you meet the other requirements. However, most standard applicants must also have held ILR or settled status for at least 12 months before applying.",
+            ],
+          },
+          {
+            heading: "3. Can I apply for British citizenship if I am married to a British citizen?",
+            paragraphs: [
+              "Yes. If you have lived in the UK for at least three years and hold ILR or settled status, you may qualify under the spouse or civil partner route. You do not normally need to wait 12 months after receiving permanent immigration status.",
+            ],
+          },
+          {
+            heading: "4. What documents do I need for a British citizenship application?",
+            paragraphs: [
+              "Common documents include your passport, immigration status evidence, previous passports, residence records, English language evidence where required, Life in the UK Test reference, two referee details and relevant marriage or name change certificates.",
+            ],
+          },
+          {
+            heading: "5. How long does a British citizenship application take?",
+            paragraphs: [
+              "Most naturalisation applications receive a decision within six months. Eligible applicants may use the optional priority service, which usually aims for a decision within 30 working days for an additional £500.",
+            ],
+          },
+          {
+            heading: "6. Can I keep my original nationality after becoming a British citizen?",
+            paragraphs: [
+              "The UK allows dual citizenship, so you can usually retain your existing nationality when becoming British. However, some countries do not permit dual nationality, so check the rules of your current country before applying.",
+            ],
+          },
+        ],
+      },
+    ],
     iconName: "GraduationCap",
     keyFeatures: [
-      "Good character verification and background checks audit",
-      "Absence allowance calculations and travel history review",
-      "Life in the UK & English language compliance checks",
-      "Child registration and complex nationality claims",
+      "Naturalisation eligibility and residence review",
+      "Absence calculations and travel history assessment",
+      "Life in the UK and English language guidance",
+      "Good character and referee evidence checks",
     ],
     eligibilityRequirements: [
-      "Held Indefinite Leave to Remain or Settled Status for at least 12 months (or immediate if married to a British citizen)",
-      "Continuous residence without exceeding maximum permitted absences",
-      "Passing the Life in the UK test and recognized English qualification",
-      "Meeting the statutory good character and sound mind criteria",
+      "Held ILR or settled status for the required period",
+      "Met the relevant residence and absence requirements",
+      "Passed the Life in the UK Test and met the English language requirement",
+      "Satisfied the Home Office good character requirements",
     ],
     documentsRequired: [
-      "Proof of indefinite settlement status or EU settled status confirmation",
-      "Life in the UK test pass notification letter",
-      "Two acceptable referee declarations meeting Home Office criteria",
-      "Complete international travel log and historical passport records",
+      "Current and previous passports or travel documents",
+      "ILR or settled status details",
+      "Life in the UK Test reference and English language evidence",
+      "Two referee details and relevant residence records",
     ],
     processSteps: [
       {
-        title: "Eligibility & Absences Calculation",
-        description: "Detailed tally of travel history and verification of the 5-year or 3-year qualifying residency period.",
+        title: "Check Eligibility",
+        description: "Reviewing your route, immigration status, residence period and travel absences.",
       },
       {
-        title: "Referee Endorsement & File Preparation",
-        description: "Coordination of professional and personal referees and evidence compilation.",
+        title: "Prepare Documents",
+        description: "Organising identity, residence, language, test and referee evidence.",
       },
       {
-        title: "Home Office Nationality Lodgement",
-        description: "Online submission to UKVI with uploaded certified document bundle.",
+        title: "Submit Application",
+        description: "Completing the naturalisation form, paying the fee and attending biometrics.",
       },
       {
-        title: "Citizenship Ceremony & Passport",
-        description: "Attending local council ceremony, taking the oath of allegiance, and receiving your Certificate of Naturalisation.",
+        title: "Ceremony and Certificate",
+        description: "Attending the citizenship ceremony and receiving your naturalisation certificate.",
       },
     ],
     faqs: [
       {
-        question: "What is the maximum absence allowed in the last year before applying?",
-        answer: "You generally must not have spent more than 90 days outside the United Kingdom in the 12 months immediately preceding application.",
+        question: "How long does a British citizenship application take?",
+        answer: "Most naturalisation applications receive a decision within six months.",
       },
       {
-        question: "Do children automatically become British citizens?",
-        answer: "Children born abroad or before parents settled require specific registration under Section 1(3) or 3(1) of the British Nationality Act.",
+        question: "Can I keep my original nationality after becoming British?",
+        answer: "The UK allows dual citizenship, but you should check whether your current country permits dual nationality.",
       },
     ],
   },

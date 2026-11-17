@@ -55,6 +55,10 @@ const businessServiceAliases: Record<string, string> = {
   "Global Business Mobility": "Global Business Mobility Visa",
   "Hiring Foreign Workers": "Hiring Foreign Workers Guidance",
   "Innovator Visa": "Innovator Founder Visa",
+  "Charity Worker Visa": "Charity Worker Visa UK",
+  "Creative Worker Visa": "Creative Worker Visa UK",
+  "Seasonal Worker Visa": "UK Seasonal Worker Visa",
+  "Youth Mobility Visa": "Youth Mobility Visa UK",
 };
 
 export function Header() {
@@ -77,9 +81,8 @@ export function Header() {
     setActiveDropdown(null);
   }, [pathname]);
 
-  const businessServices = servicesData.filter((s) => s.category === "Business Visas");
   const filteredBusinessServices = businessNavigationServices.map((title) => {
-    const service = businessServices.find(
+    const service = servicesData.find(
       (item) => item.title === title || item.title === businessServiceAliases[title],
     );
 
