@@ -5720,58 +5720,266 @@ export const servicesData: ServiceItem[] = [
   },
 
   {
-  id: "long-term-work-visa",
-  slug: "long-term-work-visa",
-  title: "Long-Term Work Visa",
-  category: "Business Visas",
-  shortDescription: "Expert legal guidance on UK long-term work visas, sponsor licence criteria, and permanent settlement options.",
-  heroTagline: "Secure long-term UK employment permission with expert sponsorship guidance.",
-  seoTitle: "Long-Term Work Visa UK | Application Support | Visa Direct",
-  seoDescription: "Guidance on UK long-term work visa routes, Certificate of Sponsorship compliance, and 5-year Indefinite Leave to Remain settlement pathways.",
-  iconName: "Briefcase",
-  keyFeatures: [
-    "Sponsor compliance & Certificate of Sponsorship verification",
-    "Salary threshold & SOC code matching assessment",
-    "5-year settlement and ILR strategic planning",
-    "Dependant partner and child visa support"
-  ],
-  eligibilityRequirements: [
-    "Valid job offer from an approved UK licensed sponsor",
-    "Assigned Certificate of Sponsorship (CoS)",
-    "Role meets applicable skill level and salary thresholds",
-    "Demonstrated English language proficiency at B1 level or higher"
-  ],
-  documentsRequired: [
-    "Valid passport or national identity document",
-    "Certificate of Sponsorship reference number",
-    "Certified proof of English language proficiency",
-    "Bank statements demonstrating financial maintenance"
-  ],
-  processSteps: [
-    {
-      title: "Eligibility & Role Assessment",
-      description: "Assessing job specification, SOC code, and employer licence compliance against UKVI thresholds."
-    },
-    {
-      title: "CoS Verification & Evidence Assembly",
-      description: "Reviewing Certificate of Sponsorship details and compiling supporting financial and professional proof."
-    },
-    {
-      title: "Application Submission & Biometrics",
-      description: "Submitting the online application to UKVI and arranging biometric verification."
-    }
-  ],
-  faqs: [
-    {
-      question: "What is a UK Long-Term Work Visa?",
-      answer: "A long-term work visa allows foreign nationals with a licensed UK employer job offer to live and work in the UK for up to 5 years, leading to Indefinite Leave to Remain."
-    },
-    {
-      question: "Can I bring my family members on this visa?",
-      answer: "Yes, your spouse/civil partner and dependent children under 18 can apply to accompany or join you in the UK."
-    }
-  ]
-},
+    id: "long-term-work-visa",
+    slug: "long-term-work-visa",
+    title: "Long Term Work Visa UK",
+    category: "Business Visas",
+    shortDescription:
+      "Get support with your UK long-term work visa application, including eligibility, Skilled Worker sponsorship, documents and visa requirements.",
+    heroTagline: "Understand your UK long-term work visa options and prepare a complete application.",
+    seoTitle: "Long Term Work Visa UK Services | Visa Direct Immigration",
+    seoDescription:
+      "Get support with your UK long-term work visa application. We help with eligibility, Skilled Worker sponsorship, documents and visa requirements.",
+    primaryCta: "Book Your Immigration Consultation",
+    iconName: "Briefcase",
+    keyFeatures: [
+      "Long-term work visa route and eligibility assessment",
+      "Skilled Worker sponsorship and Certificate of Sponsorship guidance",
+      "Document preparation and application review",
+      "Fees, processing times, extensions and settlement guidance",
+    ],
+    eligibilityRequirements: [
+      "Eligible job offer from a Home Office-approved employer",
+      "Valid Certificate of Sponsorship for the proposed role",
+      "Role meets the applicable occupation, skill and salary requirements",
+      "Required English language level, usually B2 for new Skilled Worker applicants",
+      "Required maintenance funds or an applicable exemption",
+    ],
+    documentsRequired: [
+      "Valid passport or travel document",
+      "Certificate of Sponsorship reference number",
+      "Evidence of your job, salary and occupation",
+      "English language evidence or proof of an exemption",
+      "Bank statements showing maintenance funds, where required",
+      "Qualifications and other supporting documents relevant to your application",
+    ],
+    processSteps: [
+      {
+        title: "Find an Eligible UK Employer",
+        description:
+          "Secure a job offer from an employer approved to sponsor workers under the relevant visa route.",
+      },
+      {
+        title: "Receive Your Certificate of Sponsorship",
+        description:
+          "Your employer assigns a valid Certificate of Sponsorship containing details of your role and employment.",
+      },
+      {
+        title: "Prepare Your Documents",
+        description:
+          "Gather your passport, sponsorship details, qualifications, English language evidence and financial documents.",
+      },
+      {
+        title: "Submit Your Application",
+        description:
+          "Complete the relevant online visa application, pay the applicable fees and complete identity verification.",
+      },
+      {
+        title: "Receive a Decision",
+        description:
+          "Once approved, travel to the UK and begin the sponsored employment in accordance with your visa conditions.",
+      },
+    ],
+    contentSections: [
+      {
+        heading: "Long Term Work Visa UK",
+        paragraphs: [
+          "A Long Term Work Visa UK allows eligible overseas nationals to live and work in the country for an extended period. The most common route is the Skilled Worker visa, although other options are available depending on your profession, employer and circumstances.",
+          "If you want to apply for a long term work visa UK, you will generally need an eligible job offer from a Home Office-approved employer, a Certificate of Sponsorship (CoS) and evidence that you meet the relevant immigration requirements.",
+          "Visa Direct Immigration provides application guidance to individuals seeking employment opportunities in the UK. We support applicants in Birmingham, Bristol, Reading and across the UK with understanding visa requirements, preparing documents and navigating the application process.",
+          "Book Your Immigration Consultation to discuss your eligibility and available work visa options.",
+        ],
+      },
+      {
+        heading: "What is a Long Term Work Visa UK?",
+        paragraphs: [
+          "A long-term work visa is a general term for UK immigration routes that allow overseas nationals to work in the country for several years. It is not a separate visa category, so you must identify the route that matches your job and circumstances.",
+        ],
+        bullets: [
+          "Skilled Worker Visa: For eligible professionals with a job offer from an approved UK sponsor.",
+          "Health and Care Worker Visa: For eligible medical and healthcare professionals working for approved employers.",
+          "Global Business Mobility Visa: For certain overseas employees undertaking qualifying temporary business assignments in the UK.",
+          "International Sportsperson Visa: For eligible professional sportspeople and coaches endorsed by their relevant governing body.",
+        ],
+        subsections: [
+          {
+            heading: "Choosing the Correct Route",
+            paragraphs: [
+              "The Skilled Worker route is generally the main option for people seeking long-term employment in the UK. Some other routes have different conditions and may not lead directly to settlement.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Long Term Work Visa UK Requirements",
+        paragraphs: [
+          "The eligibility criteria depend on the visa route you choose. However, applicants generally need to meet several important conditions.",
+        ],
+        subsections: [
+          {
+            heading: "1. Eligible Job Offer",
+            paragraphs: [
+              "For a Skilled Worker visa, you must have a confirmed job offer from a UK employer approved by the Home Office. Your position must also appear on the eligible occupation list and meet the applicable skill and salary requirements.",
+            ],
+          },
+          {
+            heading: "2. Certificate of Sponsorship",
+            paragraphs: [
+              "Your employer must issue a valid Certificate of Sponsorship containing details of your job, salary and employment arrangements. You will need its reference number when submitting your application.",
+            ],
+          },
+          {
+            heading: "3. Salary Requirements",
+            paragraphs: [
+              "Your salary must meet the minimum threshold and the applicable going rate for your occupation, whichever is higher, unless a permitted lower salary provision applies.",
+              "For many new Skilled Worker applicants, the standard salary threshold is £41,700 per year. Different rules and salary discounts may apply to eligible applicants, including certain new entrants and healthcare professionals.",
+            ],
+          },
+          {
+            heading: "4. English Language Requirements",
+            paragraphs: [
+              "You must demonstrate the required knowledge of English for your visa route. For new Skilled Worker applicants, the current requirement is generally B2 level under the Common European Framework of Reference (CEFR), subject to applicable exemptions and transitional provisions.",
+            ],
+          },
+          {
+            heading: "5. Financial Requirements",
+            paragraphs: [
+              "You may need to demonstrate that you have at least £1,270 available to support yourself when arriving in the UK. This amount must normally have been held for 28 consecutive days unless you qualify for an exemption or your employer certifies maintenance.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "How to Apply for a Long Term Work Visa UK",
+        paragraphs: [
+          "The application process usually involves securing sponsorship, preparing the necessary evidence and submitting an online application.",
+        ],
+        bullets: [
+          "1. Find an eligible UK employer: Secure a job offer from an employer approved to sponsor workers under the relevant visa route.",
+          "2. Receive your Certificate of Sponsorship: Your employer must assign a valid CoS with the details of your role.",
+          "3. Prepare your documents: Gather your passport, sponsorship details, qualifications, English language evidence and financial documents where required.",
+          "4. Submit your application: Complete the relevant online visa application and provide accurate information.",
+          "5. Pay the applicable fees: Pay the visa application fee and Immigration Health Surcharge, where applicable.",
+          "6. Complete identity verification: Use the UK Immigration: ID Check app or attend a visa application centre for biometric enrolment if instructed.",
+          "7. Receive your decision: Once approved, you can travel to the UK and begin the sponsored employment in accordance with your visa conditions.",
+        ],
+        subsections: [
+          {
+            heading: "Application Timing",
+            paragraphs: [
+              "You can usually apply up to three months before the start date stated on your Certificate of Sponsorship.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Long Term Work Visa UK Fees and Processing Time",
+        paragraphs: [
+          "The cost depends on the visa category, application location and length of permission. For example, the Skilled Worker visa has different fees for applications made inside and outside the UK.",
+        ],
+        table: {
+          headers: ["Expense", "Skilled Worker Visa"],
+          rows: [
+            ["Application fee", "Usually £819 to £1,865"],
+            ["Immigration Health Surcharge", "Usually £1,035 per year"],
+            ["Maintenance funds", "Usually £1,270"],
+            ["Processing outside the UK", "Usually 3 weeks"],
+            ["Processing inside the UK", "Usually 8 weeks"],
+          ],
+        },
+        paragraphsAfterTable: [
+          "Eligible Health and Care Worker applicants pay lower application fees and are exempt from the Immigration Health Surcharge. Their standard application fee is £324 for permission of up to three years or £628 for more than three years.",
+          "Processing times can vary if additional checks or documents are required. Always check the latest Home Office fees before applying.",
+        ],
+      },
+      {
+        heading: "How Visa Direct Immigration Can Help",
+        paragraphs: [
+          "Choosing the right work visa and preparing a complete application can make the process easier to manage. Visa Direct Immigration provides guidance to individuals looking to work in the UK.",
+          "Our team can help you:",
+        ],
+        bullets: [
+          "Understand the available long-term work visa routes.",
+          "Review your eligibility and employment circumstances.",
+          "Understand employer sponsorship and Certificate of Sponsorship requirements.",
+          "Identify the supporting documents needed.",
+          "Prepare and check your application information.",
+          "Understand visa fees, processing times and extension options.",
+        ],
+        subsections: [
+          {
+            heading: "UK-Wide Support",
+            paragraphs: [
+              "We support applicants through our offices in Birmingham, Bristol and Reading, as well as remotely across the UK.",
+              "Book Your Immigration Consultation to discuss your UK work visa options and application requirements.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Frequently Asked Questions",
+        subsections: [
+          {
+            heading: "1. What is the best long-term work visa for the UK?",
+            paragraphs: [
+              "The Skilled Worker visa is a common option for overseas nationals seeking long-term employment in the UK. Healthcare professionals may qualify for the Health and Care Worker visa, depending on their occupation and employer.",
+            ],
+          },
+          {
+            heading: "2. Can I apply for a long-term work visa without a job offer?",
+            paragraphs: [
+              "Most sponsored long-term work routes require a confirmed job offer or qualifying sponsorship arrangement. The Skilled Worker visa specifically requires an eligible job offer from an approved employer.",
+            ],
+          },
+          {
+            heading: "3. How long does a UK work visa last?",
+            paragraphs: [
+              "A Skilled Worker visa can generally be granted for up to five years. You may extend it if you continue to meet the eligibility requirements.",
+            ],
+          },
+          {
+            heading: "4. Can a UK work visa lead to permanent residence?",
+            paragraphs: [
+              "Yes. Eligible Skilled Worker and Health and Care Worker visa holders may apply for Indefinite Leave to Remain after five years, provided they meet the relevant settlement requirements.",
+            ],
+          },
+          {
+            heading: "5. Can I bring my family on a UK long-term work visa?",
+            paragraphs: [
+              "Eligible applicants may bring their partner and dependent children, subject to the rules of their specific visa category. Some work routes have restrictions on dependant applications.",
+            ],
+          },
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "What is the best long-term work visa for the UK?",
+        answer:
+          "The Skilled Worker visa is a common option for overseas nationals seeking long-term employment in the UK. Healthcare professionals may qualify for the Health and Care Worker visa, depending on their occupation and employer.",
+      },
+      {
+        question: "Can I apply for a long-term work visa without a job offer?",
+        answer:
+          "Most sponsored long-term work routes require a confirmed job offer or qualifying sponsorship arrangement. The Skilled Worker visa specifically requires an eligible job offer from an approved employer.",
+      },
+      {
+        question: "How long does a UK work visa last?",
+        answer:
+          "A Skilled Worker visa can generally be granted for up to five years. You may extend it if you continue to meet the eligibility requirements.",
+      },
+      {
+        question: "Can a UK work visa lead to permanent residence?",
+        answer:
+          "Yes. Eligible Skilled Worker and Health and Care Worker visa holders may apply for Indefinite Leave to Remain after five years, provided they meet the relevant settlement requirements.",
+      },
+      {
+        question: "Can I bring my family on a UK long-term work visa?",
+        answer:
+          "Eligible applicants may bring their partner and dependent children, subject to the rules of their specific visa category. Some work routes have restrictions on dependant applications.",
+      },
+    ],
+  },
   {
   id: "scale-up-visa",
   slug: "scale-up-visa",
