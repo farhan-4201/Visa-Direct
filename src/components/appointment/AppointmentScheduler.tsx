@@ -13,6 +13,7 @@ import {
   AlertCircle,
   User,
 } from "lucide-react";
+import { getAvailableAppointmentDates } from "@/lib/appointmentDates";
 
 interface BookingState {
   consultationType: string;
@@ -26,11 +27,13 @@ interface BookingState {
 }
 
 export function AppointmentScheduler() {
+  const availableDates = getAvailableAppointmentDates();
+  const defaultDate = availableDates[0].date;
   const [step, setStep] = useState<1 | 2 | 3 | 4>(1);
   const [booking, setBooking] = useState<BookingState>({
     consultationType: "video",
     consultationLocation: "Online Video Meeting",
-    selectedDate: "2026-10-26",
+    selectedDate: defaultDate,
     selectedTime: "10:00 AM",
     fullName: "",
     email: "",
@@ -80,14 +83,6 @@ export function AppointmentScheduler() {
       icon: <MapPin className="w-5 h-5 text-[#0c4c6d]" />,
       location: "London Office",
     },
-  ];
-
-  const availableDates = [
-    { date: "2026-10-26", label: "Mon, 26 Oct" },
-    { date: "2026-10-27", label: "Tue, 27 Oct" },
-    { date: "2026-10-28", label: "Wed, 28 Oct" },
-    { date: "2026-10-29", label: "Thu, 29 Oct" },
-    { date: "2026-10-30", label: "Fri, 30 Oct" },
   ];
 
   const availableTimes = [
@@ -522,7 +517,7 @@ export function AppointmentScheduler() {
                   setBooking({
                     consultationType: "video",
                     consultationLocation: "Online Video Meeting",
-                    selectedDate: "2026-10-26",
+                    selectedDate: defaultDate,
                     selectedTime: "10:00 AM",
                     fullName: "",
                     email: "",

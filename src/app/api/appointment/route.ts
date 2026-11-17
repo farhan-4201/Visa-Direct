@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { Resend } from "resend";
+import { isAvailableAppointmentDate } from "@/lib/appointmentDates";
 
 /**
  * POST /api/appointment
@@ -54,6 +55,16 @@ export async function POST(req: NextRequest) {
   if (!name || !email || !phone) {
     return NextResponse.json(
       { success: false, error: "Name, email, and phone are required." },
+      { status: 422 }
+    );
+  }
+
+  if (selectedDate && !isAvailableAppointmentDate(selectedDate)) {
+    return NextResponse.json(
+      {
+        success: false,
+        error: "Please select a working day from the next available appointment date.",
+      },
       { status: 422 }
     );
   }

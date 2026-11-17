@@ -86,7 +86,7 @@ describe("POST /api/appointment", () => {
         email: "jane@example.com",
         phone: "+44 7123 456789",
         consultationType: "Video Consultation",
-        selectedDate: "2026-10-28",
+        selectedDate: "2099-10-28",
         selectedTime: "11:00 AM",
       }),
     });
@@ -104,5 +104,24 @@ describe("POST /api/appointment", () => {
       from: "Visa Direct Immigration <info@visadirectimmigration.com>",
       to: "info@visadirectimmigration.com",
     });
+  });
+
+  it("rejects a same-day appointment date", async () => {
+    process.env.RESEND_API_KEY = "re_test_key";
+    const today = new Date().toISOString().slice(0, 10);
+    const req = new NextRequest("http://localhost:3000/api/appointment", {
+      method: "POST",
+      body: JSON.stringify({
+        name: "Jane Doe",
+        email: "jane@example.com",
+        phone: "+44 7123 456789",
+        consultationType: "Video Consultation",
+        selectedDate: today,
+      }),
+    });
+
+    const res = await POST(req);
+    expect(res.status).toBe(422);
+    expect((await res.json()).error).toContain("next available");
   });
 });
