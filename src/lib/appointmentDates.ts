@@ -14,24 +14,30 @@ function toDateKey(date: Date) {
 
 export function getAvailableAppointmentDates(
   from: Date,
-  count = 5
+  count = 5,
+  gapDays = 2
 ): AvailableAppointmentDate[] {
   const date = new Date(
     Date.UTC(from.getFullYear(), from.getMonth(), from.getDate() + 1)
   );
   const dates: AvailableAppointmentDate[] = [];
+  let skippedWorkingDays = 0;
 
   while (dates.length < count) {
     if (isWorkingDay(date)) {
-      dates.push({
-        date: toDateKey(date),
-        label: date.toLocaleDateString("en-GB", {
-          weekday: "short",
-          day: "numeric",
-          month: "short",
-          timeZone: "UTC",
-        }),
-      });
+      if (skippedWorkingDays < gapDays) {
+        skippedWorkingDays += 1;
+      } else {
+        dates.push({
+          date: toDateKey(date),
+          label: date.toLocaleDateString("en-GB", {
+            weekday: "short",
+            day: "numeric",
+            month: "short",
+            timeZone: "UTC",
+          }),
+        });
+      }
     }
     date.setUTCDate(date.getUTCDate() + 1);
   }

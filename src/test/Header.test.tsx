@@ -69,12 +69,11 @@ describe("Header Layout Component", () => {
       "Global Talent Visa",
       "Sports Person Visa",
       "Innovator Visa",
-      "Investor Visa",
     ].forEach((service) => {
       expect(screen.getByText(service)).toBeInTheDocument();
     });
 
-    ["Spouse Visa", "British Citizenship", "Student Visa", "UK Graduate Visa"].forEach(
+    ["Spouse Visa", "British Citizenship", "Student Visa", "UK Graduate Visa", "Investor Visa"].forEach(
       (service) => {
         expect(screen.queryByText(service)).not.toBeInTheDocument();
       },

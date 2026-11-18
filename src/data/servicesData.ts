@@ -5987,8 +5987,9 @@ const allServicesData: ServiceItem[] = [
   category: "Business Immigration",
   shortDescription: "Work in the UK for a fast-growing scale-up business with initial sponsorship and unsponsored flexibility after 6 months.",
   heroTagline: "Join high-growth UK companies with independent career flexibility.",
-  seoTitle: "UK Scale-Up Visa | Application Support | Visa Direct",
-  seoDescription: "Apply for the UK Scale-Up Visa to work for qualifying high-growth UK businesses with independent work flexibility after 6 months.",
+  seoTitle: "Scale Up Visa Lawyer UK | Visa Direct Immigration",
+  seoDescription: "Get professional UK Scale Up Visa application support. We help with eligibility, sponsorship, documents, requirements and the application process.",
+  primaryCta: "Book Your Immigration Consultation",
   iconName: "TrendingUp",
   keyFeatures: [
     "Scale-up sponsor verification and CoS review",
@@ -5997,39 +5998,196 @@ const allServicesData: ServiceItem[] = [
     "5-year direct pathway to Indefinite Leave to Remain"
   ],
   eligibilityRequirements: [
-    "Job offer from an authorized UK Scale-Up sponsor",
-    "Valid Certificate of Sponsorship for at least 6 months",
-    "Job role at skill level RQF 6 (graduate level) or higher",
-    "Salary meeting the minimum Scale-Up threshold"
+    "At least 18 years old when applying",
+    "Job offer from an approved UK scale-up business with valid CoS",
+    "Eligible occupation at the required skill level",
+    "Salary of at least £39,100 or the going rate for your occupation, whichever is higher",
+    "English language ability at B2 level",
+    "At least £1,270 in personal savings held for 28 consecutive days (unless exempt)"
   ],
   documentsRequired: [
     "Valid passport or travel document",
-    "CoS reference number from licensed scale-up employer",
-    "English language proficiency certificate (CEFR B1)",
-    "Proof of personal savings (£1,276) unless sponsor certifies maintenance"
+    "Certificate of Sponsorship reference number",
+    "Job title, annual salary and occupation code",
+    "Evidence of English language ability",
+    "Bank statements showing required maintenance funds, if applicable",
+    "TB test certificate, if required",
+    "ATAS certificate, if required for research role"
   ],
   processSteps: [
     {
-      title: "Sponsor Growth Verification",
-      description: "Confirming employer meets the 20% annual turnover or employment growth criteria over 3 years."
+      title: "Eligibility Check",
+      description: "Confirm that your job, employer, salary and qualifications meet the Scale-up Visa requirements."
     },
     {
-      title: "CoS Allocation & Filing",
-      description: "Reviewing defined CoS and filing the visa application with UKVI."
+      title: "Secure Job Offer & CoS",
+      description: "Receive an offer from a business approved to sponsor Scale-up Workers and obtain your Certificate of Sponsorship."
+    },
+    {
+      title: "Prepare & Submit Application",
+      description: "Gather documents, complete the online application, pay the fees and provide biometric information."
     },
     {
       title: "Transition to Unsponsored Status",
-      description: "Guiding you through unsponsored extension after completing your initial 6 months."
+      description: "After 6 months in the sponsored role, you can change employers or leave your job without updating your visa."
     }
   ],
   faqs: [
     {
-      question: "Can I change employers on a Scale-Up Visa?",
-      answer: "Yes. After completing 6 months with your sponsoring employer, you can switch jobs, take additional roles, or become self-employed without requiring new sponsorship."
+      question: "What are the main Scale-up Visa requirements?",
+      answer: "You must be at least 18, have a job offer from an approved UK scale-up business, meet the eligible occupation and salary requirements, receive a valid Certificate of Sponsorship and demonstrate the required English language ability."
     },
     {
-      question: "Does the Scale-Up Visa lead to permanent settlement?",
-      answer: "Yes, you can qualify for Indefinite Leave to Remain after 5 continuous years in the UK on this route."
+      question: "Can I apply for a Scale-up Visa without a job offer?",
+      answer: "No. An initial sponsored application requires a qualifying job offer and Certificate of Sponsorship from an approved UK scale-up business. However, eligible people who have already completed six months in a sponsored Scale-up role may qualify for an unsponsored application."
+    },
+    {
+      question: "How much salary do I need for a Scale-up Visa UK?",
+      answer: "The standard salary requirement is at least £39,100 per year or the going rate for your occupation, whichever is higher. Your employer should confirm the occupation code and applicable salary before you apply."
+    },
+    {
+      question: "Can I change employers on a Scale-up Visa?",
+      answer: "You must work in your sponsored job for at least the first six months. After completing this period, you can generally change employers or leave your sponsored job without updating your visa."
+    },
+    {
+      question: "Can I extend my Scale-up Visa?",
+      answer: "Yes. You may be able to extend your permission without a new Certificate of Sponsorship if you meet the applicable employment and earnings requirements. A successful unsponsored application normally grants a further three years."
+    },
+    {
+      question: "Can my family join me on a Scale-up Visa?",
+      answer: "Yes. Your eligible partner and dependent children can apply to join you or stay in the UK. Each dependant must submit an application and meet the relevant relationship and financial requirements."
+    },
+    {
+      question: "Does the Scale-up Visa lead to permanent residence?",
+      answer: "Yes. Eligible Scale-up Workers may apply for Indefinite Leave to Remain after five years of qualifying residence, provided they meet the continuous residence, earnings, English language and other settlement requirements."
+    }
+  ],
+  contentSections: [
+    {
+      heading: "Scale Up Visa UK",
+      paragraphs: [
+        "The UK Scale-up Visa allows eligible skilled workers to take up employment with an approved, fast-growing UK business. It is designed to help qualifying businesses recruit talented professionals who can contribute to their continued growth.",
+        "The route offers an initial sponsored period, followed by greater employment flexibility after the first six months. Eligible applicants may also be able to extend their permission and eventually apply for Indefinite Leave to Remain (ILR).",
+        "Understanding the Scale-up Visa requirements, salary threshold, sponsorship arrangements and English language criteria is important before applying. Visa Direct Immigration provides application guidance and support to individuals and businesses in Birmingham, Bristol, Reading and across the UK."
+      ]
+    },
+    {
+      heading: "What is the UK Scale-up Visa?",
+      paragraphs: [
+        "The Scale-up Worker Visa is a UK work route for skilled professionals who have a job offer from an approved scale-up business. The employer must meet specific Home Office requirements, and the offered position must satisfy the occupation, salary and sponsorship criteria.",
+        "One of the main benefits is that the route provides more flexibility than some other sponsored work visas. You must initially work in your sponsored position for at least six months, but after this period you can change or leave your job without updating your visa.",
+        "The route may be suitable for professionals in eligible occupations who have secured employment with a qualifying UK business and want a potential pathway towards settlement."
+      ]
+    },
+    {
+      heading: "Scale-up Visa Eligibility Requirements",
+      paragraphs: ["To qualify for a Scale-up Visa UK, you must meet the relevant Home Office requirements for age, employment, sponsorship, salary, English language ability and maintenance funds."],
+      subsections: [
+        {
+          heading: "1. Age Requirement",
+          paragraphs: ["You must be at least 18 years old when you submit your Scale-up Visa application."]
+        },
+        {
+          heading: "2. Job Offer from an Approved Scale-up Business",
+          paragraphs: [
+            "You must have a confirmed job offer from a UK business approved to sponsor workers under the Scale-up route. The employer must appear on the Home Office register of licensed sponsors with permission to sponsor Scale-up Workers.",
+            "A business may qualify through an approved endorsing body or by meeting the relevant growth criteria."
+          ]
+        },
+        {
+          heading: "3. Eligible Occupation",
+          paragraphs: ["Your proposed role must appear on the eligible occupation list and meet the required skill level. You will need the correct four-digit occupation code, which your employer should provide."]
+        },
+        {
+          heading: "4. Salary Requirements",
+          paragraphs: ["Your salary must meet the higher of:"],
+          bullets: [
+            "£39,100 per year.",
+            "The applicable going rate for your occupation."
+          ]
+        },
+        {
+          heading: "5. Certificate of Sponsorship",
+          paragraphs: ["Your employer must issue a valid Certificate of Sponsorship (CoS) confirming your job, salary and employment arrangements. The certificate must normally be used within three months of being issued."]
+        },
+        {
+          heading: "6. English Language Requirement",
+          paragraphs: ["You must demonstrate English language ability at B2 level in reading, writing, speaking and listening, unless you qualify for an exemption. You may meet this requirement through an approved English language test or another accepted method."]
+        },
+        {
+          heading: "7. Financial Requirement",
+          paragraphs: ["You normally need at least £1,270 in personal savings, held for 28 consecutive days, unless your employer certifies maintenance or you qualify for an exemption. Applicants who have already been in the UK with valid permission for at least 12 months may not need to provide separate evidence of funds."]
+        }
+      ]
+    },
+    {
+      heading: "Documents Required for a Scale-up Visa Application",
+      paragraphs: ["Preparing the correct documents is an important part of the Scale-up Visa application process. Your exact requirements will depend on your employment and personal circumstances.", "Common documents include:"],
+      bullets: [
+        "A valid passport or travel document.",
+        "Certificate of Sponsorship reference number.",
+        "Job title, annual salary and occupation code.",
+        "Employer's name and sponsor licence number.",
+        "Evidence of English language ability.",
+        "Bank statements showing the required maintenance funds, if applicable.",
+        "Proof of relationship if your partner or children are applying as dependants.",
+        "TB test certificate, if required.",
+        "ATAS certificate, if your role involves research that requires one."
+      ],
+      paragraphsAfterTable: [
+        "Documents that are not in English or Welsh must normally be accompanied by a certified translation."
+      ]
+    },
+    {
+      heading: "How to Apply for a Scale-up Visa UK",
+      paragraphs: ["You can apply for a Scale-up Visa from outside the UK or, if eligible, switch to this route or extend your permission from inside the country.", "The application process generally involves the following steps:"],
+      bullets: [
+        "Check your eligibility: Confirm that your job, employer, salary and qualifications meet the Scale-up Visa requirements.",
+        "Secure an eligible job offer: You must receive an offer from a business approved to sponsor Scale-up Workers.",
+        "Receive your Certificate of Sponsorship: Your employer will issue the electronic sponsorship reference needed for your application.",
+        "Prepare your documents: Gather your passport, English language evidence, financial documents and other required information.",
+        "Complete the online application: Submit the appropriate Scale-up Visa application through GOV.UK.",
+        "Pay the required fees: Pay the application fee and Immigration Health Surcharge.",
+        "Prove your identity: Follow the instructions to use the UK Immigration: ID Check app or attend a visa application centre for biometrics."
+      ],
+      paragraphsAfterTable: [
+        "You can normally apply up to three months before the start date stated on your Certificate of Sponsorship. If you are switching from another UK visa, you must also check that your current immigration category allows you to switch."
+      ]
+    },
+    {
+      heading: "Scale-up Visa Fees and Processing Time",
+      paragraphs: ["Applicants should budget for the visa application fee, Immigration Health Surcharge and any applicable maintenance requirements."],
+      table: {
+        headers: ["Requirement", "Current details"],
+        rows: [
+          ["Application fee", "£937"],
+          ["Immigration Health Surcharge", "Usually £1,035 per year"],
+          ["Maintenance funds", "£1,270"],
+          ["Processing outside the UK", "Usually 3 weeks"],
+          ["Processing inside the UK", "Usually 8 weeks"]
+        ]
+      },
+      paragraphsAfterTable: [
+        "The £1,270 maintenance amount must normally be held for 28 consecutive days, with the final day within 31 days of applying. An eligible sponsor may certify maintenance instead.",
+        "Your actual costs may vary depending on the length of permission, application type and number of dependants. Additional charges may apply if you choose a faster decision service."
+      ]
+    },
+    {
+      heading: "How Long Can You Stay on a Scale-up Visa?",
+      paragraphs: [
+        "A successful initial sponsored Scale-up Visa application normally allows you to stay in the UK for two years. You must work in your sponsored role for the first six months. After that, you can generally change employers, leave your job or become self-employed without updating your visa.",
+        "If you meet the requirements, you may apply for an unsponsored Scale-up Visa, which normally grants a further three years. You may also extend your permission without a new Certificate of Sponsorship, provided you meet the relevant employment and earnings requirements."
+      ]
+    },
+    {
+      heading: "Scale-up Visa Immigration Adviser Support",
+      paragraphs: [
+        "Applicants searching for a Scale-up Visa lawyer, solicitor or immigration adviser often need assistance understanding the sponsorship rules, checking their eligibility and preparing a complete application.",
+        "The route has specific requirements, particularly around the approved employer, occupation code, salary threshold and six-month sponsored employment period. Understanding these conditions before applying can help you avoid mistakes and delays.",
+        "Visa Direct Immigration provides application guidance and support. If you are looking for a Scale-up Visa immigration lawyer, check their professional qualifications and authorisation before engaging them for regulated legal or immigration advice.",
+        "We support applicants in Birmingham, Bristol and Reading, as well as remotely across the UK.",
+        "Book Your Immigration Consultation to discuss your Scale-up Visa application and the support you may need."
+      ]
     }
   ]
 },
@@ -6040,8 +6198,9 @@ const allServicesData: ServiceItem[] = [
   category: "Business Immigration",
   shortDescription: "Global Business Mobility route enabling senior managers or specialist employees to establish a UK commercial presence.",
   heroTagline: "Establish your overseas business in the UK commercial marketplace.",
-  seoTitle: "UK Expansion Worker Visa | Global Business Mobility Support",
-  seoDescription: "Expand your overseas business to the UK. Get expert guidance on the Global Business Mobility Expansion Worker visa and UK footprint setup.",
+  seoTitle: "UK Expansion Worker Visa Lawyers | Visa Direct Immigration",
+  seoDescription: "Need a UK Expansion Worker Visa consultant? Get professional application support with eligibility, sponsorship, documents, fees and requirements.",
+  primaryCta: "Book Your Immigration Consultation",
   iconName: "Building2",
   keyFeatures: [
     "UK expansion sponsor licence setup support",
@@ -6077,12 +6236,149 @@ const allServicesData: ServiceItem[] = [
   ],
   faqs: [
     {
-      question: "How long can I stay on a UK Expansion Worker Visa?",
-      answer: "You can stay for up to 12 months initially, extendable to a maximum total stay of 2 years."
+      question: "Who is eligible for a UK Expansion Worker Visa?",
+      answer: "Senior managers and specialist employees of overseas businesses may qualify if they meet the employment, occupation, salary and sponsorship requirements. The business must also meet the relevant expansion and sponsor licence conditions."
     },
     {
-      question: "Does this route lead to settlement directly?",
-      answer: "No, but once the UK entity starts trading, workers can switch into the Skilled Worker route to pursue 5-year settlement."
+      question: "Can I apply for a UK Expansion Worker Visa without a sponsor?",
+      answer: "No. You must have a valid Certificate of Sponsorship from an approved UK sponsor before submitting your application."
+    },
+    {
+      question: "Can I extend my UK Expansion Worker Visa?",
+      answer: "Yes. You may apply for a further 12 months if you continue to meet the requirements. Your total stay under this route cannot exceed two years."
+    },
+    {
+      question: "Does the UK Expansion Worker Visa lead to ILR?",
+      answer: "No. This route does not directly lead to settlement. You may be able to switch to another eligible visa route if you meet its requirements."
+    }
+  ],
+  contentSections: [
+    {
+      heading: "UK Expansion Worker Visa",
+      paragraphs: [
+        "The UK Expansion Worker Visa allows an overseas business to send an eligible senior manager or specialist employee to the UK to establish its first branch or subsidiary. It is part of the Global Business Mobility visa category and is intended for businesses that have not yet started trading in the UK.",
+        "Visa Direct Immigration provides guidance for individuals and overseas businesses preparing a UK Expansion Worker Visa application. We can help you understand the sponsorship process, eligibility requirements, supporting documents and application stages."
+      ]
+    },
+    {
+      heading: "What is the UK Expansion Worker Visa?",
+      paragraphs: [
+        "The UK Expansion Worker Visa is a temporary sponsored work route for employees of overseas businesses planning to expand into the British market. It allows an eligible employee to travel to the UK and undertake work connected with establishing the company's UK presence.",
+        "The route is suitable for senior managers and specialist employees who already work for the overseas business. If the company is already actively trading in the UK, a different immigration route, such as the Senior or Specialist Worker Visa, may be more appropriate."
+      ]
+    },
+    {
+      heading: "UK Expansion Worker Visa Requirements",
+      paragraphs: [
+        "Applicants must meet specific sponsorship, employment, occupation and salary requirements. The overseas business must also qualify to sponsor workers under this route.",
+        "The main eligibility criteria include:"
+      ],
+      subsections: [
+        {
+          heading: "1. Valid Certificate of Sponsorship",
+          paragraphs: [
+            "You must receive a valid Certificate of Sponsorship (CoS) from an approved UK sponsor. It confirms your proposed job, salary, occupation code and employment details. You must apply within three months of receiving your CoS."
+          ]
+        },
+        {
+          heading: "2. Previous Employment with the Overseas Business",
+          paragraphs: [
+            "You must normally have worked for the overseas employer outside the UK for at least 12 months. Exceptions apply if you earn more than £73,900, or if you are a qualifying Japanese national or an Australian national or permanent resident working for an expanding company from that country."
+          ]
+        },
+        {
+          heading: "3. Eligible Job and Salary",
+          paragraphs: [
+            "Your position must appear on the eligible occupation list and meet the required skill level. You must normally earn at least £52,500 per year or the going rate for your occupation, whichever is higher."
+          ]
+        },
+        {
+          heading: "4. Age Requirement",
+          paragraphs: ["You must be at least 18 years old when applying."]
+        },
+        {
+          heading: "5. Financial Requirement",
+          paragraphs: [
+            "You generally need at least £1,270 in personal savings, held for 28 consecutive days, unless you have already been in the UK with valid permission for at least 12 months or your sponsor certifies your maintenance."
+          ]
+        }
+      ]
+    },
+    {
+      heading: "Requirements for the Overseas Business",
+      paragraphs: [
+        "The UK Expansion Worker route also has specific requirements for the sponsoring organisation. The overseas business must be actively trading outside the UK and have a qualifying link with the proposed UK branch or subsidiary.",
+        "The business must demonstrate a UK footprint, such as registered UK premises or a qualifying Companies House registration, and provide credible plans to establish a UK trading presence within two years. The overseas business will generally need to demonstrate at least three years of active trading, subject to applicable exceptions.",
+        "A UK Expansion Worker sponsor licence is required before the business can assign a Certificate of Sponsorship. The employer must also comply with its ongoing sponsorship duties."
+      ]
+    },
+    {
+      heading: "Benefits of the UK Expansion Worker Visa",
+      paragraphs: ["This route offers several advantages for overseas companies and eligible employees:"],
+      bullets: [
+        "Establish a UK presence: Send experienced staff to help set up a UK branch or subsidiary.",
+        "Transfer specialist knowledge: Bring senior managers and specialist employees who understand the overseas business.",
+        "Develop UK operations: Support the company's expansion plans and prepare for future trading.",
+        "Bring eligible family members: Qualifying partners and dependent children can apply to accompany the main applicant.",
+        "Travel and study: Visa holders can travel abroad and return to the UK and undertake permitted study.",
+        "Explore future immigration options: After establishing a UK trading presence, the business may be able to qualify for additional sponsorship routes."
+      ]
+    },
+    {
+      heading: "Documents Required for UK Expansion Worker Visa",
+      paragraphs: ["You should prepare the required documents before submitting your application. These generally include:"],
+      bullets: [
+        "Valid passport or travel document.",
+        "Certificate of Sponsorship reference number.",
+        "Job title, annual salary and occupation code.",
+        "Employer's name and sponsor licence number.",
+        "Bank statements showing the required maintenance funds, if applicable.",
+        "Evidence of previous employment outside the UK, if requested.",
+        "Tuberculosis test certificate, if required.",
+        "Evidence of relationship for accompanying dependants.",
+        "Certified translations of documents not written in English or Welsh."
+      ]
+    },
+    {
+      heading: "How to Apply for a UK Expansion Worker Visa",
+      paragraphs: ["The application process involves both the overseas employer and the proposed employee."],
+      bullets: [
+        "Check eligibility: Confirm that the employee and overseas business meet the route's requirements.",
+        "Obtain a sponsor licence: The overseas business must establish its UK footprint and apply for the appropriate sponsor licence.",
+        "Receive a Certificate of Sponsorship: Once authorised, the employer assigns a CoS to the eligible employee.",
+        "Prepare documents: Gather identity, employment, financial and other supporting evidence.",
+        "Submit the online application: Complete the relevant application form and pay the visa fee and Immigration Health Surcharge.",
+        "Complete identity checks: Use the UK Immigration ID Check app or attend a biometric appointment, depending on the instructions.",
+        "Wait for a decision: UK Visas and Immigration will assess the application and notify you of the outcome."
+      ],
+      paragraphsAfterTable: [
+        "You can normally apply up to three months before the employment start date shown on your Certificate of Sponsorship."
+      ]
+    },
+    {
+      heading: "Cost of UK Expansion Worker Visa",
+      paragraphs: ["The standard application fee is £340 per applicant. You must also budget for the Immigration Health Surcharge and any other applicable costs."],
+      table: {
+        headers: ["Expense", "Cost"],
+        rows: [
+          ["Visa application fee", "£340"],
+          ["Immigration Health Surcharge for an adult", "Usually £1,035 per year"],
+          ["Maintenance funds", "£1,270, where required"]
+        ]
+      },
+      paragraphsAfterTable: [
+        "The £1,270 maintenance requirement is money you must hold to support yourself, not a fee paid to the Home Office. Dependants have separate application fees, healthcare surcharges and financial requirements. The employer may also have separate sponsor licence and business establishment costs.",
+        "Always check the latest Home Office fees before applying."
+      ]
+    },
+    {
+      heading: "UK Expansion Worker Visa Lawyers and Consultant Support",
+      paragraphs: [
+        "Applying for this visa involves both personal eligibility and detailed business sponsorship requirements. Mistakes in the sponsor licence application, overseas trading evidence, Certificate of Sponsorship or employee documents can cause delays or refusal.",
+        "If you are searching for UK Expansion Worker Visa lawyers, the best solicitors for UK Expansion Worker Visas or an immigration consultant, check the professional's qualifications, authorisation and experience with business immigration applications.",
+        "Visa Direct Immigration can provide application guidance to help you understand the requirements, prepare supporting documents and navigate the application process. We support clients in Birmingham, Bristol, Reading and across the UK through remote consultations.",
+        "Book Your Immigration Consultation to discuss your UK Expansion Worker Visa application."
+      ]
     }
   ]
 },
@@ -7032,8 +7328,9 @@ const allServicesData: ServiceItem[] = [
   category: "Business Immigration",
   shortDescription: "Global Business Mobility route for overseas graduates transferring to a UK branch as part of a graduate training programme.",
   heroTagline: "Structured corporate training in the UK for overseas graduates.",
-  seoTitle: "Graduate Trainee Visa UK | Global Business Mobility Support",
-  seoDescription: "Guidance for multinational companies transferring overseas graduates to UK branches on structured corporate development programmes.",
+  seoTitle: "Graduate Trainee Visa Services UK | Visa Direct Immigration",
+  seoDescription: "Need a UK Graduate Trainee Visa? Get application support with eligibility, sponsorship, documents, fees and visa requirements.",
+  primaryCta: "Book Your Immigration Consultation",
   iconName: "GraduationCap",
   keyFeatures: [
     "Structured specialist training programme verification",
@@ -7045,7 +7342,7 @@ const allServicesData: ServiceItem[] = [
     "Employed by linked overseas business for at least 3 months",
     "Enrolled in a genuine structured graduate training programme",
     "Assigned Certificate of Sponsorship from an approved UK sponsor",
-    "Salary meeting the route threshold (£25,410 or 70% of going rate)"
+    "Salary meeting the route threshold (£27,300 or 70% of going rate)"
   ],
   documentsRequired: [
     "Valid passport",
@@ -7069,8 +7366,146 @@ const allServicesData: ServiceItem[] = [
   ],
   faqs: [
     {
-      question: "Can I bring dependants on a Graduate Trainee Visa?",
-      answer: "Yes, eligible partners and children can accompany you for the duration of your training placement."
+      question: "Who can apply for a Graduate Trainee Visa?",
+      answer: "Existing employees of eligible overseas businesses may apply if they are undertaking a structured training programme at a linked UK business and meet the sponsorship, occupation and salary requirements."
+    },
+    {
+      question: "Can I apply for a Graduate Trainee Visa from inside the UK?",
+      answer: "No. You must apply from outside the UK and meet the requirement of having worked for your employer overseas for at least three months immediately before applying."
+    },
+    {
+      question: "How much does a Graduate Trainee Visa cost?",
+      answer: "The application fee is £340. You will also usually pay the Immigration Health Surcharge of £1,035 per year and need to meet the £1,270 maintenance requirement, unless exempt."
+    },
+    {
+      question: "Can I extend my Graduate Trainee Visa?",
+      answer: "You cannot extend this visa from inside the UK. However, you may apply for another Graduate Trainee Visa from outside the UK if you continue to meet the eligibility requirements."
+    },
+    {
+      question: "Can a Graduate Trainee Visa solicitor help with my application?",
+      answer: "An appropriately qualified immigration solicitor can provide legal advice and assistance where required. Visa Direct Immigration provides application guidance, document preparation support and help understanding the relevant immigration requirements."
+    },
+    {
+      question: "Can my family join me on a Graduate Trainee Visa?",
+      answer: "Your eligible partner and dependent children may apply to join you. They must submit separate applications and meet the relevant relationship and financial requirements."
+    }
+  ],
+  contentSections: [
+    {
+      heading: "Graduate Trainee Visa",
+      paragraphs: [
+        "The UK Graduate Trainee Visa allows eligible overseas employees to complete a temporary work placement at their employer's UK branch as part of a structured graduate training programme. The programme must lead to a senior management or specialist position.",
+        "This visa is part of the Global Business Mobility route and is intended for employees transferring within an international business group, rather than graduates seeking their first job in the UK.",
+        "If you are considering a Graduate Trainee Visa application, understanding the sponsorship, employment and salary requirements is essential. Visa Direct Immigration provides application guidance to individuals and businesses in Birmingham, Bristol, Reading and across the UK."
+      ]
+    },
+    {
+      heading: "What is a Graduate Trainee Visa?",
+      paragraphs: [
+        "A Graduate Trainee Visa is a temporary UK work visa for existing employees of overseas businesses undertaking structured training at a linked UK organisation. The placement must be part of a graduate training programme designed to prepare the employee for a managerial or specialist role.",
+        "It is not the same as the Graduate Visa, which is intended for eligible international students who have completed a UK degree.",
+        "If your employer wants to transfer you to its UK branch for a different type of role, the Senior or Specialist Worker Visa may be more suitable."
+      ]
+    },
+    {
+      heading: "Eligibility Criteria for a UK Graduate Trainee Visa",
+      paragraphs: ["To qualify, you must meet the Home Office requirements for employment, sponsorship, occupation and salary."],
+      subsections: [
+        {
+          heading: "1. Existing Overseas Employment",
+          paragraphs: [
+            "You must be an existing employee of an organisation approved by the Home Office as a sponsor. You must have worked for your employer outside the UK for at least three months immediately before applying."
+          ]
+        },
+        {
+          heading: "2. Eligible Training Programme",
+          paragraphs: [
+            "Your UK placement must form part of a structured graduate training programme leading to a senior management or specialist position."
+          ]
+        },
+        {
+          heading: "3. Certificate of Sponsorship",
+          paragraphs: [
+            "Your UK employer must issue a valid Certificate of Sponsorship (CoS) containing details of your training placement, job and salary. You must apply within three months of receiving it."
+          ]
+        },
+        {
+          heading: "4. Eligible Job and Salary",
+          paragraphs: [
+            "Your role must appear on the eligible occupation list. You must generally earn at least £27,300 per year or 70% of the applicable going rate for your occupation, whichever is higher. Different salary rules may apply to certain healthcare and education roles."
+          ]
+        },
+        {
+          heading: "5. Financial Requirements",
+          paragraphs: [
+            "You normally need at least £1,270 in personal savings, held for 28 consecutive days, unless your employer certifies maintenance or you qualify for an exemption."
+          ]
+        }
+      ]
+    },
+    {
+      heading: "Documents Required for a Graduate Trainee Visa",
+      paragraphs: ["The documents you need will depend on your circumstances. Common requirements include:"],
+      bullets: [
+        "Valid passport or travel document.",
+        "Certificate of Sponsorship reference number.",
+        "Job title, salary and occupation code.",
+        "UK employer details and sponsor licence number.",
+        "Bank statements showing required maintenance funds, if applicable.",
+        "Evidence of overseas employment, such as payslips or bank statements, if requested.",
+        "Details of your graduate training programme.",
+        "TB test certificate, if required."
+      ]
+    },
+    {
+      heading: "How to Apply for a UK Graduate Trainee Visa",
+      paragraphs: ["You must apply online from outside the UK. The usual application process involves:"],
+      bullets: [
+        "Check your eligibility: Confirm that your employment, training programme and occupation meet the requirements.",
+        "Obtain sponsorship: Your UK employer must issue a valid Certificate of Sponsorship.",
+        "Prepare your documents: Gather your passport, employment evidence and financial documents.",
+        "Complete the application: Submit the online Graduate Trainee Visa application through GOV.UK.",
+        "Pay the fees: Pay the application fee and Immigration Health Surcharge.",
+        "Verify your identity: Use the UK Immigration: ID Check app or attend a visa application centre for biometrics, as instructed."
+      ],
+      paragraphsAfterTable: [
+        "You can usually apply up to three months before your planned UK work start date."
+      ]
+    },
+    {
+      heading: "Graduate Trainee Visa Fees and Processing Time",
+      paragraphs: ["The main application costs and processing times are:"],
+      table: {
+        headers: ["Requirement", "Current details"],
+        rows: [
+          ["Application fee", "£340"],
+          ["Immigration Health Surcharge", "Usually £1,035 per year"],
+          ["Maintenance funds", "£1,270"],
+          ["Processing outside the UK", "Usually 3 weeks"]
+        ]
+      },
+      paragraphsAfterTable: [
+        "The maintenance funds must normally be held for 28 consecutive days, with the end of that period within 31 days of applying. Your employer can certify maintenance instead.",
+        "Processing may take longer if UKVI needs additional documents, verification or an interview."
+      ]
+    },
+    {
+      heading: "How Long Can You Stay in the UK?",
+      paragraphs: [
+        "You can stay for the shorter of 12 months or the period stated on your Certificate of Sponsorship plus 14 days.",
+        "You cannot extend your Graduate Trainee Visa from inside the UK or switch into this route from another visa category while in the country. However, you may apply for another Graduate Trainee Visa from outside the UK if you remain eligible.",
+        "There is also a combined maximum stay of five years in any six-year period across specified Global Business Mobility routes.",
+        "This visa does not lead directly to Indefinite Leave to Remain (ILR)."
+      ]
+    },
+    {
+      heading: "Graduate Trainee Visa Lawyer and Adviser Support",
+      paragraphs: [
+        "People searching for a Graduate Trainee Visa lawyer, solicitor or immigration adviser often need help understanding sponsorship requirements, checking their eligibility and preparing a complete application.",
+        "Choosing an appropriate immigration service is important, particularly where your employment history, training programme or sponsorship arrangements require careful assessment.",
+        "Visa Direct Immigration provides immigration application guidance and support. We support applicants in Birmingham, Bristol and Reading, as well as remotely across the UK.",
+        "Book Your Immigration Consultation to discuss your Graduate Trainee Visa application."
+      ]
     }
   ]
 },
@@ -7081,8 +7516,9 @@ const allServicesData: ServiceItem[] = [
   category: "Business Immigration",
   shortDescription: "Long-term visa route for religious leaders, pastoral workers, and missionaries taking up appointments with licensed UK faith bodies.",
   heroTagline: "Religious and pastoral leadership appointments in the United Kingdom.",
-  seoTitle: "Minister of Religion Visa UK (T2) | Application Support",
-  seoDescription: "Legal representation for religious ministers, pastoral workers, and religious orders taking appointments with UK faith institutions.",
+  seoTitle: "Minister of Religion Visa Lawyer in the UK",
+  seoDescription: "Need a Minister of Religion Visa lawyer in the UK? Get professional application support with eligibility, sponsorship, documents and visa requirements.",
+  primaryCta: "Book Your Immigration Consultation",
   iconName: "Heart",
   keyFeatures: [
     "Faith institution sponsorship verification",
@@ -7094,84 +7530,485 @@ const allServicesData: ServiceItem[] = [
     "Valid CoS from an authorized UK Minister of Religion sponsor",
     "Role involves leading congregation in worship, performing rituals, or pastoral care",
     "Demonstrated English language proficiency at level B2",
-    "Adequate maintenance savings and suitable accommodation"
+    "At least £1,270 in personal savings held for 28 consecutive days (unless exempt)",
+    "Must be at least 18 years old when applying"
   ],
   documentsRequired: [
-    "Valid passport",
-    "CoS reference number",
-    "Recognized English language certificate (CEFR B2)",
-    "Proof of funds and accommodation confirmation"
+    "Valid passport or other accepted travel document",
+    "Certificate of Sponsorship reference number",
+    "Evidence of English language ability, if required",
+    "Bank statements showing required savings, where applicable",
+    "TB test certificate, if required",
+    "Certified translations of non-English/Welsh documents"
   ],
   processSteps: [
     {
-      title: "Religious Role Assessment",
-      description: "Ensuring role qualifies as pastoral/leadership rather than non-pastoral religious work."
+      title: "Confirm Eligibility",
+      description: "Check that your proposed religious role meets the T2 route requirements and that you meet the age, English language and financial criteria."
     },
     {
-      title: "CoS & Visa Application",
-      description: "Issuing Certificate of Sponsorship and filing the visa with full evidentiary pack."
+      title: "Obtain Certificate of Sponsorship",
+      description: "Your UK religious organisation must hold the appropriate sponsor licence and issue a valid CoS for your role."
     },
     {
-      title: "5-Year Settlement Journey",
-      description: "Advising on continuous residence leading to British settlement."
+      title: "Prepare & Submit Application",
+      description: "Gather all required documents, complete the online application and pay the visa fee and Immigration Health Surcharge."
+    },
+    {
+      title: "Attend Biometrics & Await Decision",
+      description: "Provide fingerprints and photograph at a visa application centre, then wait for UKVI to assess your application."
     }
   ],
   faqs: [
     {
-      question: "Does the Minister of Religion visa lead to ILR?",
-      answer: "Yes, applicants can apply for Indefinite Leave to Remain after 5 continuous years in the UK."
+      question: "Who can apply for a UK Minister of Religion Visa?",
+      answer: "A person aged 18 or over with an eligible religious role and a valid Certificate of Sponsorship from an approved UK sponsor may apply, provided they meet the other immigration requirements."
+    },
+    {
+      question: "Is there an upper age limit for the Minister of Religion Visa UK?",
+      answer: "No general upper age limit is specified. However, applicants must be at least 18 on the date of application and satisfy the sponsorship, English language, financial and other eligibility criteria."
+    },
+    {
+      question: "Can I apply for a Minister of Religion Visa without a Certificate of Sponsorship?",
+      answer: "No. You must have a valid Certificate of Sponsorship from an eligible UK sponsor before applying under this route."
+    },
+    {
+      question: "Can my family join me in the UK?",
+      answer: "Your eligible partner and dependent children may apply to join you or remain in the UK. Each dependant must submit a separate application and meet the relevant relationship and financial requirements."
+    },
+    {
+      question: "Can I apply for ILR after a Minister of Religion Visa?",
+      answer: "You may be eligible to apply for Indefinite Leave to Remain after five years of qualifying continuous residence, provided you meet the settlement, sponsorship, English language and other applicable requirements."
+    },
+    {
+      question: "Is the Minister of Religion Visa the same as the Religious Worker Visa?",
+      answer: "No. The Minister of Religion route is intended for qualifying religious leadership and pastoral roles, while the Temporary Work Religious Worker route covers certain other religious placements. The correct route depends on the duties and circumstances of the position."
+    }
+  ],
+  contentSections: [
+    {
+      heading: "Minister of Religion Visa",
+      paragraphs: [
+        "The UK Minister of Religion Visa, also known as the T2 Minister of Religion Visa, allows eligible religious leaders and ministers to come to the UK to take up an approved role within a faith-based organisation. It is designed for people with a key leading or mainly pastoral role, including ministers, missionaries and certain members of religious orders.",
+        "Visa Direct Immigration provides application guidance to individuals preparing a Minister of Religion visa application. We can help you understand the eligibility criteria, sponsorship requirements, supporting documents and application process."
+      ]
+    },
+    {
+      heading: "What is the UK Minister of Religion Visa?",
+      paragraphs: [
+        "The Minister of Religion Visa is a sponsored work route for people who have been offered an eligible religious role by a UK organisation holding a valid Home Office sponsor licence. The role must meet the requirements of the T2 route and involve an appropriate level of religious leadership or pastoral responsibility.",
+        "Eligible roles may include:"
+      ],
+      bullets: [
+        "Ministers and religious leaders.",
+        "Missionaries undertaking qualifying religious duties.",
+        "Members of recognised religious orders.",
+        "Other religious workers whose roles meet the mainly pastoral or senior-role requirements."
+      ],
+      paragraphsAfterTable: [
+        "The route is different from the Temporary Work Religious Worker Visa, which is generally intended for certain non-pastoral or temporary religious placements. Choosing the correct category is important because the eligibility and length of stay differ."
+      ]
+    },
+    {
+      heading: "UK Minister of Religion Visa Requirements",
+      paragraphs: ["To qualify, applicants must meet the sponsorship, financial, English language and other immigration requirements. The UK faith organisation must also be eligible to sponsor the proposed role."],
+      subsections: [
+        {
+          heading: "1. Eligible Religious Role",
+          paragraphs: [
+            "You must have a genuine offer of employment in an eligible role within a UK faith community or religious order. The position should meet the route's requirements for religious leadership or pastoral duties.",
+            "Roles mainly involving administrative work, clerical duties, domestic work, media production or school teaching may not qualify unless an applicable exception applies, such as a senior position within the organisation or membership of a religious order."
+          ]
+        },
+        {
+          heading: "2. Certificate of Sponsorship",
+          paragraphs: [
+            "Your UK employer must hold an appropriate sponsor licence and assign you a valid Certificate of Sponsorship (CoS). This electronic record contains details of your role, salary, sponsor and proposed employment dates.",
+            "You must use the CoS reference within three months of it being issued. The sponsoring organisation must also meet its responsibilities under the Home Office sponsorship system."
+          ]
+        },
+        {
+          heading: "3. English Language Requirement",
+          paragraphs: [
+            "Applicants generally need to demonstrate English language ability at B2 level across reading, writing, speaking and listening.",
+            "You may meet this requirement through an approved English language test or a qualifying degree taught in English. Certain nationals and applicants who have already demonstrated the required level through a previous successful application may be exempt."
+          ]
+        },
+        {
+          heading: "4. Financial Requirement",
+          paragraphs: [
+            "You usually need at least £1,270 in personal savings, held for 28 consecutive days. The final day of this period must fall within 31 days of your visa application.",
+            "You may not need to provide personal savings evidence if you have held valid UK permission for at least 12 months or your eligible sponsor certifies maintenance on your Certificate of Sponsorship."
+          ]
+        },
+        {
+          heading: "5. Minimum Age Requirement",
+          paragraphs: ["The Minister of Religion Visa has a minimum age requirement. You must be 18 or older on the date you submit your application. There is no general upper age limit specified for this visa route."]
+        }
+      ]
+    },
+    {
+      heading: "Minister of Religion Visa UK Age Restrictions",
+      paragraphs: [
+        "Applicants often ask whether they can apply for a Minister of Religion Visa at an older age. The Home Office rules specify that applicants must be at least 18 when applying, but they do not set a general maximum age.",
+        "Meeting the age requirement alone does not guarantee eligibility. You must also have a qualifying religious role, valid sponsorship, the required English language ability and evidence that you meet the financial and other immigration conditions."
+      ]
+    },
+    {
+      heading: "Documents Required for a Minister of Religion Visa Application",
+      paragraphs: ["Preparing the correct documents is an important part of the application process. The evidence must support your identity, sponsorship and eligibility.", "You will generally need:"],
+      bullets: [
+        "A valid passport or other accepted travel document.",
+        "Your Certificate of Sponsorship reference number.",
+        "Evidence of your English language ability, if required.",
+        "Bank statements showing the required savings, where applicable.",
+        "Previous passports or travel documents if needed to demonstrate your travel history.",
+        "A tuberculosis test certificate, if you are applying from a country where one is required.",
+        "Certified translations of documents that are not in English or Welsh."
+      ]
+    },
+    {
+      heading: "How to Apply for a Minister of Religion Visa UK",
+      paragraphs: ["The application process involves several stages. Checking your eligibility and sponsorship arrangements before submitting the form can help reduce avoidable errors."],
+      subsections: [
+        {
+          heading: "Step 1: Confirm Your Eligibility",
+          paragraphs: ["Check that your proposed religious role meets the T2 route requirements and that you meet the age, English language and financial criteria."]
+        },
+        {
+          heading: "Step 2: Obtain a Certificate of Sponsorship",
+          paragraphs: ["Your UK religious organisation must hold the appropriate sponsor licence and issue a valid CoS for your role."]
+        },
+        {
+          heading: "Step 3: Prepare Your Supporting Documents",
+          paragraphs: ["Gather your passport, sponsorship reference, financial evidence, English language documents and any required TB certificate or translations."]
+        },
+        {
+          heading: "Step 4: Complete the Online Application",
+          paragraphs: ["Submit the relevant online application and pay the visa application fee and Immigration Health Surcharge, where applicable. You can normally apply up to three months before the employment start date stated on your CoS."]
+        },
+        {
+          heading: "Step 5: Attend Your Biometrics Appointment",
+          paragraphs: ["You will normally need to provide your fingerprints and photograph at a visa application centre if applying from outside the UK."]
+        },
+        {
+          heading: "Step 6: Wait for a Decision",
+          paragraphs: ["Once your application and supporting evidence have been submitted, UK Visas and Immigration will assess whether you meet the requirements. You should not make non-refundable travel arrangements until you receive a decision."]
+        }
+      ]
+    },
+    {
+      heading: "Cost of Minister of Religion Visa UK",
+      paragraphs: ["The cost depends on whether you apply from outside the UK or extend or switch your permission from within the UK. You must also account for the Immigration Health Surcharge and any dependant applications."],
+      table: {
+        headers: ["Application", "Visa fee"],
+        rows: [
+          ["Main applicant outside the UK", "£819"],
+          ["Main applicant extending or switching in the UK", "£943"],
+          ["Each dependant outside the UK", "£819"],
+          ["Each dependant extending or switching in the UK", "£943"]
+        ]
+      },
+      paragraphsAfterTable: [
+        "The Immigration Health Surcharge is generally £1,035 per year for an adult applicant. For example, a three-year application would normally involve £3,105 in healthcare surcharge payments, in addition to the visa application fee. The exact amount depends on the permission granted.",
+        "Optional priority services may also be available for an additional charge. Check the latest Home Office fees before submitting your application, as charges can change."
+      ]
+    },
+    {
+      heading: "Minister of Religion Visa Application Support",
+      paragraphs: [
+        "Applying under a sponsored religious work route involves more than completing an online form. The role, sponsor licence, Certificate of Sponsorship and supporting evidence must all meet the relevant immigration rules.",
+        "If you are searching for a Minister of Religion Visa solicitor, immigration lawyer or specialist religious visa adviser, check that the professional you approach has the appropriate authorisation and experience. Visa Direct Immigration can provide application guidance to help you understand the process and prepare your supporting information.",
+        "We offer immigration application support to individuals in Birmingham, Bristol, Reading and across the UK through remote consultations.",
+        "Book Your Immigration Consultation to discuss your Minister of Religion Visa application."
+      ]
     }
   ]
 },
   {
-  id: "service-supplier-visa",
-  slug: "service-supplier-visa",
-  title: "Service Supplier Visa",
-  category: "Business Immigration",
-  shortDescription: "Global Business Mobility route for contractual service suppliers and independent professionals under international trade agreements.",
-  heroTagline: "Deliver specialized contract services under UK trade agreements.",
-  seoTitle: "Service Supplier Visa UK | Global Business Mobility Support",
-  seoDescription: "Guidance for overseas contractual service suppliers and self-employed professionals delivering services under international agreements.",
-  iconName: "Briefcase",
-  keyFeatures: [
-    "Trade agreement coverage and eligibility analysis",
-    "Contractual service supplier & independent professional support",
-    "Stay up to 6 or 12 months depending on international agreement",
-    "Dependant partner and child accompaniment"
-  ],
-  eligibilityRequirements: [
-    "Assigned CoS by an authorized UK Service Supplier sponsor",
-    "Service covered by a qualifying UK international trade agreement",
-    "Employed by overseas supplier or self-employed with 12+ months experience",
-    "Relevant professional qualification or university degree"
-  ],
-  documentsRequired: [
-    "Valid passport",
-    "CoS reference number",
-    "Copy of commercial service contract",
-    "Degree certificate and professional accreditation proof"
-  ],
-  processSteps: [
-    {
-      title: "Trade Agreement Qualification",
-      description: "Determining whether your nationality and commercial contract are covered under UK trade agreements."
-    },
-    {
-      title: "CoS Assignment & Filing",
-      description: "Securing sponsorship and filing the application with evidentiary documents."
-    },
-    {
-      title: "Contract Execution in UK",
-      description: "Carrying out the contracted professional services across the UK."
-    }
-  ],
-  faqs: [
-    {
-      question: "Can self-employed independent professionals apply?",
-      answer: "Yes, if established in a signatory country and delivering services under an eligible trade treaty."
-    }
-  ]
-},
+    id: "service-supplier-visa",
+    slug: "service-supplier-visa",
+    title: "Service Supplier Visa",
+    category: "Business Immigration",
+    shortDescription: "The UK Service Supplier Visa allows eligible overseas employees and self-employed professionals to provide temporary services to UK businesses under qualifying international trade agreements.",
+    heroTagline: "Provide temporary contract services to UK businesses under qualifying international trade agreements.",
+    seoTitle: "UK Service Supplier Visa Services | Visa Direct Immigration",
+    seoDescription: "Get professional UK Service Supplier Visa application support. We help with eligibility, sponsorship, documents and the application process.",
+    primaryCta: "Book Your Immigration Consultation",
+    iconName: "Briefcase",
+    keyFeatures: [
+      "Temporary work permission under eligible UK international trade agreements",
+      "Open to overseas employees and independent self-employed professionals",
+      "Requires a valid Certificate of Sponsorship (CoS) from a licensed UK business",
+      "Dependant partner and children accompaniment options available"
+    ],
+    eligibilityRequirements: [
+      "Eligible overseas service provider (employee of overseas company or self-employed)",
+      "Service contract covered by an eligible UK international trade agreement",
+      "Nationality or permanent residency requirements of the relevant trade treaty country",
+      "At least 12 months of continuous relevant experience outside the UK",
+      "Role meets occupation skill level or bachelor's degree/technical equivalent",
+      "Valid Certificate of Sponsorship issued by an approved UK sponsor within 3 months"
+    ],
+    documentsRequired: [
+      "Valid passport confirming identity and nationality",
+      "Certificate of Sponsorship (CoS) reference number",
+      "Job title and standard occupational classification (SOC) code",
+      "Sponsor details confirming UK business licence",
+      "Bank statements showing £1,270 maintenance funds (held 28 consecutive days)",
+      "Employment evidence (contracts, payslips) or self-employed invoices and business accounts",
+      "Degree certificates, technical qualifications and professional registrations",
+      "Tuberculosis (TB) test certificate where applying from a listed country",
+      "Certified translations for any non-English or Welsh documentation"
+    ],
+    processSteps: [
+      {
+        title: "Confirm Your Eligibility",
+        description: "Check that your service contract is covered by an eligible international trade agreement, and confirm nationality, experience, and occupation requirements."
+      },
+      {
+        title: "Obtain a Certificate of Sponsorship",
+        description: "Your UK sponsor must issue a valid CoS with details of your role, assignment and employment arrangements within 3 months."
+      },
+      {
+        title: "Prepare Your Supporting Documents",
+        description: "Gather passport, employment or self-employment records, degree qualifications, financial proofs and any TB test certificate."
+      },
+      {
+        title: "Complete the Online Application",
+        description: "Submit the Global Business Mobility visa application through the official GOV.UK service up to 3 months before your start date."
+      },
+      {
+        title: "Pay Fees & Prove Your Identity",
+        description: "Pay the £340 visa application fee and Immigration Health Surcharge (£1,035/yr), and verify identity via the app or at a visa application centre."
+      },
+      {
+        title: "Wait for the Decision",
+        description: "UKVI assesses the application and evidence. Once approved, travel to the UK and undertake the sponsored assignment."
+      }
+    ],
+    faqs: [
+      {
+        question: "Who can apply for a UK Service Supplier Visa?",
+        answer: "Overseas employees and self-employed professionals may qualify if they provide services under a contract covered by an eligible international trade agreement and meet the relevant nationality, experience, occupation and sponsorship requirements."
+      },
+      {
+        question: "Do I need a job offer for a Service Supplier Visa?",
+        answer: "You need a qualifying service contract with a UK business that holds an approved sponsor licence. The UK sponsor must issue you with a Certificate of Sponsorship before you apply."
+      },
+      {
+        question: "How much does a Service Supplier Visa cost?",
+        answer: "The standard application fee is £340. You will also usually need to pay the Immigration Health Surcharge, currently £1,035 per year for adults, and meet the £1,270 maintenance requirement unless exempt."
+      },
+      {
+        question: "Can I extend my Service Supplier Visa?",
+        answer: "You may be able to extend your permission if you continue to meet the route requirements and your assignment remains eligible. Your total stay is subject to the applicable six or 12-month assignment limit and the combined five-year-in-six-year limit."
+      },
+      {
+        question: "Does the Service Supplier Visa lead to ILR?",
+        answer: "No. The Service Supplier Visa is a temporary work route and does not provide a direct path to settlement. You would need to qualify under a separate immigration route to obtain ILR."
+      }
+    ],
+    contentSections: [
+      {
+        heading: "Service Supplier Visa",
+        paragraphs: [
+          "The UK Service Supplier Visa allows eligible overseas employees and self-employed professionals to provide temporary services to UK businesses under qualifying international trade agreements. It is part of the Global Business Mobility visa route and is designed for professionals undertaking specific contractual assignments in the UK.",
+          "To qualify, you must meet the relevant nationality, work experience and job requirements, have a valid Certificate of Sponsorship (CoS) and provide services to a UK business with an approved sponsor licence.",
+          "Visa Direct Immigration provides application guidance to individuals and businesses in Birmingham, Bristol, Reading and across the UK. Our team can help you understand the eligibility criteria, prepare supporting documents and navigate the application process.",
+          "Book Your Immigration Consultation to discuss your circumstances and the UK Service Supplier Visa requirements."
+        ]
+      },
+      {
+        heading: "What is a UK Service Supplier Visa?",
+        paragraphs: [
+          "A UK Service Supplier Visa is a temporary work visa for overseas professionals providing services to a UK business under an eligible international trade agreement.",
+          "You may qualify as either:"
+        ],
+        bullets: [
+          "An overseas employee: Working for a business established outside the UK that has a contract to provide services to a UK company.",
+          "A self-employed professional: Based overseas and contracted to provide eligible services to a UK business."
+        ],
+        paragraphsAfterTable: [
+          "The UK business receiving the service must hold a valid Home Office sponsor licence and issue you with a Certificate of Sponsorship.",
+          "This route is intended for temporary contractual assignments rather than permanent employment in the UK. It does not provide a direct route to settlement."
+        ]
+      },
+      {
+        heading: "Eligibility Criteria for a UK Service Supplier Visa",
+        paragraphs: [
+          "To qualify for a UK Service Supplier Visa, you must meet specific requirements relating to your employment, nationality, professional experience and sponsorship. The service you intend to provide must also be covered by an eligible international trade agreement."
+        ],
+        subsections: [
+          {
+            heading: "1. Be an Eligible Overseas Service Provider",
+            paragraphs: [
+              "You must either work for an overseas business providing services to a UK company or operate as a self-employed professional based outside the UK.",
+              "Your work must relate to a genuine service contract covered by an eligible trade agreement."
+            ]
+          },
+          {
+            heading: "2. Meet the Nationality Requirements",
+            paragraphs: [
+              "You must generally be a national of the country or territory where the overseas service provider is based. Certain trade agreements also allow eligible permanent residents to qualify.",
+              "The applicable nationality conditions depend on the agreement covering your services."
+            ]
+          },
+          {
+            heading: "3. Have the Required Work Experience",
+            paragraphs: [
+              "You must normally have at least 12 months of relevant experience:",
+              "Overseas employees must have worked for their overseas employer outside the UK for at least 12 months.",
+              "Self-employed professionals must have at least 12 months of relevant professional experience immediately before applying.",
+              "You may need to provide evidence of your employment or business activities."
+            ]
+          },
+          {
+            heading: "4. Meet the Job and Qualification Requirements",
+            paragraphs: [
+              "Your role must meet the relevant occupation and skill requirements. If your occupation is not listed as eligible, you may still qualify through an alternative qualification and professional experience route, depending on the service sector.",
+              "For many occupations, this may require a bachelor's degree or equivalent technical qualification, together with relevant professional experience. Some sectors have different requirements."
+            ]
+          },
+          {
+            heading: "5. Have an Approved UK Sponsor",
+            paragraphs: [
+              "The UK business receiving your services must hold a valid sponsor licence for the Service Supplier route. It must issue you with a Certificate of Sponsorship containing details of your assignment.",
+              "You must use the CoS reference number when completing your visa application. It must normally be issued no more than three months before the application date."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Which Services Qualify for a UK Service Supplier Visa?",
+        paragraphs: [
+          "Not every professional service or overseas contract qualifies for this route. Your assignment must fall within a sector covered by an applicable UK international trade agreement.",
+          "Depending on the agreement, eligible services may include:"
+        ],
+        bullets: [
+          "Accounting and bookkeeping services.",
+          "Architectural and engineering services.",
+          "Computer-related and information technology services.",
+          "Management consultancy.",
+          "Advertising and marketing services.",
+          "Legal advisory services.",
+          "Environmental and technical services.",
+          "Certain entertainment and fashion-related services."
+        ],
+        paragraphsAfterTable: [
+          "The exact list varies according to the trade agreement, the country involved and the type of service being provided. Your UK sponsor should confirm which agreement covers the contract and whether your occupation meets its conditions."
+        ]
+      },
+      {
+        heading: "Documents Required for a UK Service Supplier Visa",
+        paragraphs: [
+          "You must provide documents that establish your identity, sponsorship, professional background and ability to support yourself in the UK.",
+          "Common documents include:"
+        ],
+        table: {
+          headers: ["Document", "Purpose"],
+          rows: [
+            ["Valid passport", "Confirms your identity and nationality"],
+            ["Certificate of Sponsorship reference", "Confirms your sponsored assignment"],
+            ["Job title and occupation code", "Identifies the role you will perform"],
+            ["Sponsor details", "Confirms the UK business and its sponsor licence"],
+            ["Bank statements", "Demonstrate the required personal savings, if applicable"],
+            ["Employment evidence", "Shows your previous work with the overseas employer"],
+            ["Qualifications and certificates", "Supports your professional eligibility, where required"],
+            ["TB test certificate", "Required if you are applying from a country where testing is mandatory"]
+          ]
+        },
+        paragraphsAfterTable: [
+          "Self-employed applicants may also need invoices, business accounts, bank statements or other evidence of their professional activities.",
+          "Documents that are not in English or Welsh must normally be accompanied by a certified translation."
+        ]
+      },
+      {
+        heading: "How to Apply for a UK Service Supplier Visa",
+        paragraphs: [
+          "The application process involves securing sponsorship, confirming your eligibility and submitting the required information to UK Visas and Immigration (UKVI)."
+        ],
+        subsections: [
+          {
+            heading: "Step 1: Confirm Your Eligibility",
+            paragraphs: [
+              "Check that your service contract is covered by an eligible international trade agreement. Confirm your nationality, professional experience and occupation meet the relevant conditions."
+            ]
+          },
+          {
+            heading: "Step 2: Obtain a Certificate of Sponsorship",
+            paragraphs: [
+              "Your UK sponsor must issue a valid CoS with details of your role, assignment and employment arrangements. You must apply within three months of receiving it."
+            ]
+          },
+          {
+            heading: "Step 3: Prepare Your Supporting Documents",
+            paragraphs: [
+              "Gather your passport, employment or self-employment evidence, qualifications, financial documents and any required TB test certificate."
+            ]
+          },
+          {
+            heading: "Step 4: Complete the Online Application",
+            paragraphs: [
+              "Submit the relevant Global Business Mobility visa application through the official GOV.UK service. You can normally apply up to three months before your scheduled UK work start date."
+            ]
+          },
+          {
+            heading: "Step 5: Pay the Fees and Prove Your Identity",
+            paragraphs: [
+              "Pay the visa application fee and any applicable Immigration Health Surcharge. You will also need to verify your identity using the UK Immigration: ID Check app or attend a visa application centre for biometrics, depending on your circumstances."
+            ]
+          },
+          {
+            heading: "Step 6: Wait for the Decision",
+            paragraphs: [
+              "UKVI will assess your application and supporting evidence. If approved, you can travel to the UK and undertake the sponsored work described in your Certificate of Sponsorship."
+            ]
+          }
+        ]
+      },
+      {
+        heading: "Service Supplier Visa Fees and Financial Requirements",
+        paragraphs: [
+          "Applicants must budget for the visa application fee, Immigration Health Surcharge and required maintenance funds.",
+          "The current costs include:"
+        ],
+        table: {
+          headers: ["Expense", "Amount"],
+          rows: [
+            ["Visa application fee", "£340"],
+            ["Immigration Health Surcharge", "Usually £1,035 per year for adults"],
+            ["Maintenance funds", "£1,270"]
+          ]
+        },
+        paragraphsAfterTable: [
+          "You must normally have at least £1,270 available in your bank account for 28 consecutive days, with the end of that period falling within 31 days of your application.",
+          "You may not need to provide separate savings evidence if you have held a valid UK visa for at least 12 months or your sponsor certifies maintenance on your Certificate of Sponsorship.",
+          "Your partner and children will have separate application fees, healthcare surcharge and financial requirements if they apply as dependants."
+        ]
+      },
+      {
+        heading: "How Visa Direct Immigration Can Help",
+        paragraphs: [
+          "Applying for a Service Supplier Visa involves more than securing a contract with a UK business. You must also meet the relevant trade agreement conditions, professional requirements and sponsorship rules.",
+          "Visa Direct Immigration can provide guidance with:"
+        ],
+        bullets: [
+          "Understanding the eligibility criteria for your circumstances.",
+          "Reviewing your professional experience and supporting evidence.",
+          "Identifying the documents needed for your application.",
+          "Understanding the Certificate of Sponsorship requirements.",
+          "Preparing and checking your application information.",
+          "Explaining the application process and relevant fees."
+        ],
+        paragraphsAfterTable: [
+          "We support applicants in Birmingham, Bristol and Reading, as well as clients across the UK.",
+          "Book Your Immigration Consultation to discuss your Service Supplier Visa application and the next steps."
+        ]
+      }
+    ],
+    heroImage: "/images/services/service-supplier-visa.webp"
+  },
   {
   id: "investor-visa-tier-1",
   slug: "investor-visa-tier-1",
@@ -7460,8 +8297,9 @@ const allServicesData: ServiceItem[] = [
   category: "Business Immigration",
   shortDescription: "Visa for elite sportspeople and coaches internationally established at the highest level of sport.",
   heroTagline: "Compete and coach at the highest level of British professional sport.",
-  seoTitle: "International Sportsperson Visa UK | Legal Support | Visa Direct",
-  seoDescription: "Application representation for elite athletes, coaches, and sports clubs under the UK International Sportsperson visa route.",
+  seoTitle: "Sports Person Visa Lawyer UK | Visa Direct Immigration",
+  seoDescription: "Need help with a UK Sports Person Visa? Get professional application support with eligibility, governing body endorsement, sponsorship and documents.",
+  primaryCta: "Book Your Immigration Consultation",
   iconName: "Award",
   keyFeatures: [
     "Sports governing body endorsement guidance",
@@ -7473,13 +8311,15 @@ const allServicesData: ServiceItem[] = [
     "Endorsement from the designated UK sports governing body",
     "Internationally established at the highest level of your sport",
     "Certificate of Sponsorship from an approved UK sports club or body",
-    "English language proficiency at level A1 (short-term) or B1 (long-term)"
+    "English language proficiency at level A1 (for applications up to 12 months)"
   ],
   documentsRequired: [
     "Sports governing body endorsement letter",
-    "Valid passport",
-    "CoS reference number",
-    "English language test certificate"
+    "Valid passport or travel document",
+    "Certificate of Sponsorship reference number",
+    "Evidence of English language ability, if required",
+    "Bank statements showing required savings, where applicable",
+    "TB test results if required based on country of residence"
   ],
   processSteps: [
     {
@@ -7497,12 +8337,112 @@ const allServicesData: ServiceItem[] = [
   ],
   faqs: [
     {
-      question: "Can I do secondary coaching work?",
-      answer: "Yes, you can undertake secondary work as a coach or in the media, provided it complies with your visa conditions."
+      question: "Who can apply for a UK Sports Person Visa?",
+      answer: "Internationally established elite athletes and qualified coaches may qualify if they receive the required governing body endorsement and have a valid Certificate of Sponsorship from an approved UK employer."
+    },
+    {
+      question: "Is there an age limit for the International Sportsperson Visa?",
+      answer: "Applicants must be at least 16 years old. Applicants under 18 must also meet the applicable parental consent requirements. There is no general upper age limit specified."
+    },
+    {
+      question: "Can my family join me in the UK?",
+      answer: "Eligible partners and dependent children can apply to join you or remain in the UK under the dependant provisions. They must meet the relevant requirements and submit their own applications."
+    },
+    {
+      question: "Can I extend my Sports Person Visa?",
+      answer: "Yes. You may apply to extend your permission for up to three years at a time, provided you continue to meet the eligibility and sponsorship requirements."
+    },
+    {
+      question: "Can I get ILR through the International Sportsperson Visa?",
+      answer: "You may qualify for settlement after five years of continuous residence if you meet the applicable sponsorship, salary, English language and Life in the UK requirements."
+    }
+  ],
+  contentSections: [
+    {
+      heading: "Sports Person Visa UK",
+      paragraphs: [
+        "The UK Sports Person Visa, officially known as the International Sportsperson Visa, allows internationally established elite athletes and qualified sports coaches to work in the UK. Applicants must receive an endorsement from the relevant sports governing body and sponsorship from an approved UK employer.",
+        "Visa Direct Immigration provides application guidance to sports professionals who want to understand the eligibility criteria, sponsorship arrangements and documents required for their UK visa application."
+      ]
+    },
+    {
+      heading: "What is the International Sportsperson Visa?",
+      paragraphs: [
+        "The International Sportsperson Visa is designed for elite athletes and qualified coaches who are internationally recognised and can make a significant contribution to the development of their sport at the highest level in the UK.",
+        "It replaced the former Sportsperson (T2) Visa and the sporting part of the Temporary Worker Creative and Sporting (T5) route.",
+        "The visa may be suitable for professional athletes, internationally established competitors and qualified coaches offered an eligible position by a UK sports organisation."
+      ]
+    },
+    {
+      heading: "UK Sports Person Visa Requirements",
+      paragraphs: [
+        "To qualify, applicants must meet the endorsement, sponsorship, financial and other immigration requirements.",
+        "The main requirements include:"
+      ],
+      bullets: [
+        "Governing body endorsement: The relevant Home Office-approved sports governing body must confirm that you are an elite sportsperson or qualified coach, are internationally established and will contribute significantly to your sport in the UK.",
+        "Certificate of Sponsorship: You must have a valid Certificate of Sponsorship from an approved UK employer for your proposed sporting role.",
+        "Financial requirement: You generally need at least £1,270 in savings, held for 28 consecutive days, unless your sponsor certifies maintenance or an exemption applies.",
+        "English language: If applying for permission exceeding 12 months, you generally need to demonstrate English speaking and listening ability at A1 level, unless exempt.",
+        "Age requirement: Applicants must be at least 16 years old. Those under 18 must meet the relevant parental consent requirements."
+      ]
+    },
+    {
+      heading: "Documents Required for a Sports Person Visa Application",
+      paragraphs: ["Preparing the correct evidence helps demonstrate that you meet the visa requirements. Depending on your circumstances, you may need:"],
+      bullets: [
+        "A valid passport or travel document.",
+        "Your Certificate of Sponsorship reference number.",
+        "An endorsement letter from the relevant sports governing body.",
+        "Evidence of English language ability, if required.",
+        "Bank statements showing the required savings, where applicable.",
+        "Tuberculosis test results, if required based on your country of residence.",
+        "Certified translations of documents not written in English or Welsh."
+      ]
+    },
+    {
+      heading: "How to Apply for a Sports Person Visa UK",
+      paragraphs: ["The application process involves several stages, and the endorsement and sponsorship arrangements should be in place before you submit your application."],
+      bullets: [
+        "Check your eligibility: Confirm that your sporting achievements, qualifications and proposed role meet the route's requirements.",
+        "Obtain governing body endorsement: Apply to the appropriate sports governing body for an endorsement confirming your eligibility.",
+        "Receive sponsorship: Your UK employer must assign a valid Certificate of Sponsorship containing the required job and endorsement details.",
+        "Prepare your documents: Gather your passport, financial evidence, English language documents and other supporting information.",
+        "Submit your application: Complete the online application, pay the relevant fee and Immigration Health Surcharge, and provide your biometric information when required.",
+        "Wait for a decision: UK Visas and Immigration will assess your application and notify you of the outcome."
+      ],
+      paragraphsAfterTable: [
+        "You can generally apply up to three months before the employment start date shown on your Certificate of Sponsorship."
+      ]
+    },
+    {
+      heading: "Sports Person Visa UK Fees and Processing Time",
+      paragraphs: ["The application fee depends on how long you intend to stay and whether you apply from inside or outside the UK."],
+      table: {
+        headers: ["Application type", "Visa fee"],
+        rows: [
+          ["Stay of up to 12 months", "£340"],
+          ["More than 12 months, outside the UK", "£819"],
+          ["Extension or switching, inside the UK", "£943"]
+        ]
+      },
+      paragraphsAfterTable: [
+        "The Immigration Health Surcharge is usually £1,035 per year for adults. Dependants must also pay the relevant application fees and healthcare surcharge.",
+        "Standard processing usually takes three weeks for applications made outside the UK and eight weeks for eligible applications made inside the UK. Priority services may be available at an additional cost."
+      ]
+    },
+    {
+      heading: "Sports Person Visa Lawyer and Application Support",
+      paragraphs: [
+        "A Sports Person Visa application involves coordination between the applicant, UK employer and relevant sports governing body. Errors in endorsement details, sponsorship records or supporting evidence can affect the outcome.",
+        "If you are searching for a Sports Person Visa lawyer, immigration solicitor or sports immigration adviser in the UK, check that the professional has the appropriate authorisation and experience. Visa Direct Immigration can provide application guidance to help you understand the process and prepare the relevant documentation.",
+        "We support clients in Birmingham, Bristol, Reading and across the UK through remote consultations.",
+        "Book Your Immigration Consultation to discuss your Sports Person Visa application."
+      ]
     }
   ]
 },
-  {
+{
   id: "innovator-visa",
   slug: "innovator-visa",
   title: "Innovator Visa",
@@ -7552,55 +8492,6 @@ const allServicesData: ServiceItem[] = [
   ]
 },
   {
-  id: "investor-visa",
-  slug: "investor-visa",
-  title: "Investor Visa",
-  category: "Business Immigration",
-  shortDescription: "Strategic UK immigration and commercial investment advice for high-net-worth individuals and families.",
-  heroTagline: "Strategic UK residency and relocation solutions for international investors.",
-  seoTitle: "UK Investor Visa Alternatives & Relocation | Visa Direct",
-  seoDescription: "Strategic immigration guidance for international investors, corporate stakeholders, and high-net-worth families moving to the UK.",
-  iconName: "ShieldCheck",
-  keyFeatures: [
-    "Alternative commercial investment route assessment",
-    "Global Business Mobility and Innovator corporate options",
-    "Family relocation and wealth transition guidance",
-    "Comprehensive permanent settlement strategies"
-  ],
-  eligibilityRequirements: [
-    "Substantial capital available for deployment in the UK economy",
-    "Clean source of wealth and verifiable financial documentation",
-    "Clear commercial expansion or business founding rationale",
-    "Clean criminal and immigration background"
-  ],
-  documentsRequired: [
-    "Comprehensive proof of source of wealth and banking statements",
-    "Corporate registration and shareholding records",
-    "Passports and identification for all family members",
-    "Business plans or investment allocation proposals"
-  ],
-  processSteps: [
-    {
-      title: "Strategic Options Appraisal",
-      description: "Analyzing the most effective visa route based on your capital and business objectives."
-    },
-    {
-      title: "Application Structuring",
-      description: "Drafting all corporate and personal immigration petitions."
-    },
-    {
-      title: "UK Settlement Execution",
-      description: "Guiding the family through residence, extensions, and citizenship."
-    }
-  ],
-  faqs: [
-    {
-      question: "How can investors relocate to the UK now that Tier 1 is closed?",
-      answer: "Investors typically utilize the UK Expansion Worker route, Innovator Founder route, or establish a commercial sponsor licence to achieve residency."
-    }
-  ]
-},
-  {
   id: "business-development-visa",
   slug: "business-development-visa",
   title: "Business Development Visa",
@@ -7646,55 +8537,6 @@ const allServicesData: ServiceItem[] = [
     {
       question: "Which visa route is best for business developers?",
       answer: "The UK Expansion Worker, Skilled Worker, or Senior Specialist routes are most commonly used depending on company structure."
-    }
-  ]
-},
-  {
-  id: "parents-visa",
-  slug: "parents-visa",
-  title: "Parents Visa",
-  category: "Personal Immigration",
-  shortDescription: "Live in the UK to care for and maintain an active relationship with your British or settled child.",
-  heroTagline: "Parent family immigration guidance for parents of UK-resident children.",
-  seoTitle: "UK Parents Visa | Eligibility, Requirements & Application Support",
-  seoDescription: "Apply for a UK Parent Visa. Guidance on parental responsibility, financial requirements, and Home Office rules with Visa Direct Immigration.",
-  iconName: "UsersRound",
-  keyFeatures: [
-    "Sole or shared parental responsibility evidence support",
-    "Direct contact & access arrangements verification",
-    "Adequate maintenance and housing calculation",
-    "5-year settlement pathway to Indefinite Leave to Remain"
-  ],
-  eligibilityRequirements: [
-    "Child is under 18 and living in the UK (British, settled, or 7-year resident)",
-    "Sole or shared parental responsibility for the child",
-    "Active involvement in your child's upbringing",
-    "Ability to maintain and accommodate yourself without public funds"
-  ],
-  documentsRequired: [
-    "Child's birth certificate and proof of British or settled status",
-    "Evidence of parental responsibility and active role in upbringing",
-    "Court orders or written contact agreements where applicable",
-    "Proof of adequate accommodation and finances"
-  ],
-  processSteps: [
-    {
-      title: "Parental Responsibility Review",
-      description: "Auditing contact agreements and active involvement documentation."
-    },
-    {
-      title: "Application Preparation",
-      description: "Submitting the online family parent visa application to UKVI."
-    },
-    {
-      title: "Settlement Progression",
-      description: "Maintaining continuous residence leading to permanent ILR."
-    }
-  ],
-  faqs: [
-    {
-      question: "Can I apply if the other parent also lives in the UK?",
-      answer: "Yes, provided you share parental responsibility and the other parent is British or settled, and is not your partner."
     }
   ]
 },
@@ -7753,9 +8595,10 @@ const allServicesData: ServiceItem[] = [
   title: "Adult Dependent Relative Visa",
   category: "Personal Immigration",
   shortDescription: "For adult relatives who require long-term personal care to join their British or settled family member in the UK.",
-  heroTagline: "Compassionate legal support for dependent elderly or vulnerable relatives.",
-  seoTitle: "Adult Dependent Relative Visa UK | Care Immigration Support",
-  seoDescription: "Guidance on the Adult Dependent Relative visa for elderly parents, grandparents, or disabled adult family members needing care in the UK.",
+  heroTagline: "Compassionate application support for dependent elderly or vulnerable relatives.",
+  seoTitle: "Adult Dependent Relative Visa Advisors UK",
+  seoDescription: "Need help with an Adult Dependent Relative Visa UK application? Get support with eligibility, care requirements, documents, fees and sponsorship.",
+  primaryCta: "Book Your Immigration Consultation",
   iconName: "HeartHandshake",
   keyFeatures: [
     "Medical assessment & daily living care proof audit",
@@ -7770,29 +8613,206 @@ const allServicesData: ServiceItem[] = [
     "Sponsor can maintain, accommodate, and care for relative without public funds for 5 years"
   ],
   documentsRequired: [
-    "Comprehensive medical reports from independent medical authorities",
-    "Evidence of care availability, quality, and cost in home country",
-    "Signed Sponsorship Undertaking form (SU07)",
-    "Proof of sponsor's income, savings, and suitable accommodation"
+    "Valid passport or travel document",
+    "Full birth certificate or other evidence of family relationship",
+    "Medical reports explaining applicant's condition and care requirements",
+    "Evidence showing why suitable care is unavailable or unaffordable in country of residence",
+    "Sponsor's bank statements and payslips",
+    "Signed maintenance undertaking",
+    "Tenancy agreement or mortgage documents"
   ],
   processSteps: [
     {
-      title: "Care & Medical Evidentiary Audit",
-      description: "Reviewing clinical medical documentation against strict Home Office tests."
+      title: "Assess Eligibility & Obtain Medical Evidence",
+      description: "Check the family relationship, sponsor's status and arrange medical reports explaining the applicant's condition and personal care needs."
     },
     {
-      title: "Legal Representation Drafting",
-      description: "Compiling detailed legal skeleton argument on care unavailability."
+      title: "Assess Care Availability & Prepare Sponsor Evidence",
+      description: "Gather evidence showing why suitable care is unavailable or unaffordable, and collect the sponsor's financial and accommodation documents."
     },
     {
-      title: "Visa Grant",
-      description: "Granting immediate indefinite leave to enter or limited leave matching sponsor."
+      title: "Complete Application & Pay Fees",
+      description: "Submit the online Adult Dependent Relative Visa application, pay the applicable fee and Immigration Health Surcharge."
+    },
+    {
+      title: "Complete Biometrics & Await Decision",
+      description: "Provide fingerprints and photograph, then wait for the Home Office to assess the evidence."
     }
   ],
   faqs: [
     {
-      question: "Can an elderly parent qualify for an Adult Dependent Relative visa?",
-      answer: "Yes, but they must prove that due to age, illness, or disability they need long-term daily personal care that is unavailable or unaffordable in their home country."
+      question: "Who can apply for an Adult Dependent Relative Visa UK?",
+      answer: "An adult aged 18 or over may qualify if they are the parent, grandparent, adult child or adult sibling of an eligible UK sponsor and need long-term personal care because of age, illness or disability."
+    },
+    {
+      question: "Can I bring my elderly parents to the UK on an Adult Dependent Relative Visa?",
+      answer: "You may be able to bring an elderly parent if they meet the care requirements. You must demonstrate that they need long-term personal care and that suitable care is unavailable or unaffordable in their country of residence. Their age alone is not sufficient."
+    },
+    {
+      question: "Can I apply for an Adult Dependent Relative Visa from inside the UK?",
+      answer: "Normally, no. Applicants must obtain entry clearance before travelling to the UK. An application from inside the country is generally available only to someone who already has permission as an Adult Dependent Relative and is applying for further permission or settlement."
+    },
+    {
+      question: "What evidence is required for an Adult Dependent Relative Visa?",
+      answer: "You will normally need identity documents, proof of your relationship with the UK sponsor, medical evidence, details of your personal care needs and evidence showing why suitable care is unavailable or unaffordable. Your sponsor must also provide financial and accommodation evidence."
+    },
+    {
+      question: "How long does an Adult Dependent Relative Visa application take?",
+      answer: "Applications made outside the UK usually take around 12 weeks, while eligible applications made inside the UK usually take around 8 weeks. Complex cases may take longer."
+    },
+    {
+      question: "Does the Adult Dependent Relative Visa lead to settlement?",
+      answer: "Yes. If your sponsor is British, Irish or settled in the UK, you will normally receive settlement when your entry clearance application is approved. Applicants whose sponsors have temporary permission generally receive permission linked to the sponsor's status."
+    },
+    {
+      question: "Can an Adult Dependent Relative Visa solicitor help with my application?",
+      answer: "An appropriately qualified and authorised immigration solicitor can provide legal advice and assistance with the application. Visa Direct Immigration can also provide application guidance, help organise supporting documents and explain the relevant requirements."
+    }
+  ],
+  contentSections: [
+    {
+      heading: "Adult Dependent Relative Visa",
+      paragraphs: [
+        "The UK Adult Dependent Relative Visa allows eligible adults to join a close family member in the UK when they need long-term personal care that cannot reasonably be obtained or afforded in their country of residence. The route is intended for people who require ongoing assistance because of age, illness or disability.",
+        "The application has strict eligibility requirements. Applicants must demonstrate their need for care, their relationship with the UK sponsor and the sponsor's ability to provide suitable accommodation, maintenance and care without relying on public funds.",
+        "Visa Direct Immigration provides guidance and application support for families considering the Adult Dependent Relative Visa UK route. We assist applicants and sponsors in Birmingham, Bristol, Reading and across the UK."
+      ]
+    },
+    {
+      heading: "What is the Adult Dependent Relative Visa UK?",
+      paragraphs: [
+        "The Adult Dependent Relative Visa is a UK family immigration route for adults who need long-term personal care from an eligible relative living in the UK. It can allow an applicant to join a British citizen, settled person or qualifying individual with protection status.",
+        "Eligible relationships generally include a parent, grandparent, adult son or daughter, or adult brother or sister. The route also has specific provisions for certain partners of parents or grandparents applying together.",
+        "Unlike a standard family visa, this route does not simply allow an elderly parent or relative to move to the UK to live near their family. The applicant must meet the care and dependency requirements set out in the Immigration Rules."
+      ]
+    },
+    {
+      heading: "Adult Dependent Relative Visa Requirements",
+      paragraphs: ["To qualify, both the applicant and their UK sponsor must meet the relevant Home Office requirements. The application is assessed on the applicant's care needs, family relationship and the sponsor's ability to provide support."],
+      subsections: [
+        {
+          heading: "1. Age Requirement",
+          paragraphs: ["The applicant must be at least 18 years old when applying. The UK sponsor must also be aged 18 or over."]
+        },
+        {
+          heading: "2. Eligible Family Relationship",
+          paragraphs: ["You must be one of the following relatives of your UK sponsor:"],
+          bullets: [
+            "Parents.",
+            "Grandparent.",
+            "Adult son or daughter.",
+            "Adult brother or sister."
+          ]
+        },
+        {
+          heading: "3. Sponsor's Immigration Status",
+          paragraphs: ["Your UK sponsor must normally be one of the following:"],
+          bullets: [
+            "A British citizen.",
+            "An Irish citizen.",
+            "A person settled in the UK, such as someone with Indefinite Leave to Remain or settled status.",
+            "A qualifying EEA national with pre-settled status under the relevant provisions.",
+            "A person living in the UK with refugee status or humanitarian protection."
+          ]
+        },
+        {
+          heading: "4. Long-Term Personal Care Needs",
+          paragraphs: [
+            "You must demonstrate that you need long-term personal care to perform everyday personal or household tasks because of your age, illness or disability.",
+            "Examples may include assistance with washing, bathing, dressing, preparing meals, moving around safely and managing essential everyday activities.",
+            "A medical condition alone does not automatically qualify you. You must demonstrate how your condition affects your ability to manage everyday activities and why you require ongoing personal care."
+          ]
+        },
+        {
+          heading: "5. Care Must Be Unavailable or Unaffordable",
+          paragraphs: [
+            "You must prove that the required level of care is unavailable or unaffordable in the country where you currently live.",
+            "The Home Office considers whether suitable care can reasonably be provided locally, including whether family members or other care providers could provide it. The assessment must also consider whether the care could be afforded even with financial assistance from your UK sponsor."
+          ]
+        },
+        {
+          heading: "6. Financial and Accommodation Requirements",
+          paragraphs: [
+            "Your UK sponsor must demonstrate that they can provide adequate maintenance, accommodation and care without relying on public funds.",
+            "They must also sign a maintenance undertaking confirming responsibility for your support. Where the applicant receives settlement on arrival, the sponsor must undertake to provide maintenance, accommodation and care for five years.",
+            "There is no simple fixed minimum salary threshold for this route. The Home Office assesses the sponsor's actual financial circumstances, income, savings, housing costs and expected care expenses."
+          ]
+        }
+      ]
+    },
+    {
+      heading: "Documents Required for an Adult Dependent Relative Visa UK",
+      paragraphs: ["Preparing detailed supporting evidence is particularly important because the Home Office must assess both the applicant's care needs and the sponsor's ability to provide support."],
+      subsections: [
+        {
+          heading: "Applicant's documents",
+          bullets: [
+            "Valid passport or travel document.",
+            "Full birth certificate or other evidence of the family relationship.",
+            "Medical reports explaining the applicant's condition and care requirements.",
+            "Evidence of daily personal care needs.",
+            "Information about available care services in the country of residence.",
+            "Evidence showing why suitable care is unavailable or unaffordable.",
+            "TB test certificate, if required."
+          ]
+        },
+        {
+          heading: "UK sponsor's documents",
+          bullets: [
+            "British passport or evidence of settled or qualifying immigration status.",
+            "Proof of address in the UK.",
+            "Bank statements and payslips.",
+            "Employment or self-employment evidence, where applicable.",
+            "Evidence of savings or other income.",
+            "Tenancy agreement, mortgage documents or accommodation details.",
+            "Information about proposed care arrangements.",
+            "Signed maintenance undertaking."
+          ]
+        }
+      ],
+      paragraphsAfterTable: [
+        "Documents not in English or Welsh must normally be accompanied by a certified translation."
+      ]
+    },
+    {
+      heading: "How to Apply for an Adult Dependent Relative Visa",
+      paragraphs: ["Most applicants must apply from outside the UK and obtain entry clearance before travelling. You cannot normally switch from another visa category to this route while already in the UK."],
+      bullets: [
+        "Assess eligibility: Check the family relationship, sponsor's immigration status and applicant's long-term care needs.",
+        "Obtain medical evidence: Arrange reports explaining the applicant's condition and the personal care they require.",
+        "Assess care availability: Gather evidence showing why suitable care is unavailable or unaffordable in the applicant's country.",
+        "Prepare sponsor evidence: Collect financial, accommodation and care arrangement documents.",
+        "Complete the application: Submit the online Adult Dependent Relative Visa application and the required Appendix 1.",
+        "Pay the fees: Pay the applicable application fee and Immigration Health Surcharge, where required.",
+        "Complete biometrics: Follow the instructions to provide fingerprints and a photograph.",
+        "Wait for a decision: The Home Office will assess the evidence and may request additional information."
+      ]
+    },
+    {
+      heading: "Adult Dependent Relative Visa Fees and Processing Time",
+      paragraphs: ["The Adult Dependent Relative Visa fees depend on the sponsor's immigration status and whether the application is made inside or outside the UK."],
+      table: {
+        headers: ["Application type", "Application fee"],
+        rows: [
+          ["Outside the UK, standard qualifying sponsor", "£3,635"],
+          ["Outside the UK, sponsor with protection status", "£452"],
+          ["Inside the UK, eligible application", "£1,407"]
+        ]
+      },
+      paragraphsAfterTable: [
+        "An Immigration Health Surcharge may also be payable where the applicant receives temporary permission to stay. The amount depends on the length of permission granted.",
+        "Applicants who receive settlement on arrival because their sponsor is British or settled do not normally pay the Immigration Health Surcharge for that settlement grant.",
+        "The usual Home Office processing times are: Outside the UK — usually 12 weeks; Inside the UK — usually 8 weeks. These are standard estimates rather than guaranteed decision dates."
+      ]
+    },
+    {
+      heading: "Adult Dependent Relative Visa Solicitors and Application Support",
+      paragraphs: [
+        "Families searching for Adult Dependent Relative Visa advisors or an immigration lawyer often need help understanding the strict care requirements, sponsor responsibilities and evidence needed for a successful application.",
+        "This route can be challenging because the Home Office must be satisfied that the applicant genuinely requires long-term personal care and cannot obtain suitable care in their country of residence. Medical reports alone may not be sufficient without evidence of local care availability, affordability and the sponsor's financial circumstances.",
+        "Visa Direct Immigration provides application guidance and support. We support families in Birmingham, Bristol and Reading, as well as remotely across the UK.",
+        "Book Your Immigration Consultation to discuss your Adult Dependent Relative Visa application."
+      ]
     }
   ]
 },
@@ -7848,7 +8868,672 @@ const allServicesData: ServiceItem[] = [
   ],
   heroImage: "/images/services/naturalization.webp"
 },
+{
+  id: "fee-waiver-applications",
+  slug: "fee-waiver-applications",
+  title: "Fee Waiver Applications",
+  category: "Personal Immigration",
+  shortDescription: "Application guidance for UK immigration fee waivers, helping eligible individuals avoid paying certain immigration fees or the Immigration Health Surcharge.",
+  heroTagline: "Understand your eligibility and prepare a complete fee waiver application.",
+  seoTitle: "Fee Waiver Application Adviser UK | Visa Direct Immigration",
+  seoDescription: "Need help with a UK fee waiver application? Get professional immigration support with eligibility, financial evidence, documents and the application process.",
+  primaryCta: "Book Your Immigration Consultation",
+  iconName: "ShieldCheck",
+  keyFeatures: [
+    "Eligibility assessment for immigration fee waivers",
+    "Financial evidence preparation and review",
+    "Support for family, private life and human rights routes",
+    "Guidance on IHS waiver and partial waiver applications"
+  ],
+  eligibilityRequirements: [
+    "Applying under an eligible immigration route (family/private life/human rights)",
+    "Financial circumstances demonstrate inability to pay immigration charges",
+    "Evidence that paying fees would leave you unable to meet essential living needs",
+    "Or that paying would negatively affect your dependent child's wellbeing"
+  ],
+  documentsRequired: [
+    "Valid passport or national identity document",
+    "Recent bank statements for all relevant accounts",
+    "Payslips or evidence of household income",
+    "Evidence of benefits or financial support received",
+    "Tenancy agreement or rent statements",
+    "Utility bills and essential household expense evidence",
+    "Letters from local authorities or support organisations"
+  ],
+  processSteps: [
+    {
+      title: "Eligibility Check",
+      description: "Confirming the intended immigration application is covered and that financial circumstances meet the affordability requirements."
+    },
+    {
+      title: "Financial Evidence Preparation",
+      description: "Collecting bank statements, income records, accommodation costs and essential household expense details."
+    },
+    {
+      title: "Fee Waiver Request Submission",
+      description: "Completing the Home Office online service and submitting accurate financial information."
+    },
+    {
+      title: "Immigration Application Submission",
+      description: "Submitting the visa application within 10 working days of receiving the fee waiver decision."
+    }
+  ],
+  faqs: [
+    {
+      question: "How long does a fee waiver application take in the UK?",
+      answer: "There is no standard Home Office processing time for fee waiver requests. The decision may depend on your financial circumstances, the evidence provided and whether the Home Office needs further information."
+    },
+    {
+      question: "What is the fee waiver application decision time in the UK?",
+      answer: "The Home Office does not currently guarantee a fixed decision time. Applications are considered individually, and you should allow for possible delays when planning your immigration application."
+    },
+    {
+      question: "How do I apply for an application fee waiver?",
+      answer: "You normally submit an online fee waiver request through the relevant GOV.UK service. You must explain your financial circumstances and provide supporting evidence before submitting the related immigration application."
+    },
+    {
+      question: "Do I have to pay fees for a fee waiver application?",
+      answer: "No. There is no separate Home Office charge for submitting an eligible fee waiver request. If approved, the waiver may cover the immigration application fee, the Immigration Health Surcharge or both, depending on your circumstances."
+    },
+    {
+      question: "Can everyone applying for a UK visa request a fee waiver?",
+      answer: "No. Fee waivers are available only for specific immigration routes and circumstances. Many work, visitor and other visa categories do not qualify under the standard fee waiver arrangements."
+    },
+    {
+      question: "What happens if my fee waiver application is refused?",
+      answer: "If your request is refused, you will normally need to pay the relevant immigration charges if you still want to proceed with your application. You may submit a new fee waiver request with further evidence if your circumstances justify it. A fee waiver refusal does not itself determine the outcome of your immigration case."
+    },
+    {
+      question: "Can I include my children in a fee waiver application?",
+      answer: "You may be able to include eligible dependent children in your request where they are applying with you under a qualifying route. Their circumstances and the household's overall financial position will be considered. Separate arrangements apply to certain applications to register a child as a British citizen."
+    }
+  ],
+  contentSections: [
+    {
+      heading: "Fee Waiver Applications",
+      paragraphs: [
+        "A UK immigration fee waiver allows eligible applicants to avoid paying certain immigration application fees or the Immigration Health Surcharge (IHS) when they cannot afford these costs. It is intended to help people who would otherwise struggle to access specific immigration routes because of their financial circumstances.",
+        "Visa Direct Immigration provides application guidance to individuals who need help understanding fee waiver eligibility, preparing financial evidence and completing the application process. If you are looking for an immigration fee waiver lawyer or consultant, understanding which applications qualify is an important first step."
+      ]
+    },
+    {
+      heading: "What is a UK Immigration Fee Waiver?",
+      paragraphs: [
+        "A fee waiver is permission from the Home Office not to pay an eligible immigration application fee, the Immigration Health Surcharge or both. It is generally available for certain applications based on family life, private life and specific human-rights circumstances.",
+        "It is not a general exemption for every UK visa category. You must meet the eligibility requirements and demonstrate that paying the relevant charges would leave you unable to meet essential living needs or adequately support your children.",
+        "A fee waiver decision is also separate from the immigration decision itself. Approval does not guarantee that your subsequent visa or settlement application will be successful."
+      ]
+    },
+    {
+      heading: "Who Can Apply for a Fee Waiver in the UK?",
+      paragraphs: [
+        "You may qualify for an immigration fee waiver if you are applying for an eligible type of permission to stay and cannot afford the required charges.",
+        "Eligible categories can include:"
+      ],
+      bullets: [
+        "Partners, parents and dependent children applying under qualifying family or private life routes.",
+        "People holding certain forms of Discretionary Leave or Leave Outside the Immigration Rules on human-rights grounds.",
+        "Certain people who have permission to stay in the UK as victims of modern slavery or human trafficking.",
+        "Eligible children applying for British citizenship registration under the separate child citizenship fee waiver arrangements."
+      ],
+      paragraphsAfterTable: [
+        "You may qualify financially if you do not have accommodation and cannot afford somewhere to live, you have accommodation but cannot afford essential expenses such as food, heating or other basic needs, or you have a very low income and paying the immigration charges would negatively affect your child's wellbeing.",
+        "The Home Office assesses each application individually. You do not necessarily have to be completely destitute to qualify, but you must provide credible evidence of your financial circumstances."
+      ]
+    },
+    {
+      heading: "Documents Required for a Fee Waiver Application",
+      paragraphs: [
+        "Your evidence should clearly explain your income, savings, accommodation costs and essential household expenses. The Home Office needs enough information to assess whether you can afford the relevant immigration charges.",
+        "Documents may include:"
+      ],
+      bullets: [
+        "Valid passport, national identity document or other accepted identity evidence.",
+        "Recent bank statements for relevant accounts.",
+        "Payslips or other evidence of household income.",
+        "Evidence of benefits or financial support received.",
+        "Tenancy agreement, rent statements or accommodation details.",
+        "Utility bills and other household expenses.",
+        "Evidence of childcare, food, travel and essential living costs.",
+        "Letters from local authorities, support organisations or family members providing financial assistance.",
+        "Information about your partner's or dependants' financial circumstances, where relevant."
+      ],
+      paragraphsAfterTable: [
+        "The exact evidence depends on your situation. Missing financial information or unexplained transactions may make it harder for the Home Office to assess your request."
+      ]
+    },
+    {
+      heading: "How to Apply for a Fee Waiver Application UK",
+      paragraphs: ["For eligible online applications, you normally need to request and receive a fee waiver decision before submitting the related immigration application."],
+      subsections: [
+        {
+          heading: "Step 1: Check Your Eligibility",
+          paragraphs: ["Confirm that your intended immigration application is covered by the fee waiver provisions and that your financial circumstances meet the affordability requirements."]
+        },
+        {
+          heading: "Step 2: Prepare Your Financial Evidence",
+          paragraphs: ["Collect bank statements, income records, accommodation costs and details of your essential household expenses."]
+        },
+        {
+          heading: "Step 3: Complete the Fee Waiver Request",
+          paragraphs: ["Use the relevant Home Office online service to submit your fee waiver request and provide accurate information about your circumstances."]
+        },
+        {
+          heading: "Step 4: Respond to Further Requests",
+          paragraphs: ["The Home Office may ask for additional documents or clarification. Respond carefully and provide the requested evidence within the stated deadline."]
+        },
+        {
+          heading: "Step 5: Receive the Decision",
+          paragraphs: ["If approved, you will receive a fee waiver reference or token and instructions for making the related immigration application."]
+        },
+        {
+          heading: "Step 6: Submit Your Immigration Application",
+          paragraphs: ["For the in-country family and private life fee waiver process, you generally need to submit your visa application within 10 working days of the fee waiver decision. You must also follow the biometric appointment instructions and deadlines."]
+        }
+      ]
+    },
+    {
+      heading: "Fee Waiver Application Fees: How Much Does It Cost?",
+      paragraphs: [
+        "There is no separate Home Office application fee for submitting an eligible fee waiver request. The purpose of the process is to help qualifying applicants avoid paying some or all of the relevant immigration charges.",
+        "Depending on your financial circumstances, the Home Office may waive:"
+      ],
+      bullets: [
+        "The full immigration application fee.",
+        "The Immigration Health Surcharge only.",
+        "Both the application fee and the Immigration Health Surcharge."
+      ],
+      paragraphsAfterTable: [
+        "A partial waiver may be granted where you can afford the application fee but cannot afford the healthcare surcharge. The decision depends on the evidence provided and the relevant rules.",
+        "A fee waiver does not automatically cover every expense associated with an immigration matter. You may still need to meet other requirements or pay costs that are not covered by the waiver."
+      ]
+    },
+    {
+      heading: "Immigration Fee Waiver Lawyer and Application Support",
+      paragraphs: [
+        "A fee waiver application requires clear evidence of financial hardship and an understanding of which immigration charges can be waived. Errors in financial information, missing documents or applying under an ineligible route can create difficulties.",
+        "If you are searching for a fee waiver application lawyer, immigration solicitor or fee waiver consultant in the UK, check the professional's relevant qualifications and authorisation. Visa Direct Immigration can provide application guidance to help you understand the eligibility requirements, organise financial documents and prepare your request.",
+        "We support clients in Birmingham, Bristol, Reading and across the UK through remote consultations.",
+        "Book Your Immigration Consultation to discuss your fee waiver application and supporting evidence."
+      ]
+    }
+  ],
+  heroImage: "/images/services/fee-waiver-applications.webp"
+},
+{
+  id: "eu-family-permit",
+  slug: "eu-family-permit",
+  title: "EU Family Permit",
+  category: "Personal Immigration",
+  shortDescription: "The EU Family Permit, officially known as the EU Settlement Scheme (EUSS) Family Permit, allows eligible family members of certain EU, EEA, Swiss citizens and qualifying people of Northern Ireland to travel to the UK and join or accompany their relatives.",
+  heroTagline: "Understand eligibility, prepare relationship evidence and complete your EU Family Permit application.",
+  seoTitle: "EU Family Permit Lawyer UK | Visa Direct Immigration",
+  seoDescription: "Need an EU Family Permit lawyer in the UK? Get application support with eligibility, family evidence, documents and the application process.",
+  primaryCta: "Book Your Immigration Consultation",
+  iconName: "ShieldCheck",
+  keyFeatures: [
+    "Entry clearance for eligible family members under the EU Settlement Scheme",
+    "Normally valid for 6 months with right to work and study in the UK",
+    "No Home Office application fee or Immigration Health Surcharge",
+    "Pathway to apply for pre-settled or settled status upon arrival in the UK"
+  ],
+  eligibilityRequirements: [
+    "Eligible relationship with a qualifying EU, EEA, Swiss citizen or person of Northern Ireland",
+    "Sponsor lived in the UK by 31 December 2020 and holds required status or eligibility",
+    "Relationship generally formed by 31 December 2020 (exceptions for certain children)",
+    "Intention to accompany or join the qualifying relative in the UK",
+    "Applying from outside the UK with valid identity evidence and biometrics"
+  ],
+  documentsRequired: [
+    "Valid passport or accepted identity document for applicant and family member",
+    "Evidence of sponsor's UK residence and EUSS status, where applicable",
+    "Marriage or civil partnership certificate",
+    "Birth certificates proving parent-child or grandchild relationships",
+    "Evidence of dependency for adult children or dependent parents/grandparents",
+    "Evidence of a durable relationship or retained rights of residence where applicable",
+    "Certified translations of any documents not in English or Welsh"
+  ],
+  processSteps: [
+    {
+      title: "Identify Eligibility Category",
+      description: "Confirm whether you qualify as a spouse, partner, child, parent, grandparent or qualifying dependent family member."
+    },
+    {
+      title: "Check Family Member's Status",
+      description: "Establish that your relative meets the relevant EUSS or Northern Ireland residence and status conditions."
+    },
+    {
+      title: "Collect Supporting Evidence",
+      description: "Prepare identity documents, relationship proofs, and financial or dependency evidence."
+    },
+    {
+      title: "Submit Online Application",
+      description: "Complete the online GOV.UK EUSS Family Permit application form with accurate family details."
+    },
+    {
+      title: "Complete Biometrics",
+      description: "Attend an appointment at a designated visa application centre to provide fingerprints and photographs."
+    },
+    {
+      title: "Receive Decision & Travel",
+      description: "Once approved, receive your 6-month permit allowing travel, work, and study in the UK."
+    }
+  ],
+  faqs: [
+    {
+      question: "Can I apply for an EU Family Permit if I married my EU partner after 31 December 2020?",
+      answer: "In most cases, a spouse or civil partner relationship must have existed by 31 December 2020. There are specific exceptions, including certain children born or adopted after that date. A later marriage does not automatically qualify, although an earlier durable relationship may be relevant if the requirements are met."
+    },
+    {
+      question: "Can I apply for an EU Family Permit to join my brother or sister?",
+      answer: "A brother or sister does not normally qualify as a direct family member under the standard EUSS Family Permit route. Limited provisions may apply to certain extended family members with historical residence and documentation under the previous EEA rules. The exact circumstances need to be assessed."
+    },
+    {
+      question: "Does my EU family member need settled status before I apply?",
+      answer: "Not necessarily. The relevant family member must meet the applicable definition and eligibility conditions under the scheme. Their nationality, UK residence history and immigration status will determine which provisions apply."
+    },
+    {
+      question: "How long is an EU Family Permit valid, and can I travel more than once?",
+      answer: "The permit is normally valid for six months from the decision date. You can enter and leave the UK multiple times during this period, provided the permit remains valid."
+    },
+    {
+      question: "What should I do if my EU Family Permit expires before I travel?",
+      answer: "The permit cannot simply be extended. You may need to submit a fresh application if you remain eligible. Check your circumstances and the current application requirements before making further travel arrangements."
+    },
+    {
+      question: "Can I work in the UK with an EU Family Permit?",
+      answer: "Yes. A valid EUSS Family Permit allows you to work and study in the UK during its validity. You should apply to the EU Settlement Scheme if you qualify and intend to remain in the UK after the permit expires."
+    },
+    {
+      question: "Is the EU Family Permit application free?",
+      answer: "Yes. There is no Home Office application fee or Immigration Health Surcharge for the EUSS Family Permit. However, some commercial visa application centres may charge for optional services."
+    }
+  ],
+  contentSections: [
+    {
+      heading: "EU Family Permit UK",
+      paragraphs: [
+        "The EU Family Permit, officially known as the EU Settlement Scheme (EUSS) Family Permit, allows eligible family members of certain EU, EEA, Swiss citizens and qualifying people of Northern Ireland to travel to the UK and join or accompany their relatives.",
+        "It is designed for family members who qualify under the EU Settlement Scheme rules, including certain relationships established before the end of the Brexit transition period. Visa Direct Immigration provides application guidance to people who need help understanding eligibility, preparing relationship evidence and completing an EU Family Permit application."
+      ]
+    },
+    {
+      heading: "What is the EU Family Permit?",
+      paragraphs: [
+        "The EU Family Permit is an entry clearance document that allows an eligible family member to travel to the UK and join or accompany their qualifying relative. It is normally valid for six months and allows the holder to work, study and travel in and out of the UK while it remains valid.",
+        "The permit is part of the EU Settlement Scheme. It is not the same as a standard UK Family Visa or the former EEA Family Permit, which ceased to be valid for travel after 30 June 2021.",
+        "After arriving in the UK, eligible permit holders can apply to the EU Settlement Scheme for pre-settled or settled status, subject to the applicable requirements."
+      ]
+    },
+    {
+      heading: "EU Family Permit Requirements",
+      paragraphs: [
+        "The requirements depend on your relationship with the person in the UK and their immigration or citizenship status."
+      ],
+      subsections: [
+        {
+          heading: "1. Eligible Family Relationship",
+          paragraphs: [
+            "You may qualify if you are an eligible:"
+          ],
+          bullets: [
+            "Spouse or civil partner.",
+            "Durable partner who meets the relevant relationship requirements.",
+            "Child or grandchild under 21.",
+            "Dependent child or grandchild aged 21 or over.",
+            "Dependent parent or grandparent."
+          ]
+        },
+        {
+          heading: "2. Qualifying Family Member in the UK",
+          paragraphs: [
+            "Your family member will generally need to be an EU, EEA or Swiss citizen who started living in the UK by 31 December 2020 and has the required status or qualifies under the relevant rules.",
+            "Certain family members of eligible people of Northern Ireland may also qualify. These cases have specific citizenship, birth and parental conditions."
+          ]
+        },
+        {
+          heading: "3. Intention to Join or Accompany Your Family Member",
+          paragraphs: [
+            "Your qualifying family member must normally be living in the UK or travelling there with you within six months of your application. You must also intend to accompany or join them within the relevant period."
+          ]
+        },
+        {
+          heading: "4. Application from Outside the UK",
+          paragraphs: [
+            "You must normally be outside the UK when applying for an EUSS Family Permit. You will need to provide identity and nationality evidence and complete the required biometric process."
+          ]
+        }
+      ]
+    },
+    {
+      heading: "Who Can Apply for an EU Family Permit?",
+      paragraphs: [
+        "Eligibility is not limited to EU citizens' spouses. Certain children, grandchildren, parents and grandparents may also qualify if they meet the relationship and dependency requirements.",
+        "Some applicants may qualify through retained rights of residence, for example where their relationship ended or their family member died or left the UK, provided the relevant conditions are met.",
+        "There are also specific provisions for eligible family members of people of Northern Ireland. Because these cases have different requirements, it is important to identify the correct eligibility category before submitting an application."
+      ]
+    },
+    {
+      heading: "Documents Required for an EU Family Permit Application",
+      paragraphs: [
+        "Your documents should establish your identity, your relationship with the qualifying family member and their eligibility under the scheme.",
+        "Depending on your circumstances, you may need:"
+      ],
+      bullets: [
+        "A valid passport or accepted identity document.",
+        "Your family member's passport or identity document.",
+        "Evidence of their UK residence and EUSS status, where applicable.",
+        "Marriage or civil partnership certificate.",
+        "Birth certificates proving family relationships.",
+        "Evidence of dependency for adult children or dependent parents and grandparents.",
+        "Evidence of a durable relationship, where relevant.",
+        "Evidence supporting a retained right of residence, if applicable.",
+        "Certified translations of documents not written in English or Welsh."
+      ],
+      paragraphsAfterTable: [
+        "The Home Office may request further evidence if the documents do not clearly establish the relationship or the sponsor's eligibility."
+      ]
+    },
+    {
+      heading: "How to Apply for an EU Family Permit",
+      paragraphs: [
+        "The application must be submitted from outside the UK through the relevant online GOV.UK service."
+      ],
+      bullets: [
+        "Identify your eligibility category: Confirm whether you qualify as a spouse, partner, child, parent, grandparent or another eligible family member.",
+        "Check your family member's status: Establish that your relative meets the relevant EUSS or Northern Ireland eligibility conditions.",
+        "Collect supporting evidence: Prepare identity documents, relationship records and evidence of dependency where required.",
+        "Complete the online application: Provide accurate information about yourself and your qualifying family member.",
+        "Complete biometric requirements: Follow the instructions to provide your photograph and fingerprints at the designated visa application centre, where required.",
+        "Wait for the decision: The Home Office will assess your application and notify you of the outcome."
+      ],
+      paragraphsAfterTable: [
+        "If approved, the permit will normally be valid for six months from the decision date."
+      ]
+    },
+    {
+      heading: "EU Family Permit Fees and Processing Time",
+      paragraphs: [
+        "One advantage of the EU Settlement Scheme Family Permit is that there is no Home Office application fee, and applicants do not pay the Immigration Health Surcharge.",
+        "However, a commercial visa application centre may charge for certain optional services, such as document scanning or additional appointment facilities.",
+        "There is no guaranteed standard processing time published specifically for every EU Family Permit application. The time taken can depend on the complexity of your family relationship, the evidence supplied and whether further checks are necessary.",
+        "You should avoid making non-refundable travel arrangements until your permit has been granted."
+      ]
+    },
+    {
+      heading: "EU Family Permit Lawyer and Application Support",
+      paragraphs: [
+        "An EU Family Permit application can involve complex questions about family relationships, dependency, residence dates and qualifying sponsor status. The correct evidence is particularly important where a relationship began after Brexit or where an applicant relies on a retained right of residence.",
+        "If you are searching for an EU Family Permit lawyer, immigration solicitor or EU family immigration adviser, check the professional's relevant qualifications, authorisation and experience with the EUSS.",
+        "Visa Direct Immigration can provide application guidance to help you understand the eligibility rules, organise supporting documents and prepare your application information. We support clients in Birmingham, Bristol, Reading and across the UK through remote consultations.",
+        "Book Your Immigration Consultation to discuss your EU Family Permit application."
+      ]
+    }
+  ],
+  heroImage: "/images/services/eu-family-permit.webp"
+},
+{
+  id: "sponsor-licence-audit",
+  slug: "sponsor-licence-audit",
+  title: "Sponsor Licence Audit",
+  category: "Business Immigration",
+  shortDescription: "A Sponsor Licence Audit helps UK employers check whether their sponsorship systems, records and procedures meet Home Office requirements, sponsor duties and compliance checks.",
+  heroTagline: "Prepare for Home Office compliance visits, audit sponsorship records and protect your licence.",
+  seoTitle: "Sponsor Licence Audit Support UK | Visa Direct Immigration",
+  seoDescription: "Need a UK Sponsor Licence Audit? Get professional compliance support with Home Office checks, sponsor duties, records and reporting requirements.",
+  primaryCta: "Book Your Immigration Consultation",
+  iconName: "ShieldCheck",
+  keyFeatures: [
+    "Review of HR systems, reporting procedures and Appendix D records",
+    "Assessment of Certificate of Sponsorship (CoS) allocations and salary compliance",
+    "Authorising Officer, Key Contact and Level 1 User readiness checks",
+    "Preparation for unannounced and announced Home Office compliance visits"
+  ],
+  eligibilityRequirements: [
+    "UK organisation holding or applying for a Worker or Temporary Worker sponsor licence",
+    "Requirement to satisfy ongoing Home Office reporting, record-keeping and compliance duties",
+    "Maintenance of compliant HR monitoring systems for all sponsored personnel",
+    "Accurate SMS records and up-to-date reporting of organisational and worker changes"
+  ],
+  documentsRequired: [
+    "Right to work check documentation and Appendix D compliant records",
+    "Passports, biometric residence permits and digital status verification for sponsored workers",
+    "Employment contracts, job descriptions and Certificate of Sponsorship copies",
+    "Payroll records, payslips and HMRC PAYE submission reports",
+    "Absence monitoring sheets, holiday logs and sickness absence records",
+    "Up-to-date employee contact and residential address details"
+  ],
+  processSteps: [
+    {
+      title: "Review Sponsorship Records",
+      description: "Check that the records for every sponsored worker are complete, accurate and accessible under Appendix D."
+    },
+    {
+      title: "Check Reporting History",
+      description: "Review SMS reporting history to verify changes were submitted within the mandatory 10 or 20 working day limits."
+    },
+    {
+      title: "Assess HR Procedures",
+      description: "Evaluate systems for tracking attendance, absences, job title or salary changes, and residential addresses."
+    },
+    {
+      title: "Prepare Responsible Staff",
+      description: "Ensure Authorising Officers, Level 1 Users and HR teams understand their sponsorship compliance obligations."
+    },
+    {
+      title: "Check Workplace Arrangements",
+      description: "Confirm trading premises, working conditions and third-party site arrangements match official sponsor records."
+    },
+    {
+      title: "Address Identified Problems",
+      description: "Remediate documentation gaps, correct reporting errors and implement action plans before Home Office visits."
+    }
+  ],
+  faqs: [
+    {
+      question: "Can the Home Office carry out a sponsor licence audit without notice?",
+      answer: "Yes. The Home Office can conduct announced or unannounced compliance visits. It may also carry out digital checks, request documents or contact an organisation by telephone or letter."
+    },
+    {
+      question: "How often does UKVI inspect sponsor licence holders?",
+      answer: "There is no fixed inspection schedule that applies to every sponsor. The Home Office can carry out compliance checks at any time, including before deciding a sponsor licence application and after a licence has been granted."
+    },
+    {
+      question: "Can a business fail a sponsor licence audit because of missing employee records?",
+      answer: "Missing records can indicate a failure to meet sponsor record-keeping duties. The consequences depend on the documents involved, the reason they are missing and the wider compliance circumstances. Employers should check Appendix D and address any gaps promptly."
+    },
+    {
+      question: "What is the difference between an A-rating and a B-rating?",
+      answer: "An A-rating indicates that a sponsor is approved to hold the relevant licence without an outstanding action plan. A B-rating means the Home Office has identified issues that require improvement under a time-limited action plan. A B-rated sponsor is generally restricted from assigning CoS to new workers until its A-rating is restored."
+    },
+    {
+      question: "Can I continue sponsoring workers if my licence is suspended?",
+      answer: "A suspended sponsor cannot assign new Certificates of Sponsorship. Workers who already have valid permission are not automatically affected by the suspension, but their position may change if the licence is later revoked."
+    },
+    {
+      question: "Can I arrange a sponsor licence audit before a Home Office visit?",
+      answer: "Yes. Employers can arrange an internal or professional compliance review at any time. This is not an official Home Office audit, but it can help identify missing records, reporting errors and weaknesses in HR procedures before an inspection takes place."
+    },
+    {
+      question: "Can I get help if my sponsor licence has been downgraded?",
+      answer: "You can seek support to understand the reasons for the B-rating, review the Home Office action plan and identify the improvements required. You must follow the deadlines and instructions in the official correspondence, including any payment requirements."
+    }
+  ],
+  contentSections: [
+    {
+      heading: "Sponsor Licence Audit",
+      paragraphs: [
+        "A Sponsor Licence Audit helps UK employers check whether their sponsorship systems, records and procedures meet Home Office requirements. If your organisation holds a Worker or Temporary Worker sponsor licence, you must follow ongoing reporting, record-keeping and compliance duties, not just the requirements you met when applying for the licence.",
+        "The Home Office can carry out compliance checks at any time. These may involve reviewing documents, interviewing staff, checking sponsored workers' employment details or visiting your business premises. Preparing in advance can help you identify weaknesses and address potential issues before they become more serious.",
+        "Visa Direct Immigration provides support to employers who want to review their sponsor licence arrangements, understand their responsibilities and prepare for a potential Home Office compliance visit. Whether you need a routine sponsor licence compliance review or assistance after receiving a Home Office notification, we can help you understand the requirements and organise the relevant evidence."
+      ]
+    },
+    {
+      heading: "What is a Sponsor Licence Audit?",
+      paragraphs: [
+        "A Sponsor Licence Audit is a review of an organisation's sponsorship records, HR procedures and compliance systems to assess whether it is meeting its responsibilities as a licensed sponsor.",
+        "The term can refer to an internal or professional compliance review carried out by an employer, or to a formal compliance check conducted by UK Visas and Immigration (UKVI). A private audit is not an official Home Office inspection, but it can help identify areas that may need attention.",
+        "During an official check, the Home Office may request additional information, verify documents, conduct an on-site visit, arrange a digital interview or make enquiries with other government departments. Checks may be announced or unannounced."
+      ]
+    },
+    {
+      heading: "What Does the Home Office Check During a Sponsor Licence Audit?",
+      paragraphs: [
+        "A Home Office compliance check assesses whether your organisation is genuine, eligible to hold a sponsor licence and meeting its sponsorship duties. The exact checks will depend on your business and circumstances."
+      ],
+      subsections: [
+        {
+          heading: "1. Sponsor Licence and Business Information",
+          paragraphs: [
+            "The Home Office may verify the information provided when your organisation applied for its sponsor licence. This can include checking whether your business is genuinely trading or operating in the UK, whether its business activities are consistent with the information supplied and whether it continues to meet the relevant licence requirements."
+          ]
+        },
+        {
+          heading: "2. Sponsored Worker Records",
+          paragraphs: [
+            "Employers must maintain the records required under Appendix D of the sponsor guidance. These can include:"
+          ],
+          bullets: [
+            "Copies of relevant passport and immigration documents.",
+            "Evidence of right to work checks.",
+            "Employment contracts and job descriptions.",
+            "Salary and payment records.",
+            "Contact details and residential address information.",
+            "Records of attendance and absences.",
+            "Evidence of recruitment and qualifications where required."
+          ]
+        },
+        {
+          heading: "3. Salary and Employment Conditions",
+          paragraphs: [
+            "The Home Office may compare a sponsored worker's actual employment arrangements with the details recorded on their Certificate of Sponsorship (CoS). Checks may include:",
+            "Whether the worker performs the sponsored role, whether the salary meets the relevant immigration requirements, whether salary payments match payroll records, whether working hours and employment arrangements are consistent with the sponsored position, and whether significant changes have been reported correctly.",
+            "Differences between the CoS and actual working arrangements may require investigation or reporting."
+          ]
+        },
+        {
+          heading: "4. HR Systems and Reporting Procedures",
+          paragraphs: [
+            "Your organisation must have suitable systems for monitoring sponsored workers and identifying events that need to be reported.",
+            "A compliance review may examine whether your HR team can track: changes to job titles, duties and work locations; salary reductions and changes to working arrangements; unauthorised absences; workers who do not start their sponsored roles; changes to employee contact details; and employees who leave the organisation.",
+            "For example, certain changes to a sponsored worker's circumstances must generally be reported within 10 working days. Relevant organisational changes generally have a 20-working-day reporting deadline, subject to the specific guidance."
+          ]
+        },
+        {
+          heading: "5. Key Personnel and Sponsorship Management System",
+          paragraphs: [
+            "The Home Office may check whether your organisation has appropriate people managing its sponsorship responsibilities. This includes reviewing the roles and responsibilities of your Authorising Officer, Key Contact and Level 1 Users.",
+            "Your business should have clear internal arrangements for accessing the SMS, assigning Certificates of Sponsorship and reporting changes. Staff responsible for sponsorship should understand the limits of their authority and the importance of keeping information accurate."
+          ]
+        }
+      ]
+    },
+    {
+      heading: "How to Prepare for a Home Office Sponsor Licence Compliance Visit",
+      paragraphs: [
+        "Preparation should be an ongoing process rather than something your business starts only after receiving an inspection notification. The following steps can help employers assess their readiness."
+      ],
+      subsections: [
+        {
+          heading: "1. Review Your Sponsorship Records",
+          paragraphs: [
+            "Check that the records for every sponsored worker are complete, accurate and accessible. Compare employment contracts, payroll information, job descriptions and CoS details to identify inconsistencies."
+          ]
+        },
+        {
+          heading: "2. Check Your Reporting History",
+          paragraphs: [
+            "Review your SMS account and confirm that reportable changes have been submitted within the relevant deadlines. Check whether any outstanding changes or reporting errors need attention."
+          ]
+        },
+        {
+          heading: "3. Assess Your HR Procedures",
+          paragraphs: [
+            "Make sure your HR team has a clear process for monitoring sponsored employees, recording absences, updating contact details and reporting changes in employment. Responsibilities should be clearly assigned so important information is not missed."
+          ]
+        },
+        {
+          heading: "4. Prepare Responsible Staff",
+          paragraphs: [
+            "Your Authorising Officer, Level 1 Users and relevant HR staff should understand their sponsorship duties. Sponsored workers should also have a clear understanding of their actual job responsibilities and employment arrangements."
+          ]
+        },
+        {
+          heading: "5. Check Your Workplace Arrangements",
+          paragraphs: [
+            "Make sure your business premises and working arrangements reflect the information provided to the Home Office. If sponsored workers perform their duties at a third-party location, ensure the relevant organisation understands its responsibilities and can cooperate with a compliance visit."
+          ]
+        },
+        {
+          heading: "6. Address Identified Problems",
+          paragraphs: [
+            "Do not ignore missing documents, reporting errors or differences between the sponsored role and actual employment arrangements. Identify the cause, establish what corrective action is required and keep a record of the steps taken."
+          ]
+        }
+      ]
+    },
+    {
+      heading: "Common Sponsor Licence Compliance Problems",
+      paragraphs: [
+        "Employers can face difficulties when sponsorship responsibilities are not properly managed. Common issues include:"
+      ],
+      table: {
+        headers: ["Compliance problem", "Why it matters"],
+        rows: [
+          ["Missing employee records", "The employer may be unable to demonstrate that record-keeping duties have been met."],
+          ["Late or missed SMS reports", "Relevant changes may not have been reported within the required time limits."],
+          ["Incorrect salary information", "Actual pay may not match the sponsored role or applicable salary requirements."],
+          ["Changes to job duties", "Changes may require reporting or a new immigration application, depending on the circumstances."],
+          ["Poor absence monitoring", "Employers may fail to report unauthorised absences or other relevant events."],
+          ["Inadequate HR procedures", "The organisation may be unable to identify and manage compliance issues consistently."],
+          ["Incorrect right to work checks", "The employer may face civil penalties and serious sponsor licence consequences."]
+        ]
+      },
+      paragraphsAfterTable: [
+        "Identifying these problems early can give employers an opportunity to correct weaknesses and improve their sponsorship systems."
+      ]
+    },
+    {
+      heading: "What Happens If the Home Office Finds Sponsor Licence Breaches?",
+      paragraphs: [
+        "The consequences depend on the nature, seriousness and circumstances of the non-compliance. The Home Office may decide that corrective action is sufficient, or it may take more serious enforcement measures.",
+        "Possible outcomes include:"
+      ],
+      bullets: [
+        "B-rating: Your licence may be downgraded if the Home Office identifies relatively minor problems that can be corrected through an action plan.",
+        "Sponsorship action plan: You may be required to pay a fee and complete specified improvements within the set period. A B-rated sponsor cannot normally assign Certificates of Sponsorship to new workers until its A-rating is restored.",
+        "Licence suspension: The Home Office may suspend your licence while it investigates suspected breaches. You cannot assign new CoS during suspension.",
+        "Licence revocation: Serious or systematic breaches may result in your sponsor licence being revoked.",
+        "Consequences for sponsored workers: If your licence is revoked, the Home Office may cancel or shorten the immigration permission of workers you sponsor."
+      ],
+      paragraphsAfterTable: [
+        "A sponsor licence revocation can also prevent your organisation from applying for another licence during the applicable cooling-off period. In many cases, this is at least 12 months, although longer periods can apply.",
+        "The Home Office considers the individual circumstances before deciding what action to take. An audit finding does not automatically mean that a licence will be revoked."
+      ]
+    },
+    {
+      heading: "Sponsor Licence Audit Support from Visa Direct Immigration",
+      paragraphs: [
+        "Preparing for a Sponsor Licence Audit requires an understanding of the immigration rules, sponsor guidance and the practical responsibilities placed on employers. Visa Direct Immigration provides application and compliance support to businesses that want to review their sponsorship arrangements and understand their obligations.",
+        "Our support can include:"
+      ],
+      bullets: [
+        "Sponsor Licence Compliance Review: Reviewing your existing sponsorship procedures and identifying areas that may require improvement.",
+        "HR and Record-Keeping Review: Checking whether relevant employee records and supporting documents are organised and accessible.",
+        "SMS Reporting Guidance: Helping you understand reporting responsibilities and the relevant deadlines.",
+        "Home Office Visit Preparation: Helping you organise records and prepare for questions about your business and sponsored workers.",
+        "Compliance Issue Support: Helping you understand potential problems and the steps that may be needed to address them.",
+        "Ongoing Sponsor Licence Guidance: Providing support as your organisation manages its continuing sponsorship responsibilities."
+      ],
+      paragraphsAfterTable: [
+        "If you are searching for a Sponsor Licence Audit lawyer, immigration solicitor or sponsor licence compliance consultant, it is important to check the provider's relevant authorisation and professional credentials. Visa Direct Immigration can discuss the application and compliance support available for your organisation."
+      ]
+    }
+  ],
+  heroImage: "/images/services/sponsor-licence-audit.webp"
+}
 ];
+
 
 const removedServiceIds = new Set([
   "business-development-visa",
@@ -7856,6 +9541,8 @@ const removedServiceIds = new Set([
   "entrepreneur-visa-tier-1",
   "international-agreement-visa",
   "secondment-worker-visa",
+  "investor-visa",
+  "parents-visa",
 ]);
 
 export const servicesData = allServicesData.filter(

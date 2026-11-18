@@ -40,7 +40,6 @@ const businessNavigationServices = [
   "Global Talent Visa",
   "Sports Person Visa",
   "Innovator Visa",
-  "Investor Visa",
 ] as const;
 
 const businessServiceAliases: Record<string, string> = {
@@ -90,7 +89,7 @@ export function Header() {
   const otherServicesList = [
     { name: "Spouse Visa", slug: "spouse-visa" },
     { name: "Family Visa", slug: "family-visa" },
-    { name: "Parents Visa", slug: "parents-visa" },
+    { name: "Parent Visa", slug: "parent-visa" },
     { name: "Child Dependent Visa", slug: "child-dependent-visa" },
     { name: "Adult Dependent Relative Visa", slug: "adult-dependent-relative" },
     { name: "Youth Mobility Visa", slug: "youth-mobility-visa" },
@@ -389,10 +388,10 @@ export function Header() {
                 • British Citizenship
               </Link>
               <Link
-                href="/services/parents-visa"
+                href="/services/parent-visa"
                 className="block py-1 hover:text-[#0c4c6d]"
               >
-                • Parents Visa
+                • Parent Visa
               </Link>
               <Link
                 href="/services/adult-dependent-relative"

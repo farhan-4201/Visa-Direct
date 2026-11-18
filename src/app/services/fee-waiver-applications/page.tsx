@@ -5,10 +5,10 @@ import ServiceDetailPage, {
 
 export async function generateMetadata(): Promise<Metadata> {
   return generateSlugMetadata({
-    params: Promise.resolve({ slug: "parents-visa" }),
+    params: Promise.resolve({ slug: "fee-waiver-applications" }),
   });
 }
 
-export default function ParentsVisaPage() {
-  return <ServiceDetailPage params={Promise.resolve({ slug: "parents-visa" })} />;
+export default function FeeWaiverApplicationsPage() {
+  return <ServiceDetailPage params={Promise.resolve({ slug: "fee-waiver-applications" })} />;
 }

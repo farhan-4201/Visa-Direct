@@ -33,8 +33,6 @@ const excludedHomepageServiceSlugs = new Set([
   "global-talent-visa",
   "sports-person-visa",
   "innovator-visa",
-  "investor-visa",
-  "parents-visa",
   "child-dependent-visa",
   "adult-dependent-relative",
   "naturalization",
