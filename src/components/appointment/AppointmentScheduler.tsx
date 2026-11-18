@@ -86,12 +86,12 @@ export function AppointmentScheduler() {
     },
     {
       id: "in-person-london",
-      title: "London Office",
+      title: "London / Ilford Office",
       duration: "45 Minutes",
       fee: "£100",
-      description: "Meet in person at 1st Floor, 100 Parliament Street, London SW1A 2BQ.",
+      description: "Meet in person at 103 Cranbrook Rd, Ilford IG1 4PU.",
       icon: <MapPin className="w-5 h-5 text-[#0c4c6d]" />,
-      location: "London Office",
+      location: "London / Ilford Office",
     },
   ];
 

@@ -15,6 +15,9 @@ export const metadata: Metadata = {
   title: "UK Immigration Consultant Bristol & Birmingham | Visa Direct Immigration",
   description:
     "Trusted UK immigration consultants in Bristol & Birmingham offering expert legal guidance for work, spouse, family, student, and business immigration visas.",
+  verification: {
+    google: "Kmcq0asGYlhGVtL6D1ZlHUGSB4kKhJmiqWl-w_F6omg",
+  },
   keywords: [
     "UK immigration consultant",
     "Immigration lawyer Bristol",

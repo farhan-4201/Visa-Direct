@@ -2,7 +2,7 @@ export interface ServiceItem {
   id: string;
   slug: string;
   title: string;
-  category: "Business Visas" | "Personal Visas" | "Specialty Visas";
+  category: "Business Immigration" | "Personal Immigration" | "Specialty Immigration";
   shortDescription: string;
   fullDescription?: string;
   heroTagline: string;
@@ -39,12 +39,12 @@ export interface ServiceItem {
   faqs: { question: string; answer: string }[];
 }
 
-export const servicesData: ServiceItem[] = [
+const allServicesData: ServiceItem[] = [
   {
     id: "parent-visa",
     slug: "parent-visa",
     title: "Parent Visa",
-    category: "Personal Visas",
+    category: "Personal Immigration",
     shortDescription:
       "Get help with your UK Parent Visa application, eligibility, parental responsibility and Home Office requirements.",
     heroTagline: "Understand the UK Parent Visa route and prepare your family immigration application.",
@@ -292,7 +292,7 @@ export const servicesData: ServiceItem[] = [
     id: "sponsor-license",
     slug: "sponsor-license",
     title: "Sponsor License",
-    category: "Business Visas",
+    category: "Business Immigration",
     shortDescription: "Secure authorization to employ qualified foreign professionals in your UK organization.",
     heroTagline: "Empower your business to recruit international talent lawfully with full Home Office compliance.",
     seoTitle: "Apply for Sponsor Licence UK | Business Immigration Help",
@@ -614,7 +614,7 @@ export const servicesData: ServiceItem[] = [
     id: "skilled-worker-visa",
     slug: "skilled-worker-visa",
     title: "Skilled Worker Visa",
-    category: "Business Visas",
+    category: "Business Immigration",
     shortDescription: "Pursue legal employment in eligible occupations with an authorized UK employer.",
     heroTagline: "Fast-track your professional UK career with end-to-end sponsorship and application support.",
     seoTitle: "Skilled Worker Visa Solicitors UK | Visa Direct Immigration",
@@ -945,7 +945,7 @@ export const servicesData: ServiceItem[] = [
     id: "partner-visa",
     slug: "partner-visa",
     title: "Partner Visa",
-    category: "Personal Visas",
+    category: "Personal Immigration",
     shortDescription:
       "Join your British or settled partner in the UK with guidance on relationship, financial and immigration requirements.",
     heroTagline: "Understand your UK Partner Visa options and prepare your application with confidence.",
@@ -1257,7 +1257,7 @@ export const servicesData: ServiceItem[] = [
     id: "civil-partnership-visa",
     slug: "civil-partnership-visa",
     title: "Civil Partnership Visa",
-    category: "Personal Visas",
+    category: "Personal Immigration",
     shortDescription:
       "Join your civil partner in the UK with guidance on relationship, financial, English language and accommodation requirements.",
     heroTagline: "Prepare your Civil Partnership Visa application with clear, practical guidance.",
@@ -1543,7 +1543,7 @@ export const servicesData: ServiceItem[] = [
     id: "spouse-visa",
     slug: "spouse-visa",
     title: "Spouse Visa",
-    category: "Personal Visas",
+    category: "Personal Immigration",
     shortDescription:
       "Get guidance with UK Spouse Visa eligibility, financial requirements, documents, fees, extensions and application processing.",
     heroTagline: "Understand the UK Spouse Visa requirements and prepare your application with confidence.",
@@ -1837,7 +1837,7 @@ export const servicesData: ServiceItem[] = [
     id: "british-citizenship",
     slug: "british-citizenship",
     title: "British Citizenship",
-    category: "Personal Visas",
+    category: "Personal Immigration",
     shortDescription:
       "Learn how to apply for British citizenship, including eligibility, required documents, application fees and processing times.",
     heroTagline: "Understand the British citizenship requirements and prepare your application with confidence.",
@@ -2151,7 +2151,7 @@ export const servicesData: ServiceItem[] = [
   id: "visitor-visa",
   slug: "visitor-visa",
   title: "Visitor Visa",
-  category: "Personal Visas",
+  category: "Personal Immigration",
   shortDescription:
     "Visit the UK for tourism, family gatherings or permitted short-term activities with application guidance.",
   heroTagline: "Prepare your UK Visitor Visa application with clear guidance on eligibility and evidence.",
@@ -2378,7 +2378,7 @@ export const servicesData: ServiceItem[] = [
     id: "business-visit-visa",
     slug: "business-visitor-visa",
     title: "Business Visitor Visa",
-    category: "Business Visas",
+    category: "Business Immigration",
     shortDescription: "Attend commercial meetings, international conferences, and corporate events in the UK.",
     heroTagline: "Facilitating seamless corporate travel and short-term commercial engagements in Great Britain.",
     seoTitle: "Business Visitor Visa UK | Application & Requirements",
@@ -2721,7 +2721,7 @@ export const servicesData: ServiceItem[] = [
     id: "uk-student-visa",
     slug: "uk-student-visa",
     title: "Student Visa",
-    category: "Personal Visas",
+    category: "Personal Immigration",
     shortDescription:
       "Get help with your UK Student Visa application, eligibility, documents, fees, extensions and Home Office requirements.",
     heroTagline: "Prepare your UK Student Visa application with clear guidance from CAS to decision.",
@@ -2995,7 +2995,7 @@ export const servicesData: ServiceItem[] = [
     id: "uk-ancestry-visa",
     slug: "uk-ancestry-visa",
     title: "UK Ancestry Visa",
-    category: "Specialty Visas",
+    category: "Specialty Immigration",
     shortDescription:
       "Applying for a UK Ancestry Visa? Get application support with eligibility, family documents, financial evidence, fees and Home Office requirements.",
     heroTagline:
@@ -3191,7 +3191,7 @@ export const servicesData: ServiceItem[] = [
     id: "charity-worker-visa",
     slug: "charity-worker-visa",
     title: "Charity Worker Visa UK",
-    category: "Business Visas",
+    category: "Business Immigration",
     shortDescription:
       "Need a Charity Worker Visa UK? Get application support with eligibility, sponsorship, documents and Home Office requirements from Visa Direct Immigration.",
     heroTagline:
@@ -3380,7 +3380,7 @@ export const servicesData: ServiceItem[] = [
     id: "uk-settlement-visa",
     slug: "uk-settlement-visa",
     title: "UK Settlement Visa",
-    category: "Personal Visas",
+    category: "Personal Immigration",
     shortDescription: "Join eligible family members in the UK with guidance on settlement visa applications and requirements.",
     heroTagline: "Understand your UK Settlement Visa options and prepare your family application with confidence.",
     seoTitle: "UK Settlement Visa Application Support | Visa Direct",
@@ -3635,7 +3635,7 @@ export const servicesData: ServiceItem[] = [
     id: "global-business-mobility",
     slug: "global-business-mobility",
     title: "Global Business Mobility Visa",
-    category: "Business Visas",
+    category: "Business Immigration",
     shortDescription:
       "Explore Global Business Mobility Visa requirements, routes, fees and extensions with guidance on UK sponsorship and work visa applications.",
     heroTagline:
@@ -3939,7 +3939,7 @@ export const servicesData: ServiceItem[] = [
     id: "hiring-foreign-workers",
     slug: "hiring-foreign-workers",
     title: "Hiring Foreign Workers Guidance",
-    category: "Business Visas",
+    category: "Business Immigration",
     shortDescription: "Strategic counsel on navigating UK labor shortages and onboarding international specialists.",
     heroTagline: "Build a global workforce in full compliance with UK immigration law and Home Office regulations.",
     iconName: "Briefcase",
@@ -3990,7 +3990,7 @@ export const servicesData: ServiceItem[] = [
     id: "graduate-visa",
     slug: "graduate-visa",
     title: "Graduate Visa",
-    category: "Business Visas",
+    category: "Business Immigration",
     shortDescription:
       "Get expert application support with Graduate Visa UK eligibility, documents, fees and Home Office requirements.",
     heroTagline: "Move from UK study to professional experience with clear Graduate Visa guidance.",
@@ -4250,7 +4250,7 @@ export const servicesData: ServiceItem[] = [
     id: "indefinite-leave-to-remain",
     slug: "indefinite-leave-to-remain",
     title: "Indefinite Leave to Remain (ILR)",
-    category: "Personal Visas",
+    category: "Personal Immigration",
     shortDescription: "Permanent UK settlement allowing you to live, work, and study without immigration time limits.",
     heroTagline: "Your final milestone toward permanent UK residency and British citizenship.",
     seoTitle: "Indefinite Leave to Remain UK | ILR Application Help",
@@ -4550,7 +4550,7 @@ export const servicesData: ServiceItem[] = [
     id: "innovator-visa-uk",
     slug: "innovator-visa-uk",
     title: "Innovator Founder Visa",
-    category: "Business Visas",
+    category: "Business Immigration",
     shortDescription:
       "Get guidance on Innovator Founder Visa eligibility, business endorsement, application fees, documents and settlement requirements.",
     heroTagline:
@@ -4858,7 +4858,7 @@ export const servicesData: ServiceItem[] = [
     id: "family-visa",
     slug: "family-visa",
     title: "Family Visa",
-    category: "Personal Visas",
+    category: "Personal Immigration",
     shortDescription: "Join eligible family members in the UK with guidance on applications and immigration requirements.",
     heroTagline: "Understand your UK Family Visa options and prepare your application with confidence.",
     seoTitle: "UK Family Visa Lawyers | Applications & Immigration Advice",
@@ -5163,7 +5163,7 @@ export const servicesData: ServiceItem[] = [
       id: "sole-representative-visa",
       slug: "sole-representative-visa",
       title: "Sole Representative Visa Extension",
-      category: "Business Visas",
+      category: "Business Immigration",
       shortDescription:
         "Understand Sole Representative Visa extension eligibility, required documents, fees, processing times and settlement options.",
       heroTagline:
@@ -5426,7 +5426,7 @@ export const servicesData: ServiceItem[] = [
     id: "youth-mobility-visa",
     slug: "youth-mobility-visa",
     title: "Youth Mobility Visa UK",
-    category: "Business Visas",
+    category: "Business Immigration",
     shortDescription:
       "Apply for a Youth Mobility Visa UK with guidance on eligibility, documents, fees, processing times & extensions. Get support from Visa Direct Immigration.",
     heroTagline: "Live, work, and explore the UK for up to two years with complete Youth Mobility Scheme guidance.",
@@ -5723,7 +5723,7 @@ export const servicesData: ServiceItem[] = [
     id: "long-term-work-visa",
     slug: "long-term-work-visa",
     title: "Long Term Work Visa UK",
-    category: "Business Visas",
+    category: "Business Immigration",
     shortDescription:
       "Get support with your UK long-term work visa application, including eligibility, Skilled Worker sponsorship, documents and visa requirements.",
     heroTagline: "Understand your UK long-term work visa options and prepare a complete application.",
@@ -5984,7 +5984,7 @@ export const servicesData: ServiceItem[] = [
   id: "scale-up-visa",
   slug: "scale-up-visa",
   title: "Scale-Up Visa",
-  category: "Business Visas",
+  category: "Business Immigration",
   shortDescription: "Work in the UK for a fast-growing scale-up business with initial sponsorship and unsponsored flexibility after 6 months.",
   heroTagline: "Join high-growth UK companies with independent career flexibility.",
   seoTitle: "UK Scale-Up Visa | Application Support | Visa Direct",
@@ -6037,7 +6037,7 @@ export const servicesData: ServiceItem[] = [
   id: "uk-expansion-worker-visa",
   slug: "uk-expansion-worker-visa",
   title: "UK Expansion Worker Visa",
-  category: "Business Visas",
+  category: "Business Immigration",
   shortDescription: "Global Business Mobility route enabling senior managers or specialist employees to establish a UK commercial presence.",
   heroTagline: "Establish your overseas business in the UK commercial marketplace.",
   seoTitle: "UK Expansion Worker Visa | Global Business Mobility Support",
@@ -6090,7 +6090,7 @@ export const servicesData: ServiceItem[] = [
   id: "secondment-worker-visa",
   slug: "secondment-worker-visa",
   title: "Secondment Worker Visa",
-  category: "Business Visas",
+  category: "Business Immigration",
   shortDescription:
     "Understand UK Secondment Worker Visa eligibility, sponsorship, documents, application costs and processing times.",
   heroTagline: "Prepare your UK Secondment Worker Visa application with clear sponsorship and contract guidance.",
@@ -6331,7 +6331,7 @@ export const servicesData: ServiceItem[] = [
   id: "creative-worker-visa",
   slug: "creative-worker-visa",
   title: "Creative Worker Visa UK",
-  category: "Business Visas",
+  category: "Business Immigration",
   shortDescription:
     "Applying for a Creative Worker Visa UK? Get guidance on sponsorship, eligibility, documents, fees, processing times and visa extensions.",
   heroTagline:
@@ -6538,7 +6538,7 @@ export const servicesData: ServiceItem[] = [
   id: "international-agreement-visa",
   slug: "international-agreement-visa",
   title: "International Agreement Visa",
-  category: "Business Visas",
+  category: "Business Immigration",
   shortDescription:
     "Understand International Agreement Visa eligibility, sponsorship, documents, fees and processing times.",
   heroTagline: "Prepare your International Agreement Visa application with clear treaty and sponsorship guidance.",
@@ -6773,7 +6773,7 @@ export const servicesData: ServiceItem[] = [
   id: "seasonal-worker-visa",
   slug: "seasonal-worker-visa",
   title: "UK Seasonal Worker Visa",
-  category: "Business Visas",
+  category: "Business Immigration",
   shortDescription:
     "Applying for a UK Seasonal Worker Visa? Understand eligibility, sponsorship, documents, fees and processing times. Get immigration application guidance.",
   heroTagline:
@@ -6980,7 +6980,7 @@ export const servicesData: ServiceItem[] = [
   id: "entrepreneur-visa-tier-1",
   slug: "entrepreneur-visa-tier-1",
   title: "Entrepreneur Visa (Tier 1)",
-  category: "Business Visas",
+  category: "Business Immigration",
   shortDescription: "Extension and settlement (Indefinite Leave to Remain) guidance for existing Tier 1 Entrepreneur visa holders.",
   heroTagline: "Secure permanent settlement and business extensions under Tier 1 Entrepreneur.",
   seoTitle: "Tier 1 Entrepreneur Visa UK | Extension & ILR Settlement Support",
@@ -7029,7 +7029,7 @@ export const servicesData: ServiceItem[] = [
   id: "graduate-trainee-visa",
   slug: "graduate-trainee-visa",
   title: "Graduate Trainee Visa",
-  category: "Business Visas",
+  category: "Business Immigration",
   shortDescription: "Global Business Mobility route for overseas graduates transferring to a UK branch as part of a graduate training programme.",
   heroTagline: "Structured corporate training in the UK for overseas graduates.",
   seoTitle: "Graduate Trainee Visa UK | Global Business Mobility Support",
@@ -7078,7 +7078,7 @@ export const servicesData: ServiceItem[] = [
   id: "minister-of-religion-visa",
   slug: "minister-of-religion-visa",
   title: "Minister of Religion Visa",
-  category: "Business Visas",
+  category: "Business Immigration",
   shortDescription: "Long-term visa route for religious leaders, pastoral workers, and missionaries taking up appointments with licensed UK faith bodies.",
   heroTagline: "Religious and pastoral leadership appointments in the United Kingdom.",
   seoTitle: "Minister of Religion Visa UK (T2) | Application Support",
@@ -7127,7 +7127,7 @@ export const servicesData: ServiceItem[] = [
   id: "service-supplier-visa",
   slug: "service-supplier-visa",
   title: "Service Supplier Visa",
-  category: "Business Visas",
+  category: "Business Immigration",
   shortDescription: "Global Business Mobility route for contractual service suppliers and independent professionals under international trade agreements.",
   heroTagline: "Deliver specialized contract services under UK trade agreements.",
   seoTitle: "Service Supplier Visa UK | Global Business Mobility Support",
@@ -7176,7 +7176,7 @@ export const servicesData: ServiceItem[] = [
   id: "investor-visa-tier-1",
   slug: "investor-visa-tier-1",
   title: "Investor Visa (Tier 1)",
-  category: "Business Visas",
+  category: "Business Immigration",
   shortDescription: "Extension and Indefinite Leave to Remain (ILR) representation for existing Tier 1 Investor visa holders.",
   heroTagline: "High-value investment compliance and settlement in the UK.",
   seoTitle: "Tier 1 Investor Visa UK | Extension & ILR Settlement Support",
@@ -7225,7 +7225,7 @@ export const servicesData: ServiceItem[] = [
   id: "global-talent-visa",
   slug: "global-talent-visa",
   title: "Global Talent Visa",
-  category: "Business Visas",
+  category: "Business Immigration",
   shortDescription:
     "Explore Global Talent Visa UK eligibility, endorsement requirements, documents, fees and processing times.",
   heroTagline: "Prepare your Global Talent Visa application with guidance on endorsement and settlement.",
@@ -7457,7 +7457,7 @@ export const servicesData: ServiceItem[] = [
   id: "sports-person-visa",
   slug: "sports-person-visa",
   title: "Sports Person Visa",
-  category: "Business Visas",
+  category: "Business Immigration",
   shortDescription: "Visa for elite sportspeople and coaches internationally established at the highest level of sport.",
   heroTagline: "Compete and coach at the highest level of British professional sport.",
   seoTitle: "International Sportsperson Visa UK | Legal Support | Visa Direct",
@@ -7506,7 +7506,7 @@ export const servicesData: ServiceItem[] = [
   id: "innovator-visa",
   slug: "innovator-visa",
   title: "Innovator Visa",
-  category: "Business Visas",
+  category: "Business Immigration",
   shortDescription: "For experienced business founders seeking to establish an innovative, viable, and scalable business in the UK.",
   heroTagline: "Scale your innovative business in the UK with accelerated 3-year settlement.",
   seoTitle: "Innovator Founder Visa UK | Business Immigration Support",
@@ -7555,7 +7555,7 @@ export const servicesData: ServiceItem[] = [
   id: "investor-visa",
   slug: "investor-visa",
   title: "Investor Visa",
-  category: "Business Visas",
+  category: "Business Immigration",
   shortDescription: "Strategic UK immigration and commercial investment advice for high-net-worth individuals and families.",
   heroTagline: "Strategic UK residency and relocation solutions for international investors.",
   seoTitle: "UK Investor Visa Alternatives & Relocation | Visa Direct",
@@ -7604,7 +7604,7 @@ export const servicesData: ServiceItem[] = [
   id: "business-development-visa",
   slug: "business-development-visa",
   title: "Business Development Visa",
-  category: "Business Visas",
+  category: "Business Immigration",
   shortDescription: "Immigration solutions for international companies expanding into the UK market through designated personnel.",
   heroTagline: "Drive commercial growth and UK market entry with tailored immigration routes.",
   seoTitle: "Business Development Visa UK | Corporate Growth Immigration",
@@ -7653,7 +7653,7 @@ export const servicesData: ServiceItem[] = [
   id: "parents-visa",
   slug: "parents-visa",
   title: "Parents Visa",
-  category: "Personal Visas",
+  category: "Personal Immigration",
   shortDescription: "Live in the UK to care for and maintain an active relationship with your British or settled child.",
   heroTagline: "Parent family immigration guidance for parents of UK-resident children.",
   seoTitle: "UK Parents Visa | Eligibility, Requirements & Application Support",
@@ -7702,7 +7702,7 @@ export const servicesData: ServiceItem[] = [
   id: "child-dependent-visa",
   slug: "child-dependent-visa",
   title: "Child Dependent Visa",
-  category: "Personal Visas",
+  category: "Personal Immigration",
   shortDescription: "Bring your children to live with you in the UK as dependants under family or work immigration routes.",
   heroTagline: "Bring your children to the UK with dedicated family dependant support.",
   seoTitle: "Child Dependent Visa UK | Family Immigration Support",
@@ -7751,7 +7751,7 @@ export const servicesData: ServiceItem[] = [
   id: "adult-dependent-relative",
   slug: "adult-dependent-relative",
   title: "Adult Dependent Relative Visa",
-  category: "Personal Visas",
+  category: "Personal Immigration",
   shortDescription: "For adult relatives who require long-term personal care to join their British or settled family member in the UK.",
   heroTagline: "Compassionate legal support for dependent elderly or vulnerable relatives.",
   seoTitle: "Adult Dependent Relative Visa UK | Care Immigration Support",
@@ -7800,7 +7800,7 @@ export const servicesData: ServiceItem[] = [
   id: "naturalization",
   slug: "naturalization",
   title: "Naturalization",
-  category: "Personal Visas",
+  category: "Personal Immigration",
   shortDescription: "Apply for British citizenship by naturalisation to gain full rights as a British citizen.",
   heroTagline: "Achieve British citizenship with flawless naturalisation application support.",
   seoTitle: "British Citizenship by Naturalisation | Application Support",
@@ -7849,3 +7849,15 @@ export const servicesData: ServiceItem[] = [
   heroImage: "/images/services/naturalization.webp"
 },
 ];
+
+const removedServiceIds = new Set([
+  "business-development-visa",
+  "hiring-foreign-workers",
+  "entrepreneur-visa-tier-1",
+  "international-agreement-visa",
+  "secondment-worker-visa",
+]);
+
+export const servicesData = allServicesData.filter(
+  (service) => !removedServiceIds.has(service.id),
+);

@@ -22,9 +22,9 @@ export const metadata: Metadata = {
 };
 
 export default function ServicesPage() {
-  const businessVisas = servicesData.filter((s) => s.category === "Business Visas");
-  const personalVisas = servicesData.filter((s) => s.category === "Personal Visas");
-  const specialtyVisas = servicesData.filter((s) => s.category === "Specialty Visas");
+  const businessVisas = servicesData.filter((s) => s.category === "Business Immigration");
+  const personalVisas = servicesData.filter((s) => s.category === "Personal Immigration");
+  const specialtyVisas = servicesData.filter((s) => s.category === "Specialty Immigration");
 
   return (
     <>
@@ -56,7 +56,7 @@ export default function ServicesPage() {
       {/* Services Categories */}
       <section className="py-16 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
-          {/* Category 1: Business Visas */}
+          {/* Category 1: Business Immigration */}
           <div>
             <div className="flex items-center gap-3 mb-6 pb-3 border-b border-slate-200">
               <div className="w-10 h-10 rounded-xl bg-[#0c4c6d] text-white flex items-center justify-center">
@@ -64,7 +64,7 @@ export default function ServicesPage() {
               </div>
               <div>
                 <h3 className="text-xl font-bold text-slate-900">
-                  Business & Corporate Immigration
+                  Business Immigration
                 </h3>
                 <p className="text-xs text-slate-500">
                   Employer sponsorship licenses, skilled workers, and corporate mobility
@@ -122,7 +122,7 @@ export default function ServicesPage() {
             </div>
           </div>
 
-          {/* Category 2: Personal & Family Visas */}
+          {/* Category 2: Personal & Family Immigration */}
           <div>
             <div className="flex items-center gap-3 mb-6 pb-3 border-b border-slate-200">
               <div className="w-10 h-10 rounded-xl bg-[#0c4c6d] text-white flex items-center justify-center">
@@ -130,7 +130,7 @@ export default function ServicesPage() {
               </div>
               <div>
                 <h3 className="text-xl font-bold text-slate-900">
-                  Personal, Family & Citizenship Routes
+                  Personal Immigration, Family & Citizenship Routes
                 </h3>
                 <p className="text-xs text-slate-500">
                   Spouses, civil partners, dependent relatives, students, and naturalisation

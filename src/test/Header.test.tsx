@@ -56,14 +56,10 @@ describe("Header Layout Component", () => {
       "Skilled Worker Visa",
       "Scale-Up Visa",
       "UK Expansion Worker Visa",
-      "Secondment Worker Visa",
-      "Hiring Foreign Workers",
       "Youth Mobility Visa",
       "Charity Worker Visa",
       "Creative Worker Visa",
-      "International Agreement Visa",
       "Seasonal Worker Visa",
-      "Entrepreneur Visa (Tier 1)",
       "Graduate Trainee Visa",
       "Minister of Religion Visa",
       "Service Supplier Visa",
@@ -74,7 +70,6 @@ describe("Header Layout Component", () => {
       "Sports Person Visa",
       "Innovator Visa",
       "Investor Visa",
-      "Business Development Visa",
     ].forEach((service) => {
       expect(screen.getByText(service)).toBeInTheDocument();
     });

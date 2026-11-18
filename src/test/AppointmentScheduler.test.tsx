@@ -27,7 +27,7 @@ describe("AppointmentScheduler Multi-Step Flow", () => {
     expect(screen.getByText("Online Video Consultation")).toBeInTheDocument();
     expect(screen.getByText("Birmingham Office")).toBeInTheDocument();
     expect(screen.getByText("Bristol Office")).toBeInTheDocument();
-    expect(screen.getByText("London Office")).toBeInTheDocument();
+    expect(screen.getByText("London / Ilford Office")).toBeInTheDocument();
   });
 
   it("step 1 has a CTA to advance to step 2", () => {

@@ -19,7 +19,7 @@ export const teamMembers: TeamMember[] = [
     role: "Principal Business Immigration Consultant",
     qualifications: "IAA Level 3 Regulated Practitioner",
     bio: "Specializes in Sponsor License auditing, Global Business Mobility, and Tier 1 entrepreneur legacy settlement applications.",
-    specialization: "Sponsor Licensing & Business Visas",
+    specialization: "Sponsor Licensing & Business Immigration",
   },
   {
     name: "M. Chowdhury",

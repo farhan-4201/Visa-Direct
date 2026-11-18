@@ -27,14 +27,10 @@ const businessNavigationServices = [
   "Skilled Worker Visa",
   "Scale-Up Visa",
   "UK Expansion Worker Visa",
-  "Secondment Worker Visa",
-  "Hiring Foreign Workers",
   "Youth Mobility Visa",
   "Charity Worker Visa",
   "Creative Worker Visa",
-  "International Agreement Visa",
   "Seasonal Worker Visa",
-  "Entrepreneur Visa (Tier 1)",
   "Graduate Trainee Visa",
   "Minister of Religion Visa",
   "Service Supplier Visa",
@@ -45,13 +41,11 @@ const businessNavigationServices = [
   "Sports Person Visa",
   "Innovator Visa",
   "Investor Visa",
-  "Business Development Visa",
 ] as const;
 
 const businessServiceAliases: Record<string, string> = {
   "Graduate Visa": "UK Graduate Visa",
   "Global Business Mobility": "Global Business Mobility Visa",
-  "Hiring Foreign Workers": "Hiring Foreign Workers Guidance",
   "Innovator Visa": "Innovator Founder Visa",
   "Charity Worker Visa": "Charity Worker Visa UK",
   "Creative Worker Visa": "Creative Worker Visa UK",
@@ -91,7 +85,7 @@ export function Header() {
       shortDescription: service?.shortDescription ?? "Expert guidance for your UK immigration application.",
     };
   });
-  const specialtyServices = servicesData.filter((s) => s.category === "Specialty Visas");
+  const specialtyServices = servicesData.filter((s) => s.category === "Specialty Immigration");
 
   const otherServicesList = [
     { name: "Spouse Visa", slug: "spouse-visa" },
@@ -203,7 +197,7 @@ export function Header() {
                 }`}
                 aria-expanded={activeDropdown === "popular"}
               >
-                <span>Business</span>
+                <span>Business Immigration</span>
                 <ChevronDown
                   className={`w-4 h-4 transition-transform duration-200 ${
                     activeDropdown === "popular" ? "rotate-180" : ""
@@ -213,11 +207,11 @@ export function Header() {
 
               {activeDropdown === "popular" && (
                 <div className="absolute top-full left-1/2 -translate-x-1/2 w-[960px] max-h-[calc(100vh-7rem)] overflow-y-auto bg-white rounded-xl shadow-2xl border border-slate-100 p-6 grid grid-cols-3 gap-x-5 gap-y-6 z-50 animate-in fade-in slide-in-from-top-2 duration-150">
-                  {/* Business Visas Column */}
+                  {/* Business Immigration Column */}
                   <div className="col-span-3">
                     <div className="flex items-center justify-between pb-2 mb-3 border-b border-slate-100">
                       <h4 className="text-xs font-bold uppercase tracking-wider text-[#0c4c6d]">
-                        Business & Corporate Visas
+                        Business & Corporate Immigration
                       </h4>
                       <Link
                         href="/services"
@@ -247,7 +241,7 @@ export function Header() {
               )}
             </div>
 
-            {/* Personal Dropdown */}
+            {/* Personal Immigration Dropdown */}
             <div
               className="relative"
               onMouseEnter={() => setActiveDropdown("other")}
@@ -261,7 +255,7 @@ export function Header() {
                 }`}
                 aria-expanded={activeDropdown === "other"}
               >
-                <span>Personal</span>
+                <span>Personal Immigration</span>
                 <ChevronDown
                   className={`w-4 h-4 transition-transform duration-200 ${
                     activeDropdown === "other" ? "rotate-180" : ""
@@ -272,7 +266,7 @@ export function Header() {
               {activeDropdown === "other" && (
                 <div className="absolute top-full left-0 w-64 bg-white rounded-xl shadow-2xl border border-slate-100 p-3 z-50 animate-in fade-in slide-in-from-top-2 duration-150">
                   <div className="text-[11px] font-bold text-slate-400 uppercase tracking-wider px-2 py-1 mb-1">
-                    Specialized UK Pathways
+                    Personal Immigration
                   </div>
                   <ul className="space-y-1">
                     {otherServicesList.map((item, idx) => (
