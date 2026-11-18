@@ -36,13 +36,24 @@ describe("AppointmentScheduler Multi-Step Flow", () => {
     expect(nextBtn).toBeInTheDocument();
   });
 
-  it("advances from step 1 to step 2 when next button is clicked", () => {
+  it("does not advance to step 2 when consultation card is clicked", () => {
+    render(<AppointmentScheduler />);
+    fireEvent.click(screen.getByText("Birmingham Office"));
+    // Still on step 1
+    expect(screen.getByText("Step 1 of 4")).toBeInTheDocument();
+    expect(screen.getByText("Select Consultation Format")).toBeInTheDocument();
+  });
+
+  it("advances from step 1 to step 2 when next button is clicked and displays calendar", () => {
     render(<AppointmentScheduler />);
     fireEvent.click(screen.getByRole("button", { name: /Continue to Date & Time/i }));
 
     expect(screen.getByText("Step 2 of 4")).toBeInTheDocument();
     expect(screen.getByText("Choose Date & Time Slot")).toBeInTheDocument();
+    expect(screen.getByText("Select Consultation Date")).toBeInTheDocument();
     expect(screen.getByText("Available Consultation Dates")).toBeInTheDocument();
+    expect(screen.getByLabelText("Next Month")).toBeInTheDocument();
+    expect(screen.getByLabelText("Previous Month")).toBeInTheDocument();
   });
 
   it("advances from step 2 to step 3 with contact details form", () => {

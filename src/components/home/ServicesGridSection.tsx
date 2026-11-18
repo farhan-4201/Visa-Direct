@@ -36,6 +36,8 @@ const excludedHomepageServiceSlugs = new Set([
   "child-dependent-visa",
   "adult-dependent-relative",
   "naturalization",
+  "charity-worker-visa",
+  "eu-family-permit",
 ]);
 
 export function ServicesGridSection() {

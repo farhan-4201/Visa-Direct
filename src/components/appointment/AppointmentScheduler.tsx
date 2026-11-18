@@ -8,6 +8,7 @@ import {
   MapPin,
   Phone,
   CheckCircle2,
+  ChevronLeft,
   ChevronRight,
   ShieldCheck,
   AlertCircle,
@@ -30,6 +31,8 @@ export function AppointmentScheduler() {
   const [availableDates, setAvailableDates] = useState<
     ReturnType<typeof getAvailableAppointmentDates>
   >([]);
+  const [calendarMonth, setCalendarMonth] = useState<Date | null>(null);
+  const [currentDate, setCurrentDate] = useState<Date | null>(null);
   const [step, setStep] = useState<1 | 2 | 3 | 4>(1);
   const [booking, setBooking] = useState<BookingState>({
     consultationType: "video",
@@ -48,13 +51,70 @@ export function AppointmentScheduler() {
   const [emailError, setEmailError] = useState<string | null>(null);
 
   useEffect(() => {
-    const dates = getAvailableAppointmentDates(new Date());
+    const now = new Date();
+    setCurrentDate(now);
+    const dates = getAvailableAppointmentDates(now);
     setAvailableDates(dates);
-    setBooking((current) => ({
-      ...current,
-      selectedDate: current.selectedDate || dates[0].date,
-    }));
+    if (dates.length > 0) {
+      setBooking((current) => ({
+        ...current,
+        selectedDate: current.selectedDate || dates[0].date,
+      }));
+      // Sync initial calendar view with first available date
+      const [initYear, initMonth] = dates[0].date.split("-").map(Number);
+      if (initYear && initMonth) {
+        setCalendarMonth(new Date(initYear, initMonth - 1, 1));
+      } else {
+        setCalendarMonth(new Date(now.getFullYear(), now.getMonth(), 1));
+      }
+    } else {
+      setCalendarMonth(new Date(now.getFullYear(), now.getMonth(), 1));
+    }
   }, []);
+
+  const currentYear = currentDate ? currentDate.getFullYear() : 2026;
+  const currentMonthIdx = currentDate ? currentDate.getMonth() : 10;
+  const activeMonth = calendarMonth ?? (currentDate ? new Date(currentYear, currentMonthIdx, 1) : new Date(2026, 10, 1));
+  const calYear = activeMonth.getFullYear();
+  const calMonth = activeMonth.getMonth();
+
+  const isPrevMonthDisabled =
+    calYear < currentYear || (calYear === currentYear && calMonth <= currentMonthIdx);
+
+  const lastAvailableDateStr = availableDates[availableDates.length - 1]?.date;
+  const maxMonthDate = lastAvailableDateStr
+    ? new Date(Number(lastAvailableDateStr.slice(0, 4)), Number(lastAvailableDateStr.slice(5, 7)) - 1, 1)
+    : new Date(currentYear, currentMonthIdx + 2, 1);
+
+  const isNextMonthDisabled =
+    calYear > maxMonthDate.getFullYear() ||
+    (calYear === maxMonthDate.getFullYear() && calMonth >= maxMonthDate.getMonth());
+
+  const monthLabel = activeMonth.toLocaleDateString("en-GB", {
+    month: "long",
+    year: "numeric",
+  });
+
+  const availableDatesSet = React.useMemo(
+    () => new Set(availableDates.map((d) => d.date)),
+    [availableDates]
+  );
+
+  const calendarDays = React.useMemo(() => {
+    const firstDay = new Date(Date.UTC(calYear, calMonth, 1));
+    const daysInMonth = new Date(Date.UTC(calYear, calMonth + 1, 0)).getUTCDate();
+    const startingDay = (firstDay.getUTCDay() + 6) % 7; // Monday = 0
+
+    const cells: Array<{ day: number; date: string } | null> = [];
+    for (let i = 0; i < startingDay; i++) {
+      cells.push(null);
+    }
+    for (let d = 1; d <= daysInMonth; d++) {
+      const dateKey = `${calYear}-${String(calMonth + 1).padStart(2, "0")}-${String(d).padStart(2, "0")}`;
+      cells.push({ day: d, date: dateKey });
+    }
+    return cells;
+  }, [calYear, calMonth]);
 
   const consultationTypes = [
     {
@@ -217,13 +277,12 @@ export function AppointmentScheduler() {
                       ...booking,
                       consultationType: type.id,
                       consultationLocation: type.location,
-                    })
-                    setStep(2)
+                    });
                   }}
                   className={`p-5 rounded-2xl border-2 transition-all cursor-pointer flex flex-col justify-between ${
                     booking.consultationType === type.id
                       ? "border-[#0c4c6d] bg-sky-50/40 shadow-md ring-1 ring-[#0c4c6d]"
-                      : "border-[#0c4c6d] bg-white hover:border-[#0c4c6d] hover:bg-[#0c4c6d]/10"
+                      : "border-slate-200 bg-white hover:border-[#0c4c6d] hover:bg-[#0c4c6d]/5"
                   }`}
                 >
                   <div>
@@ -268,25 +327,135 @@ export function AppointmentScheduler() {
         {/* Step 2: Date & Time Picker */}
         {step === 2 && (
           <div className="space-y-6">
-            <div>
-              <label className="block text-xs font-bold uppercase tracking-wider text-slate-500 mb-2">
-                Available Consultation Dates
-              </label>
-              <div className="grid grid-cols-2 sm:grid-cols-5 gap-2.5">
-                {availableDates.map((item) => (
+            {/* Interactive Dynamic Calendar */}
+            <div className="bg-slate-50/80 rounded-2xl p-4 sm:p-6 border border-slate-200">
+              <div className="flex flex-wrap items-center justify-between gap-3 mb-4">
+                <div>
+                  <h3 className="text-sm font-bold text-[#072333] flex items-center gap-2">
+                    <Calendar className="w-4 h-4 text-[#0c4c6d]" />
+                    <span>Select Consultation Date</span>
+                  </h3>
+                  <p className="text-[11px] text-slate-500 mt-0.5">
+                    Live schedule for the next 30 days • Working days (Mon–Fri)
+                  </p>
+                </div>
+
+                {/* Month navigation controls */}
+                <div className="flex items-center gap-1.5 bg-white p-1 rounded-xl border border-slate-200 shadow-xs">
                   <button
-                    key={item.date}
-                    onClick={() => setBooking({ ...booking, selectedDate: item.date })}
-                    className={`p-3 rounded-xl text-center border-2 transition-all cursor-pointer ${
-                      booking.selectedDate === item.date
-                        ? "border-[#0c4c6d] bg-[#0c4c6d] text-white shadow-md"
-                        : "border-slate-200 hover:border-slate-300 text-slate-700 bg-white"
-                    }`}
+                    type="button"
+                    onClick={() => {
+                      setCalendarMonth(
+                        (prev) =>
+                          prev
+                            ? new Date(prev.getFullYear(), prev.getMonth() - 1, 1)
+                            : new Date(calYear, calMonth - 1, 1)
+                      );
+                    }}
+                    disabled={isPrevMonthDisabled}
+                    className="p-1.5 rounded-lg text-slate-600 hover:text-slate-900 hover:bg-slate-100 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
+                    aria-label="Previous Month"
                   >
-                    <Calendar className="w-4 h-4 mx-auto mb-1 opacity-80" />
-                    <span className="text-xs font-bold block">{item.label}</span>
+                    <ChevronLeft className="w-4 h-4" />
                   </button>
+
+                  <span className="text-xs font-bold text-slate-800 px-3 min-w-[120px] text-center">
+                    {monthLabel}
+                  </span>
+
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setCalendarMonth(
+                        (prev) =>
+                          prev
+                            ? new Date(prev.getFullYear(), prev.getMonth() + 1, 1)
+                            : new Date(calYear, calMonth + 1, 1)
+                      );
+                    }}
+                    disabled={isNextMonthDisabled}
+                    className="p-1.5 rounded-lg text-slate-600 hover:text-slate-900 hover:bg-slate-100 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
+                    aria-label="Next Month"
+                  >
+                    <ChevronRight className="w-4 h-4" />
+                  </button>
+                </div>
+              </div>
+
+              {/* Day of Week Header */}
+              <div className="grid grid-cols-7 gap-1 text-center mb-1">
+                {["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"].map((dayName) => (
+                  <div
+                    key={dayName}
+                    className="text-[11px] font-bold text-slate-400 uppercase py-1"
+                  >
+                    {dayName}
+                  </div>
                 ))}
+              </div>
+
+              {/* Calendar Days Matrix */}
+              <div className="grid grid-cols-7 gap-1.5 text-center">
+                {calendarDays.map((cell, idx) => {
+                  if (!cell) {
+                    return <div key={`pad-${idx}`} className="h-10 sm:h-11" />;
+                  }
+
+                  const isAvailable = availableDatesSet.has(cell.date);
+                  const isSelected = booking.selectedDate === cell.date;
+
+                  return (
+                    <button
+                      key={cell.date}
+                      type="button"
+                      disabled={!isAvailable}
+                      onClick={() => {
+                        if (isAvailable) {
+                          setBooking({ ...booking, selectedDate: cell.date });
+                        }
+                      }}
+                      className={`h-10 sm:h-11 rounded-xl text-xs sm:text-sm font-semibold transition-all flex flex-col items-center justify-center relative ${
+                        isSelected
+                          ? "bg-[#0c4c6d] text-white font-bold shadow-md ring-2 ring-[#0c4c6d]/40 scale-105 z-10"
+                          : isAvailable
+                          ? "bg-white hover:bg-sky-50 text-slate-800 border border-slate-200 hover:border-[#0c4c6d] cursor-pointer"
+                          : "text-slate-300 bg-slate-100/40 border border-transparent cursor-not-allowed"
+                      }`}
+                    >
+                      <span>{cell.day}</span>
+                    </button>
+                  );
+                })}
+              </div>
+
+              {/* Quick Pick: Earliest Available Dates */}
+              <div className="mt-5 pt-4 border-t border-slate-200/70">
+                <label className="block text-xs font-bold uppercase tracking-wider text-slate-500 mb-2">
+                  Available Consultation Dates
+                </label>
+                <div className="grid grid-cols-2 sm:grid-cols-5 gap-2.5">
+                  {availableDates.slice(0, 5).map((item) => (
+                    <button
+                      key={item.date}
+                      type="button"
+                      onClick={() => {
+                        setBooking({ ...booking, selectedDate: item.date });
+                        const [itemYear, itemMonth] = item.date.split("-").map(Number);
+                        if (itemYear && itemMonth) {
+                          setCalendarMonth(new Date(itemYear, itemMonth - 1, 1));
+                        }
+                      }}
+                      className={`p-3 rounded-xl text-center border-2 transition-all cursor-pointer ${
+                        booking.selectedDate === item.date
+                          ? "border-[#0c4c6d] bg-[#0c4c6d] text-white shadow-md"
+                          : "border-slate-200 hover:border-slate-300 text-slate-700 bg-white"
+                      }`}
+                    >
+                      <Calendar className="w-4 h-4 mx-auto mb-1 opacity-80" />
+                      <span className="text-xs font-bold block">{item.label}</span>
+                    </button>
+                  ))}
+                </div>
               </div>
             </div>
 
