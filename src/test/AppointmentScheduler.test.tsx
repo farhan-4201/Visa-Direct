@@ -17,17 +17,17 @@ describe("AppointmentScheduler Multi-Step Flow", () => {
   afterEach(() => {
     vi.unstubAllGlobals();
   });
-  it("renders step 1 with four consultation type cards", () => {
+  it("renders step 1 with three consultation type cards (Bristol, Birmingham, and Online/Call)", () => {
     render(<AppointmentScheduler />);
     // Step indicator
     expect(screen.getByText("Step 1 of 4")).toBeInTheDocument();
     expect(screen.getByText("Select Consultation Format")).toBeInTheDocument();
 
-    // The four consultation type cards
-    expect(screen.getByText("Online Video Consultation")).toBeInTheDocument();
-    expect(screen.getByText("Birmingham Office")).toBeInTheDocument();
+    // The three consultation type cards
     expect(screen.getByText("Bristol Office")).toBeInTheDocument();
-    expect(screen.getByText("London / Ilford Office")).toBeInTheDocument();
+    expect(screen.getByText("Birmingham Office")).toBeInTheDocument();
+    expect(screen.getByText("Online / Call")).toBeInTheDocument();
+    expect(screen.queryByText("London / Ilford Office")).not.toBeInTheDocument();
   });
 
   it("step 1 has a CTA to advance to step 2", () => {
@@ -44,16 +44,15 @@ describe("AppointmentScheduler Multi-Step Flow", () => {
     expect(screen.getByText("Select Consultation Format")).toBeInTheDocument();
   });
 
-  it("advances from step 1 to step 2 when next button is clicked and displays calendar", () => {
+  it("advances from step 1 to step 2 when next button is clicked and displays available dates", () => {
     render(<AppointmentScheduler />);
     fireEvent.click(screen.getByRole("button", { name: /Continue to Date & Time/i }));
 
     expect(screen.getByText("Step 2 of 4")).toBeInTheDocument();
     expect(screen.getByText("Choose Date & Time Slot")).toBeInTheDocument();
-    expect(screen.getByText("Select Consultation Date")).toBeInTheDocument();
     expect(screen.getByText("Available Consultation Dates")).toBeInTheDocument();
-    expect(screen.getByLabelText("Next Month")).toBeInTheDocument();
-    expect(screen.getByLabelText("Previous Month")).toBeInTheDocument();
+    expect(screen.queryByLabelText("Next Month")).not.toBeInTheDocument();
+    expect(screen.queryByLabelText("Previous Month")).not.toBeInTheDocument();
   });
 
   it("advances from step 2 to step 3 with contact details form", () => {

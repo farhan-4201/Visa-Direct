@@ -14,7 +14,7 @@ function toDateKey(date: Date) {
 
 export function getAvailableAppointmentDates(
   from: Date,
-  count = 30,
+  count = 5,
   gapDays = 2
 ): AvailableAppointmentDate[] {
   const date = new Date(

@@ -34,7 +34,6 @@ const businessNavigationServices = [
   "Graduate Trainee Visa",
   "Minister of Religion Visa",
   "Service Supplier Visa",
-  "Investor Visa (Tier 1)",
   "Graduate Visa",
   "Global Business Mobility",
   "Global Talent Visa",

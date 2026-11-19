@@ -8,11 +8,8 @@ import {
   MapPin,
   Phone,
   CheckCircle2,
-  ChevronLeft,
   ChevronRight,
-  ShieldCheck,
   AlertCircle,
-  User,
 } from "lucide-react";
 import { getAvailableAppointmentDates } from "@/lib/appointmentDates";
 
@@ -31,12 +28,10 @@ export function AppointmentScheduler() {
   const [availableDates, setAvailableDates] = useState<
     ReturnType<typeof getAvailableAppointmentDates>
   >([]);
-  const [calendarMonth, setCalendarMonth] = useState<Date | null>(null);
-  const [currentDate, setCurrentDate] = useState<Date | null>(null);
   const [step, setStep] = useState<1 | 2 | 3 | 4>(1);
   const [booking, setBooking] = useState<BookingState>({
-    consultationType: "video",
-    consultationLocation: "Online Video Meeting",
+    consultationType: "bristol",
+    consultationLocation: "Bristol Office",
     selectedDate: "",
     selectedTime: "10:00 AM",
     fullName: "",
@@ -51,92 +46,19 @@ export function AppointmentScheduler() {
   const [emailError, setEmailError] = useState<string | null>(null);
 
   useEffect(() => {
-    const now = new Date();
-    setCurrentDate(now);
-    const dates = getAvailableAppointmentDates(now);
+    const dates = getAvailableAppointmentDates(new Date());
     setAvailableDates(dates);
     if (dates.length > 0) {
       setBooking((current) => ({
         ...current,
         selectedDate: current.selectedDate || dates[0].date,
       }));
-      // Sync initial calendar view with first available date
-      const [initYear, initMonth] = dates[0].date.split("-").map(Number);
-      if (initYear && initMonth) {
-        setCalendarMonth(new Date(initYear, initMonth - 1, 1));
-      } else {
-        setCalendarMonth(new Date(now.getFullYear(), now.getMonth(), 1));
-      }
-    } else {
-      setCalendarMonth(new Date(now.getFullYear(), now.getMonth(), 1));
     }
   }, []);
 
-  const currentYear = currentDate ? currentDate.getFullYear() : 2026;
-  const currentMonthIdx = currentDate ? currentDate.getMonth() : 10;
-  const activeMonth = calendarMonth ?? (currentDate ? new Date(currentYear, currentMonthIdx, 1) : new Date(2026, 10, 1));
-  const calYear = activeMonth.getFullYear();
-  const calMonth = activeMonth.getMonth();
-
-  const isPrevMonthDisabled =
-    calYear < currentYear || (calYear === currentYear && calMonth <= currentMonthIdx);
-
-  const lastAvailableDateStr = availableDates[availableDates.length - 1]?.date;
-  const maxMonthDate = lastAvailableDateStr
-    ? new Date(Number(lastAvailableDateStr.slice(0, 4)), Number(lastAvailableDateStr.slice(5, 7)) - 1, 1)
-    : new Date(currentYear, currentMonthIdx + 2, 1);
-
-  const isNextMonthDisabled =
-    calYear > maxMonthDate.getFullYear() ||
-    (calYear === maxMonthDate.getFullYear() && calMonth >= maxMonthDate.getMonth());
-
-  const monthLabel = activeMonth.toLocaleDateString("en-GB", {
-    month: "long",
-    year: "numeric",
-  });
-
-  const availableDatesSet = React.useMemo(
-    () => new Set(availableDates.map((d) => d.date)),
-    [availableDates]
-  );
-
-  const calendarDays = React.useMemo(() => {
-    const firstDay = new Date(Date.UTC(calYear, calMonth, 1));
-    const daysInMonth = new Date(Date.UTC(calYear, calMonth + 1, 0)).getUTCDate();
-    const startingDay = (firstDay.getUTCDay() + 6) % 7; // Monday = 0
-
-    const cells: Array<{ day: number; date: string } | null> = [];
-    for (let i = 0; i < startingDay; i++) {
-      cells.push(null);
-    }
-    for (let d = 1; d <= daysInMonth; d++) {
-      const dateKey = `${calYear}-${String(calMonth + 1).padStart(2, "0")}-${String(d).padStart(2, "0")}`;
-      cells.push({ day: d, date: dateKey });
-    }
-    return cells;
-  }, [calYear, calMonth]);
-
   const consultationTypes = [
     {
-      id: "video",
-      title: "Online Video Consultation",
-      duration: "45 Minutes",
-      fee: "£100",
-      description: "Secure one-to-one consultation via Microsoft Teams or Zoom with a senior solicitor.",
-      icon: <Video className="w-5 h-5 text-[#0c4c6d]" />,
-      location: "Online Video Meeting",
-    },
-    {
-      id: "in-person-birmingham",
-      title: "Birmingham Office",
-      duration: "45 Minutes",
-      fee: "£100",
-      description: "Meet in person at 66-68 Hagley Rd, Birmingham B16 8PF.",
-      icon: <MapPin className="w-5 h-5 text-[#0c4c6d]" />,
-      location: "Birmingham Office",
-    },
-    {
-      id: "in-person-bristol",
+      id: "bristol",
       title: "Bristol Office",
       duration: "45 Minutes",
       fee: "£100",
@@ -145,13 +67,27 @@ export function AppointmentScheduler() {
       location: "Bristol Office",
     },
     {
-      id: "in-person-london",
-      title: "London / Ilford Office",
+      id: "birmingham",
+      title: "Birmingham Office",
       duration: "45 Minutes",
       fee: "£100",
-      description: "Meet in person at 103 Cranbrook Rd, Ilford IG1 4PU.",
+      description: "Meet in person at 66-68 Hagley Rd, Birmingham B16 8PF.",
       icon: <MapPin className="w-5 h-5 text-[#0c4c6d]" />,
-      location: "London / Ilford Office",
+      location: "Birmingham Office",
+    },
+    {
+      id: "online-call",
+      title: "Online / Call",
+      duration: "45 Minutes",
+      fee: "£100",
+      description: "Secure one-to-one consultation via video (Zoom / Teams) or telephone call.",
+      icon: (
+        <div className="flex items-center gap-1">
+          <Video className="w-4 h-4 text-[#0c4c6d]" />
+          <Phone className="w-3.5 h-3.5 text-[#0c4c6d]" />
+        </div>
+      ),
+      location: "Online / Call",
     },
   ];
 
@@ -268,7 +204,7 @@ export function AppointmentScheduler() {
               Please choose how you would prefer to meet with your immigration solicitor:
             </p>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               {consultationTypes.map((type) => (
                 <div
                   key={type.id}
@@ -314,6 +250,7 @@ export function AppointmentScheduler() {
 
             <div className="pt-6 flex justify-end">
               <button
+                type="button"
                 onClick={handleNextStep}
                 className="px-6 py-2.5 rounded-lg bg-[#0c4c6d] hover:bg-[#083248] text-white text-sm font-bold shadow-md transition-all flex items-center gap-2 cursor-pointer"
               >
@@ -327,135 +264,26 @@ export function AppointmentScheduler() {
         {/* Step 2: Date & Time Picker */}
         {step === 2 && (
           <div className="space-y-6">
-            {/* Interactive Dynamic Calendar */}
-            <div className="bg-slate-50/80 rounded-2xl p-4 sm:p-6 border border-slate-200">
-              <div className="flex flex-wrap items-center justify-between gap-3 mb-4">
-                <div>
-                  <h3 className="text-sm font-bold text-[#072333] flex items-center gap-2">
-                    <Calendar className="w-4 h-4 text-[#0c4c6d]" />
-                    <span>Select Consultation Date</span>
-                  </h3>
-                  <p className="text-[11px] text-slate-500 mt-0.5">
-                    Live schedule for the next 30 days • Working days (Mon–Fri)
-                  </p>
-                </div>
-
-                {/* Month navigation controls */}
-                <div className="flex items-center gap-1.5 bg-white p-1 rounded-xl border border-slate-200 shadow-xs">
+            <div>
+              <label className="block text-xs font-bold uppercase tracking-wider text-slate-500 mb-2">
+                Available Consultation Dates
+              </label>
+              <div className="grid grid-cols-2 sm:grid-cols-5 gap-2.5">
+                {availableDates.map((item) => (
                   <button
+                    key={item.date}
                     type="button"
-                    onClick={() => {
-                      setCalendarMonth(
-                        (prev) =>
-                          prev
-                            ? new Date(prev.getFullYear(), prev.getMonth() - 1, 1)
-                            : new Date(calYear, calMonth - 1, 1)
-                      );
-                    }}
-                    disabled={isPrevMonthDisabled}
-                    className="p-1.5 rounded-lg text-slate-600 hover:text-slate-900 hover:bg-slate-100 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
-                    aria-label="Previous Month"
+                    onClick={() => setBooking({ ...booking, selectedDate: item.date })}
+                    className={`p-3 rounded-xl text-center border-2 transition-all cursor-pointer ${
+                      booking.selectedDate === item.date
+                        ? "border-[#0c4c6d] bg-[#0c4c6d] text-white shadow-md"
+                        : "border-slate-200 hover:border-slate-300 text-slate-700 bg-white"
+                    }`}
                   >
-                    <ChevronLeft className="w-4 h-4" />
+                    <Calendar className="w-4 h-4 mx-auto mb-1 opacity-80" />
+                    <span className="text-xs font-bold block">{item.label}</span>
                   </button>
-
-                  <span className="text-xs font-bold text-slate-800 px-3 min-w-[120px] text-center">
-                    {monthLabel}
-                  </span>
-
-                  <button
-                    type="button"
-                    onClick={() => {
-                      setCalendarMonth(
-                        (prev) =>
-                          prev
-                            ? new Date(prev.getFullYear(), prev.getMonth() + 1, 1)
-                            : new Date(calYear, calMonth + 1, 1)
-                      );
-                    }}
-                    disabled={isNextMonthDisabled}
-                    className="p-1.5 rounded-lg text-slate-600 hover:text-slate-900 hover:bg-slate-100 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
-                    aria-label="Next Month"
-                  >
-                    <ChevronRight className="w-4 h-4" />
-                  </button>
-                </div>
-              </div>
-
-              {/* Day of Week Header */}
-              <div className="grid grid-cols-7 gap-1 text-center mb-1">
-                {["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"].map((dayName) => (
-                  <div
-                    key={dayName}
-                    className="text-[11px] font-bold text-slate-400 uppercase py-1"
-                  >
-                    {dayName}
-                  </div>
                 ))}
-              </div>
-
-              {/* Calendar Days Matrix */}
-              <div className="grid grid-cols-7 gap-1.5 text-center">
-                {calendarDays.map((cell, idx) => {
-                  if (!cell) {
-                    return <div key={`pad-${idx}`} className="h-10 sm:h-11" />;
-                  }
-
-                  const isAvailable = availableDatesSet.has(cell.date);
-                  const isSelected = booking.selectedDate === cell.date;
-
-                  return (
-                    <button
-                      key={cell.date}
-                      type="button"
-                      disabled={!isAvailable}
-                      onClick={() => {
-                        if (isAvailable) {
-                          setBooking({ ...booking, selectedDate: cell.date });
-                        }
-                      }}
-                      className={`h-10 sm:h-11 rounded-xl text-xs sm:text-sm font-semibold transition-all flex flex-col items-center justify-center relative ${
-                        isSelected
-                          ? "bg-[#0c4c6d] text-white font-bold shadow-md ring-2 ring-[#0c4c6d]/40 scale-105 z-10"
-                          : isAvailable
-                          ? "bg-white hover:bg-sky-50 text-slate-800 border border-slate-200 hover:border-[#0c4c6d] cursor-pointer"
-                          : "text-slate-300 bg-slate-100/40 border border-transparent cursor-not-allowed"
-                      }`}
-                    >
-                      <span>{cell.day}</span>
-                    </button>
-                  );
-                })}
-              </div>
-
-              {/* Quick Pick: Earliest Available Dates */}
-              <div className="mt-5 pt-4 border-t border-slate-200/70">
-                <label className="block text-xs font-bold uppercase tracking-wider text-slate-500 mb-2">
-                  Available Consultation Dates
-                </label>
-                <div className="grid grid-cols-2 sm:grid-cols-5 gap-2.5">
-                  {availableDates.slice(0, 5).map((item) => (
-                    <button
-                      key={item.date}
-                      type="button"
-                      onClick={() => {
-                        setBooking({ ...booking, selectedDate: item.date });
-                        const [itemYear, itemMonth] = item.date.split("-").map(Number);
-                        if (itemYear && itemMonth) {
-                          setCalendarMonth(new Date(itemYear, itemMonth - 1, 1));
-                        }
-                      }}
-                      className={`p-3 rounded-xl text-center border-2 transition-all cursor-pointer ${
-                        booking.selectedDate === item.date
-                          ? "border-[#0c4c6d] bg-[#0c4c6d] text-white shadow-md"
-                          : "border-slate-200 hover:border-slate-300 text-slate-700 bg-white"
-                      }`}
-                    >
-                      <Calendar className="w-4 h-4 mx-auto mb-1 opacity-80" />
-                      <span className="text-xs font-bold block">{item.label}</span>
-                    </button>
-                  ))}
-                </div>
               </div>
             </div>
 
@@ -467,6 +295,7 @@ export function AppointmentScheduler() {
                 {availableTimes.map((time) => (
                   <button
                     key={time}
+                    type="button"
                     onClick={() => setBooking({ ...booking, selectedTime: time })}
                     className={`py-2.5 px-3 rounded-lg text-xs font-bold border transition-all cursor-pointer flex items-center justify-center gap-1.5 ${
                       booking.selectedTime === time
@@ -487,6 +316,7 @@ export function AppointmentScheduler() {
                 <strong>{booking.selectedTime}</strong> ({booking.consultationLocation})
               </div>
               <button
+                type="button"
                 onClick={() => setStep(1)}
                 className="text-[#0c4c6d] font-semibold hover:underline"
               >
@@ -496,12 +326,14 @@ export function AppointmentScheduler() {
 
             <div className="pt-4 flex justify-between items-center">
               <button
+                type="button"
                 onClick={() => setStep(1)}
                 className="px-4 py-2 text-xs font-bold text-slate-600 hover:text-slate-900 cursor-pointer"
               >
                 Back
               </button>
               <button
+                type="button"
                 onClick={handleNextStep}
                 className="px-6 py-2.5 rounded-lg bg-[#0c4c6d] hover:bg-[#083248] text-white text-sm font-bold shadow-md transition-all flex items-center gap-2 cursor-pointer"
               >
@@ -694,8 +526,8 @@ export function AppointmentScheduler() {
                   setEmailSent(false);
                   setEmailError(null);
                   setBooking({
-                    consultationType: "video",
-                    consultationLocation: "Online Video Meeting",
+                    consultationType: "bristol",
+                    consultationLocation: "Bristol Office",
                     selectedDate: availableDates[0]?.date ?? "",
                     selectedTime: "10:00 AM",
                     fullName: "",

@@ -63,7 +63,6 @@ describe("Header Layout Component", () => {
       "Graduate Trainee Visa",
       "Minister of Religion Visa",
       "Service Supplier Visa",
-      "Investor Visa (Tier 1)",
       "Graduate Visa",
       "Global Business Mobility",
       "Global Talent Visa",
@@ -73,7 +72,7 @@ describe("Header Layout Component", () => {
       expect(screen.getByText(service)).toBeInTheDocument();
     });
 
-    ["Spouse Visa", "British Citizenship", "Student Visa", "UK Graduate Visa", "Investor Visa"].forEach(
+    ["Spouse Visa", "British Citizenship", "Student Visa", "UK Graduate Visa", "Investor Visa", "Investor Visa (Tier 1)"].forEach(
       (service) => {
         expect(screen.queryByText(service)).not.toBeInTheDocument();
       },
